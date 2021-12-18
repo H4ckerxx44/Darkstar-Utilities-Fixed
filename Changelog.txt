@@ -484,7 +484,7 @@ Added: Dyson Sphere Rocket Silo
 Added: Dyson Sphere Rocket
 Added: Star Mining Drones
 Added: Drone Swarm
-Added: Drone Signal Reciever
+Added: Drone Signal receiver
 Added: Darkstar Dyson Sphere 
 Changed: Geothermal Generators now work 24/7
 Bug Fix: Astroid Rocket Silo now gives correct items when mined

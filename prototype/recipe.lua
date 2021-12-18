@@ -2474,7 +2474,7 @@ data:extend(
 	enabled="false",
 	ingredients =
 	{
-		 {"swarm-reciever", 30000},
+		 {"swarm-receiver", 30000},
 	},
 	result="dyson",
 	result_count = 1
@@ -2486,7 +2486,7 @@ data:extend(
 	enabled="false",
 	ingredients =
 	{
-		 {"multiverse-swarm-reciever", 30000},
+		 {"multiverse-swarm-receiver", 30000},
 	},
 	result="multiverse-tear",
 	result_count = 1
@@ -2498,7 +2498,7 @@ data:extend(
 	enabled="false",
 	ingredients =
 	{
-		 {"interstellar-swarm-reciever", 30000},
+		 {"interstellar-swarm-receiver", 30000},
 	},
 	result="interstellar-dominion",
 	result_count = 1

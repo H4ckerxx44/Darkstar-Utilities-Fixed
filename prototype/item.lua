@@ -2197,7 +2197,7 @@ data:extend(
     subgroup = "launch-items",
     order = "zz[drone-swarm]",
     stack_size = 1,
-    rocket_launch_product = {"swarm-reciever", 1},
+    rocket_launch_product = {"swarm-receiver", 1},
 },
 
 {
@@ -2209,7 +2209,7 @@ icon_size = 32,
   subgroup = "launch-items",
   order = "zz[drone-swarm]",
   stack_size = 1,
-  rocket_launch_product = {"multiverse-swarm-reciever", 1},
+  rocket_launch_product = {"multiverse-swarm-receiver", 1},
 },
 
 {
@@ -2221,7 +2221,7 @@ icon_size = 32,
     subgroup = "launch-items",
     order = "zz[drone-swarm]",
     stack_size = 1,
-    rocket_launch_product = {"interstellar-swarm-reciever", 1},
+    rocket_launch_product = {"interstellar-swarm-receiver", 1},
   },
 
   {
@@ -2421,8 +2421,8 @@ icon_size = 32,
 
   {
     type = "item",
-    name = "swarm-reciever",
-    icon = "__Darkstar_utilities__/graphics/icons/reciever.png",
+    name = "swarm-receiver",
+    icon = "__Darkstar_utilities__/graphics/icons/receiver.png",
 	icon_size = 32,
 
     subgroup = "random",
@@ -2432,8 +2432,8 @@ icon_size = 32,
 
   {
     type = "item",
-    name = "multiverse-swarm-reciever",
-    icon = "__Darkstar_utilities__/graphics/icons/reciever3.png",
+    name = "multiverse-swarm-receiver",
+    icon = "__Darkstar_utilities__/graphics/icons/receiver3.png",
 	icon_size = 32,
 
     subgroup = "random",
@@ -2443,8 +2443,8 @@ icon_size = 32,
 
   {
     type = "item",
-    name = "interstellar-swarm-reciever",
-    icon = "__Darkstar_utilities__/graphics/icons/reciever4.png",
+    name = "interstellar-swarm-receiver",
+    icon = "__Darkstar_utilities__/graphics/icons/receiver4.png",
 	icon_size = 32,
 
     subgroup = "random",
