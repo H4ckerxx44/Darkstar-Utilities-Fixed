@@ -904,7 +904,7 @@ data:extend(
 				recipe = "vehicle-reactor",
 			},
 		},
-		prerequisites = {"advanced-flight", "robotics-teir2"},
+		prerequisites = {"advanced-flight", "robotics-tier2"},
 		unit =
 		{
 			count = 900,
@@ -1849,7 +1849,7 @@ data:extend(
 				recipe = "asteroid-quarry",
 			},
 		},
-		prerequisites = {"laser-quarry-2", "photovoltaics-mk2", "robotics-teir2", "rocket-silo"},
+		prerequisites = {"laser-quarry-2", "photovoltaics-mk2", "robotics-tier2", "rocket-silo"},
 		unit =
 		{
 			count = 1250,
@@ -1878,7 +1878,7 @@ data:extend(
 				recipe = "planet-quarry",
 			},
 		},
-		prerequisites = {"laser-quarry-3", "energy-liquid-3", "item-teleportation", "computers", "high-teir-solar-panels",},
+		prerequisites = {"laser-quarry-3", "energy-liquid-3", "item-teleportation", "computers", "high-tier-solar-panels",},
 		unit =
 		{
 			count = 2250,
@@ -2568,7 +2568,7 @@ data:extend(
 				recipe = "solar-panel-mk5-G",
 			},
 		},
-		prerequisites = {"high-teir-solar-panels", "geothermal-technology", "ore-extractor"},
+		prerequisites = {"high-tier-solar-panels", "geothermal-technology", "ore-extractor"},
 		unit =
 		{
 			count = 200,
@@ -2724,7 +2724,7 @@ data:extend(
 				recipe = "construction-robot-mk3",
 			},
 		},
-		prerequisites = {"construction-robotics", "logistic-system", "4d-logistics", "robotics-teir2", "bio-sample"},
+		prerequisites = {"construction-robotics", "logistic-system", "4d-logistics", "robotics-tier2", "bio-sample"},
 		unit =
 		{
 			count = 1500,
@@ -3063,7 +3063,7 @@ data:extend(
 	},
 	{
 		type = "technology",
-		name = "robotics-teir2",
+		name = "robotics-tier2",
 		icon = "__Darkstar_utilities__/graphics/research/robotics-2.png",
 		icon_size = 256,
 		effects =
@@ -3708,7 +3708,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "speed-module-tier2",
-		icon = "__Darkstar_utilities__/graphics/research/speed-teir-2.png",
+		icon = "__Darkstar_utilities__/graphics/research/speed-tier-2.png",
 		icon_size = 56,
 		effects =
 		{
@@ -3753,7 +3753,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "speed-module-tier3",
-		icon = "__Darkstar_utilities__/graphics/research/speed-teir-3.png",
+		icon = "__Darkstar_utilities__/graphics/research/speed-tier-3.png",
 		icon_size = 56,
 		effects =
 		{
@@ -3790,7 +3790,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "speed-module-tier4",
-		icon = "__Darkstar_utilities__/graphics/research/speed-teir-4.png",
+		icon = "__Darkstar_utilities__/graphics/research/speed-tier-4.png",
 		icon_size = 56,
 		effects =
 		{
@@ -3827,7 +3827,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "speed-module-tier5",
-		icon = "__Darkstar_utilities__/graphics/research/speed-teir-5.png",
+		icon = "__Darkstar_utilities__/graphics/research/speed-tier-5.png",
 		icon_size = 56,
 		effects =
 		{
@@ -3864,7 +3864,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "speed-module-tier6",
-		icon = "__Darkstar_utilities__/graphics/research/speed-teir-6.png",
+		icon = "__Darkstar_utilities__/graphics/research/speed-tier-6.png",
 		icon_size = 56,
 		effects =
 		{
@@ -3901,7 +3901,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "speed-module-tier7",
-		icon = "__Darkstar_utilities__/graphics/research/speed-teir-7.png",
+		icon = "__Darkstar_utilities__/graphics/research/speed-tier-7.png",
 		icon_size = 56,
 		effects =
 		{
@@ -3938,7 +3938,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "speed-module-tier8",
-		icon = "__Darkstar_utilities__/graphics/research/speed-teir-8.png",
+		icon = "__Darkstar_utilities__/graphics/research/speed-tier-8.png",
 		icon_size = 56,
 		effects =
 		{
@@ -3975,7 +3975,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "speed-module-tier9",
-		icon = "__Darkstar_utilities__/graphics/research/speed-teir-8.png",
+		icon = "__Darkstar_utilities__/graphics/research/speed-tier-8.png",
 		icon_size = 56,
 		effects =
 		{
@@ -4040,7 +4040,7 @@ data:extend(
     {
 		type = "technology",
 		name = "productivity-module-tier2",
-		icon = "__Darkstar_utilities__/graphics/research/productivity-teir-2.png",
+		icon = "__Darkstar_utilities__/graphics/research/productivity-tier-2.png",
 		icon_size = 56,
 		effects =
 		{
@@ -4085,7 +4085,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "productivity-module-tier3",
-		icon = "__Darkstar_utilities__/graphics/research/productivity-teir-3.png",
+		icon = "__Darkstar_utilities__/graphics/research/productivity-tier-3.png",
 		icon_size = 56,
 		effects =
 		{
@@ -4122,7 +4122,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "productivity-module-tier4",
-		icon = "__Darkstar_utilities__/graphics/research/productivity-teir-4.png",
+		icon = "__Darkstar_utilities__/graphics/research/productivity-tier-4.png",
 		icon_size = 56,
 		effects =
 		{
@@ -4159,7 +4159,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "productivity-module-tier5",
-		icon = "__Darkstar_utilities__/graphics/research/productivity-teir-5.png",
+		icon = "__Darkstar_utilities__/graphics/research/productivity-tier-5.png",
 		icon_size = 56,
 		effects =
 		{
@@ -4196,7 +4196,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "productivity-module-tier6",
-		icon = "__Darkstar_utilities__/graphics/research/productivity-teir-6.png",
+		icon = "__Darkstar_utilities__/graphics/research/productivity-tier-6.png",
 		icon_size = 56,
 		effects =
 		{
@@ -4233,7 +4233,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "productivity-module-tier7",
-		icon = "__Darkstar_utilities__/graphics/research/productivity-teir-7.png",
+		icon = "__Darkstar_utilities__/graphics/research/productivity-tier-7.png",
 		icon_size = 56,
 		effects =
 		{
@@ -4270,7 +4270,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "productivity-module-tier8",
-		icon = "__Darkstar_utilities__/graphics/research/productivity-teir-8.png",
+		icon = "__Darkstar_utilities__/graphics/research/productivity-tier-8.png",
 		icon_size = 56,
 		effects =
 		{
@@ -4307,7 +4307,7 @@ data:extend(
 		{
 		type = "technology",
 		name = "productivity-module-tier9",
-		icon = "__Darkstar_utilities__/graphics/research/productivity-teir-9.png",
+		icon = "__Darkstar_utilities__/graphics/research/productivity-tier-9.png",
 		icon_size = 56,
 		effects =
 		{
@@ -4336,7 +4336,7 @@ data:extend(
     {
 		type = "technology",
 		name = "effectivity-module-tier2",
-		icon = "__Darkstar_utilities__/graphics/research/effectivity-teir-2.png",
+		icon = "__Darkstar_utilities__/graphics/research/effectivity-tier-2.png",
 		icon_size = 56,
 		effects =
 		{
@@ -4382,7 +4382,7 @@ data:extend(
 	},
 	{
 		type = "technology",
-		name = "high-teir-solar-panels",
+		name = "high-tier-solar-panels",
 		icon = "__Darkstar_utilities__/graphics/research/solar-research.png",
 		icon_size = 128,
 		effects =
