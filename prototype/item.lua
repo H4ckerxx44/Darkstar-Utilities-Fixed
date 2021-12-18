@@ -5043,8 +5043,8 @@ icon_size = 32,
   
   {
     type = "item",
-    name = "solar-waffer",
-    icon = "__Darkstar_utilities__/graphics/icons/waffer.png",
+    name = "solar-wafer",
+    icon = "__Darkstar_utilities__/graphics/icons/wafer.png",
 	icon_size = 32,
 
     subgroup = "random",

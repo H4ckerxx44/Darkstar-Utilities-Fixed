@@ -70,7 +70,7 @@ return
         "antithetical-matter",
         "bio-research",
         "advanced-photovoltaic-cells",
-        "solar-waffer",
+        "solar-wafer",
         "module-componant",
         "empty-regulator",
         "platinum-plate",

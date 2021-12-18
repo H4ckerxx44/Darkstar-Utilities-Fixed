@@ -5479,7 +5479,7 @@ data:extend(
 		enabled="false",
 		ingredients =
 		{
-			 {"solar-waffer", 2},
+			 {"solar-wafer", 2},
 			 {"glass", 2},
 			 {"selenium-plate", 5},
 		},
@@ -5497,7 +5497,7 @@ data:extend(
 		{
 			 {type="fluid", name="dark-matter", amount=30},
 			 {"glass", 2},
-			 {"solar-waffer", 1},
+			 {"solar-wafer", 1},
 		},
 		result="micro-cells",
 		result_count = 10,
@@ -5505,7 +5505,7 @@ data:extend(
 	
 	{
 		type="recipe",
-		name="solar-waffer",
+		name="solar-wafer",
 		energy_required = 5,
 		enabled="false",
 		ingredients =
@@ -5514,7 +5514,7 @@ data:extend(
 			 {"seed-crystal", 1},
 			 {"silver-plate", 4},
 		},
-		result="solar-waffer"
+		result="solar-wafer"
 	},
 
 	{

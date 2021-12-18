@@ -2307,7 +2307,7 @@ data:extend(
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "solar-waffer",
+				recipe = "solar-wafer",
 			},
 			{
 				type = "unlock-recipe",

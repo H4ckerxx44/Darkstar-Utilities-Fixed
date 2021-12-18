@@ -717,7 +717,7 @@ Added: Fan
 Added: Diode
 Added: Mother Board
 Added: Chitin
-Added: Solar Waffer
+Added: Solar wafer
 Added: Silicon
 Added: Seed Crystal
 Added: Quarries (WIP)
