@@ -4706,7 +4706,7 @@ data:extend(
 
 {
 	type = "technology",
-	name = "space-stationm",
+	name = "space-station",
 	icon = "__Darkstar_utilities__/graphics/research/server-m-research-icon.png",
 	icon_size = 256,
 	effects =
@@ -4798,7 +4798,7 @@ data:extend(
 			recipe = "space-science-2",
 		},
 	},
-	prerequisites = {"space-stationm"},
+	prerequisites = {"space-station"},
 	unit =
 	{
 		count = 3000,
@@ -4844,7 +4844,7 @@ data:extend(
 			recipe = "space-science-3",
 		},
 	},
-	prerequisites = {"space-stationm"},
+	prerequisites = {"space-station"},
 	unit =
 	{
 		count = 3000,
@@ -4890,7 +4890,7 @@ data:extend(
 			recipe = "space-science-4",
 		},
 	},
-	prerequisites = {"space-stationm"},
+	prerequisites = {"space-station"},
 	unit =
 	{
 		count = 3000,
@@ -4936,7 +4936,7 @@ data:extend(
 			recipe = "space-science-5",
 		},
 	},
-	prerequisites = {"space-stationm"},
+	prerequisites = {"space-station"},
 	unit =
 	{
 		count = 3000,
@@ -4982,7 +4982,7 @@ data:extend(
 			recipe = "space-science-6",
 		},
 	},
-	prerequisites = {"space-stationm"},
+	prerequisites = {"space-station"},
 	unit =
 	{
 		count = 3000,
@@ -5028,7 +5028,7 @@ data:extend(
 			recipe = "space-science-7",
 		},
 	},
-	prerequisites = {"space-stationm"},
+	prerequisites = {"space-station"},
 	unit =
 	{
 		count = 3000,
@@ -5074,7 +5074,7 @@ data:extend(
 			recipe = "space-science-8",
 		},
 	},
-	prerequisites = {"space-stationm"},
+	prerequisites = {"space-station"},
 	unit =
 	{
 		count = 3000,
@@ -5120,7 +5120,7 @@ data:extend(
 			recipe = "space-science-9",
 		},
 	},
-	prerequisites = {"space-stationm"},
+	prerequisites = {"space-station"},
 	unit =
 	{
 		count = 3000,
