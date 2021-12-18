@@ -236,7 +236,7 @@ data:extend(
   },
   {
     type = "build-entity-achievement",
-    name = "quantum-imortality",
+    name = "quantum-immortality",
     order = "c[teaching]-a[getting-on-track-like-a-pro]",
     to_build = "end-game",
     icon = "__Darkstar_utilities__/graphics/achievements/end-game.png",

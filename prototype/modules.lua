@@ -71,7 +71,7 @@ return
         "bio-research",
         "advanced-photovoltaic-cells",
         "solar-wafer",
-        "module-componant",
+        "module-component",
         "empty-regulator",
         "platinum-plate",
         "selenium-plate",

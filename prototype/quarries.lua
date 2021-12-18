@@ -6,7 +6,7 @@ local ent  -- placeholder for building each entity
 ent = util.table.deepcopy(data.raw["logistic-container"]["logistic-chest-passive-provider"])
 ent.max_health = 150000
 ent.name = "laser-quarry"
-ent.minable.result = "laser-quarry"
+ent.mineable.result = "laser-quarry"
 ent.corpse = "big-remnants"
 ent.collision_box = {{-12.1, -9.5}, {11.5, 10}}
 ent.selection_box = {{-12.1, -9.5}, {11.5, 10}}
@@ -26,7 +26,7 @@ data:extend({ent})
 ent = util.table.deepcopy(data.raw["logistic-container"]["logistic-chest-passive-provider"])
 ent.max_health = 150000
 ent.name = "laser-quarry2"
-ent.minable.result = "laser-quarry2"
+ent.mineable.result = "laser-quarry2"
 ent.corpse = "big-remnants"
 ent.collision_box = {{-24.2, -20.2}, {23.2, 20}}
 ent.selection_box = {{-24.2, -20.2}, {23.2, 20}}
@@ -46,7 +46,7 @@ data:extend({ent})
 ent = util.table.deepcopy(data.raw["logistic-container"]["logistic-chest-passive-provider"])
 ent.max_health = 150000
 ent.name = "laser-quarry3"
-ent.minable.result = "laser-quarry3"
+ent.mineable.result = "laser-quarry3"
 ent.corpse = "big-remnants"
 ent.collision_box = {{-3.2, -3.0}, {2.9, 2.8}}
 ent.selection_box = {{-3.2, -3.0}, {2.9, 2.8}}
@@ -67,7 +67,7 @@ data:extend({ent})
 ent = util.table.deepcopy(data.raw["logistic-container"]["logistic-chest-passive-provider"])
 ent.max_health = 150000
 ent.name = "laser-quarry4"
-ent.minable.result = "laser-quarry4"
+ent.mineable.result = "laser-quarry4"
 ent.corpse = "big-remnants"
 ent.collision_box = {{-12.1, -9.5}, {4.5, 5}}
 ent.selection_box = {{-12.1, -9.5}, {4.5, 5}}

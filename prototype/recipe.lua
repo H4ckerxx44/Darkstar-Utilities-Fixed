@@ -1194,7 +1194,7 @@ data:extend(
 			 {"gold-plate", 400},
 			 {"laser-core", 30},
 		 	 {"leaded-glass", 50},
-			 {"assult-rifle", 1},
+			 {"assault-rifle", 1},
 			 {"computer", 10},
 		},
 		result="dark-pulse"
@@ -1211,7 +1211,7 @@ data:extend(
 			 {"laser-core", 30},
 		 	 {"leaded-glass", 50},
 			 {"artillery-turret", 20},
-			 {"assult-rifle-mk2", 40},
+			 {"assault-rifle-mk2", 40},
 			 {"quantum-fuel", 250},
 			 {"computer", 50},
 		},
@@ -1367,7 +1367,7 @@ data:extend(
 		ingredients =
 		{
 			 {"copper-cable", 5},
-			 {"module-componant", 5},
+			 {"module-component", 5},
 		},
 		result="fuse-box"
     },
@@ -3490,7 +3490,7 @@ data:extend(
 
 	{
 		type="recipe",
-		name="assult-rifle",
+		name="assault-rifle",
 		enabled="false",
 		ingredients =
 		{
@@ -3499,7 +3499,7 @@ data:extend(
 			 {"iron-plate", 50},
 			 {"steel-plate", 50},
 		},
-		result="assult-rifle"
+		result="assault-rifle"
     },
 
 	{
@@ -3517,15 +3517,15 @@ data:extend(
 
 	{
 		type="recipe",
-		name="assult-rifle-mk2",
+		name="assault-rifle-mk2",
 		enabled="false",
 		ingredients =
 		{
-			 {"assult-rifle", 5},
+			 {"assault-rifle", 5},
 			 {"speed-module-4", 1},
 			 {"computer", 2},
 		},
-		result="assult-rifle-mk2"
+		result="assault-rifle-mk2"
     },
 
 	{
@@ -4626,7 +4626,7 @@ data:extend(
 
 	{
 		type="recipe",
-		name="module-componant",
+		name="module-component",
 		energy_required = 3,
 		enabled="false",
 		ingredients =
@@ -4634,7 +4634,7 @@ data:extend(
 	         {"micro-processor", 1},
 			 {"gold-plate", 10},
 		},
-		result="module-componant",
+		result="module-component",
 		result_count= 2,
 	},
 	
@@ -4662,7 +4662,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-3", 1},
-	         {"module-componant", 30},
+	         {"module-component", 30},
 			 {"micro-processor", 5},
 		},
 		result="productivity-module-4"
@@ -4676,7 +4676,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-4", 1},
-			 {"module-componant", 30},
+			 {"module-component", 30},
 			 {"micro-processor", 5},
 		},
 		result="productivity-module-5"
@@ -4690,7 +4690,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-5", 1},
-             {"module-componant", 30},
+             {"module-component", 30},
 			 {"micro-processor", 5},
 		},
 		result="productivity-module-6"
@@ -4704,7 +4704,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-6", 1},
-			 {"module-componant", 40},
+			 {"module-component", 40},
 			 {"micro-processor", 10},
 		},
 		result="productivity-module-7"
@@ -4718,7 +4718,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-7", 1},
-			 {"module-componant", 40},
+			 {"module-component", 40},
 			 {"micro-processor", 10},
 		},
 		result="productivity-module-8"
@@ -4732,7 +4732,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-8", 1},
-			 {"module-componant", 40},
+			 {"module-component", 40},
 			 {"micro-processor", 10},
 		},
 		result="productivity-module-9"
@@ -4746,7 +4746,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-9", 1},
-			 {"module-componant", 50},
+			 {"module-component", 50},
 			 {"micro-processor", 10},
 		},
 		result="productivity-module-10"
@@ -4760,7 +4760,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-10", 1},
-			 {"module-componant", 50},
+			 {"module-component", 50},
 			 {"micro-processor", 15},
 		},
 		result="productivity-module-11"
@@ -4774,7 +4774,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-11", 1},
-			 {"module-componant", 50},
+			 {"module-component", 50},
 			 {"micro-processor", 15},
 		},
 		result="productivity-module-12"
@@ -4788,7 +4788,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-12", 1},
-			 {"module-componant", 60},
+			 {"module-component", 60},
 			 {"micro-processor", 15},
 		},
 		result="productivity-module-13"
@@ -4802,7 +4802,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-13", 1},
-	         {"module-componant", 60},
+	         {"module-component", 60},
 			 {"micro-processor", 20},
 		},
 		result="productivity-module-14"
@@ -4816,7 +4816,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-14", 1},
-	         {"module-componant", 60},
+	         {"module-component", 60},
 			 {"micro-processor", 20},
 		},
 		result="productivity-module-15"
@@ -4830,7 +4830,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-15", 1},
-	         {"module-componant", 70},
+	         {"module-component", 70},
 			 {"micro-processor", 20},
 		},
 		result="productivity-module-16"
@@ -4844,7 +4844,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-16", 1},
-	         {"module-componant", 70},
+	         {"module-component", 70},
 			 {"micro-processor", 25},
 		},
 		result="productivity-module-17"
@@ -4858,7 +4858,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-17", 1},
-	         {"module-componant", 70},
+	         {"module-component", 70},
 			 {"micro-processor", 25},
 		},
 		result="productivity-module-18"
@@ -4872,7 +4872,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-18", 1},
-	         {"module-componant", 80},
+	         {"module-component", 80},
 			 {"micro-processor", 25},
 		},
 		result="productivity-module-19"
@@ -4886,7 +4886,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-19", 1},
-	         {"module-componant", 80},
+	         {"module-component", 80},
 			 {"micro-processor", 30},
 		},
 		result="productivity-module-20"
@@ -4900,7 +4900,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-20", 2},
-	         {"module-componant", 80},
+	         {"module-component", 80},
 			 {"micro-processor", 30},
 		},
 		result="productivity-module-21"
@@ -4914,7 +4914,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-21", 2},
-	         {"module-componant", 90},
+	         {"module-component", 90},
 			 {"micro-processor", 30},
 		},
 		result="productivity-module-22"
@@ -4928,7 +4928,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-22", 2},
-	         {"module-componant", 90},
+	         {"module-component", 90},
 			 {"micro-processor", 35},
 		},
 		result="productivity-module-23"
@@ -4942,7 +4942,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-23", 2},
-	         {"module-componant", 90},
+	         {"module-component", 90},
 			 {"micro-processor", 35},
 		},
 		result="productivity-module-24"
@@ -4956,7 +4956,7 @@ data:extend(
 		ingredients =
 		{
 			 {"productivity-module-24", 2},
-	         {"module-componant", 100},
+	         {"module-component", 100},
 			 {"micro-processor", 35},
 		},
 		result="productivity-module-25"
@@ -4970,7 +4970,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-3", 1},
-	         {"module-componant", 30},
+	         {"module-component", 30},
 			 {"micro-processor", 10},
 		},
 		result="filter-module"
@@ -4984,7 +4984,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-3", 1},
-	         {"module-componant", 30},
+	         {"module-component", 30},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-4"
@@ -4998,7 +4998,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-4", 1},
-			 {"module-componant", 30},
+			 {"module-component", 30},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-5"
@@ -5012,7 +5012,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-5", 1},
-			 {"module-componant", 30},
+			 {"module-component", 30},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-6"
@@ -5026,7 +5026,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-6", 1},
-			 {"module-componant", 40},
+			 {"module-component", 40},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-7"
@@ -5040,7 +5040,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-7", 1},
-			 {"module-componant", 40},
+			 {"module-component", 40},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-8"
@@ -5054,7 +5054,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-8", 1},
-			 {"module-componant", 40},
+			 {"module-component", 40},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-9"
@@ -5068,7 +5068,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-9", 1},
-			 {"module-componant", 50},
+			 {"module-component", 50},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-10"
@@ -5082,7 +5082,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-10", 1},
-			 {"module-componant", 50},
+			 {"module-component", 50},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-11"
@@ -5096,7 +5096,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-11", 1},
-			 {"module-componant", 50},
+			 {"module-component", 50},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-12"
@@ -5110,7 +5110,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-12", 1},
-			 {"module-componant", 60},
+			 {"module-component", 60},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-13"
@@ -5124,7 +5124,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-13", 1},
-	         {"module-componant", 60},
+	         {"module-component", 60},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-14"
@@ -5138,7 +5138,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-14", 1},
-	         {"module-componant", 60},
+	         {"module-component", 60},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-15"
@@ -5152,7 +5152,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-15", 1},
-	         {"module-componant", 70},
+	         {"module-component", 70},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-16"
@@ -5166,7 +5166,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-16", 1},
-	         {"module-componant", 70},
+	         {"module-component", 70},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-17"
@@ -5180,7 +5180,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-17", 1},
-	         {"module-componant", 70},
+	         {"module-component", 70},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-18"
@@ -5194,7 +5194,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-18", 1},
-	         {"module-componant", 80},
+	         {"module-component", 80},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-19"
@@ -5208,7 +5208,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-19", 1},
-	         {"module-componant", 80},
+	         {"module-component", 80},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-20"
@@ -5222,7 +5222,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-20", 1},
-	         {"module-componant", 80},
+	         {"module-component", 80},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-21"
@@ -5236,7 +5236,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-21", 1},
-	         {"module-componant", 90},
+	         {"module-component", 90},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-22"
@@ -5250,7 +5250,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-22", 1},
-	         {"module-componant", 90},
+	         {"module-component", 90},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-23"
@@ -5264,7 +5264,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-23", 1},
-	         {"module-componant", 90},
+	         {"module-component", 90},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-24"
@@ -5278,7 +5278,7 @@ data:extend(
 		ingredients =
 		{
 			 {"speed-module-24", 1},
-	         {"module-componant", 100},
+	         {"module-component", 100},
 			 {"micro-processor", 5},
 		},
 		result="speed-module-25"
@@ -5292,7 +5292,7 @@ data:extend(
 		ingredients =
 		{
 			 {"effectivity-module-3", 1},
-             {"module-componant", 30},
+             {"module-component", 30},
 			 {"micro-processor", 5},
 		},
 		result="effectivity-module-4"
@@ -5306,7 +5306,7 @@ data:extend(
 		ingredients =
 		{
 			 {"effectivity-module-4", 1},
-			 {"module-componant", 30},
+			 {"module-component", 30},
 			 {"micro-processor", 5},
 		},
 		result="effectivity-module-5"
@@ -5320,7 +5320,7 @@ data:extend(
 		ingredients =
 		{
 			 {"effectivity-module-5", 1},
-			 {"module-componant", 30},
+			 {"module-component", 30},
 			 {"micro-processor", 5},
 		},
 		result="effectivity-module-6"

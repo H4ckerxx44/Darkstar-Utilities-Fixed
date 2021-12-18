@@ -410,12 +410,12 @@ data:extend(
 
   {
     type = "item",
-    name = "satelite-radar",
+    name = "satellite-radar",
     icon = "__Darkstar_utilities__/graphics/icons/ore-extractor-icon.png",
 	icon_size = 32,
     subgroup = "probes",
     order = "-b[biodome]-a[biodome]",
-    place_result = "satelite-radar",
+    place_result = "satellite-radar",
     stack_size = 500
   },
   -----Space Stuff
@@ -2951,13 +2951,13 @@ icon_size = 32,
 --[[
   {
     type = "item",
-    name = "assult-turret",
+    name = "assault-turret",
     icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk5-g2.png",
 	icon_size = 32,
 
     subgroup = "solar-panel-mk6",
     order = "f[advanced-solar-panel-mk4g]",
-    place_result = "assult-turret",
+    place_result = "assault-turret",
     stack_size = 500
   },
 
@@ -3525,12 +3525,12 @@ icon_size = 32,
 
   {
     type = "gun",
-    name = "assult-rifle",
-    icon = "__Darkstar_utilities__/graphics/icons/assult-rifle-1.png",
+    name = "assault-rifle",
+    icon = "__Darkstar_utilities__/graphics/icons/assault-rifle-1.png",
 	icon_size = 32,
 
-    subgroup = "assult-rifles",
-    order = "a[assult-rifle]",
+    subgroup = "assault-rifles",
+    order = "a[assault-rifle]",
     attack_parameters =
     {
       type = "projectile",
@@ -3553,7 +3553,7 @@ icon_size = 32,
       sound = 
       {
         {
-          filename = "__Darkstar_utilities__/sounds/assult-rifle.ogg",
+          filename = "__Darkstar_utilities__/sounds/assault-rifle.ogg",
           volume = 1.0
         }
       }
@@ -3563,12 +3563,12 @@ icon_size = 32,
   
   {
     type = "gun",
-    name = "assult-rifle-mk2",
-    icon = "__Darkstar_utilities__/graphics/icons/assult-rifle-2.png",
+    name = "assault-rifle-mk2",
+    icon = "__Darkstar_utilities__/graphics/icons/assault-rifle-2.png",
 	icon_size = 32,
 
-    subgroup = "assult-rifles",
-    order = "b[assult-rifle]",
+    subgroup = "assault-rifles",
+    order = "b[assault-rifle]",
     attack_parameters =
     {
       type = "projectile",
@@ -3591,7 +3591,7 @@ icon_size = 32,
        sound = 
         {
         {
-          filename = "__Darkstar_utilities__/sounds/assult-rifle.ogg",
+          filename = "__Darkstar_utilities__/sounds/assault-rifle.ogg",
           volume = 1.0
         }
       }
@@ -3605,8 +3605,8 @@ icon_size = 32,
     icon = "__base__/graphics/icons/submachine-gun.png",
     icon_size = 64, icon_mipmaps = 4,
 
-    subgroup = "assult-rifles",
-    order = "b[assult-rifle]",
+    subgroup = "assault-rifles",
+    order = "b[assault-rifle]",
     attack_parameters =
     {
       type = "projectile",
@@ -3629,7 +3629,7 @@ icon_size = 32,
        sound = 
         {
         {
-          filename = "__Darkstar_utilities__/sounds/assult-rifle.ogg",
+          filename = "__Darkstar_utilities__/sounds/assault-rifle.ogg",
           volume = 1.0
         }
       }
@@ -3678,8 +3678,8 @@ icon_size = 32,
       }
     },
     magazine_size = 25,
-    subgroup = "assult-rifles",
-    order = "c[assult-rifle]",
+    subgroup = "assault-rifles",
+    order = "c[assault-rifle]",
     stack_size = 10
   },
   
@@ -3724,8 +3724,8 @@ icon_size = 32,
       }
     },
     magazine_size = 35,
-    subgroup = "assult-rifles",
-    order = "d[assult-rifle]",
+    subgroup = "assault-rifles",
+    order = "d[assault-rifle]",
     stack_size = 5
   },
   
@@ -3770,8 +3770,8 @@ icon_size = 32,
       }
     },
     magazine_size = 100,
-    subgroup = "assult-rifles",
-    order = "d[assult-rifle]",
+    subgroup = "assault-rifles",
+    order = "d[assault-rifle]",
     stack_size = 2
   },
 
@@ -3816,8 +3816,8 @@ icon_size = 32,
       }
     },
     magazine_size = 500,
-    subgroup = "assult-rifles",
-    order = "c[assult-rifle]",
+    subgroup = "assault-rifles",
+    order = "c[assault-rifle]",
     stack_size = 100
   },
 
@@ -3827,8 +3827,8 @@ icon_size = 32,
     icon = "__base__/graphics/icons/submachine-gun.png",
     icon_size = 64, icon_mipmaps = 4,
 
-    subgroup = "assult-rifles",
-    order = "b[assult-rifle]",
+    subgroup = "assault-rifles",
+    order = "b[assault-rifle]",
     attack_parameters =
     {
       type = "projectile",
@@ -3851,7 +3851,7 @@ icon_size = 32,
        sound = 
         {
         {
-          filename = "__Darkstar_utilities__/sounds/assult-rifle.ogg",
+          filename = "__Darkstar_utilities__/sounds/assault-rifle.ogg",
           volume = 1.0
         }
       }
@@ -3911,8 +3911,8 @@ icon_size = 32,
     icon = "__base__/graphics/icons/submachine-gun.png",
     icon_size = 64, icon_mipmaps = 4,
 
-    subgroup = "assult-rifles",
-    order = "b[assult-rifle]",
+    subgroup = "assault-rifles",
+    order = "b[assault-rifle]",
     attack_parameters =
     {
       type = "projectile",
@@ -3935,7 +3935,7 @@ icon_size = 32,
        sound = 
         {
         {
-          filename = "__Darkstar_utilities__/sounds/assult-rifle.ogg",
+          filename = "__Darkstar_utilities__/sounds/assault-rifle.ogg",
           volume = 1.0
         }
       }
@@ -5007,12 +5007,12 @@ icon_size = 32,
   
   {
     type = "item",
-    name = "module-componant",
-    icon = "__Darkstar_utilities__/graphics/items/module-componant.png",
+    name = "module-component",
+    icon = "__Darkstar_utilities__/graphics/items/module-component.png",
 	icon_size = 32,
 
     subgroup = "random",
-    order = "g[module-componant]",
+    order = "g[module-component]",
     place_result = "",
     stack_size = 500
   },
@@ -5947,7 +5947,7 @@ icon_size = 32,
 	
 	{
 		type = "item-subgroup",
-		name = "assult-rifles",
+		name = "assault-rifles",
 		group = "Darkstar2",
 		order = "a",
     },

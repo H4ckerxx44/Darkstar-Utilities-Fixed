@@ -17,10 +17,10 @@ Feel free to edit and re-upload the mod with new or altered features, however gi
 Change Log:
 ##0.19.6 Actually fixing an issue?
 ##Fixed:##
-An issue that prevented the game from showing the mod in the mod menu has hopefuly been fixed in this update.
+An issue that prevented the game from showing the mod in the mod menu has hopefully been fixed in this update.
 
 ---------------------------------------
-##0.19.5 A failiure to fix an issue
+##0.19.5 A failure to fix an issue
 Attempted to fix an issue, I failed
 
 ---------------------------------------
@@ -30,7 +30,7 @@ Attempted to fix an issue, I failed
 Items not fully implemented have a warning in the description.
 
 ---------------------------------------
-##0.19.3 Rivisions to old systems
+##0.19.3 Revisions to old systems
 ##Important:##
 The game will give a warning about a removed recipe, this is intended and should not be confused for an issue.
 From here on, all items added by Darkstar Utilities which are Productivity Module compatible will be denoted with a |P| in the description
@@ -42,16 +42,16 @@ Efficiency Beacon
 
 ##Fixed:##
 Copper Mining Probe MK2 now gives Dense Ore
-Laser Drills now deposite mined ore on the side of the belt the Drill is placed on, rather than the opposing side
+Laser Drills now deposit mined ore on the side of the belt the Drill is placed on, rather than the opposing side
 Objects now have correct amounts of health
 
 ##Changed:##
-Star Core Matter and HS Star Core Matter have both been largly buffed
+Star Core Matter and HS Star Core Matter have both been largely buffed
 Both Uranium probes now give Dense Uranium Ore
 Uranium Probes now pollute for 75 instead of 1075
 Following items now allow for Productivity Modules:
 Empty Regulator
-Module Componant
+Module Component
 Solar Wafer
 Advanced Photovoltaic Cells
 Filter Tray and Sand Filter Tray
@@ -86,7 +86,7 @@ Massive Graphical upgrade to Eden Biodome
 Restructured the technology tree a little so that generator objects require the third level of previous types to unlock, now having a more even and logical "Ladder" of progression
 
 ##Fixed:##
-Roboports should now us the correct amount of energy
+Roboports should now use the correct amount of energy
 Biodome is no longer highly confusing/annoying
 finally fixed the rotation/hitbox issues for following items:
 S-REG Units
@@ -122,7 +122,7 @@ Any-Cast Beacon energy cost reduced again from 10MW to 5MW
 Removed Iron Plate from Energy Liquid recipes
 
 ##Extra Information:##
-The reason I decided to change filter recipes (again) is due to the limits of belts. Now, each componant in the production chain for Filters only takes up 2 items instead of 3. This in theory should allow you to double production rate. This change also lowered the aggressive requirements to be a decent bit more tame. This does mean Filter Arrays will need updating to work again.
+The reason I decided to change filter recipes (again) is due to the limits of belts. Now, each component in the production chain for Filters only takes up 2 items instead of 3. This in theory should allow you to double production rate. This change also lowered the aggressive requirements to be a decent bit more tame. This does mean Filter Arrays will need updating to work again.
 The new Filter Items are the first to have 64x Textures, in the future I plan on updating more of the mod's textures to be higher resolution.
 
 ---------------------------------------
@@ -552,7 +552,7 @@ Changed: All brick textures changed to high-res variants Made By Azakir
 Changed: Microverse Generator is now smaller and produces FAR less energy
 Changed: Terra Tech Laser can now be used as vehicle equipment
 Changed: Terra Tech Sniper Defense Laser can now be used as vehicle equipment
-Changed: Terra Tech Assult Defense can now be used as vehicle equipment
+Changed: Terra Tech Assault Defense can now be used as vehicle equipment
 Changed: Terra Tech Cannon Defense can now be used as vehicle equipment
 Changed: Terra Tech Railgun Defense  can now be used as vehicle equipment
 Changed: Solar Panel mk2 can now be used as vehicle equipment

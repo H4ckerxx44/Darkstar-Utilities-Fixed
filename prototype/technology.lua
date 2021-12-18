@@ -2315,7 +2315,7 @@ data:extend(
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "module-componant",
+				recipe = "module-component",
 			},
 			{
 				type = "unlock-recipe",
@@ -2396,7 +2396,7 @@ data:extend(
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "assult-rifle",
+				recipe = "assault-rifle",
 			},
 			{
 				type = "unlock-recipe",
@@ -2437,7 +2437,7 @@ data:extend(
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "assult-rifle-mk2",
+				recipe = "assault-rifle-mk2",
 			},
 		    {
 				type = "unlock-recipe",
@@ -3726,7 +3726,7 @@ data:extend(
 			},
 		    {
 				type = "unlock-recipe",
-				recipe = "module-componant",
+				recipe = "module-component",
 			},
 			{
 				type = "unlock-recipe",
@@ -4058,7 +4058,7 @@ data:extend(
 			},
 		    {
 				type = "unlock-recipe",
-				recipe = "module-componant",
+				recipe = "module-component",
 			},
 			{
 				type = "unlock-recipe",
@@ -4354,7 +4354,7 @@ data:extend(
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "module-componant",
+				recipe = "module-component",
 			},
 			{
 				type = "unlock-recipe",

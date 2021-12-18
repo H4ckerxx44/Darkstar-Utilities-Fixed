@@ -1,6 +1,6 @@
 Thanks to:
 
-Azakir, for help with high res brick textures.
+Azakir, for help with high-res brick textures.
 
 Usafphoenix, for solving lag issues.
 
