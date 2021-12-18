@@ -6,7 +6,7 @@ local ent  -- placeholder for building each entity
 ent = util.table.deepcopy(data.raw["logistic-container"]["logistic-chest-passive-provider"])
 ent.max_health = 150000
 ent.name = "laser-quarry"
-ent.mineable.result = "laser-quarry"
+ent.minable.result = "laser-quarry"
 ent.corpse = "big-remnants"
 ent.collision_box = {{-12.1, -9.5}, {11.5, 10}}
 ent.selection_box = {{-12.1, -9.5}, {11.5, 10}}
