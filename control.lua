@@ -4,100 +4,106 @@ require("config")
 function check_interfaces()
 	local entity = array[count]
 	if entity then
-	  if entity.valid then
-		if entity.is_connected_to_electric_network() then
-		  local power = 99999999999999999999
-		  entity.power_production = this_power
-		  entity.electric_buffer_size = this_power
+		if entity.valid then
+			if entity.is_connected_to_electric_network() then
+				local power = 99999999999999999999
+				entity.power_production = this_power
+				entity.electric_buffer_size = this_power
+			end
+		else
+			array[count] = nil
 		end
-	  else
-		array[count] = nil
-	  end
 	end
 	if count >= max then
-	  count = 1
+		count = 1
 	else
-	  count = count + 1
+		count = count + 1
 	end
-  end
+end
 
-  function check_interfaces()
+function check_interfaces()
 	local entity = array[count]
 	if entity then
-	  if entity.valid then
-		if entity.is_connected_to_electric_network() then
-		  local power = 99999999999999999999
-		  entity.power_production = this_power
-		  entity.electric_buffer_size = this_power
+		if entity.valid then
+			if entity.is_connected_to_electric_network() then
+				local power = 99999999999999999999
+				entity.power_production = this_power
+				entity.electric_buffer_size = this_power
+			end
+		else
+			array[count] = nil
 		end
-	  else
-		array[count] = nil
-	  end
 	end
 	if count >= max then
-	  count = 1
+		count = 1
 	else
-	  count = count + 1
+		count = count + 1
 	end
-  end
+end
 
-  function built_interface(entity)
-	if not entity.valid then return end
+function built_interface(entity)
+	if not entity.valid then
+		return
+	end
 	local power = 99999999999999999999
 	entity.energy = 99999999999999999999
 	entity.power_production = power
-	end
+end
 
-	script.on_event(defines.events.on_research_finished, function(event)
-    if event.research.name == 'any-launch' then
-        if not remote.interfaces["silo_script"] then return end
-         remote.call("silo_script", "add_tracked_item", "planet-quarry")
-         remote.call("silo_script", "add_tracked_item", "dark-matter-drones")
-         remote.call("silo_script", "add_tracked_item", "antithetic-drones")
-         remote.call("silo_script", "add_tracked_item", "norbornadiene-drones")
-				 remote.call("silo_script", "add_tracked_item", "star-matter-drones")
-				 remote.call("silo_script", "add_tracked_item", "star-stone")
-         remote.call("silo_script", "add_tracked_item", "star-research")
-         remote.call("silo_script", "add_tracked_item", "star-uranium")
-         remote.call("silo_script", "add_tracked_item", "star-lead")
-				 remote.call("silo_script", "add_tracked_item", "star-gold")
-				 remote.call("silo_script", "add_tracked_item", "star-iron")
-         remote.call("silo_script", "add_tracked_item", "star-copper")
-         remote.call("silo_script", "add_tracked_item", "star-coal")
-         remote.call("silo_script", "add_tracked_item", "dark-matter-capsule-empty")
-				 remote.call("silo_script", "add_tracked_item", "antithetical-capsule-empty")
-				 remote.call("silo_script", "add_tracked_item", "norbornadiene-capsule-empty")
-				 remote.call("silo_script", "add_tracked_item", "antithetic-container")
-				 remote.call("silo_script", "add_tracked_item", "asteroid-quarry")
-         remote.call("silo_script", "add_tracked_item", "antithetic-container")
-    end
+script.on_event(defines.events.on_research_finished, function(event)
+	if event.research.name == 'any-launch' then
+		if not remote.interfaces["silo_script"] then
+			return
+		end
+		remote.call("silo_script", "add_tracked_item", "planet-quarry")
+		remote.call("silo_script", "add_tracked_item", "dark-matter-drones")
+		remote.call("silo_script", "add_tracked_item", "antithetic-drones")
+		remote.call("silo_script", "add_tracked_item", "norbornadiene-drones")
+		remote.call("silo_script", "add_tracked_item", "star-matter-drones")
+		remote.call("silo_script", "add_tracked_item", "star-stone")
+		remote.call("silo_script", "add_tracked_item", "star-research")
+		remote.call("silo_script", "add_tracked_item", "star-uranium")
+		remote.call("silo_script", "add_tracked_item", "star-lead")
+		remote.call("silo_script", "add_tracked_item", "star-gold")
+		remote.call("silo_script", "add_tracked_item", "star-iron")
+		remote.call("silo_script", "add_tracked_item", "star-copper")
+		remote.call("silo_script", "add_tracked_item", "star-coal")
+		remote.call("silo_script", "add_tracked_item", "dark-matter-capsule-empty")
+		remote.call("silo_script", "add_tracked_item", "antithetical-capsule-empty")
+		remote.call("silo_script", "add_tracked_item", "norbornadiene-capsule-empty")
+		remote.call("silo_script", "add_tracked_item", "antithetic-container")
+		remote.call("silo_script", "add_tracked_item", "asteroid-quarry")
+		remote.call("silo_script", "add_tracked_item", "antithetic-container")
+	end
 end)
 
 script.on_init(setup_remote_call)
 script.on_configuration_changed(setup_remote_call)
 
-  function setup_remote_call()
-    remote.call(interface_name, "set_show_launched_without_satellite", false)
+function setup_remote_call()
+	remote.call(interface_name, "set_show_launched_without_satellite", false)
 end
 
 script.on_event(defines.events.on_research_finished, function(event)
-    if event.research.name == 'any-launch' then
-        function setup_remote_call()
-            remote.call(interface_name, "set_show_launched_without_satellite", false)
-        end
-    end
+	if event.research.name == 'any-launch' then
+		function setup_remote_call()
+			remote.call(interface_name, "set_show_launched_without_satellite", false)
+		end
+	end
 end)
 ---------------------------------------------------------
 -- Constants
-local laser_quarry_period = 256		
+local laser_quarry_period = 256
 local laser_quarry_2_period = 128
 local laser_quarry_3_period = 64
 local laser_quarry_4_period = 32
 ---------------------------------------------------------
 -- Process all ongoing events
 function onTick()
-	if not mixed_ores then populateMixedOreList() end
-	
+	if not mixed_ores then
+		populateMixedOreList()
+	end
+
 	if (game.tick % laser_quarry_period == 0) then
 		processQuarries(global.laser_quarries)
 	end
@@ -173,44 +179,44 @@ function builtEntity(event)
 	elseif name == "laser-quarry4" then
 		table.insert(global.laser_quarries_4, ent)
 		local entity = event.created_entity
-	elseif entity.name == "geothermal-generator" then	
-		  built_interface(entity)
-	elseif entity.name == "geothermal-generator-mk2" then	
-		  built_interface(entity)
-	elseif entity.name == "geothermal-generator-mk3" then	
-		  built_interface(entity)
-		elseif entity.name == "rtg" then	
-			built_interface(entity)
-	  elseif entity.name == "rtg-mk2" then	
-			built_interface(entity)
-	  elseif entity.name == "rtg-mk3" then	
-			built_interface(entity)
-	elseif entity.name == "s-reg" then	
+	elseif entity.name == "geothermal-generator" then
 		built_interface(entity)
-	elseif entity.name == "s-reg-2" then	
+	elseif entity.name == "geothermal-generator-mk2" then
 		built_interface(entity)
-	elseif entity.name == "s-reg-3" then	
-			built_interface(entity)
-	elseif entity.name == "think-tank" then	
+	elseif entity.name == "geothermal-generator-mk3" then
 		built_interface(entity)
-	elseif entity.name == "think-tank-mk2" then	
-			built_interface(entity)
-	elseif entity.name == "think-tank-mk3" then	
-		  built_interface(entity)
-	 elseif entity.name == "dyson" then	
-			built_interface(entity)
-	elseif entity.name == "multiverse-tear" then	
-			built_interface(entity)
-	elseif entity.name == "interstellar-dominion" then	
-		  built_interface(entity)
+	elseif entity.name == "rtg" then
+		built_interface(entity)
+	elseif entity.name == "rtg-mk2" then
+		built_interface(entity)
+	elseif entity.name == "rtg-mk3" then
+		built_interface(entity)
+	elseif entity.name == "s-reg" then
+		built_interface(entity)
+	elseif entity.name == "s-reg-2" then
+		built_interface(entity)
+	elseif entity.name == "s-reg-3" then
+		built_interface(entity)
+	elseif entity.name == "think-tank" then
+		built_interface(entity)
+	elseif entity.name == "think-tank-mk2" then
+		built_interface(entity)
+	elseif entity.name == "think-tank-mk3" then
+		built_interface(entity)
+	elseif entity.name == "dyson" then
+		built_interface(entity)
+	elseif entity.name == "multiverse-tear" then
+		built_interface(entity)
+	elseif entity.name == "interstellar-dominion" then
+		built_interface(entity)
 		return
-end
+	end
 end
 script.on_event(defines.events.on_built_entity, builtEntity)
 script.on_event(defines.events.on_robot_built_entity, builtEntity)
-script.on_event(defines.events.on_pre_player_mined_item , MinedEntity)
-script.on_event(defines.events.on_entity_died , MinedEntity)
-script.on_event(defines.events.on_robot_pre_mined  , MinedEntity)
+script.on_event(defines.events.on_pre_player_mined_item, MinedEntity)
+script.on_event(defines.events.on_entity_died, MinedEntity)
+script.on_event(defines.events.on_robot_pre_mined, MinedEntity)
 
 ---------------------------------------------------------
 -- Simulate mining in deep quarries
@@ -221,7 +227,7 @@ function processQuarries(quarries)
 			if result_ore == "mixed" then
 				ore = insertRandomOre(inventory, ore_per_second)
 			else
-				inventory.insert({name = result_ore, count = ore_per_second})
+				inventory.insert({ name = result_ore, count = ore_per_second })
 			end
 			quarry.surface.pollute(quarry.position, deep_mining_pollution)
 		else
@@ -234,7 +240,7 @@ end
 -- Random ore if the quarry gives "mixed" ore
 function insertRandomOre(inventory)
 	for i = 3, ore_per_second do
-		inventory.insert({name = mixed_ores[math.random(1, #mixed_ores)], count = 1064})
+		inventory.insert({ name = mixed_ores[math.random(1, #mixed_ores)], count = 1064 })
 	end
 end
 

@@ -7,5 +7,7 @@
   "contact": "devdog08@vivaldi.net",
   "homepage": "https://devdog08.wixsite.com/darkstar",
   "description": "Propel yourself all the way from mining stone with your hands to ripping holes in reality. Darkstar Aims to extend the playtime of the game to well over twice the standard. With extra features like Quarries and Ore Probes for mining in lands with no ores, or launching rockets to mine deep space materials. With 604 currently added features!",
-  "dependencies": ["base >= 0.18.0"]
+  "dependencies": [
+    "base >= 0.18.0"
+  ]
 }

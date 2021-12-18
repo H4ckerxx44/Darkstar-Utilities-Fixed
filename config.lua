@@ -33,9 +33,8 @@ potential_ores = {
 	"gold-ore",
 	"lead-ore",
 	"lithium-ore",
-	
-}
 
+}
 
 result_ore2 = "swarm-relay"
 ore_per_second = 4
