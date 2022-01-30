@@ -15,6 +15,12 @@ Thanks to Expanded Rocket Payloads, I had to reference their code for the *empty
 Feel free to edit and re-upload the mod with new or altered features, however give due credit.
 
 Change Log:
+
+##0.19.7 It's back!
+##Fixed:##
+Properly package the mod for release
+
+---------------------------------------
 ##0.19.6 Actually fixing an issue?
 ##Fixed:##
 An issue that prevented the game from showing the mod in the mod menu has hopefully been fixed in this update.
