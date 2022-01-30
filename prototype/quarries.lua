@@ -14,10 +14,10 @@ ent.collision_mask = { "item-layer", "object-layer", "water-tile" }
 ent.icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon4.png"
 ent.icon_size = 32
 ent.picture = {
-	filename = "__Darkstar_utilities__/graphics/entity/quarry.png",
-	width = 818,
-	height = 678,
-	shift = { 0, 0 }
+    filename = "__Darkstar_utilities__/graphics/entity/quarry.png",
+    width = 818,
+    height = 678,
+    shift = { 0, 0 }
 }
 ent.inventory_size = 40
 data:extend({ ent })
@@ -33,10 +33,10 @@ ent.collision_mask = { "item-layer", "object-layer", "water-tile", }
 ent.icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon4.png"
 ent.icon_size = 32
 ent.picture = {
-	filename = "__Darkstar_utilities__/graphics/entity/quarry2.png",
-	width = 1638,
-	height = 1414,
-	shift = { 0.34375, 0.046875 }
+    filename = "__Darkstar_utilities__/graphics/entity/quarry2.png",
+    width = 1638,
+    height = 1414,
+    shift = { 0.34375, 0.046875 }
 }
 ent.inventory_size = 600
 data:extend({ ent })
@@ -53,10 +53,10 @@ ent.icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon4.png"
 ent.icon_size = 32
 
 ent.picture = {
-	filename = "__Darkstar_utilities__/graphics/entity/space-quarry.png",
-	width = 237,
-	height = 210,
-	shift = { 11, 11 }
+    filename = "__Darkstar_utilities__/graphics/entity/space-quarry.png",
+    width = 237,
+    height = 210,
+    shift = { 11, 11 }
 }
 ent.inventory_size = 2600
 data:extend({ ent })
@@ -72,16 +72,16 @@ ent.collision_mask = { "item-layer", "object-layer", "water-tile", "player-layer
 ent.icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon4.png"
 ent.icon_size = 32
 ent.picture = {
-	filename = "__Darkstar_utilities__/graphics/entity/space-quarry-2.png",
-	width = 818,
-	height = 678,
-	shift = { 0, 0 }
+    filename = "__Darkstar_utilities__/graphics/entity/space-quarry-2.png",
+    width = 818,
+    height = 678,
+    shift = { 0, 0 }
 }
 ent.inventory_size = 50000
 data:extend(
-	{
-		ent
-	}
+        {
+            ent
+        }
 )
 
 ---laser quarries
