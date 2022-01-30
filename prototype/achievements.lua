@@ -5,7 +5,7 @@ data:extend(
                 name = "energy-drink",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "energy-liquid",
-                icon = "__Darkstar_utilities__/graphics/achievements/liquid.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/liquid.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -14,7 +14,7 @@ data:extend(
                 name = "is-this-even-science",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "think-tank",
-                icon = "__Darkstar_utilities__/graphics/achievements/ANCT.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/ANCT.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -23,7 +23,7 @@ data:extend(
                 name = "dyson",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "dyson",
-                icon = "__Darkstar_utilities__/graphics/achievements/dyson.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/dyson.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -32,7 +32,7 @@ data:extend(
                 name = "interstellar",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "interstellar-dominion",
-                icon = "__Darkstar_utilities__/graphics/achievements/interstellar.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/interstellar.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -41,7 +41,7 @@ data:extend(
                 name = "multiverse",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "multiverse-tear",
-                icon = "__Darkstar_utilities__/graphics/achievements/multiverse.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/multiverse.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -50,7 +50,7 @@ data:extend(
                 name = "biodome",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "biodome",
-                icon = "__Darkstar_utilities__/graphics/achievements/biodome.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/biodome.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -59,7 +59,7 @@ data:extend(
                 name = "pierce-the-heavens",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "laser-miner4",
-                icon = "__Darkstar_utilities__/graphics/achievements/drill.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/drill.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -68,7 +68,7 @@ data:extend(
                 name = "humble-beginnings",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "solar-panel-mk2",
-                icon = "__Darkstar_utilities__/graphics/achievements/mk2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/mk2.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -77,7 +77,7 @@ data:extend(
                 name = "a-small-taste-of-power",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "solar-panel-mk3",
-                icon = "__Darkstar_utilities__/graphics/achievements/mk3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/mk3.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -86,7 +86,7 @@ data:extend(
                 name = "surge-of-power",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "solar-panel-mk4",
-                icon = "__Darkstar_utilities__/graphics/achievements/mk4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/mk4.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -95,7 +95,7 @@ data:extend(
                 name = "this-should-do-for-a-while-right",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "solar-panel-mk5",
-                icon = "__Darkstar_utilities__/graphics/achievements/mk5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/mk5.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -104,7 +104,7 @@ data:extend(
                 name = "never-enough-power",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "solar-panel-mk6",
-                icon = "__Darkstar_utilities__/graphics/achievements/mk6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/mk6.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -113,7 +113,7 @@ data:extend(
                 name = "true-power",
                 order = "a[progress]-a[getting-on-track]",
                 to_build = "solar-panel-mk7",
-                icon = "__Darkstar_utilities__/graphics/achievements/mk7.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/mk7.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -123,7 +123,7 @@ data:extend(
                 order = "d[production]-b[electronic-circuit-production]-c",
                 item_product = "electronic-circuit",
                 amount = 100000000,
-                icon = "__Darkstar_utilities__/graphics/achievements/mass-production-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/mass-production-4.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -133,7 +133,7 @@ data:extend(
                 order = "d[production]-c[advanced-circuit-production]-c",
                 item_product = "advanced-circuit",
                 amount = 525000,
-                icon = "__Darkstar_utilities__/graphics/achievements/circuit-veteran-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/circuit-veteran-4.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -143,7 +143,7 @@ data:extend(
                 order = "d[production]-d[processing-unit-production]-c",
                 item_product = "processing-unit",
                 amount = 250000,
-                icon = "__Darkstar_utilities__/graphics/achievements/computer-age-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/computer-age-4.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -153,7 +153,7 @@ data:extend(
                 order = "d[production]-d[processing-unit-production]-c",
                 item_product = "computer",
                 amount = 5000,
-                icon = "__Darkstar_utilities__/graphics/achievements/computer.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/computer.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -163,7 +163,7 @@ data:extend(
                 order = "d[production]-d[processing-unit-production]-c",
                 item_product = "iron-plate",
                 amount = 50000000,
-                icon = "__Darkstar_utilities__/graphics/achievements/empire-of-iron.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/empire-of-iron.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -173,7 +173,7 @@ data:extend(
                 order = "d[production]-d[processing-unit-production]-c",
                 item_product = "gold-plate",
                 amount = 2500000,
-                icon = "__Darkstar_utilities__/graphics/achievements/gold.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/gold.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -183,7 +183,7 @@ data:extend(
                 order = "d[production]-d[processing-unit-production]-c",
                 item_product = "lead-plate",
                 amount = 2500000,
-                icon = "__Darkstar_utilities__/graphics/achievements/lead.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/lead.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -193,7 +193,7 @@ data:extend(
                 order = "d[production]-d[processing-unit-production]-c",
                 item_product = "copper-plate",
                 amount = 50000000,
-                icon = "__Darkstar_utilities__/graphics/achievements/copper.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/copper.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -203,7 +203,7 @@ data:extend(
                 order = "d[production]-d[processing-unit-production]-c",
                 item_product = "steel-plate",
                 amount = 2500000,
-                icon = "__Darkstar_utilities__/graphics/achievements/steel.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/steel.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -212,7 +212,7 @@ data:extend(
                 name = "who-needs-cars",
                 order = "c[teaching]-a[getting-on-track-like-a-pro]",
                 to_build = "deep-hold",
-                icon = "__Darkstar_utilities__/graphics/achievements/deep-hold.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/deep-hold.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -221,7 +221,7 @@ data:extend(
                 name = "better-than-tanks",
                 order = "c[teaching]-a[getting-on-track-like-a-pro]",
                 to_build = "dark-pulse",
-                icon = "__Darkstar_utilities__/graphics/achievements/dark-pules.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/dark-pules.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -230,7 +230,7 @@ data:extend(
                 name = "healing-with-explosions",
                 order = "c[teaching]-a[getting-on-track-like-a-pro]",
                 to_build = "nautilus",
-                icon = "__Darkstar_utilities__/graphics/achievements/nautilus.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/nautilus.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -239,7 +239,7 @@ data:extend(
                 name = "quantum-immortality",
                 order = "c[teaching]-a[getting-on-track-like-a-pro]",
                 to_build = "end-game",
-                icon = "__Darkstar_utilities__/graphics/achievements/end-game.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/end-game.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -248,7 +248,7 @@ data:extend(
                 name = "air-filter",
                 order = "c[teaching]-a[getting-on-track-like-a-pro]",
                 to_build = "air-filter",
-                icon = "__Darkstar_utilities__/graphics/achievements/filter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/filter.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -257,7 +257,7 @@ data:extend(
                 name = "air-filter-mk2",
                 order = "c[teaching]-a[getting-on-track-like-a-pro]",
                 to_build = "air-filter-mk2",
-                icon = "__Darkstar_utilities__/graphics/achievements/filter2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/filter2.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -266,7 +266,7 @@ data:extend(
                 name = "air-filter-mk3",
                 order = "c[teaching]-a[getting-on-track-like-a-pro]",
                 to_build = "air-filter-mk2",
-                icon = "__Darkstar_utilities__/graphics/achievements/filter3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/filter3.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -275,7 +275,7 @@ data:extend(
                 name = "air-filter-mk4",
                 order = "c[teaching]-a[getting-on-track-like-a-pro]",
                 to_build = "air-filter-mk2",
-                icon = "__Darkstar_utilities__/graphics/achievements/filter4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/filter4.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -284,7 +284,7 @@ data:extend(
                 name = "laser-power",
                 order = "c[teaching]-a[getting-on-track-like-a-pro]",
                 to_build = "laser-miner",
-                icon = "__Darkstar_utilities__/graphics/achievements/laser.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/laser.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },
@@ -293,7 +293,7 @@ data:extend(
                 name = "mind-over-matter",
                 order = "c[teaching]-a[getting-on-track-like-a-pro]",
                 to_build = "neural-miner",
-                icon = "__Darkstar_utilities__/graphics/achievements/laser2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/achievements/laser2.png",
                 icon_size = 128,
                 limited_to_one_game = true
             },

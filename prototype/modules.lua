@@ -98,7 +98,7 @@ data:extend(
             {
                 type = "module",
                 name = "filter-module",
-                icon = "__Darkstar_utilities__/graphics/items/filter-module.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/filter-module.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -113,7 +113,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-4",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-4.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -127,7 +127,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-5",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-5.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -141,7 +141,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-6",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-6.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -155,7 +155,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-7",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-7.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-7.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -169,7 +169,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-8",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-8.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-8.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -183,7 +183,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-9",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-9.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-9.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -197,7 +197,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-10",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-10.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-10.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -211,7 +211,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-11",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-11.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-11.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -225,7 +225,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-12",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-12.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-12.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -239,7 +239,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-13",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-13.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-13.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -253,7 +253,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-14",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-14.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-14.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -267,7 +267,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-15",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-15.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-15.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -281,7 +281,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-16",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-16.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-16.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -295,7 +295,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-17",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-17.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-17.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -309,7 +309,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-18",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-18.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-18.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -323,7 +323,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-19",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-19.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-19.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -337,7 +337,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-20",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-20.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-20.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -351,7 +351,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-21",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-21.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-21.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -365,7 +365,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-22",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-22.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-22.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -379,7 +379,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-23",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-23.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-23.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -393,7 +393,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-24",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-24.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-24.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -407,7 +407,7 @@ data:extend(
             {
                 type = "module",
                 name = "speed-module-25",
-                icon = "__Darkstar_utilities__/graphics/items/speed-module-25.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/speed-module-25.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -421,7 +421,7 @@ data:extend(
             {
                 type = "module",
                 name = "effectivity-module-4",
-                icon = "__Darkstar_utilities__/graphics/items/effectivity-module-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/effectivity-module-4.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -435,7 +435,7 @@ data:extend(
             {
                 type = "module",
                 name = "effectivity-module-5",
-                icon = "__Darkstar_utilities__/graphics/items/effectivity-module-5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/effectivity-module-5.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -449,7 +449,7 @@ data:extend(
             {
                 type = "module",
                 name = "effectivity-module-6",
-                icon = "__Darkstar_utilities__/graphics/items/effectivity-module-6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/effectivity-module-6.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -464,7 +464,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-4",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-4.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -480,7 +480,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-5",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-5.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -496,7 +496,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-6",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-6.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -512,7 +512,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-7",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-7.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-7.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -528,7 +528,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-8",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-8.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-8.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -544,7 +544,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-9",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-9.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-9.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -560,7 +560,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-10",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-10.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-10.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -576,7 +576,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-11",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-11.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-11.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -592,7 +592,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-12",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-12.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-12.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -608,7 +608,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-13",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-13.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-13.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -624,7 +624,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-14",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-14.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-14.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -640,7 +640,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-15",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-15.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-15.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -656,7 +656,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-16",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-16.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-16.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -672,7 +672,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-17",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-17.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-17.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -688,7 +688,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-18",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-18.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-18.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -704,7 +704,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-19",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-19.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-19.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -720,7 +720,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-20",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-20.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-20.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -736,7 +736,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-21",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-21.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-21.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -752,7 +752,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-22",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-22.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-22.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -768,7 +768,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-23",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-23.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-23.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -784,7 +784,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-24",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-24.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-24.png",
                 icon_size = 32,
 
                 subgroup = "module",
@@ -800,7 +800,7 @@ data:extend(
             {
                 type = "module",
                 name = "productivity-module-25",
-                icon = "__Darkstar_utilities__/graphics/items/productivity-module-25.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/productivity-module-25.png",
                 icon_size = 32,
 
                 subgroup = "module",

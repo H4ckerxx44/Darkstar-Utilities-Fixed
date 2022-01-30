@@ -3,7 +3,7 @@ data:extend(
             {
                 type = "tool",
                 name = "neural-science-pack",
-                icon = "__Darkstar_utilities__/graphics/icons/neural-science-pack.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/neural-science-pack.png",
                 icon_size = 32,
                 subgroup = "science-pack",
                 order = "h[neural-science-pack]",
@@ -16,7 +16,7 @@ data:extend(
             {
                 type = "capsule",
                 name = "destroyer-capsule-2",
-                icon = "__Darkstar_utilities__/graphics/icons/biter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/biter.png",
                 icon_size = 32,
 
                 capsule_action = {
@@ -49,7 +49,7 @@ data:extend(
             {
                 type = "item",
                 name = "radar-2",
-                icon = "__Darkstar_utilities__/graphics/icons/geothermal-generator2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/geothermal-generator2.png",
                 icon_size = 32,
                 subgroup = "energy",
                 order = "d[solar-panel]-a[solar-panel]",
@@ -60,7 +60,7 @@ data:extend(
             {
                 type = "item",
                 name = "fish-farm",
-                icon = "__Darkstar_utilities__/graphics/icons/fish-farm-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/fish-farm-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "-a[fish-farm]-a[fish-farm]",
@@ -71,7 +71,7 @@ data:extend(
             {
                 type = "item",
                 name = "iron-probe",
-                icon = "__Darkstar_utilities__/graphics/icons/iron-probe-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/iron-probe-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "a-[probe]-a[probe]",
@@ -82,7 +82,7 @@ data:extend(
             {
                 type = "item",
                 name = "copper-probe",
-                icon = "__Darkstar_utilities__/graphics/icons/copper-probe-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/copper-probe-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "b-[probe]-b[probe]",
@@ -93,7 +93,7 @@ data:extend(
             {
                 type = "item",
                 name = "lead-probe",
-                icon = "__Darkstar_utilities__/graphics/icons/lead-probe-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/lead-probe-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "c-[probe]-c[probe]",
@@ -104,7 +104,7 @@ data:extend(
             {
                 type = "item",
                 name = "gold-probe",
-                icon = "__Darkstar_utilities__/graphics/icons/gold-probe-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/gold-probe-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "d-[probe]-d[probe]",
@@ -115,7 +115,7 @@ data:extend(
             {
                 type = "item",
                 name = "stone-probe",
-                icon = "__Darkstar_utilities__/graphics/icons/stone-probe-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/stone-probe-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "e-[probe]-e[probe]",
@@ -126,7 +126,7 @@ data:extend(
             {
                 type = "item",
                 name = "uranium-probe",
-                icon = "__Darkstar_utilities__/graphics/icons/uranium-probe-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/uranium-probe-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "f-[probe]-f[probe]",
@@ -137,7 +137,7 @@ data:extend(
             {
                 type = "item",
                 name = "iron-probe2",
-                icon = "__Darkstar_utilities__/graphics/icons/iron-probe-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/iron-probe-icon2.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "a[probe]-a[probe]",
@@ -148,7 +148,7 @@ data:extend(
             {
                 type = "item",
                 name = "copper-probe2",
-                icon = "__Darkstar_utilities__/graphics/icons/copper-probe-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/copper-probe-icon2.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "b[probe]-b[probe]",
@@ -159,7 +159,7 @@ data:extend(
             {
                 type = "item",
                 name = "lead-probe2",
-                icon = "__Darkstar_utilities__/graphics/icons/lead-probe-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/lead-probe-icon2.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "c[probe]-c[probe]",
@@ -170,7 +170,7 @@ data:extend(
             {
                 type = "item",
                 name = "gold-probe2",
-                icon = "__Darkstar_utilities__/graphics/icons/gold-probe-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/gold-probe-icon2.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "d[probe]-d[probe]",
@@ -181,7 +181,7 @@ data:extend(
             {
                 type = "item",
                 name = "stone-probe2",
-                icon = "__Darkstar_utilities__/graphics/icons/stone-probe-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/stone-probe-icon2.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "e[probe]-e[probe]",
@@ -192,7 +192,7 @@ data:extend(
             {
                 type = "item",
                 name = "uranium-probe2",
-                icon = "__Darkstar_utilities__/graphics/icons/uranium-probe-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/uranium-probe-icon2.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "f[probe]-f[probe]",
@@ -203,7 +203,7 @@ data:extend(
             {
                 type = "item",
                 name = "diamond-probe",
-                icon = "__Darkstar_utilities__/graphics/icons/diamond-probe-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/diamond-probe-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "g[probe]-f[probe]",
@@ -214,7 +214,7 @@ data:extend(
             {
                 type = "item",
                 name = "dense-iron-ore",
-                icon = "__Darkstar_utilities__/graphics/icons/dense-iron-ore.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dense-iron-ore.png",
                 icon_size = 32,
                 subgroup = "raw-resource",
                 order = "t[dense-iron-ore]",
@@ -224,7 +224,7 @@ data:extend(
             {
                 type = "item",
                 name = "dense-copper-ore",
-                icon = "__Darkstar_utilities__/graphics/icons/dense-copper-ore.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dense-copper-ore.png",
                 icon_size = 32,
                 subgroup = "raw-resource",
                 order = "u[dense-copper-ore]",
@@ -234,7 +234,7 @@ data:extend(
             {
                 type = "item",
                 name = "dense-lead-ore",
-                icon = "__Darkstar_utilities__/graphics/icons/dense-lead-ore.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dense-lead-ore.png",
                 icon_size = 32,
                 subgroup = "raw-resource",
                 order = "v[dense-lead-ore]",
@@ -244,7 +244,7 @@ data:extend(
             {
                 type = "item",
                 name = "dense-gold-ore",
-                icon = "__Darkstar_utilities__/graphics/icons/dense-gold-ore.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dense-gold-ore.png",
                 icon_size = 32,
                 subgroup = "raw-resource",
                 order = "w[dense-gold-ore]",
@@ -254,7 +254,7 @@ data:extend(
             {
                 type = "item",
                 name = "dense-stone",
-                icon = "__Darkstar_utilities__/graphics/icons/dense-stone-ore.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dense-stone-ore.png",
                 icon_size = 32,
                 subgroup = "raw-resource",
                 order = "x[dense-stone-ore]",
@@ -264,7 +264,7 @@ data:extend(
             {
                 type = "item",
                 name = "dense-uranium-ore",
-                icon = "__Darkstar_utilities__/graphics/icons/dense-uranium.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dense-uranium.png",
                 icon_size = 64,
                 subgroup = "raw-resource",
                 order = "y[dense-uranium-ore]",
@@ -274,7 +274,7 @@ data:extend(
             {
                 type = "item",
                 name = "anode-mud",
-                icon = "__Darkstar_utilities__/graphics/icons/anode-mud.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/anode-mud.png",
                 icon_size = 32,
                 subgroup = "raw-resource",
                 order = "y-[dense-uranium-ore]",
@@ -284,7 +284,7 @@ data:extend(
             {
                 type = "item",
                 name = "selenium",
-                icon = "__Darkstar_utilities__/graphics/icons/selenium.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/selenium.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "a-[dense-uranium-ore]",
@@ -294,7 +294,7 @@ data:extend(
             {
                 type = "item",
                 name = "tellurium",
-                icon = "__Darkstar_utilities__/graphics/icons/tellurium.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/tellurium.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "b-[dense-uranium-ore]",
@@ -304,7 +304,7 @@ data:extend(
             {
                 type = "item",
                 name = "silver",
-                icon = "__Darkstar_utilities__/graphics/icons/silver.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/silver.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "c-[dense-uranium-ore]",
@@ -314,7 +314,7 @@ data:extend(
             {
                 type = "item",
                 name = "platinum",
-                icon = "__Darkstar_utilities__/graphics/icons/platinum.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/platinum.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "d-[dense-uranium-ore]",
@@ -324,7 +324,7 @@ data:extend(
             {
                 type = "item",
                 name = "antimony",
-                icon = "__Darkstar_utilities__/graphics/icons/antimony.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/antimony.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "e-[dense-uranium-ore]",
@@ -334,7 +334,7 @@ data:extend(
             {
                 type = "item",
                 name = "selenium-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/selenium-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/selenium-plate.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "a[dense-uranium-ore]",
@@ -344,7 +344,7 @@ data:extend(
             {
                 type = "item",
                 name = "tellurium-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/tellurium-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/tellurium-plate.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "b[dense-uranium-ore]",
@@ -354,7 +354,7 @@ data:extend(
             {
                 type = "item",
                 name = "silver-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/silver-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/silver-plate.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "c[dense-uranium-ore]",
@@ -364,7 +364,7 @@ data:extend(
             {
                 type = "item",
                 name = "platinum-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/platinum-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/platinum-plate.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "d[dense-uranium-ore]",
@@ -374,7 +374,7 @@ data:extend(
             {
                 type = "item",
                 name = "antimony-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/antimony-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/antimony-plate.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "e[dense-uranium-ore]",
@@ -384,7 +384,7 @@ data:extend(
             {
                 type = "item",
                 name = "brain-grower",
-                icon = "__Darkstar_utilities__/graphics/icons/brain-grower-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/brain-grower-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "-c[probe]-f[probe]",
@@ -395,7 +395,7 @@ data:extend(
             {
                 type = "item",
                 name = "ore-extractor",
-                icon = "__Darkstar_utilities__/graphics/icons/ore-extractor-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ore-extractor-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "-b[biodome]-a[biodome]",
@@ -406,7 +406,7 @@ data:extend(
             {
                 type = "item",
                 name = "satellite-radar",
-                icon = "__Darkstar_utilities__/graphics/icons/ore-extractor-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ore-extractor-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "-b[biodome]-a[biodome]",
@@ -417,7 +417,7 @@ data:extend(
             {
                 type = "item",
                 name = "fuel-can",
-                icon = "__Darkstar_utilities__/graphics/icons/fuel-can.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/fuel-can.png",
                 icon_size = 32,
                 rocket_launch_product = { "fuel-register", 1 },
                 subgroup = "data",
@@ -428,7 +428,7 @@ data:extend(
             {
                 type = "item",
                 name = "large-fuel-can",
-                icon = "__Darkstar_utilities__/graphics/icons/large-fuel-can.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/large-fuel-can.png",
                 icon_size = 32,
                 rocket_launch_product = { "large-fuel-register", 1 },
                 subgroup = "data",
@@ -439,7 +439,7 @@ data:extend(
             {
                 type = "item",
                 name = "fuel-register",
-                icon = "__Darkstar_utilities__/graphics/icons/fuel-register.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/fuel-register.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -450,7 +450,7 @@ data:extend(
             {
                 type = "item",
                 name = "large-fuel-register",
-                icon = "__Darkstar_utilities__/graphics/icons/large-fuel-register.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/large-fuel-register.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -461,7 +461,7 @@ data:extend(
             {
                 type = "item",
                 name = "xenon-thruster",
-                icon = "__Darkstar_utilities__/graphics/icons/xenon-thruster.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/xenon-thruster.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -472,7 +472,7 @@ data:extend(
             {
                 type = "item",
                 name = "xenon-tank",
-                icon = "__Darkstar_utilities__/graphics/icons/xenon-tank.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/xenon-tank.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -483,7 +483,7 @@ data:extend(
             {
                 type = "item",
                 name = "xenon-thruster-tank",
-                icon = "__Darkstar_utilities__/graphics/icons/xenon-thruster-tank.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/xenon-thruster-tank.png",
                 icon_size = 32,
                 rocket_launch_product = { "xenon-thruster-tank-register", 1 },
                 subgroup = "data",
@@ -494,7 +494,7 @@ data:extend(
             {
                 type = "item",
                 name = "xenon-thruster-tank-register",
-                icon = "__Darkstar_utilities__/graphics/icons/xenon-tank-thruster-register.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/xenon-tank-thruster-register.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -505,7 +505,7 @@ data:extend(
             {
                 type = "item",
                 name = "ssd-1",
-                icon = "__Darkstar_utilities__/graphics/icons/ssd-1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ssd-1.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -517,7 +517,7 @@ data:extend(
             {
                 type = "item",
                 name = "ssd-2",
-                icon = "__Darkstar_utilities__/graphics/icons/ssd-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ssd-2.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -529,7 +529,7 @@ data:extend(
             {
                 type = "item",
                 name = "ssd-3",
-                icon = "__Darkstar_utilities__/graphics/icons/ssd-3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ssd-3.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -541,7 +541,7 @@ data:extend(
             {
                 type = "item",
                 name = "ssd-4",
-                icon = "__Darkstar_utilities__/graphics/icons/ssd-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ssd-4.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -553,7 +553,7 @@ data:extend(
             {
                 type = "item",
                 name = "ssd-5",
-                icon = "__Darkstar_utilities__/graphics/icons/ssd-5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ssd-5.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -565,7 +565,7 @@ data:extend(
             {
                 type = "item",
                 name = "ssd-6",
-                icon = "__Darkstar_utilities__/graphics/icons/ssd-6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ssd-6.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -577,7 +577,7 @@ data:extend(
             {
                 type = "item",
                 name = "ssd-7",
-                icon = "__Darkstar_utilities__/graphics/icons/ssd-7.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ssd-7.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -589,7 +589,7 @@ data:extend(
             {
                 type = "item",
                 name = "ssd-8",
-                icon = "__Darkstar_utilities__/graphics/icons/ssd-8.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ssd-8.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -601,7 +601,7 @@ data:extend(
             {
                 type = "item",
                 name = "ssd-9",
-                icon = "__Darkstar_utilities__/graphics/icons/ssd-9.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ssd-9.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -613,7 +613,7 @@ data:extend(
             {
                 type = "item",
                 name = "ssd-m",
-                icon = "__Darkstar_utilities__/graphics/icons/ssd-m.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ssd-m.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -625,7 +625,7 @@ data:extend(
             {
                 type = "item",
                 name = "card-1",
-                icon = "__Darkstar_utilities__/graphics/icons/card-1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/card-1.png",
                 icon_size = 32,
 
                 subgroup = "cards",
@@ -637,7 +637,7 @@ data:extend(
             {
                 type = "item",
                 name = "card-2",
-                icon = "__Darkstar_utilities__/graphics/icons/card-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/card-2.png",
                 icon_size = 32,
 
                 subgroup = "cards",
@@ -649,7 +649,7 @@ data:extend(
             {
                 type = "item",
                 name = "card-2",
-                icon = "__Darkstar_utilities__/graphics/icons/card-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/card-2.png",
                 icon_size = 32,
 
                 subgroup = "cards",
@@ -661,7 +661,7 @@ data:extend(
             {
                 type = "item",
                 name = "card-3",
-                icon = "__Darkstar_utilities__/graphics/icons/card-3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/card-3.png",
                 icon_size = 32,
 
                 subgroup = "cards",
@@ -673,7 +673,7 @@ data:extend(
             {
                 type = "item",
                 name = "card-4",
-                icon = "__Darkstar_utilities__/graphics/icons/card-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/card-4.png",
                 icon_size = 32,
 
                 subgroup = "cards",
@@ -685,7 +685,7 @@ data:extend(
             {
                 type = "item",
                 name = "card-5",
-                icon = "__Darkstar_utilities__/graphics/icons/card-5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/card-5.png",
                 icon_size = 32,
 
                 subgroup = "cards",
@@ -697,7 +697,7 @@ data:extend(
             {
                 type = "item",
                 name = "card-6",
-                icon = "__Darkstar_utilities__/graphics/icons/card-6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/card-6.png",
                 icon_size = 32,
 
                 subgroup = "cards",
@@ -709,7 +709,7 @@ data:extend(
             {
                 type = "item",
                 name = "card-7",
-                icon = "__Darkstar_utilities__/graphics/icons/card-7.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/card-7.png",
                 icon_size = 32,
 
                 subgroup = "cards",
@@ -721,7 +721,7 @@ data:extend(
             {
                 type = "item",
                 name = "card-8",
-                icon = "__Darkstar_utilities__/graphics/icons/card-8.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/card-8.png",
                 icon_size = 32,
 
                 subgroup = "cards",
@@ -733,7 +733,7 @@ data:extend(
             {
                 type = "item",
                 name = "card-9",
-                icon = "__Darkstar_utilities__/graphics/icons/card-9.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/card-9.png",
                 icon_size = 32,
 
                 subgroup = "cards",
@@ -745,7 +745,7 @@ data:extend(
             {
                 type = "item",
                 name = "card-m",
-                icon = "__Darkstar_utilities__/graphics/icons/card-m.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/card-m.png",
                 icon_size = 32,
 
                 subgroup = "cards",
@@ -757,7 +757,7 @@ data:extend(
             {
                 type = "item",
                 name = "research-module-1",
-                icon = "__Darkstar_utilities__/graphics/icons/research-module-1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/research-module-1.png",
                 icon_size = 32,
 
                 subgroup = "research-packs",
@@ -770,7 +770,7 @@ data:extend(
             {
                 type = "item",
                 name = "research-module-2",
-                icon = "__Darkstar_utilities__/graphics/icons/research-module-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/research-module-2.png",
                 icon_size = 32,
 
                 subgroup = "research-packs",
@@ -783,7 +783,7 @@ data:extend(
             {
                 type = "item",
                 name = "research-module-3",
-                icon = "__Darkstar_utilities__/graphics/icons/research-module-3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/research-module-3.png",
                 icon_size = 32,
 
                 subgroup = "research-packs",
@@ -796,7 +796,7 @@ data:extend(
             {
                 type = "item",
                 name = "research-module-4",
-                icon = "__Darkstar_utilities__/graphics/icons/research-module-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/research-module-4.png",
                 icon_size = 32,
 
                 subgroup = "research-packs",
@@ -809,7 +809,7 @@ data:extend(
             {
                 type = "item",
                 name = "research-module-5",
-                icon = "__Darkstar_utilities__/graphics/icons/research-module-5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/research-module-5.png",
                 icon_size = 32,
 
                 subgroup = "research-packs",
@@ -822,7 +822,7 @@ data:extend(
             {
                 type = "item",
                 name = "research-module-6",
-                icon = "__Darkstar_utilities__/graphics/icons/research-module-6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/research-module-6.png",
                 icon_size = 32,
 
                 subgroup = "research-packs",
@@ -835,7 +835,7 @@ data:extend(
             {
                 type = "item",
                 name = "research-module-7",
-                icon = "__Darkstar_utilities__/graphics/icons/research-module-7.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/research-module-7.png",
                 icon_size = 32,
 
                 subgroup = "research-packs",
@@ -848,7 +848,7 @@ data:extend(
             {
                 type = "item",
                 name = "research-module-8",
-                icon = "__Darkstar_utilities__/graphics/icons/research-module-8.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/research-module-8.png",
                 icon_size = 32,
 
                 subgroup = "research-packs",
@@ -861,7 +861,7 @@ data:extend(
             {
                 type = "item",
                 name = "research-module-9",
-                icon = "__Darkstar_utilities__/graphics/icons/research-module-9.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/research-module-9.png",
                 icon_size = 32,
 
                 subgroup = "research-packs",
@@ -874,7 +874,7 @@ data:extend(
             {
                 type = "item",
                 name = "research-module-m",
-                icon = "__Darkstar_utilities__/graphics/icons/research-module-m.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/research-module-m.png",
                 icon_size = 32,
 
                 subgroup = "research-packs",
@@ -887,7 +887,7 @@ data:extend(
             {
                 type = "item",
                 name = "receiver-1",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver-1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver-1.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -899,7 +899,7 @@ data:extend(
             {
                 type = "item",
                 name = "receiver-2",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver-2.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -911,7 +911,7 @@ data:extend(
             {
                 type = "item",
                 name = "receiver-3",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver-3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver-3.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -923,7 +923,7 @@ data:extend(
             {
                 type = "item",
                 name = "receiver-4",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver-4.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -935,7 +935,7 @@ data:extend(
             {
                 type = "item",
                 name = "receiver-5",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver-5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver-5.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -947,7 +947,7 @@ data:extend(
             {
                 type = "item",
                 name = "receiver-6",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver-6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver-6.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -959,7 +959,7 @@ data:extend(
             {
                 type = "item",
                 name = "receiver-7",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver-7.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver-7.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -971,7 +971,7 @@ data:extend(
             {
                 type = "item",
                 name = "receiver-8",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver-8.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver-8.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -983,7 +983,7 @@ data:extend(
             {
                 type = "item",
                 name = "receiver-9",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver-9.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver-9.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -995,7 +995,7 @@ data:extend(
             {
                 type = "item",
                 name = "receiver-m",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver-m.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver-m.png",
                 icon_size = 32,
 
                 subgroup = "data",
@@ -1007,7 +1007,7 @@ data:extend(
             {
                 type = "item",
                 name = "server-1",
-                icon = "__Darkstar_utilities__/graphics/icons/server-1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-1.png",
                 icon_size = 32,
                 subgroup = "servers",
                 order = "1[server][server]",
@@ -1018,7 +1018,7 @@ data:extend(
             {
                 type = "item",
                 name = "server-2",
-                icon = "__Darkstar_utilities__/graphics/icons/server-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-2.png",
                 icon_size = 32,
                 subgroup = "servers",
                 order = "2[server][server]",
@@ -1029,7 +1029,7 @@ data:extend(
             {
                 type = "item",
                 name = "server-3",
-                icon = "__Darkstar_utilities__/graphics/icons/server-3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-3.png",
                 icon_size = 32,
                 subgroup = "servers",
                 order = "3[server][server]",
@@ -1040,7 +1040,7 @@ data:extend(
             {
                 type = "item",
                 name = "server-4",
-                icon = "__Darkstar_utilities__/graphics/icons/server-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-4.png",
                 icon_size = 32,
                 subgroup = "servers",
                 order = "4[server][server]",
@@ -1051,7 +1051,7 @@ data:extend(
             {
                 type = "item",
                 name = "server-5",
-                icon = "__Darkstar_utilities__/graphics/icons/server-5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-5.png",
                 icon_size = 32,
                 subgroup = "servers",
                 order = "5[server][server]",
@@ -1062,7 +1062,7 @@ data:extend(
             {
                 type = "item",
                 name = "server-6",
-                icon = "__Darkstar_utilities__/graphics/icons/server-6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-6.png",
                 icon_size = 32,
                 subgroup = "servers",
                 order = "6[server][server]",
@@ -1073,7 +1073,7 @@ data:extend(
             {
                 type = "item",
                 name = "server-7",
-                icon = "__Darkstar_utilities__/graphics/icons/server-7.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-7.png",
                 icon_size = 32,
                 subgroup = "servers",
                 order = "7[server][server]",
@@ -1084,7 +1084,7 @@ data:extend(
             {
                 type = "item",
                 name = "server-8",
-                icon = "__Darkstar_utilities__/graphics/icons/server-8.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-8.png",
                 icon_size = 32,
                 subgroup = "servers",
                 order = "8[server][server]",
@@ -1095,7 +1095,7 @@ data:extend(
             {
                 type = "item",
                 name = "server-9",
-                icon = "__Darkstar_utilities__/graphics/icons/server-9.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-9.png",
                 icon_size = 32,
                 subgroup = "servers",
                 order = "9[server][server]",
@@ -1106,7 +1106,7 @@ data:extend(
             {
                 type = "item",
                 name = "server-m",
-                icon = "__Darkstar_utilities__/graphics/icons/server-m.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-m.png",
                 icon_size = 32,
                 subgroup = "servers",
                 order = "z[server][server]",
@@ -1117,7 +1117,7 @@ data:extend(
             {
                 type = "item",
                 name = "linari-base",
-                icon = "__Darkstar_utilities__/graphics/icons/station-base-1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/station-base-1.png",
                 icon_size = 32,
                 subgroup = "base-packs",
                 order = "1[base][base]",
@@ -1128,7 +1128,7 @@ data:extend(
             {
                 type = "item",
                 name = "vesili-base",
-                icon = "__Darkstar_utilities__/graphics/icons/station-base-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/station-base-2.png",
                 icon_size = 32,
                 subgroup = "base-packs",
                 order = "2[base][base]",
@@ -1139,7 +1139,7 @@ data:extend(
             {
                 type = "item",
                 name = "messii-base",
-                icon = "__Darkstar_utilities__/graphics/icons/station-base-3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/station-base-3.png",
                 icon_size = 32,
                 subgroup = "base-packs",
                 order = "3[base][base]",
@@ -1150,7 +1150,7 @@ data:extend(
             {
                 type = "item",
                 name = "gindralyr-base",
-                icon = "__Darkstar_utilities__/graphics/icons/station-base-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/station-base-4.png",
                 icon_size = 32,
                 subgroup = "base-packs",
                 order = "4[base][base]",
@@ -1161,7 +1161,7 @@ data:extend(
             {
                 type = "item",
                 name = "sonelia-base",
-                icon = "__Darkstar_utilities__/graphics/icons/station-base-5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/station-base-5.png",
                 icon_size = 32,
                 subgroup = "base-packs",
                 order = "5[base][base]",
@@ -1172,7 +1172,7 @@ data:extend(
             {
                 type = "item",
                 name = "yosleon-base",
-                icon = "__Darkstar_utilities__/graphics/icons/station-base-6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/station-base-6.png",
                 icon_size = 32,
                 subgroup = "base-packs",
                 order = "6[base][base]",
@@ -1183,7 +1183,7 @@ data:extend(
             {
                 type = "item",
                 name = "lurith-base",
-                icon = "__Darkstar_utilities__/graphics/icons/station-base-7.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/station-base-7.png",
                 icon_size = 32,
                 subgroup = "base-packs",
                 order = "7[base][base]",
@@ -1194,7 +1194,7 @@ data:extend(
             {
                 type = "item",
                 name = "ita-base",
-                icon = "__Darkstar_utilities__/graphics/icons/station-base-8.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/station-base-8.png",
                 icon_size = 32,
                 subgroup = "base-packs",
                 order = "8[base][base]",
@@ -1205,7 +1205,7 @@ data:extend(
             {
                 type = "item",
                 name = "lyheia-base",
-                icon = "__Darkstar_utilities__/graphics/icons/station-base-9.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/station-base-9.png",
                 icon_size = 32,
                 subgroup = "base-packs",
                 order = "9[base][base]",
@@ -1216,7 +1216,7 @@ data:extend(
             {
                 type = "item",
                 name = "moon-base",
-                icon = "__Darkstar_utilities__/graphics/icons/station-base-m.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/station-base-m.png",
                 icon_size = 32,
                 subgroup = "base-packs",
                 order = "z[base][base]",
@@ -1227,7 +1227,7 @@ data:extend(
             {
                 type = "item",
                 name = "vacuum-chamber",
-                icon = "__Darkstar_utilities__/graphics/icons/vacuum-chamber-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/vacuum-chamber-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "-b[biodome]-a[biodome]",
@@ -1238,7 +1238,7 @@ data:extend(
             {
                 type = "item",
                 name = "electro-magnet",
-                icon = "__Darkstar_utilities__/graphics/icons/magnet.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/magnet.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "e[dense-uranium-ore]",
@@ -1248,7 +1248,7 @@ data:extend(
             {
                 type = "item",
                 name = "almer-transponder",
-                icon = "__Darkstar_utilities__/graphics/icons/almer-transponder.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/almer-transponder.png",
                 icon_size = 32,
                 subgroup = "planck",
                 order = "-b[regulator]",
@@ -1258,7 +1258,7 @@ data:extend(
             {
                 type = "item",
                 name = "ohm-lock",
-                icon = "__Darkstar_utilities__/graphics/icons/ohm-lock.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ohm-lock.png",
                 icon_size = 32,
                 subgroup = "planck",
                 order = "-b[regulator]",
@@ -1268,7 +1268,7 @@ data:extend(
             {
                 type = "item",
                 name = "field-stabilizer",
-                icon = "__Darkstar_utilities__/graphics/icons/field-stabilizer.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/field-stabilizer.png",
                 icon_size = 32,
                 subgroup = "planck",
                 order = "-b[regulator]",
@@ -1278,7 +1278,7 @@ data:extend(
             {
                 type = "item",
                 name = "planck-ripper",
-                icon = "__Darkstar_utilities__/graphics/icons/planck-ripper-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/planck-ripper-icon.png",
                 icon_size = 32,
                 subgroup = "planck",
                 order = "-a[ripper]",
@@ -1289,7 +1289,7 @@ data:extend(
             {
                 type = "item",
                 name = "empty-regulator",
-                icon = "__Darkstar_utilities__/graphics/icons/empty-regulator.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/empty-regulator.png",
                 icon_size = 32,
                 subgroup = "intermediate-product",
                 order = "-b[regulator]",
@@ -1299,7 +1299,7 @@ data:extend(
             {
                 type = "item",
                 name = "short-long",
-                icon = "__Darkstar_utilities__/graphics/icons/short-long.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/short-long.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "e[dense-uranium-ore]",
@@ -1309,7 +1309,7 @@ data:extend(
             {
                 type = "item",
                 name = "long-short",
-                icon = "__Darkstar_utilities__/graphics/icons/long-short.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/long-short.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "e[dense-uranium-ore]",
@@ -1319,7 +1319,7 @@ data:extend(
             {
                 type = "item",
                 name = "ripped",
-                icon = "__Darkstar_utilities__/graphics/icons/ripped.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ripped.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "e[dense-uranium-ore]",
@@ -1329,7 +1329,7 @@ data:extend(
             {
                 type = "item",
                 name = "looped",
-                icon = "__Darkstar_utilities__/graphics/icons/looped.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/looped.png",
                 icon_size = 32,
                 subgroup = "advanced-materials",
                 order = "e[dense-uranium-ore]",
@@ -1339,7 +1339,7 @@ data:extend(
             {
                 type = "item",
                 name = "biodome",
-                icon = "__Darkstar_utilities__/graphics/icons/biodome-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/biodome-icon.png",
                 icon_size = 32,
                 subgroup = "probes",
                 order = "-b[biodome]-a[biodome]",
@@ -1361,7 +1361,7 @@ data:extend(
 {
 type = "item",
 name = "hydro-electric-generator",
-icon = "__Darkstar_utilities__/graphics/icons/geothermal-generator2.png",
+icon = "__Darkstar_Utilities_fixed__/graphics/icons/geothermal-generator2.png",
 icon_size = 32,
 
 subgroup = "generators",
@@ -1373,7 +1373,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "geothermal-generator",
-                icon = "__Darkstar_utilities__/graphics/icons/geothermal-generator2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/geothermal-generator2.png",
                 icon_size = 32,
 
                 subgroup = "generators",
@@ -1385,7 +1385,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "geothermal-generator-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/geothermal-generator-mk2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/geothermal-generator-mk2.png",
                 icon_size = 32,
 
                 subgroup = "generators",
@@ -1397,7 +1397,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "geothermal-generator-mk3",
-                icon = "__Darkstar_utilities__/graphics/icons/geothermal-generator-mk3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/geothermal-generator-mk3.png",
                 icon_size = 32,
 
                 subgroup = "generators",
@@ -1409,7 +1409,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "rtg",
-                icon = "__Darkstar_utilities__/graphics/icons/rtg-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/rtg-icon.png",
                 icon_size = 64,
 
                 subgroup = "generators",
@@ -1421,7 +1421,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "rtg-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/rtg-mk2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/rtg-mk2-icon.png",
                 icon_size = 64,
 
                 subgroup = "generators",
@@ -1433,7 +1433,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "rtg-mk3",
-                icon = "__Darkstar_utilities__/graphics/icons/rtg-mk3-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/rtg-mk3-icon.png",
                 icon_size = 64,
 
                 subgroup = "generators",
@@ -1445,7 +1445,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "s-reg",
-                icon = "__Darkstar_utilities__/graphics/icons/s-reg-icon-3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/s-reg-icon-3.png",
                 icon_size = 32,
 
                 subgroup = "generators",
@@ -1457,7 +1457,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "s-reg-2",
-                icon = "__Darkstar_utilities__/graphics/icons/s-reg-icon-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/s-reg-icon-2.png",
                 icon_size = 32,
 
                 subgroup = "generators",
@@ -1469,7 +1469,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "s-reg-3",
-                icon = "__Darkstar_utilities__/graphics/icons/s-reg-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/s-reg-icon.png",
                 icon_size = 32,
 
                 subgroup = "generators",
@@ -1481,7 +1481,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "prototype-anct",
-                icon = "__Darkstar_utilities__/graphics/icons/cage-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/cage-icon.png",
                 icon_size = 64,
 
                 subgroup = "generators",
@@ -1493,7 +1493,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "think-tank",
-                icon = "__Darkstar_utilities__/graphics/icons/think-tank.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/think-tank.png",
                 icon_size = 32,
 
                 subgroup = "generators",
@@ -1505,7 +1505,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "think-tank-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/think-tank2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/think-tank2.png",
                 icon_size = 32,
 
                 subgroup = "generators",
@@ -1517,7 +1517,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "think-tank-mk3",
-                icon = "__Darkstar_utilities__/graphics/icons/think-tank3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/think-tank3.png",
                 icon_size = 32,
 
                 subgroup = "generators",
@@ -1541,7 +1541,7 @@ stack_size = 500
             {
                 type = "item-with-entity-data",
                 name = "dark-pulse",
-                icon = "__Darkstar_utilities__/graphics/icons/dark-pulse-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dark-pulse-icon.png",
                 icon_size = 32,
 
                 subgroup = "vehicle",
@@ -1553,7 +1553,7 @@ stack_size = 500
             {
                 type = "item-with-entity-data",
                 name = "deep-hold",
-                icon = "__Darkstar_utilities__/graphics/icons/deep-hold-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/deep-hold-icon.png",
                 icon_size = 32,
 
                 subgroup = "vehicle",
@@ -1565,7 +1565,7 @@ stack_size = 500
             {
                 type = "item-with-entity-data",
                 name = "end-game",
-                icon = "__Darkstar_utilities__/graphics/icons/end-game-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/end-game-icon.png",
                 icon_size = 32,
 
                 subgroup = "vehicle",
@@ -1577,7 +1577,7 @@ stack_size = 500
             {
                 type = "item-with-entity-data",
                 name = "nautilus",
-                icon = "__Darkstar_utilities__/graphics/icons/nautilus-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/nautilus-icon.png",
                 icon_size = 32,
 
                 subgroup = "vehicle",
@@ -1589,7 +1589,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "terra-electric-furnace",
-                icon = "__Darkstar_utilities__/graphics/icons/electric-furnace2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/electric-furnace2.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-6",
@@ -1601,7 +1601,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "air-filter",
-                icon = "__Darkstar_utilities__/graphics/icons/TFAC1-i.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/TFAC1-i.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1613,7 +1613,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "air-filter-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/TFAC2-i.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/TFAC2-i.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1625,7 +1625,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "air-filter-mk3",
-                icon = "__Darkstar_utilities__/graphics/icons/TFAC3-i.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/TFAC3-i.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1637,7 +1637,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "air-filter-mk4",
-                icon = "__Darkstar_utilities__/graphics/icons/TFAC4-i.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/TFAC4-i.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1649,7 +1649,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "air-filter-mk5",
-                icon = "__Darkstar_utilities__/graphics/icons/TFAC5-i.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/TFAC5-i.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1661,7 +1661,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "laser-core",
-                icon = "__Darkstar_utilities__/graphics/icons/core-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/core-icon.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -1672,7 +1672,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "filter-tray",
-                icon = "__Darkstar_utilities__/graphics/icons/filtration-tray.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/filtration-tray.png",
                 icon_size = 64,
 
                 subgroup = "filters",
@@ -1683,7 +1683,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "filter-tray-2",
-                icon = "__Darkstar_utilities__/graphics/icons/filtration-tray-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/filtration-tray-2.png",
                 icon_size = 64,
 
                 subgroup = "filters",
@@ -1694,7 +1694,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "air-filter-charge-x1",
-                icon = "__Darkstar_utilities__/graphics/icons/air-filter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/air-filter.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1705,7 +1705,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "sand-filter-charge-x1",
-                icon = "__Darkstar_utilities__/graphics/icons/sand-filter1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/sand-filter1.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1716,7 +1716,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "air-filter-charge-x2",
-                icon = "__Darkstar_utilities__/graphics/icons/air-filter-mk2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/air-filter-mk2.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1727,7 +1727,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "sand-filter-charge-x2",
-                icon = "__Darkstar_utilities__/graphics/icons/sand-filter2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/sand-filter2.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1738,7 +1738,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "air-filter-charge-x3",
-                icon = "__Darkstar_utilities__/graphics/icons/air-filter-mk3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/air-filter-mk3.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1749,7 +1749,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "sand-filter-charge-x3",
-                icon = "__Darkstar_utilities__/graphics/icons/sand-filter3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/sand-filter3.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1760,7 +1760,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "air-filter-charge-x4",
-                icon = "__Darkstar_utilities__/graphics/icons/air-filter-mk4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/air-filter-mk4.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1771,7 +1771,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "sand-filter-charge-x4",
-                icon = "__Darkstar_utilities__/graphics/icons/sand-filter4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/sand-filter4.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1782,7 +1782,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "air-filter-charge-x5",
-                icon = "__Darkstar_utilities__/graphics/icons/air-filter-mk5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/air-filter-mk5.png",
                 icon_size = 32,
 
                 subgroup = "filters",
@@ -1793,7 +1793,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "empty-filter",
-                icon = "__Darkstar_utilities__/graphics/icons/empty-filter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/empty-filter.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -1804,7 +1804,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "empty-filter-2",
-                icon = "__Darkstar_utilities__/graphics/icons/empty-filter2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/empty-filter2.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -1815,7 +1815,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "terra-splitter",
-                icon = "__Darkstar_utilities__/graphics/icons/terra-splitter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/terra-splitter.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -1827,7 +1827,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "fuse-box",
-                icon = "__Darkstar_utilities__/graphics/icons/fuse.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/fuse.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -1838,7 +1838,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "sand2",
-                icon = "__Darkstar_utilities__/graphics/icons/sand2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/sand2.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -1849,7 +1849,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "seed-crystal",
-                icon = "__Darkstar_utilities__/graphics/icons/crystal.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/crystal.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -1860,7 +1860,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "silicon",
-                icon = "__Darkstar_utilities__/graphics/icons/silicon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/silicon.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -1871,7 +1871,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "asteroid-quarry",
-                icon = "__Darkstar_utilities__/graphics/icons/space-quarry-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-quarry-icon.png",
                 icon_size = 32,
 
                 subgroup = "misc",
@@ -1883,7 +1883,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "planet-quarry",
-                icon = "__Darkstar_utilities__/graphics/icons/space-quarry-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-quarry-icon2.png",
                 icon_size = 32,
 
                 subgroup = "misc",
@@ -1895,7 +1895,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "gpu",
-                icon = "__Darkstar_utilities__/graphics/icons/gpu.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/gpu.png",
                 icon_size = 32,
 
                 subgroup = "computer",
@@ -1906,7 +1906,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "cpu",
-                icon = "__Darkstar_utilities__/graphics/icons/cpu.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/cpu.png",
                 icon_size = 32,
 
                 subgroup = "computer",
@@ -1917,7 +1917,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "fan",
-                icon = "__Darkstar_utilities__/graphics/icons/fan.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/fan.png",
                 icon_size = 32,
 
                 subgroup = "computer",
@@ -1928,7 +1928,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "ram",
-                icon = "__Darkstar_utilities__/graphics/icons/ram.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ram.png",
                 icon_size = 32,
 
                 subgroup = "computer",
@@ -1939,7 +1939,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "diode",
-                icon = "__Darkstar_utilities__/graphics/icons/diode.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/diode.png",
                 icon_size = 32,
 
                 subgroup = "computer",
@@ -1950,7 +1950,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "mother-board",
-                icon = "__Darkstar_utilities__/graphics/icons/board.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/board.png",
                 icon_size = 32,
 
                 subgroup = "computer",
@@ -1961,7 +1961,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "underground-belt-2",
-                icon = "__Darkstar_utilities__/graphics/icons/underground-belt-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/underground-belt-2.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -1973,7 +1973,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "fast-underground-belt-2",
-                icon = "__Darkstar_utilities__/graphics/icons/fast-underground-belt-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/fast-underground-belt-2.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -1985,7 +1985,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "express-underground-belt-2",
-                icon = "__Darkstar_utilities__/graphics/icons/express-underground-belt-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/express-underground-belt-2.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -1997,7 +1997,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "terra-underground-belt",
-                icon = "__Darkstar_utilities__/graphics/icons/terra2-underground.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/terra2-underground.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -2009,7 +2009,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "terra-underground-belt2",
-                icon = "__Darkstar_utilities__/graphics/icons/terra-underground.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/terra-underground.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -2021,7 +2021,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "terra-underground-belt-long",
-                icon = "__Darkstar_utilities__/graphics/icons/terra2-underground-long.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/terra2-underground-long.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -2033,7 +2033,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "terra-underground-belt2-long",
-                icon = "__Darkstar_utilities__/graphics/icons/terra-underground-long.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/terra-underground-long.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -2046,7 +2046,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "laser-miner",
-                icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon1.png",
                 icon_size = 32,
 
                 subgroup = "drills",
@@ -2058,7 +2058,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "neural-miner",
-                icon = "__Darkstar_utilities__/graphics/icons/neural-miner-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/neural-miner-icon.png",
                 icon_size = 32,
 
                 subgroup = "drills",
@@ -2070,7 +2070,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "laser-miner2",
-                icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon2.png",
                 icon_size = 32,
 
                 subgroup = "drills",
@@ -2082,7 +2082,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "neural-miner-2",
-                icon = "__Darkstar_utilities__/graphics/icons/neural-miner-2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/neural-miner-2-icon.png",
                 icon_size = 32,
 
                 subgroup = "drills",
@@ -2094,7 +2094,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "laser-miner3",
-                icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon3.png",
                 icon_size = 32,
 
                 subgroup = "drills",
@@ -2106,7 +2106,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "neural-miner-3",
-                icon = "__Darkstar_utilities__/graphics/icons/neural-miner-3-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/neural-miner-3-icon.png",
                 icon_size = 32,
 
                 subgroup = "drills",
@@ -2118,7 +2118,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "laser-miner4",
-                icon = "__Darkstar_utilities__/graphics/icons/laser-drill-icon4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon4.png",
                 icon_size = 32,
 
                 subgroup = "drills",
@@ -2130,7 +2130,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "neural-miner-4",
-                icon = "__Darkstar_utilities__/graphics/icons/neural-miner-4-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/neural-miner-4-icon.png",
                 icon_size = 32,
 
                 subgroup = "drills",
@@ -2142,7 +2142,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "brain",
-                icon = "__Darkstar_utilities__/graphics/icons/brain.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/brain.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2153,7 +2153,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "bio-computer",
-                icon = "__Darkstar_utilities__/graphics/icons/bio-computer.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/bio-computer.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2164,7 +2164,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "antithetic-coolant",
-                icon = "__Darkstar_utilities__/graphics/icons/coolant.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/coolant.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2175,7 +2175,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "star-miner-drone",
-                icon = "__Darkstar_utilities__/graphics/icons/drone.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/drone.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2186,7 +2186,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "drone-swarm",
-                icon = "__Darkstar_utilities__/graphics/icons/swarm.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/swarm.png",
                 icon_size = 32,
 
                 subgroup = "launch-items",
@@ -2198,7 +2198,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "multiverse-swarm",
-                icon = "__Darkstar_utilities__/graphics/icons/multiverse-swarm.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/multiverse-swarm.png",
                 icon_size = 32,
 
                 subgroup = "launch-items",
@@ -2210,7 +2210,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "interstellar-swarm",
-                icon = "__Darkstar_utilities__/graphics/icons/interstellar-swarm.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/interstellar-swarm.png",
                 icon_size = 32,
 
                 subgroup = "launch-items",
@@ -2222,7 +2222,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "dark-matter-drones",
-                icon = "__Darkstar_utilities__/graphics/icons/dark-matter-swarm.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dark-matter-swarm.png",
                 icon_size = 32,
 
                 subgroup = "launch-items",
@@ -2234,7 +2234,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "antithetic-drones",
-                icon = "__Darkstar_utilities__/graphics/icons/antithetic-swarm.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/antithetic-swarm.png",
                 icon_size = 32,
 
                 subgroup = "launch-items",
@@ -2246,7 +2246,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "norbornadiene-drones",
-                icon = "__Darkstar_utilities__/graphics/icons/norbornadiene-swarm.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/norbornadiene-swarm.png",
                 icon_size = 32,
 
                 subgroup = "launch-items",
@@ -2258,7 +2258,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "star-matter-drones",
-                icon = "__Darkstar_utilities__/graphics/icons/star-miner-swarm.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/star-miner-swarm.png",
                 icon_size = 32,
 
                 subgroup = "launch-items",
@@ -2270,7 +2270,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "dark-matter-drones2",
-                icon = "__Darkstar_utilities__/graphics/icons/dark-matter-swarm2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dark-matter-swarm2.png",
                 icon_size = 32,
 
                 subgroup = "launch-items",
@@ -2282,7 +2282,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "antithetic-drones2",
-                icon = "__Darkstar_utilities__/graphics/icons/antithetic-swarm2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/antithetic-swarm2.png",
                 icon_size = 32,
 
                 subgroup = "launch-items",
@@ -2294,7 +2294,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "norbornadiene-drones2",
-                icon = "__Darkstar_utilities__/graphics/icons/norbornadiene-swarm2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/norbornadiene-swarm2.png",
                 icon_size = 32,
 
                 subgroup = "launch-items",
@@ -2306,7 +2306,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "star-matter-drones2",
-                icon = "__Darkstar_utilities__/graphics/icons/star-miner-swarm2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/star-miner-swarm2.png",
                 icon_size = 32,
 
                 subgroup = "launch-items",
@@ -2318,7 +2318,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "antithetic-container",
-                icon = "__Darkstar_utilities__/graphics/icons/antithetic-container.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/antithetic-container.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2329,7 +2329,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "star-matter",
-                icon = "__Darkstar_utilities__/graphics/icons/star-matter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/star-matter.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2340,7 +2340,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "dark-matter-capsule",
-                icon = "__Darkstar_utilities__/graphics/icons/dark-matter-capsule.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dark-matter-capsule.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2351,7 +2351,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "antithetical-capsule",
-                icon = "__Darkstar_utilities__/graphics/icons/antithetical-capsule.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/antithetical-capsule.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2362,7 +2362,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "norbornadiene-capsule",
-                icon = "__Darkstar_utilities__/graphics/icons/norbornadiene-capsule.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/norbornadiene-capsule.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2373,7 +2373,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "star-matter2",
-                icon = "__Darkstar_utilities__/graphics/icons/star-matter2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/star-matter2.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2384,7 +2384,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "dark-matter-capsule2",
-                icon = "__Darkstar_utilities__/graphics/icons/dark-matter-capsule2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dark-matter-capsule2.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2395,7 +2395,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "antithetical-capsule2",
-                icon = "__Darkstar_utilities__/graphics/icons/antithetical-capsule2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/antithetical-capsule2.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2406,7 +2406,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "norbornadiene-capsule2",
-                icon = "__Darkstar_utilities__/graphics/icons/norbornadiene-capsule2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/norbornadiene-capsule2.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2417,7 +2417,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "swarm-receiver",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2428,7 +2428,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "multiverse-swarm-receiver",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver3.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2439,7 +2439,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "interstellar-swarm-receiver",
-                icon = "__Darkstar_utilities__/graphics/icons/receiver4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/receiver4.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2450,7 +2450,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "dyson",
-                icon = "__Darkstar_utilities__/graphics/icons/dyson-sphere-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dyson-sphere-icon.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2462,7 +2462,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "multiverse-tear",
-                icon = "__Darkstar_utilities__/graphics/icons/multiverse-tear-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/multiverse-tear-icon.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2474,7 +2474,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "interstellar-dominion",
-                icon = "__Darkstar_utilities__/graphics/icons/interstellar-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/interstellar-icon.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2486,7 +2486,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "swarm-storage",
-                icon = "__Darkstar_utilities__/graphics/icons/relay.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/relay.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -2497,7 +2497,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "laser-quarry",
-                icon = "__Darkstar_utilities__/graphics/icons/quarry-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/quarry-icon.png",
                 icon_size = 32,
 
                 subgroup = "misc",
@@ -2509,7 +2509,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "laser-quarry2",
-                icon = "__Darkstar_utilities__/graphics/icons/quarry2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/quarry2-icon.png",
                 icon_size = 32,
 
                 subgroup = "misc",
@@ -2521,7 +2521,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "laser-quarry3",
-                icon = "__Darkstar_utilities__/graphics/icons/space-quarry-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-quarry-icon.png",
                 icon_size = 32,
 
                 subgroup = "misc",
@@ -2533,7 +2533,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "laser-quarry4",
-                icon = "__Darkstar_utilities__/graphics/icons/space-quarry-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-quarry-icon.png",
                 icon_size = 32,
 
                 subgroup = "misc",
@@ -2545,7 +2545,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "stone-furnace-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/brick-furnace.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/brick-furnace.png",
                 icon_size = 32,
 
                 subgroup = "smelting-machine",
@@ -2557,7 +2557,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "terra-transport-belt",
-                icon = "__Darkstar_utilities__/graphics/icons/terra-belt.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/terra-belt.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -2569,7 +2569,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "terra-transport-belt-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/terra-belt-mk2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/terra-belt-mk2.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -2581,7 +2581,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel.png",
                 placed_as_equipment_result = "solar-panel-mk2",
                 icon_size = 32,
 
@@ -2594,7 +2594,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk3",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk2.png",
                 placed_as_equipment_result = "solar-panel-mk3",
                 icon_size = 32,
 
@@ -2607,7 +2607,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk4",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk3.png",
                 placed_as_equipment_result = "solar-panel-mk4",
                 icon_size = 32,
 
@@ -2620,7 +2620,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk5",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk4.png",
                 placed_as_equipment_result = "solar-panel-mk5",
                 icon_size = 32,
 
@@ -2633,7 +2633,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk6",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5.png",
                 placed_as_equipment_result = "solar-panel-mk6",
                 icon_size = 32,
 
@@ -2646,7 +2646,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk7",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk6.png",
                 placed_as_equipment_result = "solar-panel-mk7",
                 icon_size = 32,
 
@@ -2659,7 +2659,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk2-G",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-g.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-g.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk2",
@@ -2671,7 +2671,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk3-G",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk2-g.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk2-g.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk3",
@@ -2683,7 +2683,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk4-G",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk3-g.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-g.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk4",
@@ -2695,7 +2695,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk5-G",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk4-g.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-g.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk5",
@@ -2707,7 +2707,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk6-G",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk5-g.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk6",
@@ -2719,7 +2719,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk7-G",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk6-g.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk6-g.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk7",
@@ -2731,7 +2731,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk2-G2",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-g2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-g2.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk2",
@@ -2743,7 +2743,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk3-G2",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk2-g2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk2-g2.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk3",
@@ -2755,7 +2755,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk4-G2",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk3-g2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-g2.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk4",
@@ -2767,7 +2767,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk5-G2",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk4-g2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-g2.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk5",
@@ -2779,7 +2779,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk6-G2",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk5-g2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g2.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk6",
@@ -2791,7 +2791,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk7-G2",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk6-g2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk6-g2.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk7",
@@ -2803,7 +2803,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk2-G3",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-g3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-g3.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk2",
@@ -2815,7 +2815,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk3-G3",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk2-g3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk2-g3.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk3",
@@ -2827,7 +2827,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk4-G3",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk3-g3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-g3.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk4",
@@ -2839,7 +2839,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk5-G3",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk4-g3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-g3.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk5",
@@ -2851,7 +2851,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk6-G3",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk5-g3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g3.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk6",
@@ -2863,7 +2863,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk7-G3",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk6-g3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk6-g3.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk7",
@@ -2875,7 +2875,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk2-GL",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-gl.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-gl.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk2",
@@ -2887,7 +2887,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk3-GL",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk2-gl.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk2-gl.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk3",
@@ -2899,7 +2899,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk4-GL",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk3-gl.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-gl.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk4",
@@ -2911,7 +2911,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk5-GL",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk4-gl.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-gl.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk5",
@@ -2923,7 +2923,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk6-GL",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk5-gl.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-gl.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk6",
@@ -2935,7 +2935,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-panel-mk7-GL",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk6-gl.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk6-gl.png",
                 icon_size = 32,
 
                 subgroup = "solar-panel-mk7",
@@ -2947,7 +2947,7 @@ stack_size = 500
 {
 type = "item",
 name = "assault-turret",
-icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk5-g2.png",
+icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g2.png",
 icon_size = 32,
 
 subgroup = "solar-panel-mk6",
@@ -2959,7 +2959,7 @@ stack_size = 500
 {
 type = "item",
 name = "sniper-turret",
-icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk5-g2.png",
+icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g2.png",
 icon_size = 32,
 
 subgroup = "solar-panel-mk6",
@@ -2971,7 +2971,7 @@ stack_size = 500
 {
 type = "item",
 name = "sniper-turret-mk2",
-icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk5-g2.png",
+icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g2.png",
 icon_size = 32,
 
 subgroup = "solar-panel-mk6",
@@ -2983,7 +2983,7 @@ stack_size = 500
 {
 type = "item",
 name = "laser-turret-mk2",
-icon = "__Darkstar_utilities__/graphics/icons/advanced-solar-panel-mk5-g2.png",
+icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g2.png",
 icon_size = 32,
 
 subgroup = "solar-panel-mk6",
@@ -2997,7 +2997,7 @@ stack_size = 500
                 type = "item",
                 name = "advanced-laser-defense-equipment",
                 placed_as_equipment_result = "advanced-laser-defense-equipment",
-                icon = "__Darkstar_utilities__/graphics/icons/smg-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/smg-icon2.png",
                 icon_size = 32,
 
                 subgroup = "equipment-defense",
@@ -3009,7 +3009,7 @@ stack_size = 500
                 type = "item",
                 name = "advanced-laser-defense-equipment-mk2",
                 placed_as_equipment_result = "advanced-laser-defense-equipment-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/sniper-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/sniper-icon2.png",
                 icon_size = 32,
 
                 subgroup = "equipment-defense",
@@ -3021,7 +3021,7 @@ stack_size = 500
                 type = "item",
                 name = "advanced-laser-defense-equipment-mk3",
                 placed_as_equipment_result = "advanced-laser-defense-equipment-mk3",
-                icon = "__Darkstar_utilities__/graphics/icons/rifle-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/rifle-icon2.png",
                 icon_size = 32,
 
                 subgroup = "equipment-defense",
@@ -3033,7 +3033,7 @@ stack_size = 500
                 type = "item",
                 name = "shoulder-tank-cannon",
                 placed_as_equipment_result = "shoulder-tank-cannon",
-                icon = "__Darkstar_utilities__/graphics/icons/cannon-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/cannon-icon2.png",
                 icon_size = 32,
 
                 subgroup = "equipment-defense",
@@ -3045,7 +3045,7 @@ stack_size = 500
                 type = "item",
                 name = "shoulder-railgun",
                 placed_as_equipment_result = "shoulder-railgun",
-                icon = "__Darkstar_utilities__/graphics/icons/railgun-icon2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/railgun-icon2.png",
                 icon_size = 32,
 
                 subgroup = "equipment-defense",
@@ -3057,7 +3057,7 @@ stack_size = 500
                 type = "item",
                 name = "ship-cannon",
                 placed_as_equipment_result = "ship-cannon",
-                icon = "__Darkstar_utilities__/graphics/icons/ship-cannon-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ship-cannon-icon.png",
                 icon_size = 32,
 
                 subgroup = "vehicle",
@@ -3080,7 +3080,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "rapid-inserter",
-                icon = "__Darkstar_utilities__/graphics/icons/rapid-inserter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/rapid-inserter.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -3092,7 +3092,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "terra-inserter",
-                icon = "__Darkstar_utilities__/graphics/icons/terra-inserter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/terra-inserter.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -3104,7 +3104,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "smart-terra-inserter",
-                icon = "__Darkstar_utilities__/graphics/icons/smart-terra-inserter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/smart-terra-inserter.png",
                 icon_size = 32,
 
                 subgroup = "logic",
@@ -3116,7 +3116,7 @@ stack_size = 500
             {
                 type = "gun",
                 name = "rocket-launcher-mk2", --railgun
-                icon = "__Darkstar_utilities__/graphics/ammo/railgun3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/railgun3.png",
                 icon_size = 32,
 
                 subgroup = "railguns",
@@ -3131,7 +3131,7 @@ stack_size = 500
                     projectile_center = { -0.17, 0 },
                     sound = {
                         {
-                            filename = "__Darkstar_utilities__/sounds/railgun.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/railgun.ogg",
                             volume = 0.7
                         }
                     }
@@ -3142,7 +3142,7 @@ stack_size = 500
             {
                 type = "gun",
                 name = "railgun-mk2", --railgun mk2
-                icon = "__Darkstar_utilities__/graphics/ammo/railgun2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/railgun2.png",
                 icon_size = 32,
 
                 subgroup = "railguns",
@@ -3157,7 +3157,7 @@ stack_size = 500
                     projectile_center = { -0.17, 0 },
                     sound = {
                         {
-                            filename = "__Darkstar_utilities__/sounds/railgun-mk2.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/railgun-mk2.ogg",
                             volume = 1.0
                         }
                     }
@@ -3169,7 +3169,7 @@ stack_size = 500
             {
                 type = "gun",
                 name = "shotgun-pellet-mk2",
-                icon = "__Darkstar_utilities__/graphics/ammo/railgun1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/railgun1.png",
                 icon_size = 32, icon_mipmaps = 1,
 
                 subgroup = "gun",
@@ -3184,7 +3184,7 @@ stack_size = 500
                     projectile_center = { -0.17, 0 },
                     sound = {
                         {
-                            filename = "__Darkstar_utilities__/sounds/railgun.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/railgun.ogg",
                             volume = 0.7
                         }
                     }
@@ -3195,7 +3195,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "explosive-rocket-mk2",
-                icon = "__Darkstar_utilities__/graphics/ammo/railgun-ammo1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/railgun-ammo1.png",
                 icon_size = 32, icon_mipmaps = 1,
 
                 ammo_type = {
@@ -3273,7 +3273,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "railgun-mk2-round",
-                icon = "__Darkstar_utilities__/graphics/ammo/railgun-ammo2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/railgun-ammo2.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -3308,7 +3308,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "railgun-mk2-round2",
-                icon = "__Darkstar_utilities__/graphics/ammo/railgun-ammo2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/railgun-ammo2.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -3343,7 +3343,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "railgun-mk2-round2",
-                icon = "__Darkstar_utilities__/graphics/ammo/railgun-ammo3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/railgun-ammo3.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -3391,7 +3391,7 @@ stack_size = 500
                     projectile_center = { -0.17, 0 },
                     sound = {
                         {
-                            filename = "__Darkstar_utilities__/sounds/nuclear-explosion.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/nuclear-explosion.ogg",
                             volume = 0.7
                         }
                     }
@@ -3482,7 +3482,7 @@ stack_size = 500
             {
                 type = "gun",
                 name = "assault-rifle",
-                icon = "__Darkstar_utilities__/graphics/icons/assault-rifle-1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/assault-rifle-1.png",
                 icon_size = 32,
 
                 subgroup = "assault-rifles",
@@ -3506,7 +3506,7 @@ stack_size = 500
                     range = 45,
                     sound = {
                         {
-                            filename = "__Darkstar_utilities__/sounds/assault-rifle.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/assault-rifle.ogg",
                             volume = 1.0
                         }
                     }
@@ -3517,7 +3517,7 @@ stack_size = 500
             {
                 type = "gun",
                 name = "assault-rifle-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/assault-rifle-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/assault-rifle-2.png",
                 icon_size = 32,
 
                 subgroup = "assault-rifles",
@@ -3541,7 +3541,7 @@ stack_size = 500
                     range = 65,
                     sound = {
                         {
-                            filename = "__Darkstar_utilities__/sounds/assault-rifle.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/assault-rifle.ogg",
                             volume = 1.0
                         }
                     }
@@ -3576,7 +3576,7 @@ stack_size = 500
                     range = 65,
                     sound = {
                         {
-                            filename = "__Darkstar_utilities__/sounds/assault-rifle.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/assault-rifle.ogg",
                             volume = 1.0
                         }
                     }
@@ -3587,7 +3587,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "bullet-mk2",
-                icon = "__Darkstar_utilities__/graphics/ammo/explosive-bullet-magazine.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/explosive-bullet-magazine.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -3628,7 +3628,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "bullet-mk3",
-                icon = "__Darkstar_utilities__/graphics/ammo/explosive-bullet-magazine2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/explosive-bullet-magazine2.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -3669,7 +3669,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "bullet-mk4",
-                icon = "__Darkstar_utilities__/graphics/ammo/explosive-bullet-magazine3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/explosive-bullet-magazine3.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -3710,7 +3710,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "healing-bullet",
-                icon = "__Darkstar_utilities__/graphics/ammo/explosive-bullet-magazine.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/explosive-bullet-magazine.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -3775,7 +3775,7 @@ stack_size = 500
                     range = 65,
                     sound = {
                         {
-                            filename = "__Darkstar_utilities__/sounds/assault-rifle.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/assault-rifle.ogg",
                             volume = 1.0
                         }
                     }
@@ -3786,7 +3786,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "end-game-bullet",
-                icon = "__Darkstar_utilities__/graphics/ammo/quantum-shell.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/quantum-shell.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -3851,7 +3851,7 @@ stack_size = 500
                     range = 65,
                     sound = {
                         {
-                            filename = "__Darkstar_utilities__/sounds/assault-rifle.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/assault-rifle.ogg",
                             volume = 1.0
                         }
                     }
@@ -3862,7 +3862,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "end-game-bullet-2",
-                icon = "__Darkstar_utilities__/graphics/ammo/quantum-shell-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/quantum-shell-2.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -3903,7 +3903,7 @@ stack_size = 500
             {
                 type = "gun",
                 name = "sniper-rifle",
-                icon = "__Darkstar_utilities__/graphics/icons/sniper-rifle-1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/sniper-rifle-1.png",
                 icon_size = 32,
 
                 subgroup = "sniper-rifles",
@@ -3927,7 +3927,7 @@ stack_size = 500
                     range = 768,
                     sound = {
                         {
-                            filename = "__Darkstar_utilities__/sounds/sniper.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/sniper.ogg",
                             volume = 1.0
                         }
                     }
@@ -3939,7 +3939,7 @@ stack_size = 500
             {
                 type = "gun",
                 name = "sniper-rifle-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/sniper-rifle-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/sniper-rifle-2.png",
                 icon_size = 32,
 
                 subgroup = "sniper-rifles",
@@ -3963,7 +3963,7 @@ stack_size = 500
                     range = 1468,
                     {
                         {
-                            filename = "__Darkstar_utilities__/sounds/sniper.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/sniper.ogg",
                             volume = 1.0
                         }
                     }
@@ -3974,7 +3974,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "sniper-round",
-                icon = "__Darkstar_utilities__/graphics/ammo/sniper-bullet.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/sniper-bullet.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -4015,7 +4015,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "sniper-round-mk2",
-                icon = "__Darkstar_utilities__/graphics/ammo/sniper-bullet2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/sniper-bullet2.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -4056,7 +4056,7 @@ stack_size = 500
             {
                 type = "ammo",
                 name = "sniper-round-mk3",
-                icon = "__Darkstar_utilities__/graphics/ammo/sniper-bullet2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/ammo/sniper-bullet2.png",
                 icon_size = 32,
 
                 ammo_type = {
@@ -4113,7 +4113,7 @@ stack_size = 500
                     range = 500,
                     sound = {
                         {
-                            filename = "__Darkstar_utilities__/sounds/railgun.ogg",
+                            filename = "__Darkstar_Utilities_fixed__/sounds/railgun.ogg",
                             volume = 0.5
                         }
                     }
@@ -4244,7 +4244,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "battery-mk3",
-                icon = "__Darkstar_utilities__/graphics/items/battery-mk3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/battery-mk3.png",
                 icon_size = 32,
                 placed_as_equipment_result = "battery-mk3",
 
@@ -4256,7 +4256,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "tesla-coil",
-                icon = "__Darkstar_utilities__/graphics/icons/tesla-coil-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/tesla-coil-icon.png",
                 icon_size = 32,
 
                 subgroup = "Technical",
@@ -4268,7 +4268,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "terra-coil",
-                icon = "__Darkstar_utilities__/graphics/icons/tesla-coil-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/tesla-coil-icon.png",
                 icon_size = 32,
 
                 subgroup = "Technical",
@@ -4280,7 +4280,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "link",
-                icon = "__Darkstar_utilities__/graphics/icons/link.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/link.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -4291,7 +4291,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "energy-shield-mk3-equipment",
-                icon = "__Darkstar_utilities__/graphics/items/energy-shield-mk3-equipment.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/energy-shield-mk3-equipment.png",
                 icon_size = 32,
                 placed_as_equipment_result = "energy-shield-mk3-equipment",
 
@@ -4303,7 +4303,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "energy-shield-mk4-equipment",
-                icon = "__Darkstar_utilities__/graphics/items/energy-shield-mk4-equipment.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/energy-shield-mk4-equipment.png",
                 icon_size = 32,
                 placed_as_equipment_result = "energy-shield-mk4-equipment",
 
@@ -4315,7 +4315,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "vehicle-shield",
-                icon = "__Darkstar_utilities__/graphics/items/vehicle-shield-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/vehicle-shield-icon.png",
                 icon_size = 32,
                 placed_as_equipment_result = "vehicle-shield",
 
@@ -4327,7 +4327,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "advanced-chemical-plant",
-                icon = "__Darkstar_utilities__/graphics/entity/advanced-chemical-plant/chemical-plant2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/entity/advanced-chemical-plant/chemical-plant2-icon.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-6",
@@ -4339,7 +4339,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "assembling-machine-4",
-                icon = "__Darkstar_utilities__/graphics/icons/assembling-machine-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/assembling-machine-4.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-6",
@@ -4351,7 +4351,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "substation-mk2",
-                icon = "__Darkstar_utilities__/graphics/entity/substation-mk2/substation-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/entity/substation-mk2/substation-icon.png",
                 icon_size = 32,
 
                 subgroup = "Technical",
@@ -4363,7 +4363,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "logistic-robot-mk2",
-                icon = "__Darkstar_utilities__/graphics/entity/robots/logistic-robot-mk2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/entity/robots/logistic-robot-mk2-icon.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-7",
@@ -4375,7 +4375,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "construction-robot-mk2",
-                icon = "__Darkstar_utilities__/graphics/entity/robots/construction-robot-mk2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/entity/robots/construction-robot-mk2-icon.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-7",
@@ -4387,7 +4387,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "logistic-robot-mk3",
-                icon = "__Darkstar_utilities__/graphics/items/rift1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/rift1.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-7",
@@ -4399,7 +4399,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "construction-robot-mk3",
-                icon = "__Darkstar_utilities__/graphics/items/rift2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/rift2.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-7",
@@ -4411,7 +4411,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "advanced-exoskeleton-equipment",
-                icon = "__Darkstar_utilities__/graphics/equipment/advanced-exoskeleton-equipment-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/equipment/advanced-exoskeleton-equipment-icon.png",
                 icon_size = 32,
                 placed_as_equipment_result = "advanced-exoskeleton-equipment",
 
@@ -4423,7 +4423,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "thruster-upgrade",
-                icon = "__Darkstar_utilities__/graphics/icons/thruster-upgrade-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/thruster-upgrade-icon.png",
                 icon_size = 32,
                 placed_as_equipment_result = "thruster-upgrade",
 
@@ -4435,7 +4435,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "personal-roboport-equipment-mk2",
-                icon = "__Darkstar_utilities__/graphics/equipment/personal-roboport-equipment-mk3-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/equipment/personal-roboport-equipment-mk3-icon.png",
                 icon_size = 32,
                 placed_as_equipment_result = "personal-roboport-equipment-mk2",
 
@@ -4447,7 +4447,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "large-personal-roboport-equipment",
-                icon = "__Darkstar_utilities__/graphics/equipment/personal-roboport-equipment-mk2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/equipment/personal-roboport-equipment-mk2-icon.png",
                 icon_size = 32,
                 placed_as_equipment_result = "large-personal-roboport-equipment",
 
@@ -4459,7 +4459,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "vehicle-roboport",
-                icon = "__Darkstar_utilities__/graphics/equipment/personal-roboport-equipment-mk2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/equipment/personal-roboport-equipment-mk2-icon.png",
                 icon_size = 32,
                 placed_as_equipment_result = "vehicle-roboport",
 
@@ -4471,7 +4471,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "dark-matter-reactor",
-                icon = "__Darkstar_utilities__/graphics/equipment/dark-matter-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/equipment/dark-matter-icon.png",
                 icon_size = 32,
                 placed_as_equipment_result = "dark-matter-reactor",
 
@@ -4483,7 +4483,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "vehicle-reactor",
-                icon = "__Darkstar_utilities__/graphics/icons/engine-room-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/engine-room-icon.png",
                 icon_size = 32,
                 placed_as_equipment_result = "vehicle-reactor",
 
@@ -4495,7 +4495,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "dark-matter-reactor-mk2",
-                icon = "__Darkstar_utilities__/graphics/equipment/4D-power-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/equipment/4D-power-icon.png",
                 icon_size = 32,
                 placed_as_equipment_result = "dark-matter-reactor-mk2",
 
@@ -4507,7 +4507,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "advanced-accumulator",
-                icon = "__Darkstar_utilities__/graphics/icons/advanced-accumulator.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-accumulator.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-9",
@@ -4519,7 +4519,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "flywheel",
-                icon = "__Darkstar_utilities__/graphics/icons/flywheel-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/flywheel-icon.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-9",
@@ -4531,7 +4531,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "quantum-particle",
-                icon = "__Darkstar_utilities__/graphics/icons/quantum-particle.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/quantum-particle.png",
                 icon_size = 32,
 
                 subgroup = "raw-resource",
@@ -4542,7 +4542,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "quantum-fuel",
-                icon = "__Darkstar_utilities__/graphics/icons/quantum-fuel.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/quantum-fuel.png",
                 icon_size = 32,
 
                 fuel_category = "chemical",
@@ -4557,7 +4557,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "quantum-blood",
-                icon = "__Darkstar_utilities__/graphics/icons/quantum-blood.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/quantum-blood.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -4568,7 +4568,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "energy-liquid",
-                icon = "__Darkstar_utilities__/graphics/icons/energy-liquid-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/energy-liquid-icon.png",
                 placed_as_equipment_result = "energy-liquid",
                 icon_size = 32,
 
@@ -4581,7 +4581,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "energy-liquid-2",
-                icon = "__Darkstar_utilities__/graphics/icons/silo-1-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/silo-1-icon.png",
                 placed_as_equipment_result = "energy-liquid-2",
                 icon_size = 32,
 
@@ -4594,7 +4594,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "energy-liquid-3",
-                icon = "__Darkstar_utilities__/graphics/icons/large-tank-1-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/large-tank-1-icon.png",
                 placed_as_equipment_result = "energy-liquid-3",
                 icon_size = 32,
 
@@ -4607,7 +4607,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "energy-liquid-U",
-                icon = "__Darkstar_utilities__/graphics/icons/energy-liquid-2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/energy-liquid-2-icon.png",
                 placed_as_equipment_result = "energy-liquid-U",
                 icon_size = 32,
 
@@ -4620,7 +4620,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "energy-liquid-2-U",
-                icon = "__Darkstar_utilities__/graphics/icons/silo-2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/silo-2-icon.png",
                 placed_as_equipment_result = "energy-liquid-2-U",
                 icon_size = 32,
 
@@ -4633,7 +4633,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "energy-liquid-3-U",
-                icon = "__Darkstar_utilities__/graphics/icons/large-tank-2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/large-tank-2-icon.png",
                 placed_as_equipment_result = "energy-liquid-3-U",
                 icon_size = 32,
 
@@ -4646,7 +4646,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "energy-liquid-D",
-                icon = "__Darkstar_utilities__/graphics/icons/energy-liquid-3-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/energy-liquid-3-icon.png",
                 placed_as_equipment_result = "energy-liquid-D",
                 icon_size = 32,
 
@@ -4659,7 +4659,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "energy-liquid-2-D",
-                icon = "__Darkstar_utilities__/graphics/icons/silo-3-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/silo-3-icon.png",
                 placed_as_equipment_result = "energy-liquid-2-D",
                 icon_size = 32,
 
@@ -4672,7 +4672,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "energy-liquid-3-D",
-                icon = "__Darkstar_utilities__/graphics/icons/large-tank-3-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/large-tank-3-icon.png",
                 placed_as_equipment_result = "energy-liquid-3-D",
                 icon_size = 32,
 
@@ -4685,7 +4685,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "roboport-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/roboport-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/roboport-2.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-7",
@@ -4697,7 +4697,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "roboport-mk3",
-                icon = "__Darkstar_utilities__/graphics/icons/roboport-3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/roboport-3.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-7",
@@ -4709,7 +4709,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "roboport-mk4",
-                icon = "__Darkstar_utilities__/graphics/icons/roboport-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/roboport-4.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-7",
@@ -4721,7 +4721,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "roboport-charger",
-                icon = "__Darkstar_utilities__/graphics/icons/roboport-c.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/roboport-c.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-7",
@@ -4745,7 +4745,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "ultra-beacon",
-                icon = "__Darkstar_utilities__/graphics/icons/ultra-beacon-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ultra-beacon-icon.png",
                 icon_size = 32,
 
                 subgroup = "Technical",
@@ -4757,7 +4757,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "efficiency-beacon",
-                icon = "__Darkstar_utilities__/graphics/icons/efficiency-beacon-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/efficiency-beacon-icon.png",
                 icon_size = 32,
 
                 subgroup = "Technical",
@@ -4769,7 +4769,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "gold-ore",
-                icon = "__Darkstar_utilities__/graphics/icons/gold-ore.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/gold-ore.png",
                 icon_size = 32,
 
                 subgroup = "raw-resource",
@@ -4780,7 +4780,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "lithium-ore",
-                icon = "__Darkstar_utilities__/graphics/icons/lithium-ore.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/lithium-ore.png",
                 icon_size = 32,
 
                 subgroup = "raw-resource",
@@ -4791,7 +4791,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "gold-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/gold-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/gold-plate.png",
                 icon_size = 32,
 
                 subgroup = "raw-resource",
@@ -4802,7 +4802,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "lithium-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/lithium-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/lithium-plate.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -4813,7 +4813,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "lithium-steel-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/lithium-steel-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/lithium-steel-plate.png",
                 icon_size = 32,
 
                 subgroup = "raw-resource",
@@ -4824,7 +4824,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "lithusarium-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/lithusarium-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/lithusarium-plate.png",
                 icon_size = 32,
 
                 subgroup = "raw-resource",
@@ -4835,7 +4835,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "ciusitral-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/ciusitral-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ciusitral-plate.png",
                 icon_size = 32,
 
                 subgroup = "raw-resource",
@@ -4846,7 +4846,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "rhusanthium-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/rhusanthium-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/rhusanthium-plate.png",
                 icon_size = 32,
 
                 subgroup = "raw-resource",
@@ -4857,7 +4857,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "power-boost-beacon",
-                icon = "__Darkstar_utilities__/graphics/icons/power-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/power-icon.png",
                 icon_size = 32,
 
                 subgroup = "Technical",
@@ -4869,7 +4869,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "basic-beacon-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/basic-beacon-mk2-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/basic-beacon-mk2-icon.png",
                 icon_size = 32,
 
                 subgroup = "Technical",
@@ -4881,7 +4881,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "module-component",
-                icon = "__Darkstar_utilities__/graphics/items/module-component.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/module-component.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -4893,7 +4893,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "world-array",
-                icon = "__Darkstar_utilities__/graphics/icons/world-array-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/world-array-icon.png",
                 icon_size = 32,
 
                 subgroup = "Technical",
@@ -4905,7 +4905,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "advanced-photovoltaic-cells",
-                icon = "__Darkstar_utilities__/graphics/items/advanced-photovoltaic-cells.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/advanced-photovoltaic-cells.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -4917,7 +4917,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "solar-wafer",
-                icon = "__Darkstar_utilities__/graphics/icons/wafer.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/wafer.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -4929,7 +4929,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "lead-plate",
-                icon = "__Darkstar_utilities__/graphics/icons/lead-plate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/lead-plate.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -4941,7 +4941,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "battery-mk4",
-                icon = "__Darkstar_utilities__/graphics/items/battery-mk4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/battery-mk4.png",
                 icon_size = 32,
                 placed_as_equipment_result = "battery-mk4",
 
@@ -4953,7 +4953,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "battery-mk4",
-                icon = "__Darkstar_utilities__/graphics/items/battery-mk4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/battery-mk4.png",
                 icon_size = 32,
                 placed_as_equipment_result = "battery-mk4",
 
@@ -4977,9 +4977,9 @@ stack_size = 500
             {
                 type = "item",
                 name = "hydrogen-D",
-                icon = "__Darkstar_utilities__/graphics/icons/hydrogen.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/hydrogen.png",
                 icon_size = 32,
-                dark_background_icon = "__Darkstar_utilities__/graphics/icons/hydrogen.png",
+                dark_background_icon = "__Darkstar_Utilities_fixed__/graphics/icons/hydrogen.png",
                 icon_size = 32,
 
                 fuel_category = "chemical",
@@ -4992,9 +4992,9 @@ stack_size = 500
             {
                 type = "item",
                 name = "chitin",
-                icon = "__Darkstar_utilities__/graphics/icons/chitin.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/chitin.png",
                 icon_size = 32,
-                dark_background_icon = "__Darkstar_utilities__/graphics/icons/chitin.png",
+                dark_background_icon = "__Darkstar_Utilities_fixed__/graphics/icons/chitin.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -5005,9 +5005,9 @@ stack_size = 500
             {
                 type = "item",
                 name = "sample",
-                icon = "__Darkstar_utilities__/graphics/icons/sample.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/sample.png",
                 icon_size = 32,
-                dark_background_icon = "__Darkstar_utilities__/graphics/icons/sample.png",
+                dark_background_icon = "__Darkstar_Utilities_fixed__/graphics/icons/sample.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -5030,7 +5030,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "furnace-house",
-                icon = "__Darkstar_utilities__/graphics/icons/smelting-warehouse-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/smelting-warehouse-icon.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-6",
@@ -5042,7 +5042,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "furnace-house-mk2",
-                icon = "__Darkstar_utilities__/graphics/icons/smelting-warehouse-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/smelting-warehouse-icon.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-6",
@@ -5114,7 +5114,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "logistic-house-passive-provider",
-                icon = "__Darkstar_utilities__/graphics/icons/warehouse-passive-provider.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/warehouse-passive-provider.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-010",
@@ -5126,7 +5126,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "logistic-house-active-provider",
-                icon = "__Darkstar_utilities__/graphics/icons/warehouse-active-provider.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/warehouse-active-provider.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-010",
@@ -5138,7 +5138,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "logistic-house-storage",
-                icon = "__Darkstar_utilities__/graphics/icons/warehouse-storage.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/warehouse-storage.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-010",
@@ -5150,7 +5150,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "logistic-house-requester",
-                icon = "__Darkstar_utilities__/graphics/icons/warehouse-requester.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/warehouse-requester.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-010",
@@ -5162,7 +5162,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "logistic-house-buffer",
-                icon = "__Darkstar_utilities__/graphics/icons/warehouse-buffer.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/warehouse-buffer.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-010",
@@ -5174,7 +5174,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "storage-house",
-                icon = "__Darkstar_utilities__/graphics/icons/warehouse.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/warehouse.png",
                 icon_size = 32,
 
                 subgroup = "misc",
@@ -5186,7 +5186,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "hacked-biter",
-                icon = "__Darkstar_utilities__/graphics/icons/biter2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/biter2.png",
                 icon_size = 32,
 
                 subgroup = "bio",
@@ -5247,7 +5247,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "sand",
-                icon = "__Darkstar_utilities__/graphics/icons/sand.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/sand.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -5257,7 +5257,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "lead-ore",
-                icon = "__Darkstar_utilities__/graphics/icons/lead.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/lead.png",
                 icon_size = 32,
 
                 subgroup = "raw-resource",
@@ -5267,7 +5267,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "diamond",
-                icon = "__Darkstar_utilities__/graphics/icons/diamond-ore.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/diamond-ore.png",
                 icon_size = 32,
 
                 subgroup = "raw-resource",
@@ -5277,7 +5277,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "micro-cells",
-                icon = "__Darkstar_utilities__/graphics/items/micro-cell.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/micro-cell.png",
                 icon_size = 32,
 
                 subgroup = "random",
@@ -5287,7 +5287,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "micro-processor",
-                icon = "__Darkstar_utilities__/graphics/icons/micro-processor.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/micro-processor.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -5297,7 +5297,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "computer",
-                icon = "__Darkstar_utilities__/graphics/icons/computer-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/computer-icon.png",
                 icon_size = 32,
 
                 subgroup = "computer",
@@ -5307,7 +5307,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "glass",
-                icon = "__Darkstar_utilities__/graphics/icons/glass.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/glass.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -5317,7 +5317,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "leaded-glass",
-                icon = "__Darkstar_utilities__/graphics/icons/leaded-glass.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/leaded-glass.png",
                 icon_size = 32,
 
                 subgroup = "intermediate-product",
@@ -5327,7 +5327,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "stone-path-red",
-                icon = "__Darkstar_utilities__/graphics/items/red-brick.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/red-brick.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-011",
@@ -5342,7 +5342,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "stone-path-yellow",
-                icon = "__Darkstar_utilities__/graphics/items/yellow-brick.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/yellow-brick.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-011",
@@ -5357,7 +5357,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "stone-path-blue",
-                icon = "__Darkstar_utilities__/graphics/items/blue-brick.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/blue-brick.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-011",
@@ -5372,7 +5372,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "stone-path-green",
-                icon = "__Darkstar_utilities__/graphics/items/green-brick.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/green-brick.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-011",
@@ -5387,7 +5387,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "stone-path-purple",
-                icon = "__Darkstar_utilities__/graphics/items/purple-brick.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/purple-brick.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-011",
@@ -5402,7 +5402,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "stone-path-black",
-                icon = "__Darkstar_utilities__/graphics/items/black-brick.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/black-brick.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-011",
@@ -5434,7 +5434,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "glass-tile",
-                icon = "__Darkstar_utilities__/graphics/items/glass-tile.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/glass-tile.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-011",
@@ -5450,7 +5450,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "express-tile",
-                icon = "__Darkstar_utilities__/graphics/items/glass-tile.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/glass-tile.png",
                 icon_size = 32,
 
                 subgroup = "Darkstar-011",
@@ -5467,7 +5467,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "large-lamp",
-                icon = "__Darkstar_utilities__/graphics/icons/small-lamp2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/small-lamp2.png",
                 icon_size = 32,
 
                 subgroup = "Lights",
@@ -5480,7 +5480,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "red-lamp",
-                icon = "__Darkstar_utilities__/graphics/icons/red-light.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/red-light.png",
                 icon_size = 32,
 
                 subgroup = "Lights",
@@ -5491,7 +5491,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "blue-lamp",
-                icon = "__Darkstar_utilities__/graphics/icons/blue-light.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/blue-light.png",
                 icon_size = 32,
 
                 subgroup = "Lights",
@@ -5502,7 +5502,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "yellow-lamp",
-                icon = "__Darkstar_utilities__/graphics/icons/yellow-light.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/yellow-light.png",
                 icon_size = 32,
 
                 subgroup = "Lights",
@@ -5513,7 +5513,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "green-lamp",
-                icon = "__Darkstar_utilities__/graphics/icons/green-light.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/green-light.png",
                 icon_size = 32,
 
                 subgroup = "Lights",
@@ -5524,7 +5524,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "purple-lamp",
-                icon = "__Darkstar_utilities__/graphics/icons/purple-light.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/purple-light.png",
                 icon_size = 32,
 
                 subgroup = "Lights",
@@ -5535,7 +5535,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "cyan-lamp",
-                icon = "__Darkstar_utilities__/graphics/icons/cyan-light.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/cyan-light.png",
                 icon_size = 32,
 
                 subgroup = "Lights",
@@ -5546,7 +5546,7 @@ stack_size = 500
             {
                 type = "item",
                 name = "white-lamp",
-                icon = "__Darkstar_utilities__/graphics/icons/white-light.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/white-light.png",
                 icon_size = 32,
 
                 subgroup = "Lights",
@@ -5558,7 +5558,7 @@ stack_size = 500
             {
                 type = "capsule",
                 name = "cooked-fish",
-                icon = "__Darkstar_utilities__/graphics/icons/cooked-fish.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/cooked-fish.png",
                 icon_size = 32,
 
                 subgroup = "raw-resource",
@@ -5594,7 +5594,7 @@ stack_size = 500
             {
                 type = "item-group",
                 name = "Darkstar",
-                icon = "__Darkstar_utilities__/graphics/icons/darkstar.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/darkstar.png",
                 icon_size = 256,
                 inventory_order = "p",
                 order = "p"
@@ -5793,7 +5793,7 @@ stack_size = 500
             {
                 type = "item-group",
                 name = "Darkstar2",
-                icon = "__Darkstar_utilities__/graphics/icons/darkstar2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/darkstar2.png",
                 icon_size = 256,
                 inventory_order = "q",
                 order = "q"
@@ -5872,7 +5872,7 @@ stack_size = 500
             {
                 type = "item-group",
                 name = "Darkstar3",
-                icon = "__Darkstar_utilities__/graphics/icons/darkstar3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/darkstar3.png",
                 icon_size = 256,
                 inventory_order = "r",
                 order = "r"

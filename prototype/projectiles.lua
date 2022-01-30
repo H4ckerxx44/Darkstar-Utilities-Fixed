@@ -118,7 +118,7 @@ data:extend(
                 },
                 light = { intensity = 3.5, size = 10 },
                 animation = {
-                    filename = "__Darkstar_utilities__/graphics/entity/laser2.png",
+                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/laser2.png",
                     tint = { r = 1.0, g = 0.0, b = 1.0 },
                     frame_count = 1,
                     width = 6,

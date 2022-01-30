@@ -28,7 +28,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "field-stabilizer",
-                icon = "__Darkstar_utilities__/graphics/icons/field-stabilizer.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/field-stabilizer.png",
                 icon_size = 32,
                 energy_required = 60,
                 enabled = false,
@@ -43,7 +43,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "ohm-lock",
-                icon = "__Darkstar_utilities__/graphics/icons/ohm-lock.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ohm-lock.png",
                 icon_size = 32,
                 energy_required = 60,
                 enabled = false,
@@ -59,7 +59,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "almer-transponder",
-                icon = "__Darkstar_utilities__/graphics/icons/almer-transponder.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/almer-transponder.png",
                 icon_size = 32,
                 energy_required = 60,
                 enabled = false,
@@ -74,7 +74,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "planck-ripper",
-                icon = "__Darkstar_utilities__/graphics/icons/planck-ripper-icon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/planck-ripper-icon.png",
                 icon_size = 32,
                 energy_required = 60,
                 enabled = false,
@@ -89,7 +89,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "empty-regulator",
-                icon = "__Darkstar_utilities__/graphics/icons/empty-regulator.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/empty-regulator.png",
                 icon_size = 32,
                 energy_required = 60,
                 enabled = false,
@@ -105,7 +105,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "short-long-ps",
-                icon = "__Darkstar_utilities__/graphics/icons/planck-extension.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/planck-extension.png",
                 icon_size = 32,
                 energy_required = 60,
                 category = "planck",
@@ -120,7 +120,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "long-short-ps",
-                icon = "__Darkstar_utilities__/graphics/icons/planck-reduction.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/planck-reduction.png",
                 icon_size = 32,
                 energy_required = 60,
                 category = "planck",
@@ -135,7 +135,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "ripped-ps",
-                icon = "__Darkstar_utilities__/graphics/icons/planck-ripping.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/planck-ripping.png",
                 icon_size = 32,
                 energy_required = 60,
                 category = "planck",
@@ -150,7 +150,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "looped-ps",
-                icon = "__Darkstar_utilities__/graphics/icons/planck-looping.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/planck-looping.png",
                 icon_size = 32,
                 energy_required = 60,
                 category = "planck",
@@ -662,7 +662,7 @@ data:extend(
                 type = "recipe",
                 name = "xenon",
                 category = "chemistry2",
-                icon = "__Darkstar_utilities__/graphics/icons/xenon.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/xenon.png",
                 icon_size = 32,
                 energy_required = 20,
                 enabled = false,
@@ -1972,7 +1972,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "dark-matter-capsule-empty",
-                icon = "__Darkstar_utilities__/graphics/icons/dark-matter2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dark-matter2.png",
                 icon_size = 32,
                 category = "chemistry",
                 enabled = "false",
@@ -1988,7 +1988,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "antithetical-capsule-empty",
-                icon = "__Darkstar_utilities__/graphics/icons/antithetical-capsule-drain.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/antithetical-capsule-drain.png",
                 icon_size = 32,
                 category = "chemistry",
                 enabled = "false",
@@ -2004,7 +2004,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "norbornadiene-capsule-empty",
-                icon = "__Darkstar_utilities__/graphics/icons/norbornadiene-drain.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/norbornadiene-drain.png",
                 icon_size = 32,
                 category = "chemistry",
                 enabled = "false",
@@ -2020,7 +2020,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "dark-matter-capsule-empty2",
-                icon = "__Darkstar_utilities__/graphics/icons/dark-matter3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dark-matter3.png",
                 icon_size = 32,
                 category = "chemistry",
                 enabled = "false",
@@ -2036,7 +2036,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "antithetical-capsule-empty2",
-                icon = "__Darkstar_utilities__/graphics/icons/antithetical-capsule-drain2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/antithetical-capsule-drain2.png",
                 icon_size = 32,
                 category = "chemistry",
                 enabled = "false",
@@ -2052,7 +2052,7 @@ data:extend(
             {
                 type = "recipe",
                 name = "norbornadiene-capsule-empty2",
-                icon = "__Darkstar_utilities__/graphics/icons/norbornadiene-drain2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/norbornadiene-drain2.png",
                 icon_size = 32,
                 category = "chemistry",
                 enabled = "false",
@@ -5407,7 +5407,7 @@ data:extend(
                 enabled = false,
                 hidden = false,
                 category = "space-science",
-                icon = "__Darkstar_utilities__/graphics/icons/space-science-1.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-science-1.png",
                 icon_size = 32,
                 ingredients = {
                     { "ssd-1", 48 },
@@ -5423,7 +5423,7 @@ data:extend(
                 enabled = false,
                 hidden = false,
                 category = "space-science",
-                icon = "__Darkstar_utilities__/graphics/icons/space-science-2.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-science-2.png",
                 icon_size = 32,
                 ingredients = {
                     { "ssd-2", 48 },
@@ -5439,7 +5439,7 @@ data:extend(
                 enabled = false,
                 hidden = false,
                 category = "space-science",
-                icon = "__Darkstar_utilities__/graphics/icons/space-science-3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-science-3.png",
                 icon_size = 32,
                 ingredients = {
                     { "ssd-3", 48 },
@@ -5455,7 +5455,7 @@ data:extend(
                 enabled = false,
                 hidden = false,
                 category = "space-science",
-                icon = "__Darkstar_utilities__/graphics/icons/space-science-4.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-science-4.png",
                 icon_size = 32,
                 ingredients = {
                     { "ssd-4", 48 },
@@ -5471,7 +5471,7 @@ data:extend(
                 enabled = false,
                 hidden = false,
                 category = "space-science",
-                icon = "__Darkstar_utilities__/graphics/icons/space-science-5.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-science-5.png",
                 icon_size = 32,
                 ingredients = {
                     { "ssd-5", 48 },
@@ -5487,7 +5487,7 @@ data:extend(
                 enabled = false,
                 hidden = false,
                 category = "space-science",
-                icon = "__Darkstar_utilities__/graphics/icons/space-science-6.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-science-6.png",
                 icon_size = 32,
                 ingredients = {
                     { "ssd-6", 48 },
@@ -5503,7 +5503,7 @@ data:extend(
                 enabled = false,
                 hidden = false,
                 category = "space-science",
-                icon = "__Darkstar_utilities__/graphics/icons/space-science-7.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-science-7.png",
                 icon_size = 32,
                 ingredients = {
                     { "ssd-7", 24 },
@@ -5519,7 +5519,7 @@ data:extend(
                 enabled = false,
                 hidden = false,
                 category = "space-science",
-                icon = "__Darkstar_utilities__/graphics/icons/space-science-8.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-science-8.png",
                 icon_size = 32,
                 ingredients = {
                     { "ssd-8", 24 },
@@ -5535,7 +5535,7 @@ data:extend(
                 enabled = false,
                 hidden = false,
                 category = "space-science",
-                icon = "__Darkstar_utilities__/graphics/icons/space-science-9.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-science-9.png",
                 icon_size = 32,
                 ingredients = {
                     { "ssd-9", 12 },
@@ -5551,7 +5551,7 @@ data:extend(
                 enabled = false,
                 hidden = false,
                 category = "space-science",
-                icon = "__Darkstar_utilities__/graphics/icons/space-science-m.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/space-science-m.png",
                 icon_size = 32,
                 ingredients = {
                     { "ssd-m", 48 },
@@ -6368,7 +6368,7 @@ data:extend(
                 type = "recipe",
                 name = "xenon-tank",
                 category = "chemistry2",
-                icon = "__Darkstar_utilities__/graphics/icons/xenon-tank.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/xenon-tank.png",
                 icon_size = 32,
                 energy_required = 20,
                 enabled = false,
@@ -6398,7 +6398,7 @@ data:extend(
                     { type = "fluid", name = "aizhan-matter", amount = 30 }
                 },
                 main_product = "",
-                icon = "__Darkstar_utilities__/graphics/icons/aizhan-matter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/aizhan-matter.png",
                 icon_size = 32,
                 subgroup = "fluid-recipes",
                 order = "b[fluid-chemistry]-a[heavy-oil-cracking]",
@@ -6423,7 +6423,7 @@ data:extend(
                     { type = "fluid", name = "dark-matter", amount = 120 },
                 },
                 main_product = "",
-                icon = "__Darkstar_utilities__/graphics/icons/dark-matter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dark-matter.png",
                 icon_size = 32,
                 subgroup = "fluid-recipes",
                 order = "b[fluid-chemistry]-a[heavy-oil-cracking]",
@@ -6447,7 +6447,7 @@ data:extend(
                     { type = "fluid", name = "quadricyclane", amount = 30 }
                 },
                 main_product = "",
-                icon = "__Darkstar_utilities__/graphics/icons/quadricyclane-cracking.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/quadricyclane-cracking.png",
                 icon_size = 32,
                 subgroup = "fluid-recipes",
                 order = "b[fluid-chemistry]-a[heavy-oil-cracking]",
@@ -6472,7 +6472,7 @@ data:extend(
                     { type = "fluid", name = "norbornadiene", amount = 40 }
                 },
                 main_product = "",
-                icon = "__Darkstar_utilities__/graphics/icons/norbornadiene-cracking.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/norbornadiene-cracking.png",
                 icon_size = 32,
                 subgroup = "fluid-recipes",
                 order = "b[fluid-chemistry]-a[heavy-oil-cracking]",
@@ -6496,7 +6496,7 @@ data:extend(
                     { type = "fluid", name = "acetylene", amount = 30 }
                 },
                 main_product = "",
-                icon = "__Darkstar_utilities__/graphics/icons/acetylene-cracking.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/acetylene-cracking.png",
                 icon_size = 32,
                 subgroup = "fluid-recipes",
                 order = "b[fluid-chemistry]-a[heavy-oil-cracking]",
@@ -6520,7 +6520,7 @@ data:extend(
                     { type = "fluid", name = "cyclopentadiene", amount = 30 }
                 },
                 main_product = "",
-                icon = "__Darkstar_utilities__/graphics/icons/naptha.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/naptha.png",
                 icon_size = 32,
                 subgroup = "fluid-recipes",
                 order = "b[fluid-chemistry]-a[heavy-oil-cracking]",
@@ -6545,7 +6545,7 @@ data:extend(
                     { type = "fluid", name = "quantum-waste", amount = 120 }
                 },
                 main_product = "antithetical-matter",
-                icon = "__Darkstar_utilities__/graphics/icons/antithetical-matter.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/antithetical-matter.png",
                 icon_size = 32,
                 subgroup = "fluid-recipes",
                 order = "b[fluid-chemistry]-a[heavy-oil-cracking]",
@@ -6569,7 +6569,7 @@ data:extend(
                     { type = "fluid", name = "blood", amount = 30 }
                 },
                 main_product = "",
-                icon = "__Darkstar_utilities__/graphics/icons/quadricyclane.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/quadricyclane.png",
                 icon_size = 32,
                 subgroup = "fluid-recipes",
                 order = "b[fluid-chemistry]-a[heavy-oil-cracking]",
@@ -6593,7 +6593,7 @@ data:extend(
                     { type = "fluid", name = "copper-sulfate", amount = 30 }
                 },
                 main_product = "",
-                icon = "__Darkstar_utilities__/graphics/icons/copper-sulfate.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/copper-sulfate.png",
                 icon_size = 32,
                 subgroup = "fluid-recipes",
                 order = "b[fluid-chemistry]-a[heavy-oil-cracking]",
@@ -6617,7 +6617,7 @@ data:extend(
                     { name = "anode-mud", amount = 40 },
                 },
                 main_product = "",
-                icon = "__Darkstar_utilities__/graphics/icons/copper-refining.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/icons/copper-refining.png",
                 icon_size = 32,
                 subgroup = "fluid-recipes",
                 order = "b[fluid-chemistry]-a[heavy-oil-cracking]",

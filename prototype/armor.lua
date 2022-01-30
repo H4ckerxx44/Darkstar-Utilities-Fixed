@@ -3,7 +3,7 @@ data:extend(
             {
                 type = "armor",
                 name = "power-armor-mk3",
-                icon = "__Darkstar_utilities__/graphics/items/power-armor-mk3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/power-armor-mk3.png",
                 icon_size = 32,
 
                 resistances = {
@@ -33,7 +33,7 @@ data:extend(
             {
                 type = "armor",
                 name = "power-armor-mk4",
-                icon = "__Darkstar_utilities__/graphics/items/power-armor-mk3.png",
+                icon = "__Darkstar_Utilities_fixed__/graphics/items/power-armor-mk3.png",
                 icon_size = 32,
 
                 resistances = {
