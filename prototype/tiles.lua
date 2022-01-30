@@ -423,23 +423,23 @@ local function tile_variant(set, variant)
     return {
         main = {
             {
-                picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-1.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-1.png",
                 count = 16,
                 size = 1,
                 hr_version = {
-                    picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-1.png",
+                    picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-1.png",
                     count = 16,
                     size = 1,
                     scale = 0.5
                 }
             },
             {
-                picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-2.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-2.png",
                 count = 4,
                 size = 2,
                 probability = 0.39,
                 hr_version = {
-                    picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "//hr-" .. set .. "-2.png",
+                    picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "//hr-" .. set .. "-2.png",
                     count = 4,
                     size = 2,
                     probability = 0.39,
@@ -447,12 +447,12 @@ local function tile_variant(set, variant)
                 }
             },
             {
-                picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-4.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-4.png",
                 count = 4,
                 size = 4,
                 probability = 1,
                 hr_version = {
-                    picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-4.png",
+                    picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-4.png",
                     count = 4,
                     size = 4,
                     probability = 1,
@@ -461,54 +461,54 @@ local function tile_variant(set, variant)
             },
         },
         inner_corner = {
-            picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-inner-corner.png",
+            picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-inner-corner.png",
             count = 16,
             tall = true,
             hr_version = {
-                picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-inner-corner.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-inner-corner.png",
                 count = 16,
                 tall = true,
                 scale = 0.5
             }
         },
         outer_corner = {
-            picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-outer-corner.png",
+            picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-outer-corner.png",
             count = 8,
             tall = true,
             hr_version = {
-                picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-outer-corner.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-outer-corner.png",
                 count = 8,
                 tall = true,
                 scale = 0.5
             }
         },
         side = {
-            picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-side.png",
+            picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-side.png",
             count = 16,
             tall = true,
             hr_version = {
-                picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-side.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-side.png",
                 count = 16,
                 tall = true,
                 scale = 0.5
             }
         },
         u_transition = {
-            picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-u.png",
+            picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-u.png",
             count = 8,
             tall = true,
             hr_version = {
-                picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-u.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-u.png",
                 count = 8,
                 tall = true,
                 scale = 0.5
             }
         },
         o_transition = {
-            picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-o.png",
+            picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-o.png",
             count = 4,
             hr_version = {
-                picture = "__Darkstar_Utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-o.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-o.png",
                 count = 4,
                 scale = 0.5
             }
@@ -745,41 +745,41 @@ data:extend(
                 variants = {
                     main = {
                         {
-                            picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/express1.png",
+                            picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/express1.png",
                             count = 16,
                             size = 1
                         },
                         {
-                            picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/express2.png",
+                            picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/express2.png",
                             count = 4,
                             size = 2,
                             probability = 0.39,
                         },
                         {
-                            picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/express4.png",
+                            picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/express4.png",
                             count = 4,
                             size = 4,
                             probability = 1,
                         },
                     },
                     inner_corner = {
-                        picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass-inner-corner.png",
+                        picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-inner-corner.png",
                         count = 8
                     },
                     outer_corner = {
-                        picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass-outer-corner.png",
+                        picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-outer-corner.png",
                         count = 8
                     },
                     side = {
-                        picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass-side.png",
+                        picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-side.png",
                         count = 8
                     },
                     u_transition = {
-                        picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass-u.png",
+                        picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-u.png",
                         count = 8
                     },
                     o_transition = {
-                        picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass-o.png",
+                        picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-o.png",
                         count = 1
                     }
                 },
@@ -819,41 +819,41 @@ data:extend(
                 variants = {
                     main = {
                         {
-                            picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass1.png",
+                            picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass1.png",
                             count = 16,
                             size = 1
                         },
                         {
-                            picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass2.png",
+                            picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass2.png",
                             count = 4,
                             size = 2,
                             probability = 0.39,
                         },
                         {
-                            picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass4.png",
+                            picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass4.png",
                             count = 4,
                             size = 4,
                             probability = 1,
                         },
                     },
                     inner_corner = {
-                        picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass-inner-corner.png",
+                        picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-inner-corner.png",
                         count = 8
                     },
                     outer_corner = {
-                        picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass-outer-corner.png",
+                        picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-outer-corner.png",
                         count = 8
                     },
                     side = {
-                        picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass-side.png",
+                        picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-side.png",
                         count = 8
                     },
                     u_transition = {
-                        picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass-u.png",
+                        picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-u.png",
                         count = 8
                     },
                     o_transition = {
-                        picture = "__Darkstar_Utilities_fixed__/graphics/tiles/other-paths/glass-o.png",
+                        picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-o.png",
                         count = 1
                     }
                 },

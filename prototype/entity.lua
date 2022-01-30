@@ -432,7 +432,7 @@ data:extend(
 {
 type = "electric-energy-interface",
 name = "hydro-electric-generator",
-icon = "__Darkstar_Utilities_fixed__/graphics/entity/hydro.png",
+icon = "__Darkstar_utilities_fixed__/graphics/entity/hydro.png",
 icon_size = 32,
 flags = {"placeable-neutral", "player-creation", "filter-directions"},
 collision_mask = { "ground-tile", "object-layer" },
@@ -457,7 +457,7 @@ energy_production = "0kW",
 energy_usage = "0kW",
 picture =
 {
-filename = "__Darkstar_Utilities_fixed__/graphics/entity/hydro.png",
+filename = "__Darkstar_utilities_fixed__/graphics/entity/hydro.png",
 priority = "high",
 width = 129,
 height = 140,
@@ -484,7 +484,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "geothermal-generator",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/geothermal-generator2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/geothermal-generator2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "geothermal-generator" },
@@ -504,7 +504,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/geothermal-generator.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/geothermal-generator.png",
                     priority = "high",
                     width = 131,
                     height = 144,
@@ -527,7 +527,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "geothermal-generator-mk2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/geothermal-generator-mk2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/geothermal-generator-mk2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "geothermal-generator-mk2" },
@@ -547,7 +547,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/geothermal-generator-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/geothermal-generator-mk2.png",
                     priority = "high",
                     width = 131,
                     height = 144,
@@ -570,7 +570,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "geothermal-generator-mk3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/geothermal-generator-mk3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/geothermal-generator-mk3.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "geothermal-generator-mk3" },
@@ -590,7 +590,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/geothermal-generator-mk3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/geothermal-generator-mk3.png",
                     priority = "high",
                     width = 131,
                     height = 144,
@@ -613,7 +613,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "rtg",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/rtg-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/rtg-icon.png",
                 icon_size = 64,
                 flags = { "placeable-neutral", "player-creation", "not-rotatable" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "rtg" },
@@ -633,7 +633,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/rtg.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/rtg.png",
                     priority = "high",
                     width = 300,
                     height = 256,
@@ -657,7 +657,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "rtg-mk2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/rtg-mk2-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/rtg-mk2-icon.png",
                 icon_size = 64,
                 flags = { "placeable-neutral", "player-creation", "not-rotatable" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "rtg-mk2" },
@@ -677,7 +677,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/rtg-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/rtg-mk2.png",
                     priority = "high",
                     width = 300,
                     height = 256,
@@ -701,7 +701,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "rtg-mk3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/rtg-mk3-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/rtg-mk3-icon.png",
                 icon_size = 64,
                 flags = { "placeable-neutral", "player-creation", "not-rotatable" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "rtg-mk3" },
@@ -721,7 +721,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/rtg-mk3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/rtg-mk3.png",
                     priority = "high",
                     width = 300,
                     height = 256,
@@ -745,7 +745,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "s-reg",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/s-reg-icon-3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/s-reg-icon-3.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation", "not-rotatable" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "s-reg" },
@@ -765,7 +765,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/dark-matter-reactor-3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/dark-matter-reactor-3.png",
                     priority = "high",
                     width = 987,
                     height = 520,
@@ -789,7 +789,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "s-reg-2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/s-reg-icon-2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/s-reg-icon-2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation", "not-rotatable" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "s-reg-2" },
@@ -809,7 +809,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/dark-matter-reactor-2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/dark-matter-reactor-2.png",
                     priority = "high",
                     width = 987,
                     height = 520,
@@ -833,7 +833,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "s-reg-3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/s-reg-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/s-reg-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation", "not-rotatable" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "s-reg-3" },
@@ -853,7 +853,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/dark-matter-reactor.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/dark-matter-reactor.png",
                     priority = "high",
                     width = 987,
                     height = 520,
@@ -877,7 +877,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "prototype-anct",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/cage-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/cage-icon.png",
                 icon_size = 64,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "prototype-anct" },
@@ -897,7 +897,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/prototype-anct.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/prototype-anct.png",
                     priority = "high",
                     width = 300,
                     height = 300,
@@ -921,7 +921,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "think-tank",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/think-tank.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/think-tank.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation", "not-rotatable" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "think-tank" },
@@ -940,7 +940,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/think-tank2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/think-tank2.png",
                     priority = "high",
                     width = 600,
                     height = 600,
@@ -950,11 +950,11 @@ max_sounds_per_type = 5
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/think-tank.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/think-tank.ogg",
                         volume = 0.6
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/think-tank.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/think-tank.ogg",
                         volume = 0.0
                     },
                     light = { intensity = 0.4, size = 6, shift = { 0.0, 1.0 } },
@@ -965,7 +965,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "think-tank-mk2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/think-tank2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/think-tank2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation", "not-rotatable" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "think-tank-mk2" },
@@ -984,7 +984,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/think-tank.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/think-tank.png",
                     priority = "high",
                     width = 600,
                     height = 600,
@@ -994,11 +994,11 @@ max_sounds_per_type = 5
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/think-tank.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/think-tank.ogg",
                         volume = 1
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/think-tank.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/think-tank.ogg",
                         volume = 0.1
                     },
                     light = { intensity = 0.4, size = 24, shift = { 0.0, 1.0 } },
@@ -1009,7 +1009,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "think-tank-mk3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/think-tank3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/think-tank3.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation", "not-rotatable" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "think-tank-mk3" },
@@ -1028,7 +1028,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/think-tank3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/think-tank3.png",
                     priority = "high",
                     width = 600,
                     height = 600,
@@ -1038,11 +1038,11 @@ max_sounds_per_type = 5
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/think-tank.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/think-tank.ogg",
                         volume = 1
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/think-tank.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/think-tank.ogg",
                         volume = 0.1
                     },
                     light = { intensity = 0.4, size = 24, shift = { 0.0, 1.0 } },
@@ -1053,7 +1053,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "dyson",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dyson-sphere-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/dyson-sphere-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "dyson" },
@@ -1072,7 +1072,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/dyson-sphere.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/dyson-sphere.png",
                     priority = "high",
                     width = 508,
                     height = 304,
@@ -1095,7 +1095,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "multiverse-tear",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/multiverse-tear-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/multiverse-tear-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "multiverse-tear" },
@@ -1114,7 +1114,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/multiverse-tear.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/multiverse-tear.png",
                     priority = "high",
                     width = 508,
                     height = 304,
@@ -1137,7 +1137,7 @@ max_sounds_per_type = 5
             {
                 type = "electric-energy-interface",
                 name = "interstellar-dominion",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/interstellar-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/interstellar-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "interstellar-dominion" },
@@ -1156,7 +1156,7 @@ max_sounds_per_type = 5
                 energy_production = "0kW",
                 energy_usage = "0kW",
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/interstellar.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/interstellar.png",
                     priority = "high",
                     width = 508,
                     height = 304,
@@ -1179,7 +1179,7 @@ max_sounds_per_type = 5
             {
                 type = "car",
                 name = "dark-pulse",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/dark-pulse-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/dark-pulse-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation", "placeable-off-grid" },
                 has_belt_immunity = false,
@@ -1258,7 +1258,7 @@ max_sounds_per_type = 5
                 render_layer = "air-object",
                 final_render_layer = "air-object",
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/dark-pulse.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/dark-pulse.png",
                     priority = "high",
                     width = 672,
                     height = 672,
@@ -1309,7 +1309,7 @@ max_sounds_per_type = 5
             {
                 type = "car",
                 name = "deep-hold",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/deep-hold-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/deep-hold-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation", "placeable-off-grid" },
                 has_belt_immunity = false,
@@ -1388,7 +1388,7 @@ max_sounds_per_type = 5
                 render_layer = "air-object",
                 final_render_layer = "air-object",
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/deep-hold.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/deep-hold.png",
                     priority = "high",
                     width = 672,
                     height = 672,
@@ -1439,7 +1439,7 @@ max_sounds_per_type = 5
             {
                 type = "car",
                 name = "end-game",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/end-game-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/end-game-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation", "placeable-off-grid" },
                 has_belt_immunity = false,
@@ -1519,7 +1519,7 @@ max_sounds_per_type = 5
                 render_layer = "air-object",
                 final_render_layer = "air-object",
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/end-game.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/end-game.png",
                     priority = "high",
                     width = 672,
                     height = 672,
@@ -1570,7 +1570,7 @@ max_sounds_per_type = 5
             {
                 type = "car",
                 name = "nautilus",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/nautilus-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/nautilus-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation", "placeable-off-grid" },
                 has_belt_immunity = false,
@@ -1650,7 +1650,7 @@ max_sounds_per_type = 5
                 render_layer = "air-object",
                 final_render_layer = "air-object",
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/nautilus.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/nautilus.png",
                     priority = "high",
                     width = 672,
                     height = 672,
@@ -1704,7 +1704,7 @@ max_sounds_per_type = 5
                 flags = { "not-on-map" },
                 animations = {
                     {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/health-explosion.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/health-explosion.png",
                         priority = "high",
                         width = 64,
                         height = 59,
@@ -1712,7 +1712,7 @@ max_sounds_per_type = 5
                         animation_speed = 0.9
                     },
                     {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/health-explosion.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/health-explosion.png",
                         priority = "high",
                         width = 64,
                         height = 57,
@@ -1720,7 +1720,7 @@ max_sounds_per_type = 5
                         animation_speed = 0.5
                     },
                     {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/health-explosion.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/health-explosion.png",
                         priority = "high",
                         width = 64,
                         height = 49,
@@ -1728,7 +1728,7 @@ max_sounds_per_type = 5
                         animation_speed = 0.2
                     },
                     {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/health-explosion.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/health-explosion.png",
                         priority = "high",
                         width = 64,
                         height = 51,
@@ -2523,7 +2523,7 @@ call_for_help_radius = 40
             {
                 type = "furnace",
                 name = "terra-electric-furnace",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/electric-furnace2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/electric-furnace2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "terra-electric-furnace" },
@@ -2563,7 +2563,7 @@ call_for_help_radius = 40
                     apparent_volume = 1.5
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/terra-furnace/electric-furnace-base.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/terra-furnace/electric-furnace-base.png",
                     priority = "high",
                     width = 129,
                     height = 100,
@@ -2573,7 +2573,7 @@ call_for_help_radius = 40
                 working_visualisations = {
                     {
                         animation = {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/terra-furnace/electric-furnace-heater.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/terra-furnace/electric-furnace-heater.png",
                             priority = "high",
                             width = 25,
                             height = 15,
@@ -2585,7 +2585,7 @@ call_for_help_radius = 40
                     },
                     {
                         animation = {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/terra-furnace/electric-furnace-propeller-1.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/terra-furnace/electric-furnace-propeller-1.png",
                             priority = "high",
                             width = 19,
                             height = 13,
@@ -2596,7 +2596,7 @@ call_for_help_radius = 40
                     },
                     {
                         animation = {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/terra-furnace/electric-furnace-propeller-2.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/terra-furnace/electric-furnace-propeller-2.png",
                             priority = "high",
                             width = 12,
                             height = 9,
@@ -2612,7 +2612,7 @@ call_for_help_radius = 40
             {
                 type = "furnace",
                 name = "furnace-house",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/smelting-warehouse-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/smelting-warehouse-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation", "not-rotatable" },
                 minable = { mining_time = 1, result = "furnace-house" },
@@ -2653,7 +2653,7 @@ call_for_help_radius = 40
                     apparent_volume = 1.5
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/storage/warehouse-furnace.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/storage/warehouse-furnace.png",
                     priority = "extra-high",
                     frame_count = 1,
                     width = 550,
@@ -2662,7 +2662,7 @@ call_for_help_radius = 40
                 },
                 working_visualisations = {
                     animation = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/storage/warehouse-furnace.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/storage/warehouse-furnace.png",
                         priority = "extra-high",
                         frame_count = 1,
                         animation_speed = 0,
@@ -2678,7 +2678,7 @@ call_for_help_radius = 40
             {
                 type = "furnace",
                 name = "furnace-house-mk2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/smelting-warehouse-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/smelting-warehouse-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "furnace-house-mk2" },
@@ -2719,7 +2719,7 @@ call_for_help_radius = 40
                     apparent_volume = 1.5
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/storage/warehouse-furnace2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/storage/warehouse-furnace2.png",
                     priority = "extra-high",
                     frame_count = 1,
                     width = 1100,
@@ -2728,7 +2728,7 @@ call_for_help_radius = 40
                 },
                 working_visualisations = {
                     animation = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/storage/warehouse-furnace2.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/storage/warehouse-furnace2.png",
                         priority = "extra-high",
                         frame_count = 1,
                         animation_speed = 0,
@@ -2744,7 +2744,7 @@ call_for_help_radius = 40
             {
                 type = "furnace",
                 name = "air-filter",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/TFAC1-i.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/TFAC1-i.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "air-filter" },
@@ -2778,13 +2778,13 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/filter.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/filter.ogg",
                         volume = 0.7
                     },
                     apparent_volume = 1.5
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/filters/TFAC1.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/filters/TFAC1.png",
                     priority = "high",
                     width = 770,
                     height = 520,
@@ -2795,7 +2795,7 @@ call_for_help_radius = 40
                 working_visualisations = {
                     {
                         animation = {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/filters/filter-grill-1.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/filters/filter-grill-1.png",
                             priority = "high",
                             width = 85,
                             height = 260,
@@ -2813,7 +2813,7 @@ call_for_help_radius = 40
             {
                 type = "furnace",
                 name = "air-filter-mk2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/TFAC2-i.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/TFAC2-i.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "air-filter-mk2" },
@@ -2847,13 +2847,13 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/filter.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/filter.ogg",
                         volume = 0.7
                     },
                     apparent_volume = 1.5
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/filters/TFAC2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/filters/TFAC2.png",
                     priority = "high",
                     width = 770,
                     height = 520,
@@ -2864,7 +2864,7 @@ call_for_help_radius = 40
                 working_visualisations = {
                     {
                         animation = {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/filters/filter-grill-2.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/filters/filter-grill-2.png",
                             priority = "high",
                             width = 85,
                             height = 260,
@@ -2882,7 +2882,7 @@ call_for_help_radius = 40
             {
                 type = "furnace",
                 name = "air-filter-mk3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/TFAC3-i.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/TFAC3-i.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "air-filter-mk3" },
@@ -2916,13 +2916,13 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/filter.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/filter.ogg",
                         volume = 0.7
                     },
                     apparent_volume = 1.5
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/filters/TFAC3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/filters/TFAC3.png",
                     priority = "high",
                     width = 770,
                     height = 520,
@@ -2933,7 +2933,7 @@ call_for_help_radius = 40
                 working_visualisations = {
                     {
                         animation = {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/filters/filter-grill-3.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/filters/filter-grill-3.png",
                             priority = "high",
                             width = 85,
                             height = 260,
@@ -2951,7 +2951,7 @@ call_for_help_radius = 40
             {
                 type = "furnace",
                 name = "air-filter-mk4",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/TFAC4-i.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/TFAC4-i.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "air-filter-mk4" },
@@ -2985,13 +2985,13 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/filter.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/filter.ogg",
                         volume = 0.7
                     },
                     apparent_volume = 1.5
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/filters/TFAC4.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/filters/TFAC4.png",
                     priority = "high",
                     width = 770,
                     height = 520,
@@ -3002,7 +3002,7 @@ call_for_help_radius = 40
                 working_visualisations = {
                     {
                         animation = {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/filters/filter-grill-4.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/filters/filter-grill-4.png",
                             priority = "high",
                             width = 85,
                             height = 260,
@@ -3020,7 +3020,7 @@ call_for_help_radius = 40
             {
                 type = "furnace",
                 name = "air-filter-mk5",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/TFAC5-i.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/TFAC5-i.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "air-filter-mk5" },
@@ -3054,13 +3054,13 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/filter.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/filter.ogg",
                         volume = 0.7
                     },
                     apparent_volume = 1.5
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/filters/TFAC5.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/filters/TFAC5.png",
                     priority = "high",
                     width = 770,
                     height = 520,
@@ -3071,7 +3071,7 @@ call_for_help_radius = 40
                 working_visualisations = {
                     {
                         animation = {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/filters/filter-grill-5.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/filters/filter-grill-5.png",
                             priority = "high",
                             width = 85,
                             height = 260,
@@ -3531,7 +3531,7 @@ call_for_help_radius = 40
             {
                 type = "mining-drill",
                 name = "laser-miner",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon1.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/laser-drill-icon1.png",
                 fast_replaceable_group = "mining-drill",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
@@ -3543,7 +3543,7 @@ call_for_help_radius = 40
                 selection_box = { { -3.85, -3.85 }, { 3.65, 3.65 } },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/laser-drill.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/laser-drill.ogg",
                         volume = 0.75
                     },
                     apparent_volume = 1.5,
@@ -3557,7 +3557,7 @@ call_for_help_radius = 40
                         line_height = 7,
                         shift = { 0.2, -0.4 },
                         scale = 0.55,
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/laser-miner/laser-miner.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/laser-miner.png",
                         frame_count = 56,
                         animation_speed = 0.325,
                         run_mode = "forward-then-backward",
@@ -3585,7 +3585,7 @@ call_for_help_radius = 40
             {
                 type = "mining-drill",
                 name = "neural-miner",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon1.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/laser-drill-icon1.png",
                 fast_replaceable_group = "mining-drill",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
@@ -3597,7 +3597,7 @@ call_for_help_radius = 40
                 selection_box = { { -1, -1 }, { 1, 1 } },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/neural-miner.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/neural-miner.ogg",
                         volume = 0.75
                     },
                     apparent_volume = 1.5,
@@ -3609,7 +3609,7 @@ call_for_help_radius = 40
                         height = 600,
                         line_length = 5,
                         shift = { 0.2, -0.2 },
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/laser-miner/neural-miner.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/neural-miner.png",
                         frame_count = 30,
                         animation_speed = 0.325,
                         run_mode = "forward",
@@ -3638,7 +3638,7 @@ call_for_help_radius = 40
             {
                 type = "mining-drill",
                 name = "laser-miner2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/laser-drill-icon2.png",
                 fast_replaceable_group = "mining-drill",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
@@ -3650,7 +3650,7 @@ call_for_help_radius = 40
                 selection_box = { { -3.85, -3.85 }, { 3.65, 3.65 } },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/laser-drill.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/laser-drill.ogg",
                         volume = 0.75
                     },
                     apparent_volume = 1.5,
@@ -3664,7 +3664,7 @@ call_for_help_radius = 40
                         line_height = 7,
                         shift = { 0.2, -0.4 },
                         scale = 0.55,
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/laser-miner/laser-miner2.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/laser-miner2.png",
                         frame_count = 56,
                         animation_speed = 0.325,
                         run_mode = "forward-then-backward",
@@ -3692,7 +3692,7 @@ call_for_help_radius = 40
             {
                 type = "mining-drill",
                 name = "neural-miner-2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon1.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/laser-drill-icon1.png",
                 fast_replaceable_group = "mining-drill",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
@@ -3704,7 +3704,7 @@ call_for_help_radius = 40
                 selection_box = { { -1, -1 }, { 1, 1 } },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/neural-miner.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/neural-miner.ogg",
                         volume = 0.75
                     },
                     apparent_volume = 1.5,
@@ -3716,7 +3716,7 @@ call_for_help_radius = 40
                         height = 600,
                         line_length = 5,
                         shift = { 0.2, -0.2 },
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/laser-miner/neural-miner-2.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/neural-miner-2.png",
                         frame_count = 30,
                         animation_speed = 0.325,
                         run_mode = "forward",
@@ -3745,7 +3745,7 @@ call_for_help_radius = 40
             {
                 type = "mining-drill",
                 name = "laser-miner3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/laser-drill-icon3.png",
                 fast_replaceable_group = "mining-drill",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
@@ -3757,7 +3757,7 @@ call_for_help_radius = 40
                 selection_box = { { -3.85, -3.85 }, { 3.65, 3.65 } },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/laser-drill.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/laser-drill.ogg",
                         volume = 0.75
                     },
                     apparent_volume = 1.5,
@@ -3771,7 +3771,7 @@ call_for_help_radius = 40
                         line_height = 7,
                         shift = { 0.2, -0.4 },
                         scale = 0.55,
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/laser-miner/laser-miner3.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/laser-miner3.png",
                         frame_count = 56,
                         animation_speed = 0.325,
                         run_mode = "forward-then-backward",
@@ -3799,7 +3799,7 @@ call_for_help_radius = 40
             {
                 type = "mining-drill",
                 name = "neural-miner-3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon1.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/laser-drill-icon1.png",
                 fast_replaceable_group = "mining-drill",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
@@ -3811,7 +3811,7 @@ call_for_help_radius = 40
                 selection_box = { { -1, -1 }, { 1, 1 } },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/neural-miner.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/neural-miner.ogg",
                         volume = 0.75
                     },
                     apparent_volume = 1.5,
@@ -3823,7 +3823,7 @@ call_for_help_radius = 40
                         height = 600,
                         line_length = 5,
                         shift = { 0.2, -0.2 },
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/laser-miner/neural-miner-3.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/neural-miner-3.png",
                         frame_count = 30,
                         animation_speed = 0.325,
                         run_mode = "forward",
@@ -3852,7 +3852,7 @@ call_for_help_radius = 40
             {
                 type = "mining-drill",
                 name = "laser-miner4",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon4.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/laser-drill-icon4.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 fast_replaceable_group = "mining-drill",
@@ -3864,7 +3864,7 @@ call_for_help_radius = 40
                 selection_box = { { -3.85, -3.85 }, { 3.65, 3.65 } },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/laser-drill.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/laser-drill.ogg",
                         volume = 0.75
                     },
                     apparent_volume = 1.5,
@@ -3878,7 +3878,7 @@ call_for_help_radius = 40
                         line_height = 7,
                         shift = { 0.2, -0.4 },
                         scale = 0.55,
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/laser-miner/laser-miner4.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/laser-miner4.png",
                         frame_count = 56,
                         animation_speed = 0.325,
                         run_mode = "forward-then-backward",
@@ -3906,7 +3906,7 @@ call_for_help_radius = 40
             {
                 type = "mining-drill",
                 name = "neural-miner-4",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/laser-drill-icon1.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/laser-drill-icon1.png",
                 fast_replaceable_group = "mining-drill",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
@@ -3918,7 +3918,7 @@ call_for_help_radius = 40
                 selection_box = { { -1, -1 }, { 1, 1 } },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/neural-miner.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/neural-miner.ogg",
                         volume = 0.75
                     },
                     apparent_volume = 1.5,
@@ -3930,7 +3930,7 @@ call_for_help_radius = 40
                         height = 600,
                         line_length = 5,
                         shift = { 0.2, -0.2 },
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/laser-miner/neural-miner-4.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/neural-miner-4.png",
                         frame_count = 30,
                         animation_speed = 0.325,
                         run_mode = "forward",
@@ -4214,7 +4214,7 @@ call_for_help_radius = 40
                     }
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/brick-furnace/brick-furnace.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/brick-furnace/brick-furnace.png",
                     priority = "extra-high",
                     width = 81,
                     height = 64,
@@ -4228,7 +4228,7 @@ call_for_help_radius = 40
                         south_position = { 0.0, 0.0 },
                         west_position = { 0.0, 0.0 },
                         animation = {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/brick-furnace/stone-furnace-fire.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/brick-furnace/stone-furnace-fire.png",
                             priority = "extra-high",
                             width = 23,
                             height = 27,
@@ -4244,7 +4244,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk2" },
@@ -4257,7 +4257,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4269,7 +4269,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk3" },
@@ -4282,7 +4282,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk2.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4294,7 +4294,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk4",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk3.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk4" },
@@ -4307,7 +4307,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk3.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4319,7 +4319,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk5",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk4.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk4.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk5" },
@@ -4332,7 +4332,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk4.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk4.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4344,7 +4344,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk6",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk5.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk6" },
@@ -4357,7 +4357,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk5.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk5.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4369,7 +4369,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk7",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk6.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk6.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk7" },
@@ -4382,7 +4382,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk6.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk6.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4394,7 +4394,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk2-G",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-g.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-g.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk2-G" },
@@ -4407,7 +4407,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-g.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-g.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4419,7 +4419,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk3-G",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-g.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-g.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk3-G" },
@@ -4432,7 +4432,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk2-g.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk2-g.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4444,7 +4444,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk4-G",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-g.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-g.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk4-G" },
@@ -4457,7 +4457,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk3-g.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk3-g.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4469,7 +4469,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk5-G",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-g.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-g.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk5-G" },
@@ -4482,7 +4482,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk4-g.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk4-g.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4494,7 +4494,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk6-G",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk6-G" },
@@ -4507,7 +4507,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk5-g.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk5-g.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4519,7 +4519,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk7-G",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk6-g.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk6-g.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk7-G" },
@@ -4532,7 +4532,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk6-g.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk6-g.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4544,7 +4544,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk2-G2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-g2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-g2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk2-G2" },
@@ -4557,7 +4557,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-g2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-g2.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4569,7 +4569,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk3-G2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk2-g2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk2-g2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk3-G2" },
@@ -4582,7 +4582,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk2-g2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk2-g2.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4594,7 +4594,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk4-G2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-g2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-g2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk4-G2" },
@@ -4607,7 +4607,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk3-g2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk3-g2.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4619,7 +4619,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk5-G2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-g2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-g2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk5-G2" },
@@ -4632,7 +4632,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk4-g2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk4-g2.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4644,7 +4644,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk6-G2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk6-G2" },
@@ -4657,7 +4657,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk5-g2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk5-g2.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4669,7 +4669,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk7-G2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk6-g2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk6-g2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk7-G2" },
@@ -4682,7 +4682,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk6-g2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk6-g2.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4694,7 +4694,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk2-G3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-g3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-g3.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk2-G3" },
@@ -4707,7 +4707,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-g3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-g3.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4719,7 +4719,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk3-G3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk2-g3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk2-g3.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk3-G3" },
@@ -4732,7 +4732,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk2-g3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk2-g3.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4744,7 +4744,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk4-G3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-g3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-g3.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk4-G3" },
@@ -4757,7 +4757,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk3-g3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk3-g3.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4769,7 +4769,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk5-G3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-g3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-g3.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk5-G3" },
@@ -4782,7 +4782,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk4-g3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk4-g3.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4794,7 +4794,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk6-G3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk5-g3.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk6-G3" },
@@ -4807,7 +4807,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk5-g3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk5-g3.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4819,7 +4819,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk7-G3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk6-g3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk6-g3.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk7-G3" },
@@ -4832,7 +4832,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk6-g3.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk6-g3.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4844,7 +4844,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk2-GL",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-gl.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-gl.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk2-GL" },
@@ -4857,7 +4857,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-gl.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-gl.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4869,7 +4869,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk3-GL",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk2-gl.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk2-gl.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk3-GL" },
@@ -4882,7 +4882,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk2-gl.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk2-gl.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4894,7 +4894,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk4-GL",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-gl.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk3-gl.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk4-GL" },
@@ -4907,7 +4907,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk3-gl.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk3-gl.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4919,7 +4919,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk5-GL",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-gl.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk4-gl.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk5-GL" },
@@ -4932,7 +4932,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk4-gl.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk4-gl.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4944,7 +4944,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk6-GL",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk5.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk5.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk6-GL" },
@@ -4957,7 +4957,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk5-gl.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk5-gl.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4969,7 +4969,7 @@ call_for_help_radius = 40
             {
                 type = "solar-panel",
                 name = "solar-panel-mk7-GL",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-solar-panel-mk6.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-solar-panel-mk6.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "solar-panel-mk7-GL" },
@@ -4982,7 +4982,7 @@ call_for_help_radius = 40
                     usage_priority = "solar"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk6-gl.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/advanced-solar-panel-mk6-gl.png",
                     priority = "high",
                     width = 768,
                     height = 768,
@@ -4993,7 +4993,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "advanced-chemical-plant",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/advanced-chemical-plant/chemical-plant2-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/advanced-chemical-plant/chemical-plant2-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "advanced-chemical-plant" },
@@ -5015,7 +5015,7 @@ call_for_help_radius = 40
                         line_length = 12,
                         shift = util.by_pixel(1, -9),
                         hr_version = {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/advanced-chemical-plant/hr-chemical-plant2.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/advanced-chemical-plant/hr-chemical-plant2.png",
                             width = 220,
                             height = 292,
                             frame_count = 24,
@@ -5314,7 +5314,7 @@ call_for_help_radius = 40
                 maximum_wire_distance = 28,
                 supply_area_distance = 14,
                 pictures = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/substation-mk2/substation.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/substation-mk2/substation.png",
                     priority = "high",
                     width = 132,
                     height = 144,
@@ -5407,7 +5407,7 @@ call_for_help_radius = 40
                 maximum_wire_distance = 64,
                 supply_area_distance = 64,
                 pictures = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/tesla-coil/tesla-coil.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/tesla-coil/tesla-coil.png",
                     priority = "high",
                     width = 158,
                     height = 158,
@@ -5464,7 +5464,7 @@ call_for_help_radius = 40
                 maximum_wire_distance = 0,
                 supply_area_distance = 64,
                 pictures = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/tesla-coil/tesla-coil-2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/tesla-coil/tesla-coil-2.png",
                     priority = "high",
                     width = 132,
                     height = 144,
@@ -5472,7 +5472,7 @@ call_for_help_radius = 40
                     shift = { 0.9, -1 }
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/tesla-coil/tesla-coil-animation.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/tesla-coil/tesla-coil-animation.png",
                     priority = "high",
                     width = 1056,
                     height = 158,
@@ -5565,7 +5565,7 @@ call_for_help_radius = 40
                 min_to_charge = 0.2,
                 max_to_charge = 0.95,
                 idle = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots/logistic-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots/logistic-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 41,
@@ -5576,7 +5576,7 @@ call_for_help_radius = 40
                     y = 42
                 },
                 idle_with_cargo = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots/logistic-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots/logistic-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 41,
@@ -5586,7 +5586,7 @@ call_for_help_radius = 40
                     direction_count = 16
                 },
                 in_motion = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots/logistic-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots/logistic-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 41,
@@ -5597,7 +5597,7 @@ call_for_help_radius = 40
                     y = 126
                 },
                 in_motion_with_cargo = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots/logistic-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots/logistic-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 41,
@@ -5706,7 +5706,7 @@ call_for_help_radius = 40
                 max_to_charge = 0.95,
                 working_light = { intensity = 1.8, size = 16 },
                 idle = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots/construction-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots/construction-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 32,
@@ -5716,7 +5716,7 @@ call_for_help_radius = 40
                     direction_count = 16
                 },
                 in_motion = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots/construction-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots/construction-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 32,
@@ -5747,7 +5747,7 @@ call_for_help_radius = 40
                     direction_count = 16
                 },
                 working = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots/construction-robot-mk2-working.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots/construction-robot-mk2-working.png",
                     priority = "high",
                     line_length = 2,
                     width = 28,
@@ -5870,7 +5870,7 @@ call_for_help_radius = 40
                 min_to_charge = 0.2,
                 max_to_charge = 0.95,
                 idle = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/logistic-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/logistic-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 41,
@@ -5881,7 +5881,7 @@ call_for_help_radius = 40
                     y = 42
                 },
                 idle_with_cargo = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/logistic-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/logistic-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 41,
@@ -5891,7 +5891,7 @@ call_for_help_radius = 40
                     direction_count = 16
                 },
                 in_motion = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/logistic-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/logistic-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 41,
@@ -5902,7 +5902,7 @@ call_for_help_radius = 40
                     y = 126
                 },
                 in_motion_with_cargo = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/logistic-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/logistic-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 41,
@@ -5913,7 +5913,7 @@ call_for_help_radius = 40
                     y = 84
                 },
                 shadow_idle = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/logistic-robot-shadow.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/logistic-robot-shadow.png",
                     priority = "high",
                     line_length = 16,
                     width = 59,
@@ -5924,7 +5924,7 @@ call_for_help_radius = 40
                     y = 23
                 },
                 shadow_idle_with_cargo = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/logistic-robot-shadow.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/logistic-robot-shadow.png",
                     priority = "high",
                     line_length = 16,
                     width = 59,
@@ -5934,7 +5934,7 @@ call_for_help_radius = 40
                     direction_count = 16
                 },
                 shadow_in_motion = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/logistic-robot-shadow.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/logistic-robot-shadow.png",
                     priority = "high",
                     line_length = 16,
                     width = 59,
@@ -5945,7 +5945,7 @@ call_for_help_radius = 40
                     y = 23
                 },
                 shadow_in_motion_with_cargo = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/logistic-robot-shadow.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/logistic-robot-shadow.png",
                     priority = "high",
                     line_length = 16,
                     width = 59,
@@ -5979,7 +5979,7 @@ call_for_help_radius = 40
                 max_to_charge = 0.3,
                 working_light = { intensity = 1.8, size = 16 },
                 idle = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/construction-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/construction-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 32,
@@ -5989,7 +5989,7 @@ call_for_help_radius = 40
                     direction_count = 16
                 },
                 in_motion = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/construction-robot-mk2.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/construction-robot-mk2.png",
                     priority = "high",
                     line_length = 16,
                     width = 32,
@@ -6000,7 +6000,7 @@ call_for_help_radius = 40
                     y = 36
                 },
                 shadow_idle = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/construction-robot/construction-robot-shadow.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/construction-robot/construction-robot-shadow.png",
                     priority = "high",
                     line_length = 16,
                     width = 50,
@@ -6010,7 +6010,7 @@ call_for_help_radius = 40
                     direction_count = 16
                 },
                 shadow_in_motion = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/construction-robot/construction-robot-shadow.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/construction-robot/construction-robot-shadow.png",
                     priority = "high",
                     line_length = 16,
                     width = 50,
@@ -6020,7 +6020,7 @@ call_for_help_radius = 40
                     direction_count = 16
                 },
                 working = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/construction-robot-mk2-working.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/construction-robot-mk2-working.png",
                     priority = "high",
                     line_length = 2,
                     width = 28,
@@ -6034,7 +6034,7 @@ call_for_help_radius = 40
                     stripes = util.multiplystripes(2,
                             {
                                 {
-                                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/robots2/construction-robot/construction-robot-shadow.png",
+                                    filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/construction-robot/construction-robot-shadow.png",
                                     width_in_frames = 16,
                                     height_in_frames = 1,
                                 }
@@ -6126,7 +6126,7 @@ call_for_help_radius = 40
             {
                 type = "accumulator",
                 name = "advanced-accumulator",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/advanced-accumulator.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/advanced-accumulator.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "advanced-accumulator" },
@@ -6142,14 +6142,14 @@ call_for_help_radius = 40
                     output_flow_limit = "1500kW"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/advanced-accumulator/advanced-accumulator.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/advanced-accumulator/advanced-accumulator.png",
                     priority = "extra-high",
                     width = 124,
                     height = 103,
                     shift = { 0.7, -0.2 }
                 },
                 charge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/advanced-accumulator/advanced-accumulator-charge-animation.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/advanced-accumulator/advanced-accumulator-charge-animation.png",
                     width = 138,
                     height = 135,
                     line_length = 8,
@@ -6160,7 +6160,7 @@ call_for_help_radius = 40
                 charge_cooldown = 30,
                 charge_light = { intensity = 0.3, size = 7 },
                 discharge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/advanced-accumulator/advanced-accumulator-discharge-animation.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/advanced-accumulator/advanced-accumulator-discharge-animation.png",
                     width = 147,
                     height = 128,
                     line_length = 8,
@@ -6173,7 +6173,7 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/accumulator-working.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/accumulator-working.ogg",
                         volume = 1
                     },
                     idle_sound = {
@@ -6187,7 +6187,7 @@ call_for_help_radius = 40
             {
                 type = "accumulator",
                 name = "flywheel",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/flywheel-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/flywheel-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "flywheel" },
@@ -6204,7 +6204,7 @@ call_for_help_radius = 40
                     output_flow_limit = "200kW"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/flywheel.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/flywheel.png",
                     priority = "extra-high",
                     width = 279,
                     height = 205,
@@ -6212,7 +6212,7 @@ call_for_help_radius = 40
                     scale = 0.30
                 },
                 charge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/flywheel-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/flywheel-charge.png",
                     width = 279,
                     height = 205,
                     line_length = 5,
@@ -6224,7 +6224,7 @@ call_for_help_radius = 40
                 charge_cooldown = 30,
                 charge_light = { intensity = 0.3, size = 7 },
                 discharge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/flywheel-discharge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/flywheel-discharge.png",
                     width = 279,
                     height = 205,
                     line_length = 5,
@@ -6238,7 +6238,7 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/accumulator-working.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/accumulator-working.ogg",
                         volume = 1
                     },
                     idle_sound = {
@@ -6252,7 +6252,7 @@ call_for_help_radius = 40
             {
                 type = "accumulator",
                 name = "energy-liquid",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/energy-liquid-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/energy-liquid-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "energy-liquid" },
@@ -6268,7 +6268,7 @@ call_for_help_radius = 40
                     output_flow_limit = "5500kW"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-idle.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-idle.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6276,7 +6276,7 @@ call_for_help_radius = 40
                     scale = 0.5,
                 },
                 charge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-charge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6289,7 +6289,7 @@ call_for_help_radius = 40
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
                 discharge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-discharge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-discharge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6304,11 +6304,11 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/water_power.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/water_power.ogg",
                         volume = 1
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/water_power_idle.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/water_power_idle.ogg",
                         volume = 1
                     },
                     max_sounds_per_type = 5
@@ -6322,7 +6322,7 @@ call_for_help_radius = 40
             {
                 type = "accumulator",
                 name = "energy-liquid-2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/silo-1-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/silo-1-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "energy-liquid-2" },
@@ -6338,7 +6338,7 @@ call_for_help_radius = 40
                     output_flow_limit = "55000GW"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/silo-1-idle.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-1-idle.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6346,7 +6346,7 @@ call_for_help_radius = 40
                     scale = 0.5,
                 },
                 charge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/silo-1-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-1-charge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6359,7 +6359,7 @@ call_for_help_radius = 40
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
                 discharge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/silo-1-discharge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-1-discharge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6374,11 +6374,11 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/reactor.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/reactor.ogg",
                         volume = 2
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/reactor.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/reactor.ogg",
                         volume = 2
                     },
                     max_sounds_per_type = 1
@@ -6392,7 +6392,7 @@ call_for_help_radius = 40
             {
                 type = "accumulator",
                 name = "energy-liquid-3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/large-tank-1-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/large-tank-1-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "energy-liquid-3" },
@@ -6408,7 +6408,7 @@ call_for_help_radius = 40
                     output_flow_limit = "5GW"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/large-tank-1-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-1-charge.png",
                     priority = "low",
                     width = 500,
                     height = 429,
@@ -6419,7 +6419,7 @@ call_for_help_radius = 40
                     scale = 1,
                 },
                 charge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/large-tank-1-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-1-charge.png",
                     priority = "low",
                     width = 500,
                     height = 429,
@@ -6432,7 +6432,7 @@ call_for_help_radius = 40
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 128, color = { r = 0, g = 0.5, b = 1 } },
                 discharge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/large-tank-1-discharge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-1-discharge.png",
                     priority = "low",
                     width = 500,
                     height = 429,
@@ -6447,11 +6447,11 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/silo3.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/silo3.ogg",
                         volume = 1
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/silo3.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/silo3.ogg",
                         volume = 1
                     },
                     max_sounds_per_type = 5
@@ -6465,7 +6465,7 @@ call_for_help_radius = 40
             {
                 type = "accumulator",
                 name = "energy-liquid-U",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/energy-liquid-2-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/energy-liquid-2-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "energy-liquid-U" },
@@ -6481,7 +6481,7 @@ call_for_help_radius = 40
                     output_flow_limit = "10500kW"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-2-idle.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-2-idle.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6489,7 +6489,7 @@ call_for_help_radius = 40
                     scale = 0.5,
                 },
                 charge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-2-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-2-charge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6502,7 +6502,7 @@ call_for_help_radius = 40
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
                 discharge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-2-discharge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-2-discharge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6517,11 +6517,11 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/water_power.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/water_power.ogg",
                         volume = 1
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/water_power_idle.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/water_power_idle.ogg",
                         volume = 1
                     },
                     max_sounds_per_type = 5
@@ -6535,7 +6535,7 @@ call_for_help_radius = 40
             {
                 type = "accumulator",
                 name = "energy-liquid-2-U",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/silo-2-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/silo-2-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "energy-liquid-2-U" },
@@ -6551,7 +6551,7 @@ call_for_help_radius = 40
                     output_flow_limit = "55000GW"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/silo-2-idle.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-2-idle.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6559,7 +6559,7 @@ call_for_help_radius = 40
                     scale = 0.5,
                 },
                 charge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/silo-2-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-2-charge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6572,7 +6572,7 @@ call_for_help_radius = 40
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
                 discharge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/silo-2-discharge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-2-discharge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6587,11 +6587,11 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/reactor.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/reactor.ogg",
                         volume = 2
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/reactor.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/reactor.ogg",
                         volume = 2
                     },
                     max_sounds_per_type = 1
@@ -6605,7 +6605,7 @@ call_for_help_radius = 40
             {
                 type = "accumulator",
                 name = "energy-liquid-3-U",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/large-tank-2-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/large-tank-2-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "energy-liquid-3-U" },
@@ -6621,7 +6621,7 @@ call_for_help_radius = 40
                     output_flow_limit = "55000GW"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/large-tank-2-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-2-charge.png",
                     priority = "low",
                     width = 500,
                     height = 429,
@@ -6632,7 +6632,7 @@ call_for_help_radius = 40
                     scale = 1,
                 },
                 charge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/large-tank-2-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-2-charge.png",
                     priority = "low",
                     width = 500,
                     height = 429,
@@ -6645,7 +6645,7 @@ call_for_help_radius = 40
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 128, color = { r = 0, g = 0.5, b = 1 } },
                 discharge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/large-tank-2-discharge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-2-discharge.png",
                     priority = "low",
                     width = 500,
                     height = 429,
@@ -6660,11 +6660,11 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/silo3.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/silo3.ogg",
                         volume = 1
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/silo3.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/silo3.ogg",
                         volume = 1
                     },
                     max_sounds_per_type = 5
@@ -6678,7 +6678,7 @@ call_for_help_radius = 40
             {
                 type = "accumulator",
                 name = "energy-liquid-D",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/energy-liquid-3-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/energy-liquid-3-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "energy-liquid-D" },
@@ -6694,7 +6694,7 @@ call_for_help_radius = 40
                     output_flow_limit = "50050kW"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-3-idle.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-3-idle.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6702,7 +6702,7 @@ call_for_help_radius = 40
                     scale = 0.5,
                 },
                 charge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-3-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-3-charge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6715,7 +6715,7 @@ call_for_help_radius = 40
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
                 discharge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-3-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-3-charge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6730,11 +6730,11 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/water_power.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/water_power.ogg",
                         volume = 1
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/water_power_idle.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/water_power_idle.ogg",
                         volume = 1
                     },
                     max_sounds_per_type = 5
@@ -6748,7 +6748,7 @@ call_for_help_radius = 40
             {
                 type = "accumulator",
                 name = "energy-liquid-2-D",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/silo-3-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/silo-3-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "energy-liquid-2-D" },
@@ -6764,7 +6764,7 @@ call_for_help_radius = 40
                     output_flow_limit = "1GW"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/silo-3-idle.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-3-idle.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6772,7 +6772,7 @@ call_for_help_radius = 40
                     scale = 0.5,
                 },
                 charge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/silo-3-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-3-charge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6785,7 +6785,7 @@ call_for_help_radius = 40
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
                 discharge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/silo-3-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-3-charge.png",
                     priority = "low",
                     width = 480,
                     height = 270,
@@ -6800,11 +6800,11 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/reactor.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/reactor.ogg",
                         volume = 2
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/reactor.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/reactor.ogg",
                         volume = 2
                     },
                     max_sounds_per_type = 1
@@ -6818,7 +6818,7 @@ call_for_help_radius = 40
             {
                 type = "accumulator",
                 name = "energy-liquid-3-D",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/large-tank-3-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/large-tank-3-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "energy-liquid-3-D" },
@@ -6834,7 +6834,7 @@ call_for_help_radius = 40
                     output_flow_limit = "55GW"
                 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/large-tank-3-idle.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-3-idle.png",
                     priority = "low",
                     width = 500,
                     height = 429,
@@ -6842,7 +6842,7 @@ call_for_help_radius = 40
                     scale = 1,
                 },
                 charge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/large-tank-3-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-3-charge.png",
                     priority = "low",
                     width = 500,
                     height = 429,
@@ -6855,7 +6855,7 @@ call_for_help_radius = 40
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 128, color = { r = 0, g = 0.5, b = 1 } },
                 discharge_animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/energy-liquid/large-tank-3-charge.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-3-charge.png",
                     priority = "low",
                     width = 500,
                     height = 429,
@@ -6870,11 +6870,11 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/silo3.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/silo3.ogg",
                         volume = 1
                     },
                     idle_sound = {
-                        filename = "__Darkstar_Utilities_fixed__/sounds/silo3.ogg",
+                        filename = "__Darkstar_utilities_fixed__/sounds/silo3.ogg",
                         volume = 1
                     },
                     max_sounds_per_type = 5
@@ -6963,7 +6963,7 @@ call_for_help_radius = 40
                 stage_counts = { 1000, 600, 400, 200, 100, 50, 20, 1 },
                 stages = {
                     sheet = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/gold-ore.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/gold-ore.png",
                         priority = "extra-high",
                         width = 64,
                         height = 64,
@@ -7052,7 +7052,7 @@ call_for_help_radius = 40
                 stage_counts = { 1000, 600, 400, 200, 100, 50, 20, 1 },
                 stages = {
                     sheet = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/lithium-ore.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/lithium-ore.png",
                         priority = "extra-high",
                         width = 64,
                         height = 64,
@@ -7141,7 +7141,7 @@ call_for_help_radius = 40
                 stage_counts = { 1000, 600, 400, 200, 100, 50, 20, 1 },
                 stages = {
                     sheet = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/lead-ore.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/lead-ore.png",
                         priority = "extra-high",
                         width = 64,
                         height = 64,
@@ -7268,7 +7268,7 @@ call_for_help_radius = 40
             {
                 type = "beacon",
                 name = "ultra-beacon",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/ultra-beacon-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/ultra-beacon-icon.png",
                 icon_size = 32,
                 flags = { "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "ultra-beacon" },
@@ -7279,13 +7279,13 @@ call_for_help_radius = 40
                 selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
                 allowed_effects = { "consumption", "speed", "pollution" },
                 base_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/ultra-beacon/ultra-beacon-base.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/ultra-beacon/ultra-beacon-base.png",
                     width = 116,
                     height = 93,
                     shift = { 0.34, 0.06 }
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/ultra-beacon/ultra-beacon-antenna.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/ultra-beacon/ultra-beacon-antenna.png",
                     width = 54,
                     height = 50,
                     line_length = 8,
@@ -7294,7 +7294,7 @@ call_for_help_radius = 40
                     animation_speed = 0.5
                 },
                 animation_shadow = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/misc/beacon-shadow.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/misc/beacon-shadow.png",
                     width = 63,
                     height = 49,
                     line_length = 8,
@@ -7326,7 +7326,7 @@ call_for_help_radius = 40
             {
                 type = "beacon",
                 name = "efficiency-beacon",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/efficiency-beacon-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/efficiency-beacon-icon.png",
                 icon_size = 32,
                 flags = { "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "efficiency-beacon" },
@@ -7337,13 +7337,13 @@ call_for_help_radius = 40
                 selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
                 allowed_effects = { "consumption", "pollution" },
                 base_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/ultra-beacon/efficiency-beacon-base.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/ultra-beacon/efficiency-beacon-base.png",
                     width = 116,
                     height = 93,
                     shift = { 0.34, 0.06 }
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/ultra-beacon/efficiency-beacon-antenna.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/ultra-beacon/efficiency-beacon-antenna.png",
                     width = 54,
                     height = 50,
                     line_length = 8,
@@ -7352,7 +7352,7 @@ call_for_help_radius = 40
                     animation_speed = 0.5
                 },
                 animation_shadow = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/misc/beacon-shadow.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/misc/beacon-shadow.png",
                     width = 63,
                     height = 49,
                     line_length = 8,
@@ -7384,7 +7384,7 @@ call_for_help_radius = 40
             {
                 type = "beacon",
                 name = "power-boost-beacon",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/power-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/power-icon.png",
                 icon_size = 32,
                 flags = { "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "power-boost-beacon" },
@@ -7395,13 +7395,13 @@ call_for_help_radius = 40
                 selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
                 allowed_effects = { "consumption", "speed", "pollution", },
                 base_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/power-boost-beacon/power-base.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/power-boost-beacon/power-base.png",
                     width = 116,
                     height = 93,
                     shift = { 0.34, 0.06 }
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/power-boost-beacon/power-antenna.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/power-boost-beacon/power-antenna.png",
                     width = 54,
                     height = 50,
                     line_length = 8,
@@ -7410,7 +7410,7 @@ call_for_help_radius = 40
                     animation_speed = 0.5
                 },
                 animation_shadow = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/misc/beacon-shadow.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/misc/beacon-shadow.png",
                     width = 63,
                     height = 49,
                     line_length = 8,
@@ -7442,7 +7442,7 @@ call_for_help_radius = 40
             {
                 type = "beacon",
                 name = "basic-beacon-mk2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/mk2-beacon-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/mk2-beacon-icon.png",
                 icon_size = 32,
                 flags = { "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "basic-beacon-mk2" },
@@ -7453,13 +7453,13 @@ call_for_help_radius = 40
                 selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
                 allowed_effects = { "consumption", "speed", "pollution", "productivity" },
                 base_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/basic-beacon-mk2/basic-beacon-mk2-base.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/basic-beacon-mk2/basic-beacon-mk2-base.png",
                     width = 116,
                     height = 93,
                     shift = { 0.34, 0.06 }
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/basic-beacon-mk2/basic-beacon-mk2-antenna.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/basic-beacon-mk2/basic-beacon-mk2-antenna.png",
                     width = 54,
                     height = 50,
                     line_length = 8,
@@ -7468,7 +7468,7 @@ call_for_help_radius = 40
                     animation_speed = 0.5
                 },
                 animation_shadow = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/misc/beacon-shadow.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/misc/beacon-shadow.png",
                     width = 63,
                     height = 49,
                     line_length = 8,
@@ -7500,7 +7500,7 @@ call_for_help_radius = 40
             {
                 type = "beacon",
                 name = "world-array",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/world-array-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/world-array-icon.png",
                 icon_size = 32,
                 flags = { "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "world-array" },
@@ -7511,13 +7511,13 @@ call_for_help_radius = 40
                 selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
                 allowed_effects = { "consumption", "speed", "pollution" },
                 base_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/world-array/world-array-base.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/world-array/world-array-base.png",
                     width = 116,
                     height = 93,
                     shift = { 0.34, 0.06 }
                 },
                 animation = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/world-array/world-array-antenna.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/world-array/world-array-antenna.png",
                     width = 54,
                     height = 50,
                     line_length = 8,
@@ -7526,7 +7526,7 @@ call_for_help_radius = 40
                     animation_speed = 1.5
                 },
                 animation_shadow = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/misc/beacon-shadow.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/misc/beacon-shadow.png",
                     width = 63,
                     height = 49,
                     line_length = 8,
@@ -7558,7 +7558,7 @@ call_for_help_radius = 40
             {
                 type = "roboport",
                 name = "roboport-mk2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/roboports/roboport-mk2-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/roboports/roboport-mk2-icon.png",
                 icon_size = 32,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "roboport-mk2" },
@@ -7594,7 +7594,7 @@ call_for_help_radius = 40
                             height = 135,
                             shift = { 0.5, 0.25 },
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/roboports/roboport-mk2-base.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/roboports/roboport-mk2-base.png",
                                 width = 228,
                                 height = 277,
                                 shift = util.by_pixel(2, 7.75),
@@ -7737,7 +7737,7 @@ call_for_help_radius = 40
             {
                 type = "roboport",
                 name = "roboport-mk3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/roboports/roboport-mk3-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/roboports/roboport-mk3-icon.png",
                 icon_size = 32,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "roboport-mk3" },
@@ -7773,7 +7773,7 @@ call_for_help_radius = 40
                             height = 135,
                             shift = { 0.5, 0.25 },
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/roboports/roboport-mk3-base.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/roboports/roboport-mk3-base.png",
                                 width = 228,
                                 height = 277,
                                 shift = util.by_pixel(2, 7.75),
@@ -7916,7 +7916,7 @@ call_for_help_radius = 40
             {
                 type = "roboport",
                 name = "roboport-charger",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/roboports/roboport-mk2-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/roboports/roboport-mk2-icon.png",
                 icon_size = 32,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "roboport-charger" },
@@ -7954,7 +7954,7 @@ call_for_help_radius = 40
                             height = 135,
                             shift = { 0.5, 0.25 },
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/roboports/charger.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/roboports/charger.png",
                                 width = 228,
                                 height = 277,
                                 shift = util.by_pixel(2, 7.75),
@@ -8154,7 +8154,7 @@ call_for_help_radius = 40
                         height = 110,
                         line_length = 10,
                         shift = { 0.125, -0.71875 },
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/pumpjack/pumpjack-animation.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/pumpjack/pumpjack-animation.png",
                         frame_count = 40,
                         animation_speed = 0.5
                     }
@@ -8170,7 +8170,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "assembling-machine-4",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/assembling-machine-4.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/assembling-machine-4.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "assembling-machine-4" },
@@ -8237,7 +8237,7 @@ call_for_help_radius = 40
                             line_length = 8,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/hr-assembling-machine-4.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/hr-assembling-machine-4.png",
                                 priority = "high",
                                 width = 214,
                                 height = 237,
@@ -8289,7 +8289,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "ore-extractor",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/assembling-machine-4.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/assembling-machine-4.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation", "not-rotatable" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "ore-extractor" },
@@ -8335,7 +8335,7 @@ call_for_help_radius = 40
                             line_length = 8,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/ore-extractor.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/ore-extractor.png",
                                 priority = "high",
                                 width = 214,
                                 height = 237,
@@ -8387,7 +8387,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "vacuum-chamber",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/vacuum-chamber-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/vacuum-chamber-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "vacuum-chamber" },
@@ -8433,7 +8433,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/vacuum-chamber.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/vacuum-chamber.png",
                                 priority = "high",
                                 width = 214,
                                 height = 214,
@@ -8453,7 +8453,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(28, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/vacuum-chamber-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/vacuum-chamber-shadow.png",
                                 priority = "high",
                                 width = 214,
                                 height = 214,
@@ -8593,7 +8593,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "planck-ripper",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/planck-ripper-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/planck-ripper-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "planck-ripper" },
@@ -8638,7 +8638,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/planck-ripper.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/planck-ripper.png",
                                 priority = "high",
                                 width = 770,
                                 height = 520,
@@ -8657,7 +8657,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(28, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/vacuum-chamber-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/vacuum-chamber-shadow.png",
                                 priority = "high",
                                 width = 214,
                                 height = 214,
@@ -8689,7 +8689,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "fish-farm",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/fish-farm-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/fish-farm-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "fish-farm" },
@@ -8709,15 +8709,15 @@ call_for_help_radius = 40
                 working_sound = {
                     sound = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/sounds/fish-farm-sound.ogg",
+                            filename = "__Darkstar_utilities_fixed__/sounds/fish-farm-sound.ogg",
                             volume = 0.8
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/sounds/fish-farm-sound.ogg",
+                            filename = "__Darkstar_utilities_fixed__/sounds/fish-farm-sound.ogg",
                             volume = 0.8
                         }
                     },
-                    idle_sound = { filename = "__Darkstar_Utilities_fixed__/sounds/fish-farm-sound.ogg", volume = 0.6 },
+                    idle_sound = { filename = "__Darkstar_utilities_fixed__/sounds/fish-farm-sound.ogg", volume = 0.6 },
                     apparent_volume = 1.5
                 },
                 collision_box = { { -1.2, -1.2 }, { 1.2, 1.2 } },
@@ -8727,7 +8727,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/fish-farm.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/fish-farm.png",
                             priority = "high",
                             width = 255,
                             height = 266,
@@ -8735,7 +8735,7 @@ call_for_help_radius = 40
                             line_length = 10,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/fish-farm.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/fish-farm.png",
                                 priority = "high",
                                 width = 255,
                                 height = 266,
@@ -8746,7 +8746,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/fish-farm.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/fish-farm.png",
                             priority = "high",
                             width = 255,
                             height = 266,
@@ -8755,7 +8755,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/fish-farm.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/fish-farm.png",
                                 priority = "high",
                                 width = 255,
                                 height = 266,
@@ -8784,7 +8784,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "server-1",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-1.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/server-1.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "server-1" },
@@ -8822,7 +8822,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/linari-server.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/linari-server.png",
                             priority = "high",
                             width = 960,
                             height = 540,
@@ -8830,7 +8830,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/linari-server.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/linari-server.png",
                                 priority = "high",
                                 width = 960,
                                 height = 540,
@@ -8858,7 +8858,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "server-2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/server-2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "server-2" },
@@ -8896,7 +8896,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/vesili-server.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/vesili-server.png",
                             priority = "high",
                             width = 960,
                             height = 540,
@@ -8904,7 +8904,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/vesili-server.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/vesili-server.png",
                                 priority = "high",
                                 width = 960,
                                 height = 540,
@@ -8932,7 +8932,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "server-3",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-3.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/server-3.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "server-3" },
@@ -8970,7 +8970,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/messii-server.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/messii-server.png",
                             priority = "high",
                             width = 960,
                             height = 540,
@@ -8978,7 +8978,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/messii-server.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/messii-server.png",
                                 priority = "high",
                                 width = 960,
                                 height = 540,
@@ -9006,7 +9006,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "server-4",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-4.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/server-4.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "server-4" },
@@ -9044,7 +9044,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/gindralyr-server.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/gindralyr-server.png",
                             priority = "high",
                             width = 960,
                             height = 540,
@@ -9052,7 +9052,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/gindralyr-server.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/gindralyr-server.png",
                                 priority = "high",
                                 width = 960,
                                 height = 540,
@@ -9080,7 +9080,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "server-5",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-5.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/server-5.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "server-5" },
@@ -9118,7 +9118,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/sonelia-server.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/sonelia-server.png",
                             priority = "high",
                             width = 960,
                             height = 540,
@@ -9126,7 +9126,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/sonelia-server.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/sonelia-server.png",
                                 priority = "high",
                                 width = 960,
                                 height = 540,
@@ -9154,7 +9154,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "server-6",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-6.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/server-6.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "server-6" },
@@ -9192,7 +9192,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/yosleon-server.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/yosleon-server.png",
                             priority = "high",
                             width = 960,
                             height = 540,
@@ -9200,7 +9200,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/yosleon-server.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/yosleon-server.png",
                                 priority = "high",
                                 width = 960,
                                 height = 540,
@@ -9228,7 +9228,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "server-7",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-7.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/server-7.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "server-7" },
@@ -9266,7 +9266,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/lurith-server.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/lurith-server.png",
                             priority = "high",
                             width = 960,
                             height = 540,
@@ -9274,7 +9274,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/lurith-server.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/lurith-server.png",
                                 priority = "high",
                                 width = 960,
                                 height = 540,
@@ -9302,7 +9302,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "server-8",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-8.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/server-8.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "server-8" },
@@ -9340,7 +9340,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/ita-server.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/ita-server.png",
                             priority = "high",
                             width = 960,
                             height = 540,
@@ -9348,7 +9348,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/ita-server.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/ita-server.png",
                                 priority = "high",
                                 width = 960,
                                 height = 540,
@@ -9376,7 +9376,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "server-9",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-9.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/server-9.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "server-9" },
@@ -9414,7 +9414,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/lyheia-server.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/lyheia-server.png",
                             priority = "high",
                             width = 960,
                             height = 540,
@@ -9422,7 +9422,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/lyheia-server.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/lyheia-server.png",
                                 priority = "high",
                                 width = 960,
                                 height = 540,
@@ -9450,7 +9450,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "server-m",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/server-m.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/server-m.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "server-m" },
@@ -9488,7 +9488,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/moon-server.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/moon-server.png",
                             priority = "high",
                             width = 960,
                             height = 540,
@@ -9496,7 +9496,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/servers/moon-server.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/servers/moon-server.png",
                                 priority = "high",
                                 width = 960,
                                 height = 540,
@@ -9524,7 +9524,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "iron-probe",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/iron-probe-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/iron-probe-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "iron-probe" },
@@ -9562,7 +9562,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/iron-probe.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/iron-probe.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -9570,7 +9570,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/iron-probe.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/iron-probe.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -9581,7 +9581,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -9590,7 +9590,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -9624,7 +9624,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "copper-probe",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/copper-probe-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/copper-probe-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "copper-probe" },
@@ -9662,7 +9662,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/copper-probe.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/copper-probe.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -9670,7 +9670,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/copper-probe.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/copper-probe.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -9681,7 +9681,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -9690,7 +9690,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -9724,7 +9724,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "gold-probe",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/gold-probe-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/gold-probe-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "gold-probe" },
@@ -9762,7 +9762,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/gold-probe.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/gold-probe.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -9770,7 +9770,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/gold-probe.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/gold-probe.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -9781,7 +9781,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -9790,7 +9790,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -9824,7 +9824,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "uranium-probe",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/uranium-probe-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/uranium-probe-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "uranium-probe" },
@@ -9862,7 +9862,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/uranium-probe.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/uranium-probe.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -9870,7 +9870,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/uranium-probe.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/uranium-probe.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -9881,7 +9881,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -9890,7 +9890,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -9923,7 +9923,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "stone-probe",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/stone-probe-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/stone-probe-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "stone-probe" },
@@ -9961,7 +9961,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/stone-probe.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/stone-probe.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -9969,7 +9969,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/stone-probe.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/stone-probe.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -9980,7 +9980,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -9989,7 +9989,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -10022,7 +10022,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "lead-probe",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/lead-probe-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/lead-probe-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "lead-probe" },
@@ -10060,7 +10060,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/lead-probe.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/lead-probe.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -10068,7 +10068,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/lead-probe.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/lead-probe.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -10079,7 +10079,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -10088,7 +10088,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -10122,7 +10122,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "iron-probe2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/iron-probe-icon2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/iron-probe-icon2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "iron-probe2" },
@@ -10160,7 +10160,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/iron-probe2.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/iron-probe2.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -10168,7 +10168,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/iron-probe2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/iron-probe2.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -10179,7 +10179,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -10188,7 +10188,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -10222,7 +10222,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "copper-probe2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/copper-probe-icon2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/copper-probe-icon2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "copper-probe2" },
@@ -10260,7 +10260,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/copper-probe2.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/copper-probe2.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -10268,7 +10268,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/copper-probe2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/copper-probe2.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -10279,7 +10279,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -10288,7 +10288,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -10322,7 +10322,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "gold-probe2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/gold-probe-icon2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/gold-probe-icon2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "gold-probe2" },
@@ -10360,7 +10360,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/gold-probe.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/gold-probe.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -10368,7 +10368,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/gold-probe.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/gold-probe.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -10379,7 +10379,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -10388,7 +10388,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -10422,7 +10422,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "uranium-probe2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/uranium-probe-icon2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/uranium-probe-icon2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "uranium-probe2" },
@@ -10460,7 +10460,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/uranium-probe2.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/uranium-probe2.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -10468,7 +10468,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/uranium-probe2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/uranium-probe2.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -10479,7 +10479,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -10488,7 +10488,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -10521,7 +10521,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "stone-probe2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/stone-probe-icon2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/stone-probe-icon2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "stone-probe2" },
@@ -10559,7 +10559,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/stone-probe2.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/stone-probe2.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -10567,7 +10567,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/stone-probe2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/stone-probe2.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -10578,7 +10578,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -10587,7 +10587,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -10620,7 +10620,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "lead-probe2",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/lead-probe-icon2.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/lead-probe-icon2.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "lead-probe2" },
@@ -10658,7 +10658,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/lead-probe2.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/lead-probe2.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -10666,7 +10666,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/lead-probe2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/lead-probe2.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -10677,7 +10677,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -10686,7 +10686,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -10720,7 +10720,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "diamond-probe",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/diamond-probe-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/diamond-probe-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "diamond-probe" },
@@ -10758,7 +10758,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/diamond-probe.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/diamond-probe.png",
                             priority = "high",
                             width = 500,
                             height = 500,
@@ -10766,7 +10766,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/diamond-probe.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/diamond-probe.png",
                                 priority = "high",
                                 width = 500,
                                 height = 500,
@@ -10777,7 +10777,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                             priority = "high",
                             width = 845,
                             height = 500,
@@ -10786,7 +10786,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/probe/probe-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
                                 priority = "high",
                                 width = 845,
                                 height = 500,
@@ -10820,7 +10820,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "brain-grower",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/brain-grower-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/brain-grower-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "brain-grower" },
@@ -10840,15 +10840,15 @@ call_for_help_radius = 40
                 working_sound = {
                     sound = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/sounds/think-tank.ogg",
+                            filename = "__Darkstar_utilities_fixed__/sounds/think-tank.ogg",
                             volume = 0.8
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/sounds/think-tank.ogg",
+                            filename = "__Darkstar_utilities_fixed__/sounds/think-tank.ogg",
                             volume = 0.8
                         }
                     },
-                    idle_sound = { filename = "__Darkstar_Utilities_fixed__/sounds/think-tank.ogg", volume = 0.6 },
+                    idle_sound = { filename = "__Darkstar_utilities_fixed__/sounds/think-tank.ogg", volume = 0.6 },
                     apparent_volume = 1.5
                 },
                 collision_box = { { -1.2, -1.2 }, { 1.2, 1.2 } },
@@ -10858,7 +10858,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/brain-grower.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/brain-grower.png",
                             priority = "high",
                             width = 519,
                             height = 463,
@@ -10866,7 +10866,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/brain-grower.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/brain-grower.png",
                                 priority = "high",
                                 width = 519,
                                 height = 463,
@@ -10877,7 +10877,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/brain-grower.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/brain-grower.png",
                             priority = "high",
                             width = 519,
                             height = 463,
@@ -10886,7 +10886,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(16, 4),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/solar-panel/brain-grower.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/solar-panel/brain-grower.png",
                                 priority = "high",
                                 width = 519,
                                 height = 463,
@@ -10919,7 +10919,7 @@ call_for_help_radius = 40
             {
                 type = "assembling-machine",
                 name = "biodome",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/biodome-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/biodome-icon.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation", "not-rotatable" },
                 minable = { hardness = 0.2, mining_time = 2.5, result = "biodome" },
@@ -10933,21 +10933,21 @@ call_for_help_radius = 40
                         percent = 70
                     }
                 },
-                open_sound = { filename = "__Darkstar_Utilities_fixed__/sounds/biodome-open.ogg", volume = 0.85 },
-                close_sound = { filename = "__Darkstar_Utilities_fixed__/sounds/biodome-close.ogg", volume = 0.75 },
+                open_sound = { filename = "__Darkstar_utilities_fixed__/sounds/biodome-open.ogg", volume = 0.85 },
+                close_sound = { filename = "__Darkstar_utilities_fixed__/sounds/biodome-close.ogg", volume = 0.75 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/sounds/biodome.ogg",
+                            filename = "__Darkstar_utilities_fixed__/sounds/biodome.ogg",
                             volume = 0.8
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/sounds/biodome.ogg",
+                            filename = "__Darkstar_utilities_fixed__/sounds/biodome.ogg",
                             volume = 0.8
                         }
                     },
-                    idle_sound = { filename = "__Darkstar_Utilities_fixed__/sounds/biodome.ogg", volume = 0.6 },
+                    idle_sound = { filename = "__Darkstar_utilities_fixed__/sounds/biodome.ogg", volume = 0.6 },
                     apparent_volume = 1.5
                 },
                 collision_box = { { -18.9, -15.8 }, { 18.2, 16.6 } },
@@ -10957,7 +10957,7 @@ call_for_help_radius = 40
                 animation = {
                     layers = {
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/biodome/biodome-on.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/biodome/biodome-on.png",
                             priority = "high",
                             width = 1200,
                             height = 1200,
@@ -10965,7 +10965,7 @@ call_for_help_radius = 40
                             line_length = 1,
                             shift = util.by_pixel(0, -0.5),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/biodome/biodome-on.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/biodome/biodome-on.png",
                                 priority = "high",
                                 width = 1200,
                                 height = 1200,
@@ -10976,7 +10976,7 @@ call_for_help_radius = 40
                             }
                         },
                         {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/biodome/biodome-shadow.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/biodome/biodome-shadow.png",
                             priority = "high",
                             width = 225,
                             height = 1200,
@@ -10985,7 +10985,7 @@ call_for_help_radius = 40
                             draw_as_shadow = true,
                             shift = util.by_pixel(690, 10),
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/biodome/biodome-shadow.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/biodome/biodome-shadow.png",
                                 priority = "high",
                                 width = 225,
                                 height = 1200,
@@ -11039,14 +11039,14 @@ call_for_help_radius = 40
                 ingredient_count = 4,
                 animation = {
                     north = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/oil-refinery-mk2/oil-refinery.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/oil-refinery-mk2/oil-refinery.png",
                         width = 337,
                         height = 255,
                         frame_count = 1,
                         shift = { 2.515625, 0.484375 }
                     },
                     east = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/oil-refinery-mk2/oil-refinery.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/oil-refinery-mk2/oil-refinery.png",
                         x = 337,
                         width = 337,
                         height = 255,
@@ -11054,7 +11054,7 @@ call_for_help_radius = 40
                         shift = { 2.515625, 0.484375 }
                     },
                     south = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/oil-refinery-mk2/oil-refinery.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/oil-refinery-mk2/oil-refinery.png",
                         x = 674,
                         width = 337,
                         height = 255,
@@ -11062,7 +11062,7 @@ call_for_help_radius = 40
                         shift = { 2.515625, 0.484375 }
                     },
                     west = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/oil-refinery-mk2/oil-refinery.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/oil-refinery-mk2/oil-refinery.png",
                         x = 1011,
                         width = 337,
                         height = 255,
@@ -11136,7 +11136,7 @@ call_for_help_radius = 40
             {
                 type = "roboport",
                 name = "roboport-mk4",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/roboports/roboport-mk3-icon.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/roboports/roboport-mk3-icon.png",
                 icon_size = 32,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "roboport-mk4" },
@@ -11177,7 +11177,7 @@ call_for_help_radius = 40
                             height = 135,
                             shift = { 0.5, 0.25 },
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/roboports/roboport-mk4-base.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/roboports/roboport-mk4-base.png",
                                 width = 228,
                                 height = 277,
                                 shift = util.by_pixel(2, 7.75),
@@ -11964,7 +11964,7 @@ call_for_help_radius = 40
             {
                 type = "inserter",
                 name = "rapid-inserter",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/rapid-inserter.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/rapid-inserter.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 module_specification = {
@@ -12025,19 +12025,19 @@ call_for_help_radius = 40
                     }
                 },
                 hand_base_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/rapid-inserter/rapid-inserter-hand-base.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/rapid-inserter/rapid-inserter-hand-base.png",
                     priority = "extra-high",
                     width = 8,
                     height = 34
                 },
                 hand_closed_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/rapid-inserter/rapid-inserter-hand-closed.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/rapid-inserter/rapid-inserter-hand-closed.png",
                     priority = "extra-high",
                     width = 18,
                     height = 41
                 },
                 hand_open_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/rapid-inserter/rapid-inserter-hand-open.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/rapid-inserter/rapid-inserter-hand-open.png",
                     priority = "extra-high",
                     width = 18,
                     height = 41
@@ -12062,7 +12062,7 @@ call_for_help_radius = 40
                 },
                 platform_picture = {
                     sheet = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/terra-inserter/terra-inserter-platform.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/terra-inserter/terra-inserter-platform.png",
                         priority = "extra-high",
                         width = 46,
                         height = 46
@@ -12072,7 +12072,7 @@ call_for_help_radius = 40
             {
                 type = "inserter",
                 name = "terra-inserter",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/terra-inserter.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/terra-inserter.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 stack = false,
@@ -12134,19 +12134,19 @@ call_for_help_radius = 40
                     }
                 },
                 hand_base_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/terra-inserter/terra-inserter-hand-base.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/terra-inserter/terra-inserter-hand-base.png",
                     priority = "extra-high",
                     width = 8,
                     height = 34
                 },
                 hand_closed_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/terra-inserter/terra-inserter-hand-closed.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/terra-inserter/terra-inserter-hand-closed.png",
                     priority = "extra-high",
                     width = 18,
                     height = 41
                 },
                 hand_open_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/terra-inserter/terra-inserter-hand-open.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/terra-inserter/terra-inserter-hand-open.png",
                     priority = "extra-high",
                     width = 18,
                     height = 41
@@ -12171,7 +12171,7 @@ call_for_help_radius = 40
                 },
                 platform_picture = {
                     sheet = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/terra-inserter/terra-inserter-platform.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/terra-inserter/terra-inserter-platform.png",
                         priority = "extra-high",
                         width = 46,
                         height = 46
@@ -12181,7 +12181,7 @@ call_for_help_radius = 40
             {
                 type = "inserter",
                 name = "smart-terra-inserter",
-                icon = "__Darkstar_Utilities_fixed__/graphics/icons/smart-terra-inserter.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/smart-terra-inserter.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 stack = False,
@@ -12240,19 +12240,19 @@ call_for_help_radius = 40
                     }
                 },
                 hand_base_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/smart-terra-inserter/smart-terra-inserter-hand-base.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/smart-terra-inserter/smart-terra-inserter-hand-base.png",
                     priority = "extra-high",
                     width = 8,
                     height = 34
                 },
                 hand_closed_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/smart-terra-inserter/smart-terra-inserter-hand-closed.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/smart-terra-inserter/smart-terra-inserter-hand-closed.png",
                     priority = "extra-high",
                     width = 18,
                     height = 41
                 },
                 hand_open_picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/smart-terra-inserter/smart-terra-inserter-hand-open.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/smart-terra-inserter/smart-terra-inserter-hand-open.png",
                     priority = "extra-high",
                     width = 18,
                     height = 41
@@ -12277,7 +12277,7 @@ call_for_help_radius = 40
                 },
                 platform_picture = {
                     sheet = {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/smart-terra-inserter/smart-terra-inserter-platform.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/smart-terra-inserter/smart-terra-inserter-platform.png",
                         priority = "extra-high",
                         width = 46,
                         height = 46
@@ -12290,7 +12290,7 @@ call_for_help_radius = 40
                 flags = { "not-on-map" },
                 animations = {
                     {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/railgun-explosion.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/railgun-explosion.png",
                         priority = "extra-high",
                         width = 197,
                         height = 245,
@@ -12340,7 +12340,7 @@ call_for_help_radius = 40
                 flags = { "not-on-map" },
                 animations = {
                     {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/antithetical-explosion.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/antithetical-explosion.png",
                         priority = "extra-high",
                         width = 197,
                         height = 245,
@@ -12390,7 +12390,7 @@ call_for_help_radius = 40
                 flags = { "not-on-map" },
                 animations = {
                     {
-                        filename = "__Darkstar_Utilities_fixed__/graphics/entity/railgun-explosion.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/railgun-explosion.png",
                         priority = "extra-high",
                         width = 197,
                         height = 245,
@@ -12584,7 +12584,7 @@ call_for_help_radius = 40
             {
                 type = "lamp",
                 name = "red-lamp",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/lights/red-on.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/lights/red-on.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "red-lamp" },
@@ -12603,7 +12603,7 @@ call_for_help_radius = 40
                 glow_size = 9,
                 glow_color_intensity = 0.9,
                 picture_off = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/light-off.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/light-off.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12613,7 +12613,7 @@ call_for_help_radius = 40
                     shift = { -0, -0 },
                 },
                 picture_on = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/red-on.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/red-on.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12634,7 +12634,7 @@ call_for_help_radius = 40
             {
                 type = "lamp",
                 name = "blue-lamp",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/lights/blue-on.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/lights/blue-on.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "blue-lamp" },
@@ -12653,7 +12653,7 @@ call_for_help_radius = 40
                 glow_size = 9,
                 glow_color_intensity = 0.9,
                 picture_off = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/light-off.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/light-off.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12663,7 +12663,7 @@ call_for_help_radius = 40
                     shift = { -0, -0 },
                 },
                 picture_on = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/blue-on.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/blue-on.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12685,7 +12685,7 @@ call_for_help_radius = 40
             {
                 type = "lamp",
                 name = "yellow-lamp",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/lights/yellow-on.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/lights/yellow-on.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "yellow-lamp" },
@@ -12704,7 +12704,7 @@ call_for_help_radius = 40
                 glow_size = 9,
                 glow_color_intensity = 0.9,
                 picture_off = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/light-off.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/light-off.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12714,7 +12714,7 @@ call_for_help_radius = 40
                     shift = { -0, -0 },
                 },
                 picture_on = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/yellow-on.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/yellow-on.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12735,7 +12735,7 @@ call_for_help_radius = 40
             {
                 type = "lamp",
                 name = "green-lamp",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/lights/green-on.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/lights/green-on.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "green-lamp" },
@@ -12754,7 +12754,7 @@ call_for_help_radius = 40
                 glow_size = 9,
                 glow_color_intensity = 0.9,
                 picture_off = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/light-off.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/light-off.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12764,7 +12764,7 @@ call_for_help_radius = 40
                     shift = { -0, -0 },
                 },
                 picture_on = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/green-on.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/green-on.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12785,7 +12785,7 @@ call_for_help_radius = 40
             {
                 type = "lamp",
                 name = "purple-lamp",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/lights/purple-on.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/lights/purple-on.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "purple-lamp" },
@@ -12804,7 +12804,7 @@ call_for_help_radius = 40
                 glow_size = 9,
                 glow_color_intensity = 0.9,
                 picture_off = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/light-off.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/light-off.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12814,7 +12814,7 @@ call_for_help_radius = 40
                     shift = { -0, -0 },
                 },
                 picture_on = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/purple-on.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/purple-on.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12835,7 +12835,7 @@ call_for_help_radius = 40
             {
                 type = "lamp",
                 name = "cyan-lamp",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/lights/purple-on.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/lights/purple-on.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "cyan-lamp" },
@@ -12854,7 +12854,7 @@ call_for_help_radius = 40
                 glow_size = 9,
                 glow_color_intensity = 0.9,
                 picture_off = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/light-off.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/light-off.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12864,7 +12864,7 @@ call_for_help_radius = 40
                     shift = { -0, -0 },
                 },
                 picture_on = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/cyan-on.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/cyan-on.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12885,7 +12885,7 @@ call_for_help_radius = 40
             {
                 type = "lamp",
                 name = "white-lamp",
-                icon = "__Darkstar_Utilities_fixed__/graphics/entity/lights/purple-on.png",
+                icon = "__Darkstar_utilities_fixed__/graphics/entity/lights/purple-on.png",
                 icon_size = 32,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "white-lamp" },
@@ -12904,7 +12904,7 @@ call_for_help_radius = 40
                 glow_size = 9,
                 glow_color_intensity = 0.9,
                 picture_off = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/light-off.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/light-off.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12914,7 +12914,7 @@ call_for_help_radius = 40
                     shift = { -0, -0 },
                 },
                 picture_on = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/lights/white-on.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/white-on.png",
                     priority = "high",
                     width = 32,
                     height = 32,
@@ -12951,7 +12951,7 @@ call_for_help_radius = 40
                 close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/storage/warehouse-passive-provider.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/storage/warehouse-passive-provider.png",
                     priority = "extra-high",
                     width = 550,
                     height = 550,
@@ -12978,7 +12978,7 @@ call_for_help_radius = 40
                 close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/storage/warehouse-buffer.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/storage/warehouse-buffer.png",
                     priority = "extra-high",
                     width = 550,
                     height = 550,
@@ -13004,7 +13004,7 @@ call_for_help_radius = 40
                 close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/storage/warehouse-active-provider.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/storage/warehouse-active-provider.png",
                     priority = "extra-high",
                     width = 550,
                     height = 550,
@@ -13031,7 +13031,7 @@ call_for_help_radius = 40
                 close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/storage/warehouse-storage.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/storage/warehouse-storage.png",
                     priority = "extra-high",
                     width = 550,
                     height = 550,
@@ -13057,7 +13057,7 @@ call_for_help_radius = 40
                 open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume = 0.65 },
                 close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/storage/warehouse-requester.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/storage/warehouse-requester.png",
                     priority = "extra-high",
                     width = 550,
                     height = 550,
@@ -13081,7 +13081,7 @@ call_for_help_radius = 40
                 open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume = 0.65 },
                 close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
                 picture = {
-                    filename = "__Darkstar_Utilities_fixed__/graphics/entity/storage/warehouse.png",
+                    filename = "__Darkstar_utilities_fixed__/graphics/entity/storage/warehouse.png",
                     priority = "extra-high",
                     width = 550,
                     height = 550,
@@ -13140,7 +13140,7 @@ call_for_help_radius = 40
                             height = 96,
                             y = 96,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra2.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13156,7 +13156,7 @@ call_for_help_radius = 40
                             width = 96,
                             height = 96,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra2.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13174,7 +13174,7 @@ call_for_help_radius = 40
                             height = 96,
                             y = 96 * 3,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra2.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13185,13 +13185,13 @@ call_for_help_radius = 40
                     },
                     direction_out_side_loading = {
                         sheet = {
-                            filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra2.png",
+                            filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra2.png",
                             priority = "extra-high",
                             width = 96,
                             height = 96,
                             y = 96 * 2,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13288,7 +13288,7 @@ call_for_help_radius = 40
                             height = 96,
                             y = 96,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13304,7 +13304,7 @@ call_for_help_radius = 40
                             width = 96,
                             height = 96,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13322,7 +13322,7 @@ call_for_help_radius = 40
                             height = 96,
                             y = 96 * 3,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13339,7 +13339,7 @@ call_for_help_radius = 40
                             height = 96,
                             y = 96 * 2,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13436,7 +13436,7 @@ call_for_help_radius = 40
                             height = 96,
                             y = 96,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra2.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13452,7 +13452,7 @@ call_for_help_radius = 40
                             width = 96,
                             height = 96,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra2.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13468,7 +13468,7 @@ call_for_help_radius = 40
                             height = 96,
                             y = 96 * 3,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra2.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13485,7 +13485,7 @@ call_for_help_radius = 40
                             height = 96,
                             y = 96 * 2,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra2.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra2.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13578,7 +13578,7 @@ call_for_help_radius = 40
                             height = 96,
                             y = 96,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13594,7 +13594,7 @@ call_for_help_radius = 40
                             width = 96,
                             height = 96,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13610,7 +13610,7 @@ call_for_help_radius = 40
                             height = 96,
                             y = 96 * 3,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
@@ -13627,7 +13627,7 @@ call_for_help_radius = 40
                             height = 96,
                             y = 96 * 2,
                             hr_version = {
-                                filename = "__Darkstar_Utilities_fixed__/graphics/entity/belt/underground-terra.png",
+                                filename = "__Darkstar_utilities_fixed__/graphics/entity/belt/underground-terra.png",
                                 priority = "extra-high",
                                 width = 192,
                                 height = 192,
