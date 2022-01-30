@@ -78,7 +78,11 @@ ent.picture = {
 	shift = { 0, 0 }
 }
 ent.inventory_size = 50000
-data:extend({ ent })
+data:extend(
+	{
+		ent
+	}
+)
 
 ---laser quarries
 require("util")

@@ -522,8 +522,9 @@ local function tile_variant_material(set, variant)
 	}
 end
 
-data:extend({
+data:extend(
 	{
+		{
 		type = "tile",
 		name = "stone-path-black",
 		needs_correction = false,
@@ -556,8 +557,8 @@ data:extend({
 		map_color = { r = 35, g = 35, b = 35 },
 		ageing = 0,
 		vehicle_friction_modifier = stone_path_vehicle_speed_modifier
-	},
-	{
+		},
+		{
 		type = "tile",
 		name = "stone-path-blue",
 		needs_correction = false,
@@ -590,8 +591,8 @@ data:extend({
 		map_color = { r = 0, g = 0, b = 100 },
 		ageing = 0,
 		vehicle_friction_modifier = stone_path_vehicle_speed_modifier
-	},
-	{
+		},
+		{
 		type = "tile",
 		name = "stone-path-green",
 		needs_correction = false,
@@ -624,8 +625,8 @@ data:extend({
 		map_color = { r = 0, g = 100, b = 0 },
 		ageing = 0,
 		vehicle_friction_modifier = stone_path_vehicle_speed_modifier
-	},
-	{
+		},
+		{
 		type = "tile",
 		name = "stone-path-purple",
 		needs_correction = false,
@@ -658,8 +659,8 @@ data:extend({
 		map_color = { r = 100, g = 0, b = 100 },
 		ageing = 0,
 		vehicle_friction_modifier = stone_path_vehicle_speed_modifier
-	},
-	{
+		},
+		{
 		type = "tile",
 		name = "stone-path-red",
 		needs_correction = false,
@@ -692,8 +693,8 @@ data:extend({
 		map_color = { r = 100, g = 0, b = 0 },
 		ageing = 0,
 		vehicle_friction_modifier = stone_path_vehicle_speed_modifier
-	},
-	{
+		},
+		{
 		type = "tile",
 		name = "stone-path-yellow",
 		needs_correction = false,
@@ -726,11 +727,11 @@ data:extend({
 		map_color = { r = 100, g = 100, b = 0 },
 		ageing = 0,
 		vehicle_friction_modifier = stone_path_vehicle_speed_modifier
-	},
+		},
 
-	--Old glass tiles
+		--Old glass tiles
 
-	{
+		{
 		type = "tile",
 		name = "express-tile",
 		needs_correction = false,
@@ -803,8 +804,8 @@ data:extend({
 		map_color = { r = 100, g = 100, b = 100 },
 		ageing = 0,
 		vehicle_friction_modifier = concrete_vehicle_speed_modifier
-	},
-	{
+		},
+		{
 		type = "tile",
 		name = "glass-tile",
 		needs_correction = false,
@@ -877,5 +878,6 @@ data:extend({
 		map_color = { r = 100, g = 100, b = 100 },
 		ageing = 0,
 		vehicle_friction_modifier = concrete_vehicle_speed_modifier
-	},
-})
+		},
+	}
+)
