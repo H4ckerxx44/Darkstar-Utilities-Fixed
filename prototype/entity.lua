@@ -9935,108 +9935,6 @@ call_for_help_radius = 40
                 allowed_effects = { "consumption", "speed", "productivity", "pollution" },
             },
 
-            -- coal probe
-            {
-                type = "assembling-machine",
-                name = "coal-probe",
-                icon = "__Darkstar_utilities_fixed__/graphics/icons/coal-probe-icon.png",
-                icon_size = 32,
-                flags = { "placeable-neutral", "placeable-player", "player-creation" },
-                minable = { hardness = 0.2, mining_time = 0.5, result = "coal-probe" },
-                max_health = 400,
-                corpse = "big-remnants",
-                dying_explosion = "medium-explosion",
-                alert_icon_shift = util.by_pixel(-3, -12),
-                resistances = {
-                    {
-                        type = "fire",
-                        percent = 70
-                    }
-                },
-                open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-                close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-                vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-                working_sound = {
-                    sound = {
-                        {
-                            filename = "__base__/sound/electric-mining-drill.ogg",
-                            volume = 0.8
-                        },
-                        {
-                            filename = "__base__/sound/electric-mining-drill.ogg",
-                            volume = 0.8
-                        }
-                    },
-                    idle_sound = { filename = "__base__/sound/accumulator-idle.ogg", volume = 0.6 },
-                    apparent_volume = 1.5
-                },
-                collision_box = { { -1.2, -1.2 }, { 1.2, 1.2 } },
-                selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
-                drawing_box = { { -1.5, -1.7 }, { 1.5, 1.5 } },
-                fast_replaceable_group = "assembling-machine",
-                animation = {
-                    layers = {
-                        {
-                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/coal-probe.png",
-                            priority = "high",
-                            width = 500,
-                            height = 500,
-                            frame_count = 1,
-                            line_length = 1,
-                            shift = util.by_pixel(0, -0.5),
-                            hr_version = {
-                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/coal-probe.png",
-                                priority = "high",
-                                width = 500,
-                                height = 500,
-                                frame_count = 1,
-                                line_length = 1,
-                                shift = util.by_pixel(0, -8),
-                                scale = 0.3
-                            }
-                        },
-                        {
-                            filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
-                            priority = "high",
-                            width = 845,
-                            height = 500,
-                            frame_count = 1,
-                            line_length = 1,
-                            draw_as_shadow = true,
-                            shift = util.by_pixel(16, 4),
-                            hr_version = {
-                                filename = "__Darkstar_utilities_fixed__/graphics/entity/probe/probe-shadow.png",
-                                priority = "high",
-                                width = 845,
-                                height = 500,
-                                frame_count = 1,
-                                line_length = 1,
-                                draw_as_shadow = true,
-                                shift = util.by_pixel(27, 13),
-                                scale = 0.2
-                            }
-                        }
-                    }
-                },
-
-                crafting_categories = { "probes" },
-                crafting_speed = 0.4,
-                energy_source = {
-                    type = "electric",
-                    usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
-                },
-                energy_usage = "250kW",
-                ingredient_count = 2,
-                fixed_recipe = "deep-coal-ore",
-                module_specification = {
-                    module_slots = 2,
-                    module_info_icon_shift = { 0, 0.8 }
-                },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
-            },
-
-
             -- gold probe
             {
                 type = "assembling-machine",
@@ -12314,6 +12212,7 @@ call_for_help_radius = 40
                     }
                 }
             },
+
             {
                 type = "inserter",
                 name = "smart-terra-inserter",
