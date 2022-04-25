@@ -15,7 +15,20 @@ Thanks to Expanded Rocket Payloads, I had to reference their code for the *empty
 Feel free to edit and re-upload the mod with new or altered features, however give due credit.
 
 Change Log:
+---------------------------------------
+##0.19.9 Coal Mining Probe
+##Added:##
+Coal Mining Probe
 
+##Changed##
+Internal buffer for Mining Probes is now 5000 instead of 500
+
+---------------------------------------
+##0.19.8 Typos!
+##Fixed:##
+Fixed various typos
+
+---------------------------------------
 ##0.19.7 It's back!
 ##Fixed:##
 Properly package the mod for release
