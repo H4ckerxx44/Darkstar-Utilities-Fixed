@@ -76,7 +76,7 @@ data:extend(
                 subgroup = "probes",
                 order = "a-[probe]-a[probe]",
                 place_result = "iron-probe",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
@@ -98,7 +98,7 @@ data:extend(
                 subgroup = "probes",
                 order = "c-[probe]-c[probe]",
                 place_result = "lead-probe",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
@@ -109,7 +109,7 @@ data:extend(
                 subgroup = "probes",
                 order = "d-[probe]-d[probe]",
                 place_result = "gold-probe",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
@@ -120,7 +120,7 @@ data:extend(
                 subgroup = "probes",
                 order = "e-[probe]-e[probe]",
                 place_result = "stone-probe",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
@@ -131,7 +131,7 @@ data:extend(
                 subgroup = "probes",
                 order = "f-[probe]-f[probe]",
                 place_result = "uranium-probe",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
@@ -142,7 +142,7 @@ data:extend(
                 subgroup = "probes",
                 order = "a[probe]-a[probe]",
                 place_result = "iron-probe2",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
@@ -153,7 +153,7 @@ data:extend(
                 subgroup = "probes",
                 order = "b[probe]-b[probe]",
                 place_result = "copper-probe2",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
@@ -164,7 +164,7 @@ data:extend(
                 subgroup = "probes",
                 order = "c[probe]-c[probe]",
                 place_result = "lead-probe2",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
@@ -175,7 +175,7 @@ data:extend(
                 subgroup = "probes",
                 order = "d[probe]-d[probe]",
                 place_result = "gold-probe2",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
@@ -186,7 +186,7 @@ data:extend(
                 subgroup = "probes",
                 order = "e[probe]-e[probe]",
                 place_result = "stone-probe2",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
@@ -197,7 +197,7 @@ data:extend(
                 subgroup = "probes",
                 order = "f[probe]-f[probe]",
                 place_result = "uranium-probe2",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
@@ -208,7 +208,7 @@ data:extend(
                 subgroup = "probes",
                 order = "g[probe]-f[probe]",
                 place_result = "diamond-probe",
-                stack_size = 500
+                stack_size = 5000
             },
 
             {
