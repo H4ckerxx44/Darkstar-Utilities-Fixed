@@ -16,6 +16,13 @@ Feel free to edit and re-upload the mod with new or altered features, however gi
 
 Change Log:
 ---------------------------------------
+##0.19.10 Versioning Mess
+Solve my internal versioning mess.
+
+##Fixed:##
+Typo in Readme File
+
+---------------------------------------
 ##0.19.9 Coal Mining Probe
 ##Added:##
 Coal Mining Probe
