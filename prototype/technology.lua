@@ -315,6 +315,10 @@ data:extend(
                         type = "unlock-recipe",
                         recipe = "stone-probe",
                     },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "coal-probe",
+                    },
                 },
                 prerequisites = { "automation-3", "ds-oil" },
                 unit = {

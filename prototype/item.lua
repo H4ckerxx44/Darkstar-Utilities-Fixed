@@ -87,7 +87,18 @@ data:extend(
                 subgroup = "probes",
                 order = "b-[probe]-b[probe]",
                 place_result = "copper-probe",
-                stack_size = 500
+                stack_size = 5000
+            },
+
+            {
+                type = "item",
+                name = "coal-probe",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/iron-probe-icon.png",
+                icon_size = 32,
+                subgroup = "probes",
+                order = "b-[probe]-b[probe]",
+                place_result = "coal-probe",
+                stack_size = 5000
             },
 
             {

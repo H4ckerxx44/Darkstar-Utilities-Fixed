@@ -255,6 +255,19 @@ data:extend(
 
             {
                 type = "recipe",
+                name = "deep-coal-ore",
+                category = "probes",
+                energy_required = 1,
+                enabled = true,
+                hidden = true,
+                ingredients = {
+                },
+                result = "coal",
+                result_count = "10",
+            },
+
+            {
+                type = "recipe",
                 name = "deep-gold-ore2",
                 category = "probes2",
                 energy_required = 3,
@@ -772,6 +785,21 @@ data:extend(
                     { "electric-engine-unit", 5 },
                 },
                 result = "copper-probe",
+            },
+
+            {
+                type = "recipe",
+                name = "coal-probe",
+                energy_required = 30,
+                enabled = false,
+                ingredients = {
+                    { "radar", 30 },
+                    { "glass", 25 },
+                    { "steel-plate", 25 },
+                    { "diamond", 5 },
+                    { "electric-engine-unit", 5 },
+                },
+                result = "coal-probe",
             },
 
             {
