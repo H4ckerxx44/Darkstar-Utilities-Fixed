@@ -50,32 +50,35 @@ function built_interface(entity)
     entity.power_production = power
 end
 
-script.on_event(defines.events.on_research_finished, function(event)
-    if event.research.name == 'any-launch' then
-        if not remote.interfaces["silo_script"] then
-            return
+script.on_event(
+        defines.events.on_research_finished,
+        function(event)
+            if event.research.name == "any-launch" then
+                if not remote.interfaces["silo_script"] then
+                    return
+                end
+                remote.call("silo_script", "add_tracked_item", "planet-quarry")
+                remote.call("silo_script", "add_tracked_item", "dark-matter-drones")
+                remote.call("silo_script", "add_tracked_item", "antithetic-drones")
+                remote.call("silo_script", "add_tracked_item", "norbornadiene-drones")
+                remote.call("silo_script", "add_tracked_item", "star-matter-drones")
+                remote.call("silo_script", "add_tracked_item", "star-stone")
+                remote.call("silo_script", "add_tracked_item", "star-research")
+                remote.call("silo_script", "add_tracked_item", "star-uranium")
+                remote.call("silo_script", "add_tracked_item", "star-lead")
+                remote.call("silo_script", "add_tracked_item", "star-gold")
+                remote.call("silo_script", "add_tracked_item", "star-iron")
+                remote.call("silo_script", "add_tracked_item", "star-copper")
+                remote.call("silo_script", "add_tracked_item", "star-coal")
+                remote.call("silo_script", "add_tracked_item", "dark-matter-capsule-empty")
+                remote.call("silo_script", "add_tracked_item", "antithetical-capsule-empty")
+                remote.call("silo_script", "add_tracked_item", "norbornadiene-capsule-empty")
+                remote.call("silo_script", "add_tracked_item", "antithetic-container")
+                remote.call("silo_script", "add_tracked_item", "asteroid-quarry")
+                remote.call("silo_script", "add_tracked_item", "antithetic-container")
+            end
         end
-        remote.call("silo_script", "add_tracked_item", "planet-quarry")
-        remote.call("silo_script", "add_tracked_item", "dark-matter-drones")
-        remote.call("silo_script", "add_tracked_item", "antithetic-drones")
-        remote.call("silo_script", "add_tracked_item", "norbornadiene-drones")
-        remote.call("silo_script", "add_tracked_item", "star-matter-drones")
-        remote.call("silo_script", "add_tracked_item", "star-stone")
-        remote.call("silo_script", "add_tracked_item", "star-research")
-        remote.call("silo_script", "add_tracked_item", "star-uranium")
-        remote.call("silo_script", "add_tracked_item", "star-lead")
-        remote.call("silo_script", "add_tracked_item", "star-gold")
-        remote.call("silo_script", "add_tracked_item", "star-iron")
-        remote.call("silo_script", "add_tracked_item", "star-copper")
-        remote.call("silo_script", "add_tracked_item", "star-coal")
-        remote.call("silo_script", "add_tracked_item", "dark-matter-capsule-empty")
-        remote.call("silo_script", "add_tracked_item", "antithetical-capsule-empty")
-        remote.call("silo_script", "add_tracked_item", "norbornadiene-capsule-empty")
-        remote.call("silo_script", "add_tracked_item", "antithetic-container")
-        remote.call("silo_script", "add_tracked_item", "asteroid-quarry")
-        remote.call("silo_script", "add_tracked_item", "antithetic-container")
-    end
-end)
+)
 
 script.on_init(setup_remote_call)
 script.on_configuration_changed(setup_remote_call)
@@ -84,13 +87,16 @@ function setup_remote_call()
     remote.call(interface_name, "set_show_launched_without_satellite", false)
 end
 
-script.on_event(defines.events.on_research_finished, function(event)
-    if event.research.name == 'any-launch' then
-        function setup_remote_call()
-            remote.call(interface_name, "set_show_launched_without_satellite", false)
+script.on_event(
+        defines.events.on_research_finished,
+        function(event)
+            if event.research.name == "any-launch" then
+                function setup_remote_call()
+                    remote.call(interface_name, "set_show_launched_without_satellite", false)
+                end
+            end
         end
-    end
-end)
+)
 ---------------------------------------------------------
 -- Constants
 local laser_quarry_period = 256
@@ -147,7 +153,7 @@ end
 script.on_load(onLoad)
 
 ---------------------------------------------------------
--- On mod update, 
+-- On mod update,
 function onConfigurationChange(change_data)
     if global.quarries then
         global.laser_quarries = util.table.deepcopy(global.quarries)
@@ -243,4 +249,3 @@ function insertRandomOre(inventory)
         inventory.insert({ name = mixed_ores[math.random(1, #mixed_ores)], count = 1064 })
     end
 end
-

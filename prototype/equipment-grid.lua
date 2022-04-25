@@ -48,6 +48,6 @@ data:extend(
                 width = 30,
                 height = 30,
                 equipment_categories = { "vehicle" }
-            },
+            }
         }
 )

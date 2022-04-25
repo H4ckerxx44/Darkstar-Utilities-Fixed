@@ -37,10 +37,9 @@ local function autoplace_settings(noise_name, control, rectangle, rectangle2)
         aux_optimal = aux_center,
         aux_range = aux_range,
         aux_max_range = aux_range + fadeout,
-
         water_optimal = water_center,
         water_range = water_range,
-        water_max_range = water_range + fadeout,
+        water_max_range = water_range + fadeout
     }
 
     if rectangle2 ~= nil then
@@ -53,17 +52,21 @@ local function autoplace_settings(noise_name, control, rectangle, rectangle2)
             aux_optimal = aux_center,
             aux_range = aux_range,
             aux_max_range = aux_range + fadeout,
-
             water_optimal = water_center,
             water_range = water_range,
-            water_max_range = water_range + fadeout,
+            water_max_range = water_range + fadeout
         }
     end
 
     return { peaks = peaks, control = control }
 end
 
-function tile_variations_template(normal_res_picture, normal_res_transition, high_res_picture, high_res_transition, options)
+function tile_variations_template(
+        normal_res_picture,
+        normal_res_transition,
+        high_res_picture,
+        high_res_transition,
+        options)
     local function main_variation(size_)
         local y_ = ((size_ == 1) and 0) or ((size_ == 2) and 64) or ((size_ == 4) and 160) or 320
         local ret = {
@@ -93,8 +96,7 @@ function tile_variations_template(normal_res_picture, normal_res_transition, hig
     end
 
     local function make_transition_variation(x_, line_len_, cnt_)
-        return
-        {
+        return {
             picture = normal_res_transition,
             count = cnt_ or 8,
             line_length = line_len_ or 8,
@@ -104,7 +106,7 @@ function tile_variations_template(normal_res_picture, normal_res_transition, hig
                 count = cnt_ or 8,
                 line_length = line_len_ or 8,
                 x = 2 * x_,
-                scale = 0.5,
+                scale = 0.5
             }
         }
     end
@@ -112,27 +114,25 @@ function tile_variations_template(normal_res_picture, normal_res_transition, hig
     local main_ = {
         main_variation(1),
         main_variation(2),
-        main_variation(4),
+        main_variation(4)
     }
     if (options.max_size == 8) then
         table.insert(main_, main_variation(8))
     end
 
-    return
-    {
+    return {
         main = main_,
         inner_corner_mask = make_transition_variation(0),
         outer_corner_mask = make_transition_variation(288),
         side_mask = make_transition_variation(576),
         u_transition_mask = make_transition_variation(864, 1, 1),
-        o_transition_mask = make_transition_variation(1152, 2, 1),
+        o_transition_mask = make_transition_variation(1152, 2, 1)
     }
 end
 
 function water_transition_template(to_tiles, normal_res_transition, high_res_transition, options)
     local function make_transition_variation(src_x, src_y, cnt_, line_len_, is_tall)
-        return
-        {
+        return {
             picture = normal_res_transition,
             count = cnt_,
             line_length = line_len_,
@@ -146,7 +146,7 @@ function water_transition_template(to_tiles, normal_res_transition, high_res_tra
                 x = 2 * src_x,
                 y = 2 * (src_y or 0),
                 tall = is_tall,
-                scale = 0.5,
+                scale = 0.5
             }
         }
     end
@@ -189,7 +189,7 @@ function water_autoplace_settings(from_depth, rectangles)
             influence = 1e3 + from_depth,
             elevation_optimal = -water_inflike - from_depth,
             elevation_range = water_inflike,
-            elevation_max_range = water_inflike, -- everywhere below elevation 0 and nowhere else
+            elevation_max_range = water_inflike -- everywhere below elevation 0 and nowhere else
         }
     }
 
@@ -230,7 +230,7 @@ local sand_transitions = {
                 o_transition_count = 8,
                 base = { background_layer_offset = -1 }
             }
-    ),
+    )
 }
 
 local sand_transitions_between_transitions = {
@@ -247,9 +247,9 @@ local sand_transitions_between_transitions = {
                 side_count = 3,
                 u_transition_count = 1,
                 o_transition_count = 0,
-                base = { water_patch = patch_for_inner_corner_of_transition_between_transition, },
+                base = { water_patch = patch_for_inner_corner_of_transition_between_transition }
             }
-    ),
+    )
 }
 
 local grass_transitions = {
@@ -265,7 +265,7 @@ local grass_transitions = {
                     side_weights = { 1, 1, 1, 1, 0.25, 0.25, 1, 1, 1, 1, 0.125, 0.25, 1, 1, 1, 1 }
                 }
             }
-    ),
+    )
 }
 
 local grass_transitions_between_transitions = {
@@ -280,9 +280,9 @@ local grass_transitions_between_transitions = {
                 side_count = 3,
                 u_transition_count = 1,
                 o_transition_count = 0,
-                base = { water_patch = patch_for_inner_corner_of_transition_between_transition, },
+                base = { water_patch = patch_for_inner_corner_of_transition_between_transition }
             }
-    ),
+    )
 }
 
 local dry_dirt_transitions = {
@@ -296,9 +296,9 @@ local dry_dirt_transitions = {
                 o_transition_count = 4,
                 side_count = 8,
                 outer_corner_count = 8,
-                inner_corner_count = 8,
+                inner_corner_count = 8
             }
-    ),
+    )
 }
 
 local dry_dirt_transitions_between_transitions = {
@@ -313,9 +313,9 @@ local dry_dirt_transitions_between_transitions = {
                 side_count = 3,
                 u_transition_count = 1,
                 o_transition_count = 0,
-                base = { water_patch = patch_for_inner_corner_of_transition_between_transition, },
+                base = { water_patch = patch_for_inner_corner_of_transition_between_transition }
             }
-    ),
+    )
 }
 
 local dark_dirt_transitions = {
@@ -329,9 +329,9 @@ local dark_dirt_transitions = {
                 o_transition_count = 4,
                 side_count = 8,
                 outer_corner_count = 8,
-                inner_corner_count = 8,
+                inner_corner_count = 8
             }
-    ),
+    )
 }
 
 local dark_dirt_transitions_between_transitions = {
@@ -346,9 +346,9 @@ local dark_dirt_transitions_between_transitions = {
                 side_count = 3,
                 u_transition_count = 1,
                 o_transition_count = 0,
-                base = { water_patch = patch_for_inner_corner_of_transition_between_transition, },
+                base = { water_patch = patch_for_inner_corner_of_transition_between_transition }
             }
-    ),
+    )
 }
 
 local concrete_transitions = {
@@ -362,10 +362,10 @@ local concrete_transitions = {
                 o_transition_count = 4,
                 side_count = 8,
                 outer_corner_count = 8,
-                inner_corner_count = 8,
+                inner_corner_count = 8
                 --base = { layer = 40 }
             }
-    ),
+    )
 }
 
 local concrete_transitions_between_transitions = {
@@ -379,9 +379,9 @@ local concrete_transitions_between_transitions = {
                 outer_corner_count = 3,
                 side_count = 3,
                 u_transition_count = 1,
-                o_transition_count = 0,
+                o_transition_count = 0
             }
-    ),
+    )
 }
 
 local stone_path_transitions = {
@@ -395,10 +395,10 @@ local stone_path_transitions = {
                 o_transition_count = 4,
                 side_count = 8,
                 outer_corner_count = 8,
-                inner_corner_count = 8,
+                inner_corner_count = 8
                 --base = { layer = 40 }
             }
-    ),
+    )
 }
 
 local stone_path_transitions_between_transitions = {
@@ -412,9 +412,9 @@ local stone_path_transitions_between_transitions = {
                 outer_corner_count = 3,
                 side_count = 3,
                 u_transition_count = 1,
-                o_transition_count = 0,
+                o_transition_count = 0
             }
-    ),
+    )
 }
 
 local base_stone_path = data.raw["tile"]["stone-path"]
@@ -423,23 +423,27 @@ local function tile_variant(set, variant)
     return {
         main = {
             {
-                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-1.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                        set .. "/" .. variant .. "/" .. set .. "-1.png",
                 count = 16,
                 size = 1,
                 hr_version = {
-                    picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-1.png",
+                    picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                            set .. "/" .. variant .. "/hr-" .. set .. "-1.png",
                     count = 16,
                     size = 1,
                     scale = 0.5
                 }
             },
             {
-                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-2.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                        set .. "/" .. variant .. "/" .. set .. "-2.png",
                 count = 4,
                 size = 2,
                 probability = 0.39,
                 hr_version = {
-                    picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "//hr-" .. set .. "-2.png",
+                    picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                            set .. "/" .. variant .. "//hr-" .. set .. "-2.png",
                     count = 4,
                     size = 2,
                     probability = 0.39,
@@ -447,47 +451,55 @@ local function tile_variant(set, variant)
                 }
             },
             {
-                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-4.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                        set .. "/" .. variant .. "/" .. set .. "-4.png",
                 count = 4,
                 size = 4,
                 probability = 1,
                 hr_version = {
-                    picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-4.png",
+                    picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                            set .. "/" .. variant .. "/hr-" .. set .. "-4.png",
                     count = 4,
                     size = 4,
                     probability = 1,
                     scale = 0.5
                 }
-            },
+            }
         },
         inner_corner = {
-            picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-inner-corner.png",
+            picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                    set .. "/" .. variant .. "/" .. set .. "-inner-corner.png",
             count = 16,
             tall = true,
             hr_version = {
-                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-inner-corner.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                        set .. "/" .. variant .. "/hr-" .. set .. "-inner-corner.png",
                 count = 16,
                 tall = true,
                 scale = 0.5
             }
         },
         outer_corner = {
-            picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-outer-corner.png",
+            picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                    set .. "/" .. variant .. "/" .. set .. "-outer-corner.png",
             count = 8,
             tall = true,
             hr_version = {
-                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-outer-corner.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                        set .. "/" .. variant .. "/hr-" .. set .. "-outer-corner.png",
                 count = 8,
                 tall = true,
                 scale = 0.5
             }
         },
         side = {
-            picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-side.png",
+            picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                    set .. "/" .. variant .. "/" .. set .. "-side.png",
             count = 16,
             tall = true,
             hr_version = {
-                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-side.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                        set .. "/" .. variant .. "/hr-" .. set .. "-side.png",
                 count = 16,
                 tall = true,
                 scale = 0.5
@@ -498,7 +510,8 @@ local function tile_variant(set, variant)
             count = 8,
             tall = true,
             hr_version = {
-                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-u.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                        set .. "/" .. variant .. "/hr-" .. set .. "-u.png",
                 count = 8,
                 tall = true,
                 scale = 0.5
@@ -508,7 +521,8 @@ local function tile_variant(set, variant)
             picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/" .. set .. "-o.png",
             count = 4,
             hr_version = {
-                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" .. set .. "/" .. variant .. "/hr-" .. set .. "-o.png",
+                picture = "__Darkstar_utilities_fixed__/graphics/tiles/" ..
+                        set .. "/" .. variant .. "/hr-" .. set .. "-o.png",
                 count = 4,
                 scale = 0.5
             }
@@ -518,7 +532,7 @@ end
 
 local function tile_variant_material(set, variant)
     return {
-        main = base_stone_path.variant.main,
+        main = base_stone_path.variant.main
     }
 end
 
@@ -728,7 +742,6 @@ data:extend(
                 ageing = 0,
                 vehicle_friction_modifier = stone_path_vehicle_speed_modifier
             },
-
             --Old glass tiles
 
             {
@@ -753,14 +766,14 @@ data:extend(
                             picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/express2.png",
                             count = 4,
                             size = 2,
-                            probability = 0.39,
+                            probability = 0.39
                         },
                         {
                             picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/express4.png",
                             count = 4,
                             size = 4,
-                            probability = 1,
-                        },
+                            probability = 1
+                        }
                     },
                     inner_corner = {
                         picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-inner-corner.png",
@@ -827,14 +840,14 @@ data:extend(
                             picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass2.png",
                             count = 4,
                             size = 2,
-                            probability = 0.39,
+                            probability = 0.39
                         },
                         {
                             picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass4.png",
                             count = 4,
                             size = 4,
-                            probability = 1,
-                        },
+                            probability = 1
+                        }
                     },
                     inner_corner = {
                         picture = "__Darkstar_utilities_fixed__/graphics/tiles/other-paths/glass-inner-corner.png",
@@ -878,6 +891,6 @@ data:extend(
                 map_color = { r = 100, g = 100, b = 100 },
                 ageing = 0,
                 vehicle_friction_modifier = concrete_vehicle_speed_modifier
-            },
+            }
         }
 )

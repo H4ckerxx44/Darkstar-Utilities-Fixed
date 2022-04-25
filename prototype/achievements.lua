@@ -296,6 +296,6 @@ data:extend(
                 icon = "__Darkstar_utilities_fixed__/graphics/achievements/laser2.png",
                 icon_size = 128,
                 limited_to_one_game = true
-            },
+            }
         }
 )

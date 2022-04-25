@@ -17,6 +17,7 @@ Feel free to edit and re-upload the mod with new or altered features, however gi
 Change Log:
 ---------------------------------------
 ##0.19.10 Versioning Mess
+Big code reformat
 Solve my internal versioning mess.
 
 ##Fixed:##

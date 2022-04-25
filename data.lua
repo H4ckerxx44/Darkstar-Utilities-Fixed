@@ -18,4 +18,3 @@ require("prototype.equipment-category")
 require("prototype.recipe-category")
 require("prototype.achievements")
 require("prototype.module-category")
-

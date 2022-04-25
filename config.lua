@@ -32,8 +32,7 @@ potential_ores = {
     -- Darkstar
     "gold-ore",
     "lead-ore",
-    "lithium-ore",
-
+    "lithium-ore"
 }
 
 result_ore2 = "swarm-relay"
@@ -41,5 +40,5 @@ ore_per_second = 4
 deep_mining_pollution = 0.03 * 60
 
 star_ores = {
-    "swarm-relay",
+    "swarm-relay"
 }

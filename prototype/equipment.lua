@@ -3,7 +3,7 @@ data:extend(
             {
                 type = "generator-equipment",
                 name = "dark-matter-reactor",
-                categories = { "armor", },
+                categories = { "armor" },
                 sprite = {
                     filename = "__Darkstar_utilities_fixed__/graphics/equipment/dark-matter-2.png",
                     width = 206,
@@ -21,11 +21,10 @@ data:extend(
                 },
                 power = "1500kW"
             },
-
             {
                 type = "generator-equipment",
                 name = "vehicle-reactor",
-                categories = { "vehicle", },
+                categories = { "vehicle" },
                 sprite = {
                     filename = "__Darkstar_utilities_fixed__/graphics/equipment/engine-room.png",
                     width = 256,
@@ -43,7 +42,6 @@ data:extend(
                 },
                 power = "2.5GW"
             },
-
             {
                 type = "active-defense-equipment",
                 name = "advanced-laser-defense-equipment",
@@ -99,7 +97,6 @@ data:extend(
                 },
                 automatic = true
             },
-
             {
                 type = "active-defense-equipment",
                 name = "advanced-laser-defense-equipment-mk2",
@@ -154,7 +151,6 @@ data:extend(
                 },
                 automatic = true
             },
-
             {
                 type = "active-defense-equipment",
                 name = "advanced-laser-defense-equipment-mk3",
@@ -210,7 +206,6 @@ data:extend(
                 },
                 automatic = true
             },
-
             {
                 type = "active-defense-equipment",
                 name = "shoulder-tank-cannon",
@@ -266,7 +261,6 @@ data:extend(
                 },
                 automatic = true
             },
-
             {
                 type = "active-defense-equipment",
                 name = "shoulder-railgun",
@@ -322,7 +316,6 @@ data:extend(
                 },
                 automatic = true
             },
-
             {
                 type = "active-defense-equipment",
                 name = "ship-cannon",
@@ -378,11 +371,10 @@ data:extend(
                 },
                 automatic = true
             },
-
             {
                 type = "generator-equipment",
                 name = "dark-matter-reactor-mk2",
-                categories = { "armor", },
+                categories = { "armor" },
                 sprite = {
                     filename = "__Darkstar_utilities_fixed__/graphics/equipment/4D-power-3.png",
                     width = 256,
@@ -400,7 +392,6 @@ data:extend(
                 },
                 power = "5000kW"
             },
-
             {
                 type = "movement-bonus-equipment",
                 name = "advanced-exoskeleton-equipment",
@@ -423,7 +414,6 @@ data:extend(
                 energy_consumption = "40kW",
                 movement_bonus = 1.5
             },
-
             {
                 type = "movement-bonus-equipment",
                 name = "thruster-upgrade",
@@ -446,7 +436,6 @@ data:extend(
                 energy_consumption = "100MW",
                 movement_bonus = 2
             },
-
             {
                 type = "roboport-equipment",
                 name = "large-personal-roboport-equipment",
@@ -471,12 +460,10 @@ data:extend(
                 },
                 charging_energy = "1000kW",
                 energy_consumption = "0kW",
-
                 robot_limit = 60,
                 construction_radius = 70,
                 spawn_and_station_height = 0.4,
                 charge_approach_distance = 2.6,
-
                 radius_visualisation_picture = {
                     filename = "__base__/graphics/entity/roboport/roboport-radius-visualization.png",
                     width = 12,
@@ -487,7 +474,6 @@ data:extend(
                     width = 12,
                     height = 12
                 },
-
                 recharging_animation = {
                     filename = "__base__/graphics/entity/roboport/roboport-recharging.png",
                     priority = "high",
@@ -528,12 +514,10 @@ data:extend(
                 },
                 charging_energy = "5GW",
                 energy_consumption = "5GW",
-
                 robot_limit = 120,
                 construction_radius = 170,
                 spawn_and_station_height = 0.4,
                 charge_approach_distance = 2.6,
-
                 radius_visualisation_picture = {
                     filename = "__base__/graphics/entity/roboport/roboport-radius-visualization.png",
                     width = 12,
@@ -544,7 +528,6 @@ data:extend(
                     width = 12,
                     height = 12
                 },
-
                 recharging_animation = {
                     filename = "__base__/graphics/entity/roboport/roboport-recharging.png",
                     priority = "high",
@@ -564,7 +547,7 @@ data:extend(
             {
                 type = "energy-shield-equipment",
                 name = "energy-shield-mk3-equipment",
-                categories = { "armor", },
+                categories = { "armor" },
                 sprite = {
                     filename = "__Darkstar_utilities_fixed__/graphics/equipment/energy-shield-mk3-equipment.png",
                     width = 64,
@@ -585,7 +568,6 @@ data:extend(
                 },
                 energy_per_shield = "200KJ"
             },
-
             {
                 type = "energy-shield-equipment",
                 name = "vehicle-shield",
@@ -610,11 +592,10 @@ data:extend(
                 },
                 energy_per_shield = "800KJ"
             },
-
             {
                 type = "battery-equipment",
                 name = "battery-mk3",
-                categories = { "armor", },
+                categories = { "armor" },
                 sprite = {
                     filename = "__Darkstar_utilities_fixed__/graphics/equipment/battery-mk3.png",
                     width = 32,
@@ -637,7 +618,7 @@ data:extend(
             {
                 type = "battery-equipment",
                 name = "battery-mk4",
-                categories = { "armor", },
+                categories = { "armor" },
                 sprite = {
                     filename = "__Darkstar_utilities_fixed__/graphics/equipment/battery-mk4.png",
                     width = 32,
@@ -657,7 +638,6 @@ data:extend(
                     usage_priority = "tertiary"
                 }
             },
-
             {
                 type = "battery-equipment",
                 name = "energy-liquid",
@@ -877,7 +857,7 @@ data:extend(
             {
                 type = "energy-shield-equipment",
                 name = "energy-shield-mk4-equipment",
-                categories = { "armor", },
+                categories = { "armor" },
                 sprite = {
                     filename = "__Darkstar_utilities_fixed__/graphics/equipment/energy-shield-mk4-equipment.png",
                     width = 64,
@@ -922,12 +902,10 @@ data:extend(
                 },
                 charging_energy = "1000kW",
                 energy_consumption = "40kW",
-
                 robot_limit = 40,
                 construction_radius = 30,
                 spawn_and_station_height = 0.4,
                 charge_approach_distance = 2.6,
-
                 radius_visualisation_picture = {
                     filename = "__base__/graphics/entity/roboport/roboport-radius-visualization.png",
                     width = 12,
@@ -938,7 +916,6 @@ data:extend(
                     width = 12,
                     height = 12
                 },
-
                 recharging_animation = {
                     filename = "__base__/graphics/entity/roboport/roboport-recharging.png",
                     priority = "high",
@@ -1080,6 +1057,6 @@ data:extend(
                 },
                 power = "10000000kW",
                 categories = { "vehicle" }
-            },
+            }
         }
 )

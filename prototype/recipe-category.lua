@@ -43,6 +43,6 @@ data:extend(
             {
                 type = "recipe-category",
                 name = "space-science"
-            },
+            }
         }
 )

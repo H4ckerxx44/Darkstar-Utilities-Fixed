@@ -47,6 +47,6 @@ data:extend(
             {
                 type = "ammo-category",
                 name = "healing"
-            },
+            }
         }
 )

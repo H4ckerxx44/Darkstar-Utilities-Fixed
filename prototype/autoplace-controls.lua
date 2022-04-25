@@ -5,21 +5,21 @@ data:extend(
                 name = "gold-ore",
                 richness = true,
                 order = "d-a",
-                category = "resource",
+                category = "resource"
             },
             {
                 type = "autoplace-control",
                 name = "lithium-ore",
                 richness = true,
                 order = "d-a",
-                category = "resource",
+                category = "resource"
             },
             {
                 type = "autoplace-control",
                 name = "lead-ore",
                 richness = true,
                 order = "d-b",
-                category = "resource",
-            },
+                category = "resource"
+            }
         }
 )

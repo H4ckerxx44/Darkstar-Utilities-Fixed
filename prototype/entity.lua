@@ -2,7 +2,7 @@ local sounds = require("__base__/prototypes/entity/sounds")
 
 local lab_inputs = {
     "automation-science-pack",
-    "logistic-science-pack",
+    "logistic-science-pack"
 }
 
 if not data.is_demo then
@@ -26,7 +26,8 @@ data:extend(
                 type = "lab",
                 name = "lab",
                 icon = "__base__/graphics/icons/lab.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { mining_time = 0.2, result = "lab" },
                 max_health = 150,
@@ -173,17 +174,16 @@ data:extend(
                     module_info_icon_shift = { 0, 0.9 }
                 }
             },
-
             {
                 type = "highlight-box",
                 name = "highlight-box"
             },
-
             {
                 type = "character",
                 name = "character",
                 icon = "__core__/graphics/icons/entity/character.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-off-grid", "breaths-air", "not-repairable", "not-on-map", "not-flammable" },
                 max_health = 250,
                 alert_when_damaged = false,
@@ -234,7 +234,6 @@ data:extend(
                         }
                     }
                 },
-
                 animations = {
                     {
                         idle = {
@@ -324,7 +323,8 @@ data:extend(
                     },
                     {
                         -- modular armors are not in the demo
-                        armors = data.is_demo and {} or { "modular-armor", "power-armor", "power-armor-mk2", "power-armor-mk3" },
+                        armors = data.is_demo and {} or
+                                { "modular-armor", "power-armor", "power-armor-mk2", "power-armor-mk3" },
                         idle = {
                             layers = {
                                 character_animations.level1.idle,
@@ -402,7 +402,6 @@ data:extend(
                 footstep_particle_triggers = {
                     {
                         tiles = { "water-shallow" },
-
                         type = "create-particle",
                         repeat_count = 5,
                         particle_name = "shallow-water-droplet-particle",
@@ -415,7 +414,6 @@ data:extend(
                     },
                     {
                         tiles = { "water-mud" },
-
                         type = "create-particle",
                         repeat_count = 5,
                         particle_name = "shallow-water-droplet-particle",
@@ -428,7 +426,7 @@ data:extend(
                     }
                 }
             },
-
+            --
             --[[
 {
 type = "electric-energy-interface",
@@ -481,8 +479,7 @@ volume = 0.0
 max_sounds_per_type = 5
 },
 },
-]]--
-            {
+]] {
                 type = "electric-energy-interface",
                 name = "geothermal-generator",
                 icon = "__Darkstar_utilities_fixed__/graphics/icons/geothermal-generator2.png",
@@ -522,9 +519,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "geothermal-generator-mk2",
@@ -565,9 +561,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "geothermal-generator-mk3",
@@ -608,9 +603,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "rtg",
@@ -652,9 +646,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "rtg-mk2",
@@ -696,9 +689,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "rtg-mk3",
@@ -740,9 +732,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "s-reg",
@@ -784,9 +775,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "s-reg-2",
@@ -828,9 +818,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "s-reg-3",
@@ -872,9 +861,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "prototype-anct",
@@ -916,9 +904,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "think-tank",
@@ -960,9 +947,8 @@ max_sounds_per_type = 5
                     },
                     light = { intensity = 0.4, size = 6, shift = { 0.0, 1.0 } },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "think-tank-mk2",
@@ -1004,9 +990,8 @@ max_sounds_per_type = 5
                     },
                     light = { intensity = 0.4, size = 24, shift = { 0.0, 1.0 } },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "think-tank-mk3",
@@ -1048,9 +1033,8 @@ max_sounds_per_type = 5
                     },
                     light = { intensity = 0.4, size = 24, shift = { 0.0, 1.0 } },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "dyson",
@@ -1077,7 +1061,7 @@ max_sounds_per_type = 5
                     priority = "high",
                     width = 508,
                     height = 304,
-                    shift = { 3.44, -2.5 },
+                    shift = { 3.44, -2.5 }
                 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
@@ -1090,9 +1074,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "multiverse-tear",
@@ -1119,7 +1102,7 @@ max_sounds_per_type = 5
                     priority = "high",
                     width = 508,
                     height = 304,
-                    shift = { 3.44, -2.5 },
+                    shift = { 3.44, -2.5 }
                 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
@@ -1132,9 +1115,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "electric-energy-interface",
                 name = "interstellar-dominion",
@@ -1161,7 +1143,7 @@ max_sounds_per_type = 5
                     priority = "high",
                     width = 508,
                     height = 304,
-                    shift = { 3.44, -2.5 },
+                    shift = { 3.44, -2.5 }
                 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
@@ -1174,9 +1156,8 @@ max_sounds_per_type = 5
                         volume = 0.0
                     },
                     max_sounds_per_type = 5
-                },
+                }
             },
-
             {
                 type = "car",
                 name = "dark-pulse",
@@ -1275,9 +1256,9 @@ max_sounds_per_type = 5
                     {
                         filename = "__base__/sound/fight/tank-no-fuel-1.ogg",
                         volume = 0.6
-                    },
+                    }
                 },
-                sound_minimum_speed = 0.15;
+                sound_minimum_speed = 0.15,
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
@@ -1292,7 +1273,7 @@ max_sounds_per_type = 5
                         filename = "__base__/sound/car-engine-stop.ogg",
                         volume = 0.6
                     },
-                    match_speed_to_activity = true,
+                    match_speed_to_activity = true
                 },
                 stop_trigger_speed = 0.2,
                 acceleration_per_energy = 0.35,
@@ -1304,9 +1285,8 @@ max_sounds_per_type = 5
                 weight = 750,
                 inventory_size = 30,
                 guns = { "assault-rifle" },
-                equipment_grid = "vehicle-equipment-grid2",
+                equipment_grid = "vehicle-equipment-grid2"
             },
-
             {
                 type = "car",
                 name = "deep-hold",
@@ -1405,9 +1385,9 @@ max_sounds_per_type = 5
                     {
                         filename = "__base__/sound/fight/tank-no-fuel-1.ogg",
                         volume = 0.6
-                    },
+                    }
                 },
-                sound_minimum_speed = 0.15;
+                sound_minimum_speed = 0.15,
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
@@ -1422,7 +1402,7 @@ max_sounds_per_type = 5
                         filename = "__base__/sound/car-engine-stop.ogg",
                         volume = 0.6
                     },
-                    match_speed_to_activity = true,
+                    match_speed_to_activity = true
                 },
                 stop_trigger_speed = 0.2,
                 acceleration_per_energy = 0.01,
@@ -1433,10 +1413,8 @@ max_sounds_per_type = 5
                 tank_driving = true,
                 weight = 10050,
                 inventory_size = 5000,
-                equipment_grid = "vehicle-equipment-grid",
-
+                equipment_grid = "vehicle-equipment-grid"
             },
-
             {
                 type = "car",
                 name = "end-game",
@@ -1536,9 +1514,9 @@ max_sounds_per_type = 5
                     {
                         filename = "__base__/sound/fight/tank-no-fuel-1.ogg",
                         volume = 0.6
-                    },
+                    }
                 },
-                sound_minimum_speed = 0.15;
+                sound_minimum_speed = 0.15,
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
@@ -1553,7 +1531,7 @@ max_sounds_per_type = 5
                         filename = "__base__/sound/car-engine-stop.ogg",
                         volume = 0.6
                     },
-                    match_speed_to_activity = true,
+                    match_speed_to_activity = true
                 },
                 stop_trigger_speed = 0.2,
                 acceleration_per_energy = 0.95,
@@ -1565,9 +1543,8 @@ max_sounds_per_type = 5
                 weight = 750,
                 inventory_size = 80,
                 guns = { "assault-rifle", "railgun-mk2", "end-game-rifle", "end-game-rifle-2" },
-                equipment_grid = "vehicle-equipment-grid3",
+                equipment_grid = "vehicle-equipment-grid3"
             },
-
             {
                 type = "car",
                 name = "nautilus",
@@ -1661,15 +1638,15 @@ max_sounds_per_type = 5
                     line_height = 6,
                     shift = { 0, 0 },
                     max_advance = 1,
-                    scale = 2,
+                    scale = 2
                 },
                 sound_no_fuel = {
                     {
                         filename = "__base__/sound/fight/tank-no-fuel-1.ogg",
                         volume = 0.6
-                    },
+                    }
                 },
-                sound_minimum_speed = 0.15;
+                sound_minimum_speed = 0.15,
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = {
@@ -1684,7 +1661,7 @@ max_sounds_per_type = 5
                         filename = "__base__/sound/car-engine-stop.ogg",
                         volume = 0.6
                     },
-                    match_speed_to_activity = true,
+                    match_speed_to_activity = true
                 },
                 stop_trigger_speed = 0.2,
                 acceleration_per_energy = 0.95,
@@ -1695,10 +1672,9 @@ max_sounds_per_type = 5
                 tank_driving = true,
                 weight = 25,
                 inventory_size = 80,
-                guns = { "health-rifle", },
-                equipment_grid = "vehicle-equipment-grid3",
+                guns = { "health-rifle" },
+                equipment_grid = "vehicle-equipment-grid3"
             },
-
             {
                 type = "explosion",
                 name = "explosion-heal",
@@ -1758,12 +1734,12 @@ max_sounds_per_type = 5
                     }
                 }
             },
-
             {
                 type = "locomotive",
                 name = "locomotive-mk2",
                 icon = "__base__/graphics/icons/locomotive.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation", "placeable-off-grid" },
                 minable = { mining_time = 1, result = "locomotive-mk2" },
                 mined_sound = { filename = "__core__/sound/deconstruct-medium.ogg" },
@@ -1827,7 +1803,7 @@ max_sounds_per_type = 5
                             height = 2,
                             height_deviation = 0.5,
                             starting_vertical_speed = 0.2,
-                            starting_vertical_speed_deviation = 0.1,
+                            starting_vertical_speed_deviation = 0.1
                         }
                     }
                 },
@@ -2034,9 +2010,9 @@ max_sounds_per_type = 5
                             {
                                 filename = "__base__/sound/train-breaks.ogg",
                                 volume = 0.6
-                            },
+                            }
                         }
-                    },
+                    }
                 },
                 drive_over_tie_trigger = drive_over_tie(),
                 tie_distance = 50,
@@ -2046,11 +2022,11 @@ max_sounds_per_type = 5
                         filename = "__base__/sound/train-engine.ogg",
                         volume = 0.4
                     },
-                    match_speed_to_activity = true,
+                    match_speed_to_activity = true
                 },
                 open_sound = { filename = "__base__/sound/car-door-open.ogg", volume = 0.7 },
                 close_sound = { filename = "__base__/sound/car-door-close.ogg", volume = 0.7 },
-                sound_minimum_speed = 0.5;
+                sound_minimum_speed = 0.5
             },
             --[[
 {
@@ -2553,7 +2529,7 @@ call_for_help_radius = 40
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 3,
+                    emissions_per_minute = 3
                 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
@@ -2609,7 +2585,6 @@ call_for_help_radius = 40
                 },
                 fast_replaceable_group = "furnace"
             },
-
             {
                 type = "furnace",
                 name = "furnace-house",
@@ -2643,7 +2618,7 @@ call_for_help_radius = 40
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 20,
+                    emissions_per_minute = 20
                 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
@@ -2675,7 +2650,6 @@ call_for_help_radius = 40
                 },
                 fast_replaceable_group = "furnace"
             },
-
             {
                 type = "furnace",
                 name = "furnace-house-mk2",
@@ -2709,7 +2683,7 @@ call_for_help_radius = 40
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions = 5.805,
+                    emissions = 5.805
                 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
@@ -2741,7 +2715,6 @@ call_for_help_radius = 40
                 },
                 fast_replaceable_group = "furnace"
             },
-
             {
                 type = "furnace",
                 name = "air-filter",
@@ -2774,7 +2747,7 @@ call_for_help_radius = 40
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = -12,
+                    emissions_per_minute = -12
                 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
@@ -2806,11 +2779,10 @@ call_for_help_radius = 40
                             shift = { -0.1, 0.2 }
                         },
                         light = { intensity = 0.4, size = 6, shift = { 0.0, 1.0 } }
-                    },
+                    }
                 },
                 fast_replaceable_group = "furnace"
             },
-
             {
                 type = "furnace",
                 name = "air-filter-mk2",
@@ -2843,7 +2815,7 @@ call_for_help_radius = 40
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = -60,
+                    emissions_per_minute = -60
                 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
@@ -2875,11 +2847,10 @@ call_for_help_radius = 40
                             shift = { -0.1, 0.2 }
                         },
                         light = { intensity = 0.4, size = 6, shift = { 0.0, 1.0 } }
-                    },
+                    }
                 },
                 fast_replaceable_group = "furnace"
             },
-
             {
                 type = "furnace",
                 name = "air-filter-mk3",
@@ -2912,7 +2883,7 @@ call_for_help_radius = 40
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = -300,
+                    emissions_per_minute = -300
                 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
@@ -2944,11 +2915,10 @@ call_for_help_radius = 40
                             shift = { -0.1, 0.2 }
                         },
                         light = { intensity = 0.4, size = 6, shift = { 0.0, 1.0 } }
-                    },
+                    }
                 },
                 fast_replaceable_group = "furnace"
             },
-
             {
                 type = "furnace",
                 name = "air-filter-mk4",
@@ -2981,7 +2951,7 @@ call_for_help_radius = 40
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = -1500,
+                    emissions_per_minute = -1500
                 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
@@ -3013,11 +2983,10 @@ call_for_help_radius = 40
                             shift = { -0.1, 0.2 }
                         },
                         light = { intensity = 0.4, size = 6, shift = { 0.0, 1.0 } }
-                    },
+                    }
                 },
                 fast_replaceable_group = "furnace"
             },
-
             {
                 type = "furnace",
                 name = "air-filter-mk5",
@@ -3050,7 +3019,7 @@ call_for_help_radius = 40
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = -7500,
+                    emissions_per_minute = -7500
                 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
@@ -3082,16 +3051,16 @@ call_for_help_radius = 40
                             shift = { -0.1, 0.2 }
                         },
                         light = { intensity = 0.4, size = 6, shift = { 0.0, 1.0 } }
-                    },
+                    }
                 },
                 fast_replaceable_group = "furnace"
             },
-
             {
                 type = "loader",
                 name = "terra-loader",
                 icon = "__base__/graphics/icons/loader.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "terra-loader" },
                 max_health = 250,
@@ -3129,12 +3098,12 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "splitter",
                 name = "terra-splitter",
                 icon = "__base__/graphics/icons/express-splitter.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "terra-splitter" },
                 max_health = 250,
@@ -3274,12 +3243,12 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "pump",
                 name = "pump-mk2",
                 icon = "__base__/graphics/icons/pump.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { mining_time = 1, result = "pump-mk2" },
                 max_health = 300,
@@ -3313,7 +3282,6 @@ call_for_help_radius = 40
                 energy_usage = "190kW",
                 pumping_speed = 240,
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-
                 animations = {
                     north = {
                         filename = "__base__/graphics/entity/pump/pump-north.png",
@@ -3353,7 +3321,6 @@ call_for_help_radius = 40
                             shift = util.by_pixel(-0.5, 1.75) --{-0.03125, 0.109375}
                         }
                     },
-
                     south = {
                         filename = "__base__/graphics/entity/pump/pump-south.png",
                         width = 62,
@@ -3393,12 +3360,9 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 fluid_wagon_connector_frame_count = 35,
                 fluid_wagon_connector_alignment_tolerance = 2.0 / 32.0,
-
                 fluid_wagon_connector_graphics = require("prototypes.entity.pump-connector"),
-
                 fluid_animation = {
                     north = {
                         filename = "__base__/graphics/entity/pump/pump-north-liquid.png",
@@ -3419,7 +3383,6 @@ call_for_help_radius = 40
                             shift = util.by_pixel(-0.250, -16.750)
                         }
                     },
-
                     east = {
                         filename = "__base__/graphics/entity/pump/pump-east-liquid.png",
                         width = 18,
@@ -3437,7 +3400,6 @@ call_for_help_radius = 40
                             shift = util.by_pixel(6.250, -8.500)
                         }
                     },
-
                     south = {
                         filename = "__base__/graphics/entity/pump/pump-south-liquid.png",
                         width = 26,
@@ -3473,7 +3435,6 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 glass_pictures = {
                     north = {
                         filename = "__base__/graphics/entity/pump/pump-north-glass.png",
@@ -3523,12 +3484,10 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 circuit_wire_connection_points = circuit_connector_definitions["pump"].points,
                 circuit_connector_sprites = circuit_connector_definitions["pump"].sprites,
                 circuit_wire_max_distance = default_circuit_wire_max_distance
             },
-
             {
                 type = "mining-drill",
                 name = "laser-miner",
@@ -3547,7 +3506,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/sounds/laser-drill.ogg",
                         volume = 0.75
                     },
-                    apparent_volume = 1.5,
+                    apparent_volume = 1.5
                 },
                 animations = {
                     north = {
@@ -3561,7 +3520,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/laser-miner.png",
                         frame_count = 56,
                         animation_speed = 0.325,
-                        run_mode = "forward-then-backward",
+                        run_mode = "forward-then-backward"
                     }
                 },
                 mining_speed = 7,
@@ -3583,7 +3542,6 @@ call_for_help_radius = 40
                     height = 12
                 }
             },
-
             {
                 type = "mining-drill",
                 name = "neural-miner",
@@ -3602,7 +3560,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/sounds/neural-miner.ogg",
                         volume = 0.75
                     },
-                    apparent_volume = 1.5,
+                    apparent_volume = 1.5
                 },
                 animations = {
                     north = {
@@ -3614,7 +3572,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/neural-miner.png",
                         frame_count = 30,
                         animation_speed = 0.325,
-                        run_mode = "forward",
+                        run_mode = "forward"
                     }
                 },
                 mining_speed = 8,
@@ -3637,7 +3595,6 @@ call_for_help_radius = 40
                     height = 12
                 }
             },
-
             {
                 type = "mining-drill",
                 name = "laser-miner2",
@@ -3656,7 +3613,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/sounds/laser-drill.ogg",
                         volume = 0.75
                     },
-                    apparent_volume = 1.5,
+                    apparent_volume = 1.5
                 },
                 animations = {
                     north = {
@@ -3670,7 +3627,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/laser-miner2.png",
                         frame_count = 56,
                         animation_speed = 0.325,
-                        run_mode = "forward-then-backward",
+                        run_mode = "forward-then-backward"
                     }
                 },
                 mining_speed = 14,
@@ -3692,7 +3649,6 @@ call_for_help_radius = 40
                     height = 12
                 }
             },
-
             {
                 type = "mining-drill",
                 name = "neural-miner-2",
@@ -3711,7 +3667,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/sounds/neural-miner.ogg",
                         volume = 0.75
                     },
-                    apparent_volume = 1.5,
+                    apparent_volume = 1.5
                 },
                 animations = {
                     north = {
@@ -3723,7 +3679,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/neural-miner-2.png",
                         frame_count = 30,
                         animation_speed = 0.325,
-                        run_mode = "forward",
+                        run_mode = "forward"
                     }
                 },
                 mining_speed = 12,
@@ -3746,7 +3702,6 @@ call_for_help_radius = 40
                     height = 12
                 }
             },
-
             {
                 type = "mining-drill",
                 name = "laser-miner3",
@@ -3765,7 +3720,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/sounds/laser-drill.ogg",
                         volume = 0.75
                     },
-                    apparent_volume = 1.5,
+                    apparent_volume = 1.5
                 },
                 animations = {
                     north = {
@@ -3779,7 +3734,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/laser-miner3.png",
                         frame_count = 56,
                         animation_speed = 0.325,
-                        run_mode = "forward-then-backward",
+                        run_mode = "forward-then-backward"
                     }
                 },
                 mining_speed = 21,
@@ -3801,7 +3756,6 @@ call_for_help_radius = 40
                     height = 12
                 }
             },
-
             {
                 type = "mining-drill",
                 name = "neural-miner-3",
@@ -3820,7 +3774,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/sounds/neural-miner.ogg",
                         volume = 0.75
                     },
-                    apparent_volume = 1.5,
+                    apparent_volume = 1.5
                 },
                 animations = {
                     north = {
@@ -3832,7 +3786,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/neural-miner-3.png",
                         frame_count = 30,
                         animation_speed = 0.325,
-                        run_mode = "forward",
+                        run_mode = "forward"
                     }
                 },
                 mining_speed = 12,
@@ -3855,7 +3809,6 @@ call_for_help_radius = 40
                     height = 12
                 }
             },
-
             {
                 type = "mining-drill",
                 name = "laser-miner4",
@@ -3874,7 +3827,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/sounds/laser-drill.ogg",
                         volume = 0.75
                     },
-                    apparent_volume = 1.5,
+                    apparent_volume = 1.5
                 },
                 animations = {
                     north = {
@@ -3888,7 +3841,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/laser-miner4.png",
                         frame_count = 56,
                         animation_speed = 0.325,
-                        run_mode = "forward-then-backward",
+                        run_mode = "forward-then-backward"
                     }
                 },
                 mining_speed = 28,
@@ -3910,7 +3863,6 @@ call_for_help_radius = 40
                     height = 12
                 }
             },
-
             {
                 type = "mining-drill",
                 name = "neural-miner-4",
@@ -3929,7 +3881,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/sounds/neural-miner.ogg",
                         volume = 0.75
                     },
-                    apparent_volume = 1.5,
+                    apparent_volume = 1.5
                 },
                 animations = {
                     north = {
@@ -3941,7 +3893,7 @@ call_for_help_radius = 40
                         filename = "__Darkstar_utilities_fixed__/graphics/entity/laser-miner/neural-miner-4.png",
                         frame_count = 30,
                         animation_speed = 0.325,
-                        run_mode = "forward",
+                        run_mode = "forward"
                     }
                 },
                 mining_speed = 12,
@@ -3964,12 +3916,12 @@ call_for_help_radius = 40
                     height = 12
                 }
             },
-
             {
                 type = "lamp",
                 name = "large-lamp",
                 icon = "__base__/graphics/icons/small-lamp.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "large-lamp" },
                 max_health = 250,
@@ -4063,17 +4015,16 @@ call_for_help_radius = 40
                     { type = "virtual", name = "signal-pink", color = { r = 1, g = 0, b = 1 } },
                     { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } }
                 },
-
                 circuit_wire_connection_point = circuit_connector_definitions["lamp"].points,
                 circuit_connector_sprites = circuit_connector_definitions["lamp"].sprites,
                 circuit_wire_max_distance = default_circuit_wire_max_distance
             },
-
             {
                 type = "transport-belt",
                 name = "terra-transport-belt-mk2",
                 icon = "__base__/graphics/icons/express-transport-belt.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.3, result = "terra-transport-belt-mk2" },
                 max_health = 250,
@@ -4119,12 +4070,12 @@ call_for_help_radius = 40
                 circuit_connector_sprites = circuit_connector_definitions["belt"].sprites,
                 circuit_wire_max_distance = transport_belt_circuit_wire_max_distance
             },
-
             {
                 type = "transport-belt",
                 name = "terra-transport-belt",
                 icon = "__base__/graphics/icons/express-transport-belt.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.3, result = "terra-transport-belt" },
                 max_health = 250,
@@ -4170,12 +4121,12 @@ call_for_help_radius = 40
                 circuit_connector_sprites = circuit_connector_definitions["belt"].sprites,
                 circuit_wire_max_distance = transport_belt_circuit_wire_max_distance
             },
-
             {
                 type = "furnace",
                 name = "stone-furnace-mk2",
                 icon = "__base__/graphics/icons/stone-furnace.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "placeable-player", "player-creation" },
                 minable = { mining_time = 1, result = "stone-furnace-mk2" },
                 max_health = 250,
@@ -4186,7 +4137,7 @@ call_for_help_radius = 40
                 close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
                 vehicle_impact_sound = { filename = "__base__/sound/car-stone-impact.ogg", volume = 1.0 },
                 working_sound = {
-                    sound = { filename = "__base__/sound/furnace.ogg", }
+                    sound = { filename = "__base__/sound/furnace.ogg" }
                 },
                 resistances = {
                     {
@@ -4248,7 +4199,6 @@ call_for_help_radius = 40
                 },
                 fast_replaceable_group = "furnace"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk2",
@@ -4269,11 +4219,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "4MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk3",
@@ -4294,11 +4243,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "40MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk4",
@@ -4319,11 +4267,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "400MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk5",
@@ -4344,11 +4291,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "4000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk6",
@@ -4369,11 +4315,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "40000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk7",
@@ -4394,11 +4339,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "400000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk2-G",
@@ -4419,11 +4363,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "6MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk3-G",
@@ -4444,11 +4387,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "60MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk4-G",
@@ -4469,11 +4411,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "600MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk5-G",
@@ -4494,11 +4435,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "6000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk6-G",
@@ -4519,11 +4459,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "60000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk7-G",
@@ -4544,11 +4483,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "600000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk2-G2",
@@ -4569,11 +4507,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "8MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk3-G2",
@@ -4594,11 +4531,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "80MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk4-G2",
@@ -4619,11 +4555,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "800MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk5-G2",
@@ -4644,11 +4579,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "8000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk6-G2",
@@ -4669,11 +4603,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "80000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk7-G2",
@@ -4694,11 +4627,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "800000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk2-G3",
@@ -4719,11 +4651,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "10MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk3-G3",
@@ -4744,11 +4675,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "100MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk4-G3",
@@ -4769,11 +4699,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "1000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk5-G3",
@@ -4794,11 +4723,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "10000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk6-G3",
@@ -4819,11 +4747,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "100000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk7-G3",
@@ -4844,11 +4771,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "1000000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk2-GL",
@@ -4869,11 +4795,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "16MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk3-GL",
@@ -4894,11 +4819,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "160MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk4-GL",
@@ -4919,11 +4843,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "1600MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk5-GL",
@@ -4944,11 +4867,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "16000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk6-GL",
@@ -4969,11 +4891,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "160000MW"
             },
-
             {
                 type = "solar-panel",
                 name = "solar-panel-mk7-GL",
@@ -4994,11 +4915,10 @@ call_for_help_radius = 40
                     priority = "high",
                     width = 768,
                     height = 768,
-                    scale = 0.3,
+                    scale = 0.3
                 },
                 production = "1600000MW"
             },
-
             {
                 type = "assembling-machine",
                 name = "advanced-chemical-plant",
@@ -5015,44 +4935,48 @@ call_for_help_radius = 40
                     module_slots = 6
                 },
                 allowed_effects = { "consumption", "speed", "productivity", "pollution" },
-                animation = make_4way_animation_from_spritesheet({ layers = {
-                    {
-                        filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
-                        width = 108,
-                        height = 148,
-                        frame_count = 24,
-                        line_length = 12,
-                        shift = util.by_pixel(1, -9),
-                        hr_version = {
-                            filename = "__Darkstar_utilities_fixed__/graphics/entity/advanced-chemical-plant/hr-chemical-plant2.png",
-                            width = 220,
-                            height = 292,
-                            frame_count = 24,
-                            line_length = 12,
-                            shift = util.by_pixel(0.5, -9),
-                            scale = 0.5
+                animation = make_4way_animation_from_spritesheet(
+                        {
+                            layers = {
+                                {
+                                    filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
+                                    width = 108,
+                                    height = 148,
+                                    frame_count = 24,
+                                    line_length = 12,
+                                    shift = util.by_pixel(1, -9),
+                                    hr_version = {
+                                        filename = "__Darkstar_utilities_fixed__/graphics/entity/advanced-chemical-plant/hr-chemical-plant2.png",
+                                        width = 220,
+                                        height = 292,
+                                        frame_count = 24,
+                                        line_length = 12,
+                                        shift = util.by_pixel(0.5, -9),
+                                        scale = 0.5
+                                    }
+                                },
+                                {
+                                    filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
+                                    width = 154,
+                                    height = 112,
+                                    repeat_count = 24,
+                                    frame_count = 1,
+                                    shift = util.by_pixel(28, 6),
+                                    draw_as_shadow = true,
+                                    hr_version = {
+                                        filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-shadow.png",
+                                        width = 312,
+                                        height = 222,
+                                        repeat_count = 24,
+                                        frame_count = 1,
+                                        shift = util.by_pixel(27, 6),
+                                        draw_as_shadow = true,
+                                        scale = 0.5
+                                    }
+                                }
+                            }
                         }
-                    },
-                    {
-                        filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
-                        width = 154,
-                        height = 112,
-                        repeat_count = 24,
-                        frame_count = 1,
-                        shift = util.by_pixel(28, 6),
-                        draw_as_shadow = true,
-                        hr_version = {
-                            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-shadow.png",
-                            width = 312,
-                            height = 222,
-                            repeat_count = 24,
-                            frame_count = 1,
-                            shift = util.by_pixel(27, 6),
-                            draw_as_shadow = true,
-                            scale = 0.5
-                        }
-                    }
-                } }),
+                ),
                 working_visualisations = {
                     {
                         apply_recipe_tint = "primary",
@@ -5268,7 +5192,7 @@ call_for_help_radius = 40
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 20,
+                    emissions_per_minute = 20
                 },
                 energy_usage = "210kW",
                 crafting_categories = { "chemistry", "chemistry2" },
@@ -5301,12 +5225,12 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "electric-pole",
                 name = "substation-mk2",
                 icon = "__base__/graphics/icons/substation.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "substation-mk2" },
                 max_health = 200,
@@ -5392,14 +5316,14 @@ call_for_help_radius = 40
                     width = 12,
                     height = 12,
                     priority = "extra-high-no-scale"
-                },
+                }
             },
-
             {
                 type = "electric-pole",
                 name = "tesla-coil",
                 icon = "__base__/graphics/icons/substation.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "tesla-coil" },
                 max_health = 200,
@@ -5449,14 +5373,14 @@ call_for_help_radius = 40
                     width = 12,
                     height = 12,
                     priority = "extra-high-no-scale"
-                },
+                }
             },
-
             {
                 type = "electric-pole",
                 name = "terra-coil",
                 icon = "__base__/graphics/icons/substation.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "terra-coil" },
                 max_health = 200,
@@ -5551,14 +5475,14 @@ call_for_help_radius = 40
                     width = 12,
                     height = 12,
                     priority = "extra-high-no-scale"
-                },
+                }
             },
-
             {
                 type = "logistic-robot",
                 name = "logistic-robot-mk2",
                 icon = "__base__/graphics/icons/logistic-robot.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation", "placeable-off-grid", "not-on-map" },
                 minable = { hardness = 0.1, mining_time = 0.1, result = "logistic-robot-mk2" },
                 max_health = 250,
@@ -5639,7 +5563,7 @@ call_for_help_radius = 40
                         y = 57,
                         scale = 0.5,
                         draw_as_shadow = true
-                    },
+                    }
                 },
                 shadow_in_motion = {
                     filename = "__base__/graphics/entity/logistic-robot/logistic-robot-shadow.png",
@@ -5664,7 +5588,7 @@ call_for_help_radius = 40
                         y = 57 * 3,
                         scale = 0.5,
                         draw_as_shadow = true
-                    },
+                    }
                 },
                 shadow_in_motion_with_cargo = {
                     filename = "__base__/graphics/entity/logistic-robot/logistic-robot-shadow.png",
@@ -5688,17 +5612,17 @@ call_for_help_radius = 40
                         y = 114,
                         scale = 0.5,
                         draw_as_shadow = true
-                    },
+                    }
                 },
                 working_sound = sounds.flying_robot(0.48),
-                cargo_centered = { 0.0, 0.2 },
+                cargo_centered = { 0.0, 0.2 }
             },
-
             {
                 type = "construction-robot",
                 name = "construction-robot-mk2",
                 icon = "__base__/graphics/icons/construction-robot.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation", "placeable-off-grid", "not-on-map" },
                 minable = { hardness = 0.1, mining_time = 0.1, result = "construction-robot-mk2" },
                 max_health = 250,
@@ -5764,17 +5688,19 @@ call_for_help_radius = 40
                     frame_count = 2,
                     shift = { 0, -0.15625 },
                     direction_count = 16,
-                    animation_speed = 0.3,
+                    animation_speed = 0.3
                 },
                 shadow_working = {
-                    stripes = util.multiplystripes(2,
+                    stripes = util.multiplystripes(
+                            2,
                             {
                                 {
                                     filename = "__base__/graphics/entity/construction-robot/construction-robot-shadow.png",
                                     width_in_frames = 16,
-                                    height_in_frames = 1,
+                                    height_in_frames = 1
                                 }
-                            }),
+                            }
+                    ),
                     priority = "high",
                     width = 50,
                     height = 24,
@@ -5789,7 +5715,7 @@ call_for_help_radius = 40
                     frame_count = 19,
                     line_length = 19,
                     shift = { 0.078125, -0.15625 },
-                    animation_speed = 0.3,
+                    animation_speed = 0.3
                 },
                 sparks = {
                     {
@@ -5800,7 +5726,7 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { -0.109375, 0.3125 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
+                        animation_speed = 0.3
                     },
                     {
                         filename = "__base__/graphics/entity/sparks/sparks-02.png",
@@ -5810,7 +5736,7 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { 0.03125, 0.125 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
+                        animation_speed = 0.3
                     },
                     {
                         filename = "__base__/graphics/entity/sparks/sparks-03.png",
@@ -5820,7 +5746,7 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { -0.0625, 0.203125 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
+                        animation_speed = 0.3
                     },
                     {
                         filename = "__base__/graphics/entity/sparks/sparks-04.png",
@@ -5830,7 +5756,7 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { -0.0625, 0.234375 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
+                        animation_speed = 0.3
                     },
                     {
                         filename = "__base__/graphics/entity/sparks/sparks-05.png",
@@ -5840,7 +5766,7 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { -0.109375, 0.171875 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
+                        animation_speed = 0.3
                     },
                     {
                         filename = "__base__/graphics/entity/sparks/sparks-06.png",
@@ -5850,20 +5776,20 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { 0.03125, 0.3125 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
-                    },
+                        animation_speed = 0.3
+                    }
                 },
                 repair_pack = "repair-pack",
                 working_sound = sounds.flying_robot(0.48),
                 cargo_centered = { 0.0, 0.2 },
-                construction_vector = { 0.30, 0.22 },
+                construction_vector = { 0.30, 0.22 }
             },
-
             {
                 type = "logistic-robot",
                 name = "logistic-robot-mk3",
                 icon = "__base__/graphics/icons/logistic-robot.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation", "placeable-off-grid", "not-on-map" },
                 minable = { hardness = 0.1, mining_time = 0.1, result = "logistic-robot-mk3" },
                 max_health = 250,
@@ -5964,14 +5890,14 @@ call_for_help_radius = 40
                     direction_count = 16
                 },
                 working_sound = sounds.flying_robot(0.48),
-                cargo_centered = { 0.0, 0.2 },
+                cargo_centered = { 0.0, 0.2 }
             },
-
             {
                 type = "construction-robot",
                 name = "construction-robot-mk3",
                 icon = "__base__/graphics/icons/construction-robot.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation", "placeable-off-grid", "not-on-map" },
                 minable = { hardness = 0.1, mining_time = 0.1, result = "construction-robot-mk3" },
                 max_health = 250,
@@ -6037,17 +5963,19 @@ call_for_help_radius = 40
                     frame_count = 2,
                     shift = { 0, -0.15625 },
                     direction_count = 16,
-                    animation_speed = 0.3,
+                    animation_speed = 0.3
                 },
                 shadow_working = {
-                    stripes = util.multiplystripes(2,
+                    stripes = util.multiplystripes(
+                            2,
                             {
                                 {
                                     filename = "__Darkstar_utilities_fixed__/graphics/entity/robots2/construction-robot/construction-robot-shadow.png",
                                     width_in_frames = 16,
-                                    height_in_frames = 1,
+                                    height_in_frames = 1
                                 }
-                            }),
+                            }
+                    ),
                     priority = "high",
                     width = 50,
                     height = 24,
@@ -6062,7 +5990,7 @@ call_for_help_radius = 40
                     frame_count = 19,
                     line_length = 19,
                     shift = { 0.078125, -0.15625 },
-                    animation_speed = 0.3,
+                    animation_speed = 0.3
                 },
                 sparks = {
                     {
@@ -6073,7 +6001,7 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { -0.109375, 0.3125 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
+                        animation_speed = 0.3
                     },
                     {
                         filename = "__base__/graphics/entity/sparks/sparks-02.png",
@@ -6083,7 +6011,7 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { 0.03125, 0.125 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
+                        animation_speed = 0.3
                     },
                     {
                         filename = "__base__/graphics/entity/sparks/sparks-03.png",
@@ -6093,7 +6021,7 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { -0.0625, 0.203125 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
+                        animation_speed = 0.3
                     },
                     {
                         filename = "__base__/graphics/entity/sparks/sparks-04.png",
@@ -6103,7 +6031,7 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { -0.0625, 0.234375 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
+                        animation_speed = 0.3
                     },
                     {
                         filename = "__base__/graphics/entity/sparks/sparks-05.png",
@@ -6113,7 +6041,7 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { -0.109375, 0.171875 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
+                        animation_speed = 0.3
                     },
                     {
                         filename = "__base__/graphics/entity/sparks/sparks-06.png",
@@ -6123,15 +6051,14 @@ call_for_help_radius = 40
                         line_length = 19,
                         shift = { 0.03125, 0.3125 },
                         tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
-                        animation_speed = 0.3,
-                    },
+                        animation_speed = 0.3
+                    }
                 },
                 repair_pack = "repair-pack",
                 working_sound = sounds.flying_robot(0.48),
                 cargo_centered = { 0.0, 0.2 },
-                construction_vector = { 0.30, 0.22 },
+                construction_vector = { 0.30, 0.22 }
             },
-
             {
                 type = "accumulator",
                 name = "advanced-accumulator",
@@ -6192,7 +6119,6 @@ call_for_help_radius = 40
                     max_sounds_per_type = 5
                 }
             },
-
             {
                 type = "accumulator",
                 name = "flywheel",
@@ -6257,7 +6183,6 @@ call_for_help_radius = 40
                     max_sounds_per_type = 5
                 }
             },
-
             {
                 type = "accumulator",
                 name = "energy-liquid",
@@ -6282,7 +6207,7 @@ call_for_help_radius = 40
                     width = 480,
                     height = 270,
                     shift = { 2.55, -0.1 },
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_animation = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-charge.png",
@@ -6293,7 +6218,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -0.1 },
                     animation_speed = 0.3,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
@@ -6306,7 +6231,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -0.1 },
                     animation_speed = 0.3,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 discharge_cooldown = 60,
                 discharge_light = { intensity = 1, size = 32, color = { r = 0, g = 0.5, b = 1 } },
@@ -6327,7 +6252,6 @@ call_for_help_radius = 40
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
                 default_output_signal = { type = "virtual", name = "signal-A" }
             },
-
             {
                 type = "accumulator",
                 name = "energy-liquid-2",
@@ -6352,7 +6276,7 @@ call_for_help_radius = 40
                     width = 480,
                     height = 270,
                     shift = { 2.55, -1.2 },
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_animation = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-1-charge.png",
@@ -6363,7 +6287,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
@@ -6376,7 +6300,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 discharge_cooldown = 60,
                 discharge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
@@ -6397,7 +6321,6 @@ call_for_help_radius = 40
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
                 default_output_signal = { type = "virtual", name = "signal-A" }
             },
-
             {
                 type = "accumulator",
                 name = "energy-liquid-3",
@@ -6425,7 +6348,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 1,
+                    scale = 1
                 },
                 charge_animation = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-1-charge.png",
@@ -6436,7 +6359,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 1,
+                    scale = 1
                 },
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 128, color = { r = 0, g = 0.5, b = 1 } },
@@ -6449,7 +6372,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 1,
+                    scale = 1
                 },
                 discharge_cooldown = 60,
                 discharge_light = { intensity = 1, size = 128, color = { r = 0, g = 0.5, b = 1 } },
@@ -6470,7 +6393,6 @@ call_for_help_radius = 40
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
                 default_output_signal = { type = "virtual", name = "signal-A" }
             },
-
             {
                 type = "accumulator",
                 name = "energy-liquid-U",
@@ -6495,7 +6417,7 @@ call_for_help_radius = 40
                     width = 480,
                     height = 270,
                     shift = { 2.55, -0.1 },
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_animation = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-2-charge.png",
@@ -6506,7 +6428,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -0.1 },
                     animation_speed = 0.3,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
@@ -6519,7 +6441,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -0.1 },
                     animation_speed = 0.3,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 discharge_cooldown = 60,
                 discharge_light = { intensity = 1, size = 32, color = { r = 0, g = 0.5, b = 1 } },
@@ -6540,7 +6462,6 @@ call_for_help_radius = 40
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
                 default_output_signal = { type = "virtual", name = "signal-A" }
             },
-
             {
                 type = "accumulator",
                 name = "energy-liquid-2-U",
@@ -6565,7 +6486,7 @@ call_for_help_radius = 40
                     width = 480,
                     height = 270,
                     shift = { 2.55, -1.2 },
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_animation = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-2-charge.png",
@@ -6576,7 +6497,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
@@ -6589,7 +6510,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 discharge_cooldown = 60,
                 discharge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
@@ -6610,7 +6531,6 @@ call_for_help_radius = 40
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
                 default_output_signal = { type = "virtual", name = "signal-A" }
             },
-
             {
                 type = "accumulator",
                 name = "energy-liquid-3-U",
@@ -6638,7 +6558,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 1,
+                    scale = 1
                 },
                 charge_animation = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-2-charge.png",
@@ -6649,7 +6569,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 1,
+                    scale = 1
                 },
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 128, color = { r = 0, g = 0.5, b = 1 } },
@@ -6662,7 +6582,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 1,
+                    scale = 1
                 },
                 discharge_cooldown = 60,
                 discharge_light = { intensity = 1, size = 128, color = { r = 0, g = 0.5, b = 1 } },
@@ -6683,7 +6603,6 @@ call_for_help_radius = 40
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
                 default_output_signal = { type = "virtual", name = "signal-A" }
             },
-
             {
                 type = "accumulator",
                 name = "energy-liquid-D",
@@ -6708,7 +6627,7 @@ call_for_help_radius = 40
                     width = 480,
                     height = 270,
                     shift = { 2.55, -0.1 },
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_animation = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/energy-liquid-3-charge.png",
@@ -6719,7 +6638,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -0.1 },
                     animation_speed = 0.3,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
@@ -6732,7 +6651,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -0.1 },
                     animation_speed = 0.3,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 discharge_cooldown = 60,
                 discharge_light = { intensity = 1, size = 32, color = { r = 0, g = 0.5, b = 1 } },
@@ -6753,7 +6672,6 @@ call_for_help_radius = 40
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
                 default_output_signal = { type = "virtual", name = "signal-A" }
             },
-
             {
                 type = "accumulator",
                 name = "energy-liquid-2-D",
@@ -6778,7 +6696,7 @@ call_for_help_radius = 40
                     width = 480,
                     height = 270,
                     shift = { 2.55, -1.2 },
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_animation = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/silo-3-charge.png",
@@ -6789,7 +6707,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
@@ -6802,7 +6720,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.6,
-                    scale = 0.5,
+                    scale = 0.5
                 },
                 discharge_cooldown = 60,
                 discharge_light = { intensity = 1, size = 64, color = { r = 0, g = 0.5, b = 1 } },
@@ -6823,7 +6741,6 @@ call_for_help_radius = 40
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
                 default_output_signal = { type = "virtual", name = "signal-A" }
             },
-
             {
                 type = "accumulator",
                 name = "energy-liquid-3-D",
@@ -6848,7 +6765,7 @@ call_for_help_radius = 40
                     width = 500,
                     height = 429,
                     shift = { 2.55, -1.2 },
-                    scale = 1,
+                    scale = 1
                 },
                 charge_animation = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/energy-liquid/large-tank-3-charge.png",
@@ -6859,7 +6776,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.3,
-                    scale = 1,
+                    scale = 1
                 },
                 charge_cooldown = 30,
                 charge_light = { intensity = 1, size = 128, color = { r = 0, g = 0.5, b = 1 } },
@@ -6872,7 +6789,7 @@ call_for_help_radius = 40
                     frame_count = 56,
                     shift = { 2.55, -1.2 },
                     animation_speed = 0.8,
-                    scale = 1,
+                    scale = 1
                 },
                 discharge_cooldown = 60,
                 discharge_light = { intensity = 1, size = 128, color = { r = 0, g = 0.5, b = 1 } },
@@ -6893,12 +6810,12 @@ call_for_help_radius = 40
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
                 default_output_signal = { type = "virtual", name = "signal-A" }
             },
-
             {
                 type = "resource",
                 name = "gold-ore",
                 icon = "__base__/graphics/icons/iron-ore.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral" },
                 order = "a-b-b",
                 minable = {
@@ -6920,13 +6837,13 @@ call_for_help_radius = 40
                             influence = 0.02,
                             starting_area_weight_optimal = 0,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = 0.01,
                             starting_area_weight_optimal = 1,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = 0.15,
@@ -6935,7 +6852,7 @@ call_for_help_radius = 40
                             noise_persistence = 0.1,
                             starting_area_weight_optimal = 0,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = 0.1,
@@ -6944,30 +6861,30 @@ call_for_help_radius = 40
                             noise_persistence = 0.2,
                             starting_area_weight_optimal = 1,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = -0.1,
                             max_influence = 0.3,
                             noise_layer = "copper-ore",
                             noise_octaves_difference = -2.3,
-                            noise_persistence = 0.45,
+                            noise_persistence = 0.45
                         },
                         {
                             influence = -0.1,
                             max_influence = 0.1,
                             noise_layer = "coal",
                             noise_octaves_difference = -2.3,
-                            noise_persistence = 0.45,
+                            noise_persistence = 0.45
                         },
                         {
                             influence = 0.1,
                             max_influence = 0.1,
                             noise_layer = "stone",
                             noise_octaves_difference = -3,
-                            noise_persistence = 0.45,
-                        },
-                    },
+                            noise_persistence = 0.45
+                        }
+                    }
                 },
                 stage_counts = { 1000, 600, 400, 200, 100, 50, 20, 1 },
                 stages = {
@@ -6982,12 +6899,12 @@ call_for_help_radius = 40
                 },
                 map_color = { r = 0.937, g = 0.919, b = 0.127 }
             },
-
             {
                 type = "resource",
                 name = "lithium-ore",
                 icon = "__base__/graphics/icons/iron-ore.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral" },
                 order = "a-b-b",
                 minable = {
@@ -7009,13 +6926,13 @@ call_for_help_radius = 40
                             influence = 0.02,
                             starting_area_weight_optimal = 0,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = 0.01,
                             starting_area_weight_optimal = 1,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = 0.13,
@@ -7024,7 +6941,7 @@ call_for_help_radius = 40
                             noise_persistence = 0.1,
                             starting_area_weight_optimal = 0,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = 0.1,
@@ -7033,30 +6950,30 @@ call_for_help_radius = 40
                             noise_persistence = 0.2,
                             starting_area_weight_optimal = 1,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = -0.1,
                             max_influence = 0.1,
                             noise_layer = "lead-ore",
                             noise_octaves_difference = -2.3,
-                            noise_persistence = 0.45,
+                            noise_persistence = 0.45
                         },
                         {
                             influence = -0.1,
                             max_influence = 0.1,
                             noise_layer = "iron-ore",
                             noise_octaves_difference = -2.3,
-                            noise_persistence = 0.45,
+                            noise_persistence = 0.45
                         },
                         {
                             influence = 0.1,
                             max_influence = 0.1,
                             noise_layer = "stone",
                             noise_octaves_difference = -3,
-                            noise_persistence = 0.45,
-                        },
-                    },
+                            noise_persistence = 0.45
+                        }
+                    }
                 },
                 stage_counts = { 1000, 600, 400, 200, 100, 50, 20, 1 },
                 stages = {
@@ -7071,12 +6988,12 @@ call_for_help_radius = 40
                 },
                 map_color = { r = 1, g = 0.019, b = 0.700 }
             },
-
             {
                 type = "resource",
                 name = "lead-ore",
                 icon = "__base__/graphics/icons/iron-ore.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral" },
                 order = "a-b-b",
                 minable = {
@@ -7098,13 +7015,13 @@ call_for_help_radius = 40
                             influence = 0.03,
                             starting_area_weight_optimal = 0,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = 0.03,
                             starting_area_weight_optimal = 1,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = 0.2,
@@ -7113,7 +7030,7 @@ call_for_help_radius = 40
                             noise_persistence = 0.1,
                             starting_area_weight_optimal = 0,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = 0.2,
@@ -7122,30 +7039,30 @@ call_for_help_radius = 40
                             noise_persistence = 0.2,
                             starting_area_weight_optimal = 1,
                             starting_area_weight_range = 0,
-                            starting_area_weight_max_range = 2,
+                            starting_area_weight_max_range = 2
                         },
                         {
                             influence = -0.1,
                             max_influence = 0.2,
                             noise_layer = "copper-ore",
                             noise_octaves_difference = -2.3,
-                            noise_persistence = 0.45,
+                            noise_persistence = 0.45
                         },
                         {
                             influence = -0.1,
                             max_influence = 0.2,
                             noise_layer = "coal",
                             noise_octaves_difference = -2.3,
-                            noise_persistence = 0.45,
+                            noise_persistence = 0.45
                         },
                         {
                             influence = 0.1,
                             max_influence = 0.25,
                             noise_layer = "stone",
                             noise_octaves_difference = -3,
-                            noise_persistence = 0.45,
-                        },
-                    },
+                            noise_persistence = 0.45
+                        }
+                    }
                 },
                 stage_counts = { 1000, 600, 400, 200, 100, 50, 20, 1 },
                 stages = {
@@ -7160,12 +7077,12 @@ call_for_help_radius = 40
                 },
                 map_color = { r = 0, g = 0, b = 0.227 }
             },
-
             {
                 type = "radar",
                 name = "radar-2",
                 icon = "__base__/graphics/icons/radar.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "radar" },
                 max_health = 250,
@@ -7269,11 +7186,10 @@ call_for_help_radius = 40
                             filename = "__base__/sound/radar.ogg"
                         }
                     },
-                    apparent_volume = 2,
+                    apparent_volume = 2
                 },
-                radius_minimap_visualisation_color = { r = 0.059, g = 0.092, b = 0.235, a = 0.275 },
+                radius_minimap_visualisation_color = { r = 0.059, g = 0.092, b = 0.235, a = 0.275 }
             },
-
             {
                 type = "beacon",
                 name = "ultra-beacon",
@@ -7328,10 +7244,8 @@ call_for_help_radius = 40
                     module_slots = 3,
                     module_info_icon_shift = { 0, 0.5 },
                     module_info_multi_row_initial_height_modifier = -0.3
-
-                },
+                }
             },
-
             {
                 type = "beacon",
                 name = "efficiency-beacon",
@@ -7386,10 +7300,8 @@ call_for_help_radius = 40
                     module_slots = 12,
                     module_info_icon_shift = { 0, 0.5 },
                     module_info_multi_row_initial_height_modifier = -0.3
-
-                },
+                }
             },
-
             {
                 type = "beacon",
                 name = "power-boost-beacon",
@@ -7402,7 +7314,7 @@ call_for_help_radius = 40
                 dying_explosion = "medium-explosion",
                 collision_box = { { -1.2, -1.2 }, { 1.2, 1.2 } },
                 selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
-                allowed_effects = { "consumption", "speed", "pollution", },
+                allowed_effects = { "consumption", "speed", "pollution" },
                 base_picture = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/power-boost-beacon/power-base.png",
                     width = 116,
@@ -7444,10 +7356,8 @@ call_for_help_radius = 40
                     module_slots = 1,
                     module_info_icon_shift = { 0, 0.5 },
                     module_info_multi_row_initial_height_modifier = -0.3
-
-                },
+                }
             },
-
             {
                 type = "beacon",
                 name = "basic-beacon-mk2",
@@ -7502,10 +7412,8 @@ call_for_help_radius = 40
                     module_slots = 1,
                     module_info_icon_shift = { 0, 0.5 },
                     module_info_multi_row_initial_height_modifier = -0.3
-
-                },
+                }
             },
-
             {
                 type = "beacon",
                 name = "world-array",
@@ -7560,10 +7468,8 @@ call_for_help_radius = 40
                     module_slots = 10,
                     module_info_icon_shift = { 0, 0.5 },
                     module_info_multi_row_initial_height_modifier = -0.3
-
-                },
+                }
             },
-
             {
                 type = "roboport",
                 name = "roboport-mk2",
@@ -7593,7 +7499,10 @@ call_for_help_radius = 40
                 material_slots_count = 14,
                 stationing_offset = { 0, 0 },
                 charging_offsets = {
-                    { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 }
                 },
                 base = {
                     layers = {
@@ -7716,10 +7625,8 @@ call_for_help_radius = 40
                 recharging_light = { intensity = 0.4, size = 5, color = { r = 1.0, g = 1.0, b = 1.0 } },
                 request_to_open_door_timeout = 15,
                 spawn_and_station_height = -0.1,
-
                 draw_logistic_radius_visualization = true,
                 draw_construction_radius_visualization = true,
-
                 open_door_trigger_effect = {
                     {
                         type = "play-sound",
@@ -7732,17 +7639,14 @@ call_for_help_radius = 40
                         sound = { filename = "__base__/sound/roboport-door.ogg", volume = 0.75 }
                     }
                 },
-
                 circuit_wire_connection_point = circuit_connector_definitions["roboport"].points,
                 circuit_connector_sprites = circuit_connector_definitions["roboport"].sprites,
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
-
                 default_available_logistic_output_signal = { type = "virtual", name = "signal-X" },
                 default_total_logistic_output_signal = { type = "virtual", name = "signal-Y" },
                 default_available_construction_output_signal = { type = "virtual", name = "signal-Z" },
                 default_total_construction_output_signal = { type = "virtual", name = "signal-T" }
             },
-
             {
                 type = "roboport",
                 name = "roboport-mk3",
@@ -7772,7 +7676,31 @@ call_for_help_radius = 40
                 material_slots_count = 14,
                 stationing_offset = { 0, 0 },
                 charging_offsets = {
-                    { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 }
                 },
                 base = {
                     layers = {
@@ -7895,10 +7823,8 @@ call_for_help_radius = 40
                 recharging_light = { intensity = 0.4, size = 5, color = { r = 1.0, g = 1.0, b = 1.0 } },
                 request_to_open_door_timeout = 15,
                 spawn_and_station_height = -0.1,
-
                 draw_logistic_radius_visualization = true,
                 draw_construction_radius_visualization = true,
-
                 open_door_trigger_effect = {
                     {
                         type = "play-sound",
@@ -7911,17 +7837,14 @@ call_for_help_radius = 40
                         sound = { filename = "__base__/sound/roboport-door.ogg", volume = 0.75 }
                     }
                 },
-
                 circuit_wire_connection_point = circuit_connector_definitions["roboport"].points,
                 circuit_connector_sprites = circuit_connector_definitions["roboport"].sprites,
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
-
                 default_available_logistic_output_signal = { type = "virtual", name = "signal-X" },
                 default_total_logistic_output_signal = { type = "virtual", name = "signal-Y" },
                 default_available_construction_output_signal = { type = "virtual", name = "signal-Z" },
                 default_total_construction_output_signal = { type = "virtual", name = "signal-T" }
             },
-
             {
                 type = "roboport",
                 name = "roboport-charger",
@@ -7951,9 +7874,168 @@ call_for_help_radius = 40
                 material_slots_count = 0,
                 stationing_offset = { 0, 0 },
                 charging_offsets = {
-                    { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 },
-                    { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 },
-                    { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, 1.5 }
                 },
                 base = {
                     layers = {
@@ -8076,10 +8158,8 @@ call_for_help_radius = 40
                 recharging_light = { intensity = 0.4, size = 5, color = { r = 1.0, g = 1.0, b = 1.0 } },
                 request_to_open_door_timeout = 15,
                 spawn_and_station_height = -0.1,
-
                 draw_logistic_radius_visualization = true,
                 draw_construction_radius_visualization = true,
-
                 open_door_trigger_effect = {
                     {
                         type = "play-sound",
@@ -8092,22 +8172,20 @@ call_for_help_radius = 40
                         sound = { filename = "__base__/sound/roboport-door.ogg", volume = 0.75 }
                     }
                 },
-
                 circuit_wire_connection_point = circuit_connector_definitions["roboport"].points,
                 circuit_connector_sprites = circuit_connector_definitions["roboport"].sprites,
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
-
                 default_available_logistic_output_signal = { type = "virtual", name = "signal-X" },
                 default_total_logistic_output_signal = { type = "virtual", name = "signal-Y" },
                 default_available_construction_output_signal = { type = "virtual", name = "signal-Z" },
                 default_total_construction_output_signal = { type = "virtual", name = "signal-T" }
             },
-
             {
                 type = "mining-drill",
                 name = "pumpjack-mk2",
                 icon = "__base__/graphics/icons/pumpjack.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { mining_time = 1, result = "pumpjack-mk2" },
                 resource_categories = { "basic-fluid" },
@@ -8131,7 +8209,7 @@ call_for_help_radius = 40
                         {
                             positions = { { 1, -2 }, { 2, -1 }, { -1, 2 }, { -2, 1 } }
                         }
-                    },
+                    }
                 },
                 energy_usage = "180kW",
                 mining_speed = 2,
@@ -8171,11 +8249,10 @@ call_for_help_radius = 40
                 vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
                 working_sound = {
                     sound = { filename = "__base__/sound/pumpjack.ogg" },
-                    apparent_volume = 1.5,
+                    apparent_volume = 1.5
                 },
-                fast_replaceable_group = "pumpjack",
+                fast_replaceable_group = "pumpjack"
             },
-
             {
                 type = "assembling-machine",
                 name = "assembling-machine-4",
@@ -8279,13 +8356,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "crafting", "advanced-crafting", "crafting-with-fluid" },
                 crafting_speed = 1.75,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 4,
+                    emissions_per_minute = 4
                 },
                 energy_usage = "500kW",
                 ingredient_count = 9,
@@ -8294,7 +8370,6 @@ call_for_help_radius = 40
                 },
                 allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             {
                 type = "assembling-machine",
                 name = "ore-extractor",
@@ -8377,13 +8452,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "extraction" },
                 crafting_speed = 2.5,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 1,
+                    emissions_per_minute = 1
                 },
                 energy_usage = "500kW",
                 ingredient_count = 9,
@@ -8392,7 +8466,6 @@ call_for_help_radius = 40
                 },
                 allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             {
                 type = "assembling-machine",
                 name = "vacuum-chamber",
@@ -8475,13 +8548,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "vacuum" },
                 crafting_speed = 2.5,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 1,
+                    emissions_per_minute = 1
                 },
                 energy_usage = "500kW",
                 ingredient_count = 9,
@@ -8490,12 +8562,12 @@ call_for_help_radius = 40
                 },
                 allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             {
                 type = "radar",
                 name = "satellite-radar",
                 icon = "__base__/graphics/icons/radar.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { mining_time = 0.1, result = "satellite-radar" },
                 max_health = 250,
@@ -8598,7 +8670,6 @@ call_for_help_radius = 40
                 radius_minimap_visualisation_color = { r = 0.059, g = 0.092, b = 0.235, a = 0.275 },
                 rotation_speed = 0.01
             },
-
             {
                 type = "assembling-machine",
                 name = "planck-ripper",
@@ -8679,13 +8750,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "planck" },
                 crafting_speed = 2.5,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = -24,
+                    emissions_per_minute = -24
                 },
                 energy_usage = "150MW",
                 ingredient_count = 9,
@@ -8694,7 +8764,6 @@ call_for_help_radius = 40
                 },
                 allowed_effects = { "speed", "pollution" }
             },
-
             {
                 type = "assembling-machine",
                 name = "fish-farm",
@@ -8777,19 +8846,17 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "generators" },
                 crafting_speed = 1.75,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = -6,
+                    emissions_per_minute = -6
                 },
                 energy_usage = "0.5kW",
                 ingredient_count = 2,
-                fixed_recipe = "raw-fish",
+                fixed_recipe = "raw-fish"
             },
-
             {
                 type = "assembling-machine",
                 name = "server-1",
@@ -8848,22 +8915,20 @@ call_for_help_radius = 40
                                 shift = util.by_pixel(0, -8),
                                 scale = 0.45
                             }
-                        },
+                        }
                     }
                 },
-
                 crafting_categories = { "data" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
-                fixed_recipe = "ssd-1",
+                fixed_recipe = "ssd-1"
             },
-
             {
                 type = "assembling-machine",
                 name = "server-2",
@@ -8922,22 +8987,20 @@ call_for_help_radius = 40
                                 shift = util.by_pixel(0, -8),
                                 scale = 0.45
                             }
-                        },
+                        }
                     }
                 },
-
                 crafting_categories = { "data" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
-                fixed_recipe = "ssd-2",
+                fixed_recipe = "ssd-2"
             },
-
             {
                 type = "assembling-machine",
                 name = "server-3",
@@ -8996,22 +9059,20 @@ call_for_help_radius = 40
                                 shift = util.by_pixel(0, -8),
                                 scale = 0.45
                             }
-                        },
+                        }
                     }
                 },
-
                 crafting_categories = { "data" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
-                fixed_recipe = "ssd-3",
+                fixed_recipe = "ssd-3"
             },
-
             {
                 type = "assembling-machine",
                 name = "server-4",
@@ -9070,22 +9131,20 @@ call_for_help_radius = 40
                                 shift = util.by_pixel(0, -8),
                                 scale = 0.45
                             }
-                        },
+                        }
                     }
                 },
-
                 crafting_categories = { "data" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
-                fixed_recipe = "ssd-4",
+                fixed_recipe = "ssd-4"
             },
-
             {
                 type = "assembling-machine",
                 name = "server-5",
@@ -9144,22 +9203,20 @@ call_for_help_radius = 40
                                 shift = util.by_pixel(0, -8),
                                 scale = 0.45
                             }
-                        },
+                        }
                     }
                 },
-
                 crafting_categories = { "data" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
-                fixed_recipe = "ssd-5",
+                fixed_recipe = "ssd-5"
             },
-
             {
                 type = "assembling-machine",
                 name = "server-6",
@@ -9218,22 +9275,20 @@ call_for_help_radius = 40
                                 shift = util.by_pixel(0, -8),
                                 scale = 0.45
                             }
-                        },
+                        }
                     }
                 },
-
                 crafting_categories = { "data" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
-                fixed_recipe = "ssd-6",
+                fixed_recipe = "ssd-6"
             },
-
             {
                 type = "assembling-machine",
                 name = "server-7",
@@ -9292,22 +9347,20 @@ call_for_help_radius = 40
                                 shift = util.by_pixel(0, -8),
                                 scale = 0.45
                             }
-                        },
+                        }
                     }
                 },
-
                 crafting_categories = { "data" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
-                fixed_recipe = "ssd-7",
+                fixed_recipe = "ssd-7"
             },
-
             {
                 type = "assembling-machine",
                 name = "server-8",
@@ -9366,22 +9419,20 @@ call_for_help_radius = 40
                                 shift = util.by_pixel(0, -8),
                                 scale = 0.45
                             }
-                        },
+                        }
                     }
                 },
-
                 crafting_categories = { "data" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
-                fixed_recipe = "ssd-8",
+                fixed_recipe = "ssd-8"
             },
-
             {
                 type = "assembling-machine",
                 name = "server-9",
@@ -9440,22 +9491,20 @@ call_for_help_radius = 40
                                 shift = util.by_pixel(0, -8),
                                 scale = 0.45
                             }
-                        },
+                        }
                     }
                 },
-
                 crafting_categories = { "data" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
-                fixed_recipe = "ssd-9",
+                fixed_recipe = "ssd-9"
             },
-
             {
                 type = "assembling-machine",
                 name = "server-m",
@@ -9514,22 +9563,20 @@ call_for_help_radius = 40
                                 shift = util.by_pixel(0, -8),
                                 scale = 0.45
                             }
-                        },
+                        }
                     }
                 },
-
                 crafting_categories = { "data" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
-                fixed_recipe = "ssd-m",
+                fixed_recipe = "ssd-m"
             },
-
             ---- Probes ----
             -- iron probe
             {
@@ -9614,13 +9661,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
@@ -9629,9 +9675,8 @@ call_for_help_radius = 40
                     module_slots = 2,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- iron probe2
             {
                 type = "assembling-machine",
@@ -9715,13 +9760,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes2" },
                 crafting_speed = 3,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 300,
+                    emissions_per_minute = 300
                 },
                 energy_usage = "1MW",
                 ingredient_count = 2,
@@ -9730,9 +9774,8 @@ call_for_help_radius = 40
                     module_slots = 4,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- copper probe
             {
                 type = "assembling-machine",
@@ -9816,13 +9859,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
@@ -9831,9 +9873,8 @@ call_for_help_radius = 40
                     module_slots = 2,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- copper probe2
             {
                 type = "assembling-machine",
@@ -9917,13 +9958,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes2" },
                 crafting_speed = 3,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 300,
+                    emissions_per_minute = 300
                 },
                 energy_usage = "1MW",
                 ingredient_count = 2,
@@ -9932,9 +9972,8 @@ call_for_help_radius = 40
                     module_slots = 4,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- TODO: icons!
             -- coal probe
             {
@@ -10019,13 +10058,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
@@ -10034,9 +10072,8 @@ call_for_help_radius = 40
                     module_slots = 2,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- gold probe
             {
                 type = "assembling-machine",
@@ -10120,13 +10157,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
@@ -10135,9 +10171,8 @@ call_for_help_radius = 40
                     module_slots = 2,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- gold probe2
             {
                 type = "assembling-machine",
@@ -10221,13 +10256,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes2" },
                 crafting_speed = 3,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 300,
+                    emissions_per_minute = 300
                 },
                 energy_usage = "1MW",
                 ingredient_count = 2,
@@ -10236,9 +10270,8 @@ call_for_help_radius = 40
                     module_slots = 4,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- uranium probe
             {
                 type = "assembling-machine",
@@ -10322,13 +10355,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes2" },
                 crafting_speed = 0.5,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
@@ -10337,9 +10369,8 @@ call_for_help_radius = 40
                     module_slots = 2,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- uranium probe2
             {
                 type = "assembling-machine",
@@ -10423,13 +10454,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes2" },
                 crafting_speed = 3,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 300,
+                    emissions_per_minute = 300
                 },
                 energy_usage = "1MW",
                 ingredient_count = 2,
@@ -10438,9 +10468,8 @@ call_for_help_radius = 40
                     module_slots = 4,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- stone probe
             {
                 type = "assembling-machine",
@@ -10524,13 +10553,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
@@ -10539,9 +10567,8 @@ call_for_help_radius = 40
                     module_slots = 2,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- stone probe2
             {
                 type = "assembling-machine",
@@ -10625,13 +10652,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes2" },
                 crafting_speed = 3,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 300,
+                    emissions_per_minute = 300
                 },
                 energy_usage = "1MW",
                 ingredient_count = 2,
@@ -10640,9 +10666,8 @@ call_for_help_radius = 40
                     module_slots = 4,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- lead probe
             {
                 type = "assembling-machine",
@@ -10726,13 +10751,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes" },
                 crafting_speed = 0.4,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 75,
+                    emissions_per_minute = 75
                 },
                 energy_usage = "250kW",
                 ingredient_count = 2,
@@ -10741,9 +10765,8 @@ call_for_help_radius = 40
                     module_slots = 2,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- lead probe2
             {
                 type = "assembling-machine",
@@ -10827,13 +10850,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "probes2" },
                 crafting_speed = 3,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 300,
+                    emissions_per_minute = 300
                 },
                 energy_usage = "1MW",
                 ingredient_count = 2,
@@ -10842,9 +10864,8 @@ call_for_help_radius = 40
                     module_slots = 4,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             -- diamond probe
             {
                 type = "assembling-machine",
@@ -10928,13 +10949,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "diamond-probes" },
                 crafting_speed = 0.5,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 300,
+                    emissions_per_minute = 300
                 },
                 energy_usage = "1MW",
                 ingredient_count = 2,
@@ -10943,9 +10963,8 @@ call_for_help_radius = 40
                     module_slots = 4,
                     module_info_icon_shift = { 0, 0.8 }
                 },
-                allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+                allowed_effects = { "consumption", "speed", "productivity", "pollution" }
             },
-
             {
                 type = "assembling-machine",
                 name = "brain-grower",
@@ -11028,13 +11047,12 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "generators" },
                 crafting_speed = 0.002,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 50,
+                    emissions_per_minute = 50
                 },
                 energy_usage = "1000kW",
                 ingredient_count = 2,
@@ -11043,9 +11061,8 @@ call_for_help_radius = 40
                 module_specification = {
                     module_slots = 4,
                     module_info_icon_shift = { 0, 0.8 }
-                },
+                }
             },
-
             {
                 type = "assembling-machine",
                 name = "biodome",
@@ -11128,24 +11145,23 @@ call_for_help_radius = 40
                         }
                     }
                 },
-
                 crafting_categories = { "generators" },
                 crafting_speed = 0.1,
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = -15000,
+                    emissions_per_minute = -15000
                 },
                 energy_usage = "50kW",
                 ingredient_count = 2,
-                fixed_recipe = "biodome-wood",
+                fixed_recipe = "biodome-wood"
             },
-
             {
                 type = "assembling-machine",
                 name = "oil-refinery-mk2",
                 icon = "__base__/graphics/icons/oil-refinery.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { mining_time = 1, result = "oil-refinery-mk2" },
                 max_health = 600,
@@ -11163,7 +11179,7 @@ call_for_help_radius = 40
                 energy_source = {
                     type = "electric",
                     usage_priority = "secondary-input",
-                    emissions_per_minute = 9,
+                    emissions_per_minute = 9
                 },
                 energy_usage = "1264kW",
                 ingredient_count = 4,
@@ -11223,7 +11239,7 @@ call_for_help_radius = 40
                 working_sound = {
                     sound = { filename = "__base__/sound/oil-refinery.ogg" },
                     idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-                    apparent_volume = 2.5,
+                    apparent_volume = 2.5
                 },
                 fluid_boxes = {
                     {
@@ -11261,7 +11277,6 @@ call_for_help_radius = 40
                 },
                 pipe_covers = pipecoverspictures()
             },
-
             {
                 type = "roboport",
                 name = "roboport-mk4",
@@ -11291,12 +11306,102 @@ call_for_help_radius = 40
                 material_slots_count = 14,
                 stationing_offset = { 0, 0 },
                 charging_offsets = {
-                    { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 },
-                    { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 },
-                    { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 },
-                    { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 },
-                    { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 },
-                    { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 }, { -1.5, -0.5 }, { 1.5, -0.5 }, { 1.5, 1.5 }, { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 },
+                    { -1.5, -0.5 },
+                    { 1.5, -0.5 },
+                    { 1.5, 1.5 },
+                    { -1.5, 1.5 }
                 },
                 base = {
                     layers = {
@@ -11419,10 +11524,8 @@ call_for_help_radius = 40
                 recharging_light = { intensity = 0.4, size = 5, color = { r = 1.0, g = 1.0, b = 1.0 } },
                 request_to_open_door_timeout = 15,
                 spawn_and_station_height = -0.1,
-
                 draw_logistic_radius_visualization = true,
                 draw_construction_radius_visualization = true,
-
                 open_door_trigger_effect = {
                     {
                         type = "play-sound",
@@ -11435,22 +11538,20 @@ call_for_help_radius = 40
                         sound = { filename = "__base__/sound/roboport-door.ogg", volume = 0.75 }
                     }
                 },
-
                 circuit_wire_connection_point = circuit_connector_definitions["roboport"].points,
                 circuit_connector_sprites = circuit_connector_definitions["roboport"].sprites,
                 circuit_wire_max_distance = default_circuit_wire_max_distance,
-
                 default_available_logistic_output_signal = { type = "virtual", name = "signal-X" },
                 default_total_logistic_output_signal = { type = "virtual", name = "signal-Y" },
                 default_available_construction_output_signal = { type = "virtual", name = "signal-Z" },
                 default_total_construction_output_signal = { type = "virtual", name = "signal-T" }
             },
-
             {
                 type = "logistic-container",
                 name = "logistic-chest-passive-provider-4d",
                 icon = "__base__/graphics/icons/logistic-chest-passive-provider.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "logistic-chest-passive-provider-4d" },
                 max_health = 150,
@@ -11471,15 +11572,14 @@ call_for_help_radius = 40
                     frame_count = 7,
                     shift = util.by_pixel(0, -2),
                     scale = 0.5
-                },
-
+                }
             },
-
             {
                 type = "logistic-container",
                 name = "logistic-chest-active-provider-4d",
                 icon = "__base__/graphics/icons/logistic-chest-active-provider.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "logistic-chest-active-provider-4d" },
                 max_health = 150,
@@ -11500,15 +11600,14 @@ call_for_help_radius = 40
                     frame_count = 7,
                     shift = util.by_pixel(0, -2),
                     scale = 0.5
-                },
-
+                }
             },
-
             {
                 type = "logistic-container",
                 name = "logistic-chest-storage-4d",
                 icon = "__base__/graphics/icons/logistic-chest-storage.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "logistic-chest-storage-4d" },
                 max_health = 150,
@@ -11530,15 +11629,14 @@ call_for_help_radius = 40
                     frame_count = 7,
                     shift = util.by_pixel(0, -2),
                     scale = 0.5
-                },
-
+                }
             },
-
             {
                 type = "storage-tank",
                 name = "storage-tank-mk2",
                 icon = "__base__/graphics/icons/storage-tank.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { mining_time = 1.5, result = "storage-tank-mk2" },
                 max_health = 500,
@@ -11552,8 +11650,8 @@ call_for_help_radius = 40
                         { position = { -1, -2 } },
                         { position = { 2, 1 } },
                         { position = { 1, 2 } },
-                        { position = { -2, -1 } },
-                    },
+                        { position = { -2, -1 } }
+                    }
                 },
                 two_direction_only = true,
                 window_bounding_box = { { -0.125, 0.6875 }, { 0.1875, 1.1875 } },
@@ -11656,17 +11754,16 @@ call_for_help_radius = 40
                     apparent_volume = 1.5,
                     max_sounds_per_type = 3
                 },
-
                 circuit_wire_connection_points = circuit_connector_definitions["storage-tank"].points,
                 circuit_connector_sprites = circuit_connector_definitions["storage-tank"].sprites,
                 circuit_wire_max_distance = default_circuit_wire_max_distance
             },
-
             {
                 type = "underground-belt",
                 name = "underground-belt-2",
                 icon = "__base__/graphics/icons/underground-belt.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "underground-belt-2" },
                 max_health = 250,
@@ -11736,9 +11833,7 @@ call_for_help_radius = 40
                                 height = 192,
                                 scale = 0.5
                             }
-
                         }
-
                     },
                     direction_in_side_loading = {
                         sheet = {
@@ -11771,10 +11866,8 @@ call_for_help_radius = 40
                                 height = 192,
                                 y = 192 * 2,
                                 scale = 0.5
-                            },
-
+                            }
                         }
-
                     },
                     back_patch = {
                         sheet = {
@@ -11789,7 +11882,6 @@ call_for_help_radius = 40
                                 height = 192,
                                 scale = 0.5
                             }
-
                         }
                     },
                     front_patch = {
@@ -11805,17 +11897,16 @@ call_for_help_radius = 40
                                 height = 192,
                                 scale = 0.5
                             }
-
                         }
                     }
                 }
             },
-
             {
                 type = "underground-belt",
                 name = "fast-underground-belt-2",
                 icon = "__base__/graphics/icons/fast-underground-belt.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "fast-underground-belt-2" },
                 max_health = 250,
@@ -11953,12 +12044,12 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "underground-belt",
                 name = "express-underground-belt-2",
                 icon = "__base__/graphics/icons/express-underground-belt.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "express-underground-belt-2" },
                 max_health = 250,
@@ -12095,7 +12186,6 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "inserter",
                 name = "rapid-inserter",
@@ -12204,7 +12294,6 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "inserter",
                 name = "terra-inserter",
@@ -12314,7 +12403,6 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "inserter",
                 name = "smart-terra-inserter",
@@ -12421,7 +12509,6 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "explosion",
                 name = "railgun-explosion",
@@ -12437,8 +12524,7 @@ call_for_help_radius = 40
                         axially_symmetrical = false,
                         direction_count = 1,
                         shift = { 0.1875, -0.75 },
-                        animation_speed = 0.25,
-
+                        animation_speed = 0.25
                     }
                 },
                 light = { intensity = 1, size = 50 },
@@ -12472,7 +12558,6 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "explosion",
                 name = "antithetical-explosion",
@@ -12488,8 +12573,7 @@ call_for_help_radius = 40
                         axially_symmetrical = false,
                         direction_count = 1,
                         shift = { 0.1875, -0.75 },
-                        animation_speed = 0.75,
-
+                        animation_speed = 0.75
                     }
                 },
                 light = { intensity = 1, size = 50 },
@@ -12523,7 +12607,6 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "explosion",
                 name = "ship-explosion",
@@ -12541,7 +12624,6 @@ call_for_help_radius = 40
                         shift = { 0.1875, -0.75 },
                         animation_speed = 0.15,
                         scale = 10
-
                     }
                 },
                 light = { intensity = 1, size = 500 },
@@ -12575,7 +12657,6 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "smoke-with-trigger",
                 name = "poison-cloud2",
@@ -12589,7 +12670,7 @@ call_for_help_radius = 40
                     frame_count = 45,
                     animation_speed = 0.7,
                     line_length = 7,
-                    scale = 3,
+                    scale = 3
                 },
                 slow_down_factor = 0.8,
                 affected_by_wind = false,
@@ -12621,7 +12702,6 @@ call_for_help_radius = 40
                 },
                 action_frequency = 30
             },
-
             {
                 type = "smoke-with-trigger",
                 name = "poison-cloud3",
@@ -12635,7 +12715,7 @@ call_for_help_radius = 40
                     frame_count = 45,
                     animation_speed = 0.4,
                     line_length = 7,
-                    scale = 9,
+                    scale = 9
                 },
                 slow_down_factor = 1,
                 affected_by_wind = false,
@@ -12667,12 +12747,12 @@ call_for_help_radius = 40
                 },
                 action_frequency = 30
             },
-
             {
                 type = "logistic-container",
                 name = "logistic-chest-requester-4d",
                 icon = "__base__/graphics/icons/logistic-chest-requester.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "logistic-chest-requester-4d" },
                 max_health = 150,
@@ -12693,9 +12773,8 @@ call_for_help_radius = 40
                     frame_count = 7,
                     shift = util.by_pixel(0, -2),
                     scale = 0.5
-                },
+                }
             },
-
             {
                 type = "logistic-container",
                 name = "logistic-chest-buffer-4d",
@@ -12721,9 +12800,8 @@ call_for_help_radius = 40
                     frame_count = 7,
                     shift = util.by_pixel(0, -2),
                     scale = 0.5
-                },
+                }
             },
-
             ---- Lights ----
             {
                 type = "lamp",
@@ -12754,7 +12832,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 picture_on = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/red-on.png",
@@ -12764,7 +12842,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 signal_to_color_mapping = {
                     { type = "virtual", name = "signal-red", color = { r = 1, g = 0, b = 0 } },
@@ -12772,10 +12850,9 @@ call_for_help_radius = 40
                     { type = "virtual", name = "signal-blue", color = { r = 0, g = 0, b = 1 } },
                     { type = "virtual", name = "signal-yellow", color = { r = 1, g = 1, b = 0 } },
                     { type = "virtual", name = "signal-pink", color = { r = 1, g = 0, b = 1 } },
-                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } },
-                },
+                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } }
+                }
             },
-
             {
                 type = "lamp",
                 name = "blue-lamp",
@@ -12805,7 +12882,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 picture_on = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/blue-on.png",
@@ -12815,7 +12892,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 signal_to_color_mapping = {
                     { type = "virtual", name = "signal-red", color = { r = 1, g = 0, b = 0 } },
@@ -12823,11 +12900,9 @@ call_for_help_radius = 40
                     { type = "virtual", name = "signal-blue", color = { r = 0, g = 0, b = 1 } },
                     { type = "virtual", name = "signal-yellow", color = { r = 1, g = 1, b = 0 } },
                     { type = "virtual", name = "signal-pink", color = { r = 1, g = 0, b = 1 } },
-                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } },
-                },
-
+                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } }
+                }
             },
-
             {
                 type = "lamp",
                 name = "yellow-lamp",
@@ -12857,7 +12932,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 picture_on = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/yellow-on.png",
@@ -12867,7 +12942,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 signal_to_color_mapping = {
                     { type = "virtual", name = "signal-red", color = { r = 1, g = 0, b = 0 } },
@@ -12875,10 +12950,9 @@ call_for_help_radius = 40
                     { type = "virtual", name = "signal-blue", color = { r = 0, g = 0, b = 1 } },
                     { type = "virtual", name = "signal-yellow", color = { r = 1, g = 1, b = 0 } },
                     { type = "virtual", name = "signal-pink", color = { r = 1, g = 0, b = 1 } },
-                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } },
-                },
+                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } }
+                }
             },
-
             {
                 type = "lamp",
                 name = "green-lamp",
@@ -12908,7 +12982,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 picture_on = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/green-on.png",
@@ -12918,7 +12992,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 signal_to_color_mapping = {
                     { type = "virtual", name = "signal-red", color = { r = 1, g = 0, b = 0 } },
@@ -12926,10 +13000,9 @@ call_for_help_radius = 40
                     { type = "virtual", name = "signal-blue", color = { r = 0, g = 0, b = 1 } },
                     { type = "virtual", name = "signal-yellow", color = { r = 1, g = 1, b = 0 } },
                     { type = "virtual", name = "signal-pink", color = { r = 1, g = 0, b = 1 } },
-                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } },
-                },
+                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } }
+                }
             },
-
             {
                 type = "lamp",
                 name = "purple-lamp",
@@ -12959,7 +13032,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 picture_on = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/purple-on.png",
@@ -12969,7 +13042,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 signal_to_color_mapping = {
                     { type = "virtual", name = "signal-red", color = { r = 1, g = 0, b = 0 } },
@@ -12977,10 +13050,9 @@ call_for_help_radius = 40
                     { type = "virtual", name = "signal-blue", color = { r = 0, g = 0, b = 1 } },
                     { type = "virtual", name = "signal-yellow", color = { r = 1, g = 1, b = 0 } },
                     { type = "virtual", name = "signal-pink", color = { r = 1, g = 0, b = 1 } },
-                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } },
-                },
+                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } }
+                }
             },
-
             {
                 type = "lamp",
                 name = "cyan-lamp",
@@ -13010,7 +13082,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 picture_on = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/cyan-on.png",
@@ -13020,7 +13092,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 signal_to_color_mapping = {
                     { type = "virtual", name = "signal-red", color = { r = 1, g = 0, b = 0 } },
@@ -13028,10 +13100,9 @@ call_for_help_radius = 40
                     { type = "virtual", name = "signal-blue", color = { r = 0, g = 0, b = 1 } },
                     { type = "virtual", name = "signal-yellow", color = { r = 1, g = 1, b = 0 } },
                     { type = "virtual", name = "signal-pink", color = { r = 1, g = 0, b = 1 } },
-                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } },
-                },
+                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } }
+                }
             },
-
             {
                 type = "lamp",
                 name = "white-lamp",
@@ -13061,7 +13132,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 picture_on = {
                     filename = "__Darkstar_utilities_fixed__/graphics/entity/lights/white-on.png",
@@ -13071,7 +13142,7 @@ call_for_help_radius = 40
                     frame_count = 1,
                     axially_symmetrical = false,
                     direction_count = 1,
-                    shift = { -0, -0 },
+                    shift = { -0, -0 }
                 },
                 signal_to_color_mapping = {
                     { type = "virtual", name = "signal-red", color = { r = 1, g = 0, b = 0 } },
@@ -13079,16 +13150,16 @@ call_for_help_radius = 40
                     { type = "virtual", name = "signal-blue", color = { r = 0, g = 0, b = 1 } },
                     { type = "virtual", name = "signal-yellow", color = { r = 1, g = 1, b = 0 } },
                     { type = "virtual", name = "signal-pink", color = { r = 1, g = 0, b = 1 } },
-                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } },
-                },
+                    { type = "virtual", name = "signal-cyan", color = { r = 0, g = 1, b = 1 } }
+                }
             },
-
             ---- Storage ----
             {
                 type = "logistic-container",
                 name = "logistic-house-passive-provider",
                 icon = "__base__/graphics/icons/logistic-chest-passive-provider.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "logistic-house-passive-provider" },
                 max_health = 750,
@@ -13107,15 +13178,14 @@ call_for_help_radius = 40
                     width = 550,
                     height = 550,
                     shift = { 0.1, 0 }
-                },
-
+                }
             },
-
             {
                 type = "logistic-container",
                 name = "logistic-house-buffer",
                 icon = "__base__/graphics/icons/logistic-chest-passive-provider.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "logistic-house-buffer" },
                 max_health = 750,
@@ -13135,15 +13205,14 @@ call_for_help_radius = 40
                     width = 550,
                     height = 550,
                     shift = { 0.1, 0 }
-                },
-
+                }
             },
-
             {
                 type = "logistic-container",
                 name = "logistic-house-active-provider",
                 icon = "__base__/graphics/icons/logistic-chest-active-provider.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "logistic-house-active-provider" },
                 max_health = 750,
@@ -13162,15 +13231,14 @@ call_for_help_radius = 40
                     width = 550,
                     height = 550,
                     shift = { 0.1, 0 }
-                },
-
+                }
             },
-
             {
                 type = "logistic-container",
                 name = "logistic-house-storage",
                 icon = "__base__/graphics/icons/logistic-chest-storage.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "logistic-house-storage" },
                 max_health = 750,
@@ -13190,15 +13258,14 @@ call_for_help_radius = 40
                     width = 550,
                     height = 550,
                     shift = { 0.1, 0 }
-                },
-
+                }
             },
-
             {
                 type = "logistic-container",
                 name = "logistic-house-requester",
                 icon = "__base__/graphics/icons/logistic-chest-requester.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "logistic-house-requester" },
                 max_health = 750,
@@ -13217,15 +13284,14 @@ call_for_help_radius = 40
                     width = 550,
                     height = 550,
                     shift = { 0.1, 0 }
-                },
-
+                }
             },
-
             {
                 type = "container",
                 name = "storage-house",
                 icon = "__base__/graphics/icons/logistic-chest-requester.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "storage-house" },
                 max_health = 750,
@@ -13242,15 +13308,14 @@ call_for_help_radius = 40
                     width = 550,
                     height = 550,
                     shift = { 0.1, 0 }
-                },
-
+                }
             },
-
             {
                 type = "underground-belt",
                 name = "terra-underground-belt",
                 icon = "__base__/graphics/icons/express-underground-belt.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "terra-underground-belt" },
                 max_health = 250,
@@ -13319,9 +13384,7 @@ call_for_help_radius = 40
                                 height = 192,
                                 scale = 0.5
                             }
-
                         }
-
                     },
                     direction_in_side_loading = {
                         sheet = {
@@ -13354,10 +13417,8 @@ call_for_help_radius = 40
                                 height = 192,
                                 y = 192 * 2,
                                 scale = 0.5
-                            },
-
+                            }
                         }
-
                     },
                     back_patch = {
                         sheet = {
@@ -13372,7 +13433,6 @@ call_for_help_radius = 40
                                 height = 192,
                                 scale = 0.5
                             }
-
                         }
                     },
                     front_patch = {
@@ -13388,17 +13448,16 @@ call_for_help_radius = 40
                                 height = 192,
                                 scale = 0.5
                             }
-
                         }
                     }
                 }
             },
-
             {
                 type = "underground-belt",
                 name = "terra-underground-belt2",
                 icon = "__base__/graphics/icons/express-underground-belt.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "terra-underground-belt2" },
                 max_health = 250,
@@ -13467,9 +13526,7 @@ call_for_help_radius = 40
                                 height = 192,
                                 scale = 0.5
                             }
-
                         }
-
                     },
                     direction_in_side_loading = {
                         sheet = {
@@ -13502,10 +13559,8 @@ call_for_help_radius = 40
                                 height = 192,
                                 y = 192 * 2,
                                 scale = 0.5
-                            },
-
+                            }
                         }
-
                     },
                     back_patch = {
                         sheet = {
@@ -13520,7 +13575,6 @@ call_for_help_radius = 40
                                 height = 192,
                                 scale = 0.5
                             }
-
                         }
                     },
                     front_patch = {
@@ -13536,17 +13590,16 @@ call_for_help_radius = 40
                                 height = 192,
                                 scale = 0.5
                             }
-
                         }
                     }
                 }
             },
-
             {
                 type = "underground-belt",
                 name = "terra-underground-belt-long",
                 icon = "__base__/graphics/icons/express-underground-belt.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "terra-underground-belt-long" },
                 max_health = 250,
@@ -13683,12 +13736,12 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "underground-belt",
                 name = "terra-underground-belt2-long",
                 icon = "__base__/graphics/icons/express-underground-belt.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-neutral", "player-creation" },
                 minable = { hardness = 0.2, mining_time = 0.5, result = "terra-underground-belt2-long" },
                 max_health = 250,
@@ -13825,12 +13878,12 @@ call_for_help_radius = 40
                     }
                 }
             },
-
             {
                 type = "unit-spawner",
                 name = "biter-spawner",
                 icon = "__base__/graphics/icons/biter-spawner.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "placeable-enemy", "not-repairable" },
                 max_health = 350,
                 order = "b-b-g",
@@ -13922,13 +13975,13 @@ call_for_help_radius = 40
                 autoplace = enemy_autoplace.enemy_spawner_autoplace(0),
                 call_for_help_radius = 50
             },
-
             {
                 type = "unit",
                 name = "behemoth-biter-2",
                 order = "b-a-d",
                 icon = "__base__/graphics/icons/behemoth-biter.png",
-                icon_size = 64, icon_mipmaps = 4,
+                icon_size = 64,
+                icon_mipmaps = 4,
                 flags = { "placeable-player", "placeable-enemy", "not-repairable" },
                 max_health = 3000,
                 subgroup = "enemies",
@@ -13971,10 +14024,10 @@ call_for_help_radius = 40
                 working_sound = sounds.biter_calls_behemoth(0.97),
                 dying_sound = sounds.biter_dying_big(0.52),
                 run_animation = biterrunanimation(behemoth_biter_scale, behemoth_biter_tint1, behemoth_biter_tint2),
-                running_sound_animation_positions = { 2, },
+                running_sound_animation_positions = { 2 },
                 walking_sound = sounds.biter_walk_big(0.78),
                 ai_settings = biter_ai_settings,
                 water_reflection = biter_water_reflection(behemoth_biter_scale)
-            },
+            }
         }
 )

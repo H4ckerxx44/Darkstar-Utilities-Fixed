@@ -15,7 +15,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "laser",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -48,7 +47,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "destroyer-capsule-2",
-
                 acceleration = 0.205,
                 action = {
                     type = "direct",
@@ -68,7 +66,6 @@ data:extend(
                     layers = {
                         {
                             filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule.png",
-
                             frame_count = 1,
                             width = 42,
                             height = 34,
@@ -76,18 +73,16 @@ data:extend(
                         },
                         {
                             filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule-mask.png",
-
                             frame_count = 1,
                             width = 42,
                             height = 34,
                             priority = "high",
-                            apply_runtime_tint = true,
-                        },
-                    },
+                            apply_runtime_tint = true
+                        }
+                    }
                 },
                 shadow = {
                     filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule-shadow.png",
-
                     frame_count = 1,
                     width = 48,
                     height = 32,
@@ -98,7 +93,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "laser-2",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -128,12 +122,12 @@ data:extend(
                 },
                 speed = 0.15
             },
-            { -- Napalm
+            {
+                -- Napalm
                 type = "ammo",
                 name = "Napalm",
                 icon = "__base__/graphics/icons/flamethrower-ammo.png",
                 icon_size = 32,
-
                 ammo_type = {
                     {
                         source_type = "vehicle",
@@ -141,14 +135,13 @@ data:extend(
                         category = "flamethrower",
                         target_type = "position",
                         clamp_position = true,
-
                         action = {
                             type = "direct",
                             action_delivery = {
                                 type = "stream",
                                 stream = "handheld-flamethrower-fire-stream",
                                 max_length = 60,
-                                duration = 820,
+                                duration = 820
                             }
                         }
                     }
@@ -161,7 +154,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "rocket",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -219,7 +211,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "explosive-rocket-mk2",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -252,7 +243,7 @@ data:extend(
                                             }
                                         }
                                     }
-                                },
+                                }
                             }
                         }
                     }
@@ -292,7 +283,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "explosive-rocket-mk3",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -318,10 +308,10 @@ data:extend(
                                             {
                                                 type = "damage",
                                                 damage = { amount = 5240, type = "explosion" }
-                                            },
+                                            }
                                         }
                                     }
-                                },
+                                }
                             }
                         }
                     }
@@ -358,11 +348,9 @@ data:extend(
                     }
                 }
             },
-
             {
                 type = "projectile",
                 name = "railgun-mk2-round",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -391,7 +379,7 @@ data:extend(
                                             }
                                         }
                                     }
-                                },
+                                }
                             }
                         }
                     }
@@ -428,11 +416,9 @@ data:extend(
                     }
                 }
             },
-
             {
                 type = "projectile",
                 name = "railgun-mk2-round2",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -465,7 +451,7 @@ data:extend(
                                             }
                                         }
                                     }
-                                },
+                                }
                             }
                         }
                     }
@@ -502,13 +488,11 @@ data:extend(
                     }
                 }
             },
-
             {
                 type = "ammo",
                 name = "shotgun-shells-mk2",
                 icon = "__base__/graphics/icons/piercing-shotgun-shell.png",
                 icon_size = 32,
-
                 ammo_type = {
                     category = "shotgun-shells-mk2",
                     target_type = "direction",
@@ -525,7 +509,7 @@ data:extend(
                             starting_speed = 3,
                             direction_deviation = 0.3,
                             range_deviation = 0.6,
-                            max_range = 55,
+                            max_range = 55
                         }
                     }
                 },
@@ -534,11 +518,9 @@ data:extend(
                 order = "b[shotgun]-b[piercing]",
                 stack_size = 100
             },
-
             {
                 type = "projectile",
                 name = "piercing-shotgun-pellet",
-
                 collision_box = { { -0.05, -0.25 }, { 0.05, 0.25 } },
                 acceleration = 0,
                 direction_only = true,
@@ -558,12 +540,11 @@ data:extend(
                     width = 3,
                     height = 50,
                     priority = "high"
-                },
+                }
             },
             {
                 type = "projectile",
                 name = "atomic-rocket3",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -648,7 +629,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "atomic-bomb-healing-wave",
-
                 acceleration = 0,
                 action = {
                     {
@@ -777,7 +757,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "atomic-bomb-wave2",
-
                 acceleration = 0,
                 action = {
                     {
@@ -822,7 +801,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "nuke-grenade",
-
                 acceleration = 0.01,
                 action = {
                     {
@@ -879,7 +857,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "cannon-projectile",
-
                 collision_box = { { -0.05, -1.1 }, { 0.05, 1.1 } },
                 acceleration = 0,
                 direction_only = true,
@@ -919,12 +896,11 @@ data:extend(
                     width = 3,
                     height = 50,
                     priority = "high"
-                },
+                }
             },
             {
                 type = "projectile",
                 name = "explosive-cannon-projectile",
-
                 collision_box = { { -0.05, -1.1 }, { 0.05, 1.1 } },
                 acceleration = 0,
                 direction_only = true,
@@ -980,12 +956,11 @@ data:extend(
                     width = 3,
                     height = 50,
                     priority = "high"
-                },
+                }
             },
             {
                 type = "projectile",
                 name = "grenade",
-
                 acceleration = 0.005,
                 action = {
                     {
@@ -1042,7 +1017,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "defender-capsule",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -1052,8 +1026,8 @@ data:extend(
                             {
                                 type = "create-entity",
                                 show_in_tooltip = true,
-                                entity_name = "defender",
-                            },
+                                entity_name = "defender"
+                            }
                         }
                     }
                 },
@@ -1072,12 +1046,11 @@ data:extend(
                     height = 32,
                     priority = "high"
                 },
-                smoke = capsule_smoke,
+                smoke = capsule_smoke
             },
             {
                 type = "projectile",
                 name = "distractor-capsule",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -1113,7 +1086,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "destroyer-capsule",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -1147,7 +1119,6 @@ data:extend(
             {
                 type = "projectile",
                 name = "poison-capsule",
-
                 acceleration = 0.005,
                 action = {
                     type = "direct",
@@ -1174,12 +1145,11 @@ data:extend(
                     height = 32,
                     priority = "high"
                 },
-                smoke = capsule_smoke,
+                smoke = capsule_smoke
             },
             {
                 type = "projectile",
                 name = "slowdown-capsule",
-
                 acceleration = 0.005,
                 action = {
                     type = "area",
@@ -1207,7 +1177,7 @@ data:extend(
                     height = 32,
                     priority = "high"
                 },
-                smoke = capsule_smoke,
+                smoke = capsule_smoke
             }
         }
 )

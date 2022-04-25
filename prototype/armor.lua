@@ -5,7 +5,6 @@ data:extend(
                 name = "power-armor-mk3",
                 icon = "__Darkstar_utilities_fixed__/graphics/items/power-armor-mk3.png",
                 icon_size = 32,
-
                 resistances = {
                     {
                         type = "physical",
@@ -21,7 +20,7 @@ data:extend(
                         type = "explosion",
                         decrease = 20,
                         percent = 50
-                    },
+                    }
                 },
                 durability = 20000,
                 subgroup = "armor",
@@ -35,7 +34,6 @@ data:extend(
                 name = "power-armor-mk4",
                 icon = "__Darkstar_utilities_fixed__/graphics/items/power-armor-mk3.png",
                 icon_size = 32,
-
                 resistances = {
                     {
                         type = "physical",

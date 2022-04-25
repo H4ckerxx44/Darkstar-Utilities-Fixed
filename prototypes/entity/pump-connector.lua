@@ -17,7 +17,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -13.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-1-load-standup-base-shadow.png",
@@ -34,8 +34,8 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-8.75, 8.5)
-                    },
-                },
+                    }
+                }
             },
             [2] = {
                 standup_base = {
@@ -53,7 +53,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -21.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-2-load-standup-shadow.png",
@@ -70,7 +70,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-6.75, -13.5)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-2-load-connect-shadow.png",
@@ -87,8 +87,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-27.75, -10)
-                    },
-                },
+                    }
+                }
             },
             [3] = {
                 standup_base = {
@@ -106,7 +106,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -13.5)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-3-load-connect-shadow.png",
@@ -123,8 +123,8 @@ return {
                         line_length = 1,
                         frame_count = 17,
                         shift = util.by_pixel(-27.75, 12.75)
-                    },
-                },
+                    }
+                }
             },
             [4] = {
                 standup_base = {
@@ -142,7 +142,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -21.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-4-load-standup-shadow.png",
@@ -159,7 +159,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-6.5, -13.5)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-4-load-connect-shadow.png",
@@ -176,8 +176,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-27.5, -14)
-                    },
-                },
+                    }
+                }
             },
             [5] = {
                 standup_base = {
@@ -195,7 +195,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -13.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-5-load-standup-shadow.png",
@@ -212,7 +212,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-6.5, 3.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-5-load-connect-shadow.png",
@@ -229,8 +229,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-27.5, 9)
-                    },
-                },
+                    }
+                }
             },
             [6] = {
                 standup_base = {
@@ -248,7 +248,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -21.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-6-load-standup-shadow.png",
@@ -265,7 +265,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-7, -13.5)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-6-load-connect-shadow.png",
@@ -282,9 +282,9 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-27, -16.75)
-                    },
-                },
-            },
+                    }
+                }
+            }
         },
         north = {
             [1] = {
@@ -303,7 +303,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-1-load-standup-shadow.png",
@@ -320,7 +320,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(18, -52)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-1-load-connect-shadow.png",
@@ -337,8 +337,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(26.75, -66.25)
-                    },
-                },
+                    }
+                }
             },
             [2] = {
                 standup_base = {
@@ -356,7 +356,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-2-load-standup-shadow.png",
@@ -373,7 +373,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(16.75, -47.5)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-2-load-connect-shadow.png",
@@ -390,8 +390,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(16.25, -65)
-                    },
-                },
+                    }
+                }
             },
             [3] = {
                 standup_base = {
@@ -409,7 +409,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-3-load-standup-shadow.png",
@@ -426,7 +426,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(16.75, -47.5)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-3-load-connect-shadow.png",
@@ -443,8 +443,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(20.25, -66.25)
-                    },
-                },
+                    }
+                }
             },
             [4] = {
                 standup_base = {
@@ -462,8 +462,8 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
-                },
+                    }
+                }
             },
             [5] = {
                 standup_base = {
@@ -481,7 +481,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-5-load-standup-shadow.png",
@@ -498,7 +498,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(16.75, -47.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-5-load-connect-shadow.png",
@@ -515,8 +515,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(20.25, -67.25)
-                    },
-                },
+                    }
+                }
             },
             [6] = {
                 standup_base = {
@@ -534,7 +534,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-6-load-standup-shadow.png",
@@ -551,7 +551,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(16.75, -48)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-6-load-connect-shadow.png",
@@ -568,9 +568,9 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(16.25, -65)
-                    },
-                },
-            },
+                    }
+                }
+            }
         },
         east = {
             [1] = {
@@ -589,8 +589,8 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(23.5, -16.25)
-                    },
-                },
+                    }
+                }
             },
             [2] = {
                 standup_base = {
@@ -608,8 +608,8 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(23.5, -24.5)
-                    },
-                },
+                    }
+                }
             },
             [3] = {
                 standup_base = {
@@ -627,11 +627,10 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(23.5, -16.25)
-                    },
-                },
+                    }
+                }
             },
-            [4] = {
-            },
+            [4] = {},
             [5] = {
                 standup_base = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-135-load-standup-base.png",
@@ -648,28 +647,20 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(23.5, -16.25)
-                    },
-                },
+                    }
+                }
             },
-            [6] = {
-            },
+            [6] = {}
         },
         south = {
-            [1] = {
-            },
-            [2] = {
-            },
-            [3] = {
-            },
-            [4] = {
-            },
-            [5] = {
-            },
-            [6] = {
-            },
-        },
-    }
-,
+            [1] = {},
+            [2] = {},
+            [3] = {},
+            [4] = {},
+            [5] = {},
+            [6] = {}
+        }
+    },
     unload_animations = {
         west = {
             [1] = {
@@ -688,7 +679,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(18.25, -31.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-1-unload-standup-shadow.png",
@@ -705,7 +696,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(33.5, 4.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-1-unload-connect.png",
@@ -722,7 +713,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(46, -22.25)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-1-unload-connect-shadow.png",
@@ -739,8 +730,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(61, -2)
-                    },
-                },
+                    }
+                }
             },
             [2] = {
                 standup_base = {
@@ -758,7 +749,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(23.5, -24.5)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-246-unload-standup-top.png",
@@ -775,7 +766,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(18.75, -41.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-2-unload-standup-shadow.png",
@@ -792,7 +783,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(31, -16.75)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-2-unload-connect.png",
@@ -809,7 +800,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(45.25, -49.5)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-2-unload-connect-shadow.png",
@@ -826,8 +817,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(57, -40.5)
-                    },
-                },
+                    }
+                }
             },
             [3] = {
                 standup_top = {
@@ -845,7 +836,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(18.25, -31.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-3-unload-standup-shadow.png",
@@ -862,7 +853,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(31, -1.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-3-unload-connect.png",
@@ -879,7 +870,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(45, -25.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-3-unload-connect-shadow.png",
@@ -896,8 +887,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(56.5, -18.5)
-                    },
-                },
+                    }
+                }
             },
             [4] = {
                 standup_base = {
@@ -915,7 +906,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(23.5, -24.5)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-246-unload-standup-top.png",
@@ -932,7 +923,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(18.75, -41.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-4-unload-standup-shadow.png",
@@ -949,7 +940,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(30.75, -15.75)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-4-unload-connect.png",
@@ -966,8 +957,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(45.75, -51.75)
-                    },
-                },
+                    }
+                }
             },
             [5] = {
                 standup_top = {
@@ -985,7 +976,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(18.25, -31.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-5-unload-standup-shadow.png",
@@ -1002,7 +993,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(32, 0.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-5-unload-connect.png",
@@ -1019,7 +1010,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(46, -29.5)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-5-unload-connect-shadow.png",
@@ -1036,8 +1027,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(54, -17)
-                    },
-                },
+                    }
+                }
             },
             [6] = {
                 standup_base = {
@@ -1055,7 +1046,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(23.5, -24.5)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-246-unload-standup-top.png",
@@ -1072,7 +1063,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(18.75, -41.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-6-unload-standup-shadow.png",
@@ -1089,7 +1080,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(43.25, -16.25)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-6-unload-connect.png",
@@ -1106,7 +1097,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(45.25, -55)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-L-6-unload-connect-shadow.png",
@@ -1123,9 +1114,9 @@ return {
                         line_length = 1,
                         frame_count = 18,
                         shift = util.by_pixel(55.5, -17.5)
-                    },
-                },
-            },
+                    }
+                }
+            }
         },
         north = {
             [1] = {
@@ -1144,7 +1135,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, 15.75)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-123456-unload-standup-top.png",
@@ -1161,7 +1152,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, 0.75)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-1-unload-standup-shadow.png",
@@ -1178,7 +1169,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(2.5, 18.75)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-135-unload-connect.png",
@@ -1195,7 +1186,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(3.75, 0.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-1-unload-connect-shadow.png",
@@ -1212,8 +1203,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(9.75, 16.75)
-                    },
-                },
+                    }
+                }
             },
             [2] = {
                 standup_base = {
@@ -1231,7 +1222,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, 15.75)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-123456-unload-standup-top.png",
@@ -1248,7 +1239,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, 0.75)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-2-unload-standup-shadow.png",
@@ -1265,7 +1256,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(4.5, 18.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-246-unload-connect.png",
@@ -1282,7 +1273,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-1.5, 0.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-2-unload-connect-shadow.png",
@@ -1299,8 +1290,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(5.25, 20)
-                    },
-                },
+                    }
+                }
             },
             [3] = {
                 standup_base = {
@@ -1318,7 +1309,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, 15.75)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-123456-unload-standup-top.png",
@@ -1335,7 +1326,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, 0.75)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-3-unload-standup-shadow.png",
@@ -1352,7 +1343,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(2.5, 13.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-135-unload-connect.png",
@@ -1369,7 +1360,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(3.75, 0.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-3-unload-connect-shadow.png",
@@ -1386,8 +1377,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(9.5, 17)
-                    },
-                },
+                    }
+                }
             },
             [4] = {
                 standup_base = {
@@ -1405,7 +1396,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, 15.75)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-123456-unload-standup-top.png",
@@ -1422,7 +1413,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, 0.75)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-4-unload-standup-shadow.png",
@@ -1439,7 +1430,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(4.5, 18.75)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-246-unload-connect.png",
@@ -1456,7 +1447,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-1.5, 0.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-4-unload-connect-shadow.png",
@@ -1473,8 +1464,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(5.25, 23.5)
-                    },
-                },
+                    }
+                }
             },
             [5] = {
                 standup_base = {
@@ -1492,7 +1483,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, 15.75)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-123456-unload-standup-top.png",
@@ -1509,7 +1500,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, 0.75)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-5-unload-standup-shadow.png",
@@ -1526,7 +1517,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(2.5, 13.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-135-unload-connect.png",
@@ -1543,7 +1534,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(3.75, 0.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-5-unload-connect-shadow.png",
@@ -1560,8 +1551,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(10.25, 17)
-                    },
-                },
+                    }
+                }
             },
             [6] = {
                 standup_base = {
@@ -1579,7 +1570,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, 15.75)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-123456-unload-standup-top.png",
@@ -1596,7 +1587,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, 0.75)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-6-unload-standup-shadow.png",
@@ -1613,7 +1604,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(16.5, 0.25)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-246-unload-connect.png",
@@ -1630,7 +1621,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-1.5, 0.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-T-6-unload-connect-shadow.png",
@@ -1647,9 +1638,9 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(1.25, -12)
-                    },
-                },
-            },
+                    }
+                }
+            }
         },
         east = {
             [1] = {
@@ -1668,7 +1659,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -13.5)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-135-unload-standup-top.png",
@@ -1685,7 +1676,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(-18.75, -29)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-1-unload-connect.png",
@@ -1702,7 +1693,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-43.25, -20.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-1-unload-connect-shadow.png",
@@ -1719,8 +1710,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-27, 17.75)
-                    },
-                },
+                    }
+                }
             },
             [2] = {
                 standup_base = {
@@ -1738,7 +1729,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -21.5)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-246-unload-standup-top.png",
@@ -1755,7 +1746,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(-18.75, -39)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-2-unload-standup-shadow.png",
@@ -1772,7 +1763,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-7.75, -13.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-2-unload-connect.png",
@@ -1789,7 +1780,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-42.75, -47)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-2-unload-connect-shadow.png",
@@ -1806,8 +1797,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-27.75, -10)
-                    },
-                },
+                    }
+                }
             },
             [3] = {
                 standup_base = {
@@ -1825,7 +1816,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -13.5)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-135-unload-standup-top.png",
@@ -1842,7 +1833,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(-18.75, -29)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-3-unload-standup-shadow.png",
@@ -1859,7 +1850,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-7, 3.75)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-3-unload-connect.png",
@@ -1876,7 +1867,7 @@ return {
                         line_length = 1,
                         frame_count = 17,
                         shift = util.by_pixel(-44, -24.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-3-unload-connect-shadow.png",
@@ -1893,8 +1884,8 @@ return {
                         line_length = 1,
                         frame_count = 17,
                         shift = util.by_pixel(-27.75, 12.75)
-                    },
-                },
+                    }
+                }
             },
             [4] = {
                 standup_base = {
@@ -1912,7 +1903,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -21.5)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-246-unload-standup-top.png",
@@ -1929,7 +1920,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(-18.75, -39)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-4-unload-standup-shadow.png",
@@ -1946,7 +1937,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-7.75, -13.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-4-unload-connect.png",
@@ -1963,7 +1954,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-43.75, -50)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-4-unload-connect-shadow.png",
@@ -1980,8 +1971,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-27.5, -14)
-                    },
-                },
+                    }
+                }
             },
             [5] = {
                 standup_base = {
@@ -1999,7 +1990,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -13.5)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-135-unload-standup-top.png",
@@ -2016,7 +2007,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(-18.75, -29)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-5-unload-standup-shadow.png",
@@ -2033,7 +2024,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-7.75, 3.75)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-5-unload-connect.png",
@@ -2050,7 +2041,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-44, -27.5)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-5-unload-connect-shadow.png",
@@ -2067,8 +2058,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-27.5, 9)
-                    },
-                },
+                    }
+                }
             },
             [6] = {
                 standup_base = {
@@ -2086,7 +2077,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-23.5, -21.5)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-246-unload-standup-top.png",
@@ -2103,7 +2094,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(-18.75, -39)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-6-unload-standup-shadow.png",
@@ -2120,7 +2111,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-8.25, -13.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-6-unload-connect.png",
@@ -2137,7 +2128,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-44, -53.75)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/V-R-6-unload-connect-shadow.png",
@@ -2154,9 +2145,9 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-27, -16.25)
-                    },
-                },
-            },
+                    }
+                }
+            }
         },
         south = {
             [1] = {
@@ -2175,7 +2166,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-123456-unload-standup-top.png",
@@ -2192,7 +2183,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, -72.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-1-unload-standup-shadow.png",
@@ -2209,7 +2200,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(16.75, -49.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-135-unload-connect.png",
@@ -2226,7 +2217,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(4.5, -103)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-1-unload-connect-shadow.png",
@@ -2243,8 +2234,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(14.75, -82)
-                    },
-                },
+                    }
+                }
             },
             [2] = {
                 standup_base = {
@@ -2262,7 +2253,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-123456-unload-standup-top.png",
@@ -2279,7 +2270,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, -72.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-2-unload-standup-shadow.png",
@@ -2296,7 +2287,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(18.75, -49.75)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-246-unload-connect.png",
@@ -2313,7 +2304,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-3.5, -103.25)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-2-unload-connect-shadow.png",
@@ -2330,8 +2321,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(16.25, -65)
-                    },
-                },
+                    }
+                }
             },
             [3] = {
                 standup_base = {
@@ -2349,7 +2340,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-123456-unload-standup-top.png",
@@ -2366,7 +2357,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, -72.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-3-unload-standup-shadow.png",
@@ -2383,7 +2374,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(16.75, -49.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-135-unload-connect.png",
@@ -2400,7 +2391,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(4.5, -103)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-3-unload-connect-shadow.png",
@@ -2417,8 +2408,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(27, -67.25)
-                    },
-                },
+                    }
+                }
             },
             [4] = {
                 standup_base = {
@@ -2436,7 +2427,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-123456-unload-standup-top.png",
@@ -2453,7 +2444,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, -72.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-4-unload-standup-shadow.png",
@@ -2470,7 +2461,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(16.75, -49.5)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-246-unload-connect.png",
@@ -2487,7 +2478,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-3.5, -103.25)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-4-unload-connect-shadow.png",
@@ -2504,8 +2495,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(16.25, -65)
-                    },
-                },
+                    }
+                }
             },
             [5] = {
                 standup_base = {
@@ -2523,7 +2514,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-123456-unload-standup-top.png",
@@ -2540,7 +2531,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, -72.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-5-unload-standup-shadow.png",
@@ -2557,7 +2548,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(16.75, -49.75)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-135-unload-connect.png",
@@ -2574,7 +2565,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(4.5, -103)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-5-unload-connect-shadow.png",
@@ -2591,8 +2582,8 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(20.25, -67.25)
-                    },
-                },
+                    }
+                }
             },
             [6] = {
                 standup_base = {
@@ -2610,7 +2601,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(-0.25, -62)
-                    },
+                    }
                 },
                 standup_top = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-123456-unload-standup-top.png",
@@ -2627,7 +2618,7 @@ return {
                         line_length = 1,
                         frame_count = 19,
                         shift = util.by_pixel(0, -72.5)
-                    },
+                    }
                 },
                 standup_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-6-unload-standup-shadow.png",
@@ -2644,7 +2635,7 @@ return {
                         line_length = 1,
                         frame_count = 20,
                         shift = util.by_pixel(17, -50)
-                    },
+                    }
                 },
                 connector = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-246-unload-connect.png",
@@ -2661,7 +2652,7 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(-3.5, -103.25)
-                    },
+                    }
                 },
                 connector_shadow = {
                     filename = "__base__/graphics/entity/pump/connector/H-B-6-unload-connect-shadow.png",
@@ -2678,9 +2669,9 @@ return {
                         line_length = 1,
                         frame_count = 16,
                         shift = util.by_pixel(16.5, -65)
-                    },
-                },
-            },
-        },
+                    }
+                }
+            }
+        }
     }
 }

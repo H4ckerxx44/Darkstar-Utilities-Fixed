@@ -1,6 +1,5 @@
 data:extend(
         {
-
             {
                 type = "technology",
                 name = "storage-house",
@@ -9,21 +8,20 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "storage-house",
-                    },
+                        recipe = "storage-house"
+                    }
                 },
                 prerequisites = { "steel-processing" },
                 unit = {
                     count = 150,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "flywheel",
@@ -32,21 +30,20 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "flywheel",
-                    },
+                        recipe = "flywheel"
+                    }
                 },
                 prerequisites = { "vacuum-chamber" },
                 unit = {
                     count = 100,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "vacuum-chamber",
@@ -55,33 +52,32 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "vacuum-chamber",
+                        recipe = "vacuum-chamber"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "lithium-steel-plate2",
+                        recipe = "lithium-steel-plate2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "lithium-steel-plate",
+                        recipe = "lithium-steel-plate"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "leaded-glass",
-                    },
+                        recipe = "leaded-glass"
+                    }
                 },
                 prerequisites = { "steel-processing" },
                 unit = {
                     count = 100,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "ore-extractor",
@@ -90,89 +86,88 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "stone-diamonds",
+                        recipe = "stone-diamonds"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "ore-extractor",
+                        recipe = "ore-extractor"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "copper-refining",
+                        recipe = "copper-refining"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "copper-sulfate",
+                        recipe = "copper-sulfate"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "anode-mud-selenium-processing",
+                        recipe = "anode-mud-selenium-processing"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "anode-mud-antimony-processing",
+                        recipe = "anode-mud-antimony-processing"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "anode-mud-platinum-processing",
+                        recipe = "anode-mud-platinum-processing"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "anode-mud-silver-processing",
+                        recipe = "anode-mud-silver-processing"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "anode-mud-tellurium-processing",
+                        recipe = "anode-mud-tellurium-processing"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "selenium-plate",
+                        recipe = "selenium-plate"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "silver-plate",
+                        recipe = "silver-plate"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "platinum-plate",
+                        recipe = "platinum-plate"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "tellurium-plate",
+                        recipe = "tellurium-plate"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "antimony-plate",
+                        recipe = "antimony-plate"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "ciusitral-plate",
+                        recipe = "ciusitral-plate"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "lithusarium-plate",
+                        recipe = "lithusarium-plate"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "rhusanthium-plate",
+                        recipe = "rhusanthium-plate"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "stone-sand-processing",
-                    },
+                        recipe = "stone-sand-processing"
+                    }
                 },
                 prerequisites = { "steel-processing", "oil-processing", "vacuum-chamber" },
                 unit = {
                     count = 150,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "soil-filtering",
@@ -181,45 +176,44 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "soil-filtering-iron",
+                        recipe = "soil-filtering-iron"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "soil-filtering-copper",
+                        recipe = "soil-filtering-copper"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "soil-filtering-coal",
+                        recipe = "soil-filtering-coal"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "soil-filtering-uranium",
+                        recipe = "soil-filtering-uranium"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "soil-filtering-lead",
+                        recipe = "soil-filtering-lead"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "soil-filtering-gold",
+                        recipe = "soil-filtering-gold"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "soil-filtering-lithium",
-                    },
+                        recipe = "soil-filtering-lithium"
+                    }
                 },
                 prerequisites = { "ore-extractor" },
                 unit = {
                     count = 50,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 25
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "bio-sample",
@@ -228,44 +222,44 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "sample",
+                        recipe = "sample"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "sample2",
+                        recipe = "sample2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "blood",
+                        recipe = "blood"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "quantum-blood",
+                        recipe = "quantum-blood"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "chitin",
+                        recipe = "chitin"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "bio-research",
+                        recipe = "bio-research"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "bio-computer",
+                        recipe = "bio-computer"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "micro-processor",
+                        recipe = "micro-processor"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "brain",
+                        recipe = "brain"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "link",
-                    },
+                        recipe = "link"
+                    }
                 },
                 prerequisites = { "ds-oil", "biodome", "fish-farm", "energy-liquid", "utility-science-pack" },
                 unit = {
@@ -274,13 +268,12 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 35
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "probes",
@@ -289,36 +282,36 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "iron-probe",
+                        recipe = "iron-probe"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "gold-probe",
+                        recipe = "gold-probe"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "copper-probe",
+                        recipe = "copper-probe"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "lead-probe",
+                        recipe = "lead-probe"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "uranium-probe",
+                        recipe = "uranium-probe"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "deep-uranium-processing",
+                        recipe = "deep-uranium-processing"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "stone-probe",
+                        recipe = "stone-probe"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "coal-probe",
-                    },
+                        recipe = "coal-probe"
+                    }
                 },
                 prerequisites = { "automation-3", "ds-oil" },
                 unit = {
@@ -327,13 +320,12 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 50
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "any-launch",
@@ -350,9 +342,8 @@ data:extend(
                         { "space-science-pack", 1 }
                     },
                     time = 45
-                },
+                }
             },
-
             {
                 type = "technology",
                 name = "air-cleaning",
@@ -361,20 +352,19 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter",
-                    },
+                        recipe = "air-filter"
+                    }
                 },
                 prerequisites = { "steel-processing", "biodome" },
                 unit = {
                     count = 75,
                     ingredients = {
-                        { "automation-science-pack", 1 },
+                        { "automation-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "air-cleaning-mk2",
@@ -383,21 +373,20 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-mk2",
-                    },
+                        recipe = "air-filter-mk2"
+                    }
                 },
                 prerequisites = { "air-cleaning", "ore-extractor" },
                 unit = {
                     count = 200,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 20
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "air-cleaning-mk3",
@@ -406,12 +395,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-mk3",
+                        recipe = "air-filter-mk3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "filter-module",
-                    },
+                        recipe = "filter-module"
+                    }
                 },
                 prerequisites = { "air-cleaning-mk2" },
                 unit = {
@@ -419,13 +408,12 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
+                        { "chemical-science-pack", 1 }
                     },
                     time = 35
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "air-cleaning-mk4",
@@ -434,8 +422,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-mk4",
-                    },
+                        recipe = "air-filter-mk4"
+                    }
                 },
                 prerequisites = { "air-cleaning-mk3" },
                 unit = {
@@ -444,13 +432,12 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 35
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "air-cleaning-mk5",
@@ -459,8 +446,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-mk5",
-                    },
+                        recipe = "air-filter-mk5"
+                    }
                 },
                 prerequisites = { "air-cleaning-mk4" },
                 unit = {
@@ -470,13 +457,12 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 65
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "air-filters",
@@ -485,32 +471,31 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-charge-x1",
+                        recipe = "air-filter-charge-x1"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "empty-filter",
+                        recipe = "empty-filter"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-charge-mk1",
+                        recipe = "air-filter-charge-mk1"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "filter-tray",
-                    },
+                        recipe = "filter-tray"
+                    }
                 },
                 prerequisites = { "steel-processing", "air-cleaning" },
                 unit = {
                     count = 25,
                     ingredients = {
-                        { "automation-science-pack", 1 },
+                        { "automation-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "sand-filters",
@@ -519,28 +504,27 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "sand-filter-charge-x1",
+                        recipe = "sand-filter-charge-x1"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "sand-filter-charge-mk1",
+                        recipe = "sand-filter-charge-mk1"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "filter-tray-2",
-                    },
+                        recipe = "filter-tray-2"
+                    }
                 },
                 prerequisites = { "air-filters" },
                 unit = {
                     count = 75,
                     ingredients = {
-                        { "automation-science-pack", 1 },
+                        { "automation-science-pack", 1 }
                     },
                     time = 30
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "air-filters-mk2",
@@ -549,24 +533,23 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-charge-x2",
+                        recipe = "air-filter-charge-x2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-charge-mk2",
-                    },
+                        recipe = "air-filter-charge-mk2"
+                    }
                 },
                 prerequisites = { "air-filters" },
                 unit = {
                     count = 50,
                     ingredients = {
-                        { "automation-science-pack", 1 },
+                        { "automation-science-pack", 1 }
                     },
                     time = 20
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "sand-filters-mk2",
@@ -575,24 +558,23 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "sand-filter-charge-x2",
+                        recipe = "sand-filter-charge-x2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "sand-filter-charge-mk2",
-                    },
+                        recipe = "sand-filter-charge-mk2"
+                    }
                 },
                 prerequisites = { "air-filters-mk2", "sand-filters" },
                 unit = {
                     count = 150,
                     ingredients = {
-                        { "automation-science-pack", 1 },
+                        { "automation-science-pack", 1 }
                     },
                     time = 30
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "air-filters-mk3",
@@ -601,25 +583,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-charge-x3",
+                        recipe = "air-filter-charge-x3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-charge-mk3",
-                    },
+                        recipe = "air-filter-charge-mk3"
+                    }
                 },
                 prerequisites = { "air-filters-mk2" },
                 unit = {
                     count = 75,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 30
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "sand-filters-mk3",
@@ -628,25 +609,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "sand-filter-charge-x3",
+                        recipe = "sand-filter-charge-x3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "sand-filter-charge-mk3",
-                    },
+                        recipe = "sand-filter-charge-mk3"
+                    }
                 },
                 prerequisites = { "air-filters-mk3", "sand-filters-mk2" },
                 unit = {
                     count = 225,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 50
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "air-filters-mk4",
@@ -655,12 +635,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-charge-x4",
+                        recipe = "air-filter-charge-x4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-charge-mk4",
-                    },
+                        recipe = "air-filter-charge-mk4"
+                    }
                 },
                 prerequisites = { "air-filters-mk3" },
                 unit = {
@@ -668,13 +648,12 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
+                        { "chemical-science-pack", 1 }
                     },
                     time = 50
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "sand-filters-mk4",
@@ -683,12 +662,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "sand-filter-charge-x4",
+                        recipe = "sand-filter-charge-x4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "sand-filter-charge-mk4",
-                    },
+                        recipe = "sand-filter-charge-mk4"
+                    }
                 },
                 prerequisites = { "air-filters-mk4", "sand-filters-mk3" },
                 unit = {
@@ -696,13 +675,12 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
+                        { "chemical-science-pack", 1 }
                     },
                     time = 75
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "advanced-flight",
@@ -711,8 +689,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "deep-hold",
-                    },
+                        recipe = "deep-hold"
+                    }
                 },
                 prerequisites = { "robotics", "laser-cores", "speed-module-3", "computers" },
                 unit = {
@@ -721,13 +699,12 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "aerial-combat",
@@ -736,12 +713,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "dark-pulse",
+                        recipe = "dark-pulse"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "vehicle-shield",
-                    },
+                        recipe = "vehicle-shield"
+                    }
                 },
                 prerequisites = { "advanced-flight", "military-5", "speed-module-3" },
                 unit = {
@@ -751,13 +728,12 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "military-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 30
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "aerial-superiority",
@@ -766,16 +742,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "end-game",
+                        recipe = "end-game"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "end-game-bullet",
+                        recipe = "end-game-bullet"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "end-game-bullet-2",
-                    },
+                        recipe = "end-game-bullet-2"
+                    }
                 },
                 prerequisites = { "aerial-combat", "military-5", "effectivity-module-tier2" },
                 unit = {
@@ -785,13 +761,12 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "military-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "robotics-upgrades",
@@ -800,8 +775,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "thruster-upgrade",
-                    },
+                        recipe = "thruster-upgrade"
+                    }
                 },
                 prerequisites = { "advanced-flight" },
                 unit = {
@@ -810,13 +785,12 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 25
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "robotics-upgrades-mk2",
@@ -825,12 +799,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "vehicle-roboport",
+                        recipe = "vehicle-roboport"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "vehicle-reactor",
-                    },
+                        recipe = "vehicle-reactor"
+                    }
                 },
                 prerequisites = { "advanced-flight", "robotics-tier2" },
                 unit = {
@@ -840,13 +814,12 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 25
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "nautilus",
@@ -855,12 +828,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "nautilus",
+                        recipe = "nautilus"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "healing-wave-rocket",
-                    },
+                        recipe = "healing-wave-rocket"
+                    }
                 },
                 prerequisites = { "robotics-upgrades-mk2" },
                 unit = {
@@ -869,13 +842,12 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 25
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "robotics-upgrades-mk3",
@@ -884,8 +856,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "ship-cannon",
-                    },
+                        recipe = "ship-cannon"
+                    }
                 },
                 prerequisites = { "aerial-combat" },
                 unit = {
@@ -901,7 +873,6 @@ data:extend(
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "warehouse-smelting",
@@ -910,22 +881,21 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "furnace-house",
-                    },
+                        recipe = "furnace-house"
+                    }
                 },
-                prerequisites = { "advanced-material-processing-2", "storage-house", "electric-energy-distribution-2", },
+                prerequisites = { "advanced-material-processing-2", "storage-house", "electric-energy-distribution-2" },
                 unit = {
                     count = 500,
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
+                        { "chemical-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "alien-weapons",
@@ -934,12 +904,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "destroyer-capsule-2",
+                        recipe = "destroyer-capsule-2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "hacked-biter",
-                    },
+                        recipe = "hacked-biter"
+                    }
                 },
                 prerequisites = { "military-4", "bio-sample" },
                 unit = {
@@ -954,7 +924,6 @@ data:extend(
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "logistics-housing",
@@ -963,24 +932,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-house-requester",
+                        recipe = "logistic-house-requester"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-house-storage",
+                        recipe = "logistic-house-storage"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-house-active-provider",
+                        recipe = "logistic-house-active-provider"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-house-passive-provider",
+                        recipe = "logistic-house-passive-provider"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-house-buffer",
-                    },
+                        recipe = "logistic-house-buffer"
+                    }
                 },
                 prerequisites = { "storage-house", "logistic-system" },
                 unit = {
@@ -988,13 +957,12 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "long-belts-1",
@@ -1003,21 +971,20 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "underground-belt-2",
-                    },
+                        recipe = "underground-belt-2"
+                    }
                 },
                 prerequisites = { "logistics" },
                 unit = {
                     count = 60,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "long-belts2",
@@ -1026,21 +993,20 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "fast-underground-belt-2",
-                    },
+                        recipe = "fast-underground-belt-2"
+                    }
                 },
                 prerequisites = { "logistics-2" },
                 unit = {
                     count = 120,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "long-belts3",
@@ -1049,8 +1015,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "express-underground-belt-2",
-                    },
+                        recipe = "express-underground-belt-2"
+                    }
                 },
                 prerequisites = { "logistics-3" },
                 unit = {
@@ -1058,13 +1024,12 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
+                        { "chemical-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "long-belts4",
@@ -1073,8 +1038,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "terra-underground-belt-long",
-                    },
+                        recipe = "terra-underground-belt-long"
+                    }
                 },
                 prerequisites = { "terra-inserters", "long-belts3" },
                 unit = {
@@ -1082,13 +1047,12 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
+                        { "chemical-science-pack", 1 }
                     },
                     time = 25
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "long-belts5",
@@ -1097,8 +1061,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "terra-underground-belt2-long",
-                    },
+                        recipe = "terra-underground-belt2-long"
+                    }
                 },
                 prerequisites = { "long-belts4" },
                 unit = {
@@ -1107,13 +1071,12 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 35
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "laser-cores",
@@ -1122,8 +1085,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "laser-core",
-                    },
+                        recipe = "laser-core"
+                    }
                 },
                 prerequisites = { "laser", "ore-extractor" },
                 unit = {
@@ -1131,13 +1094,12 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
+                        { "chemical-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "jack-hammers",
@@ -1154,13 +1116,12 @@ data:extend(
                     count = 100,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "jack-hammers2",
@@ -1178,13 +1139,12 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "computers",
@@ -1193,32 +1153,32 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "computer",
+                        recipe = "computer"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "gpu",
+                        recipe = "gpu"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "cpu",
+                        recipe = "cpu"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "ram",
+                        recipe = "ram"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "diode",
+                        recipe = "diode"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "mother-board",
+                        recipe = "mother-board"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "fan",
-                    },
+                        recipe = "fan"
+                    }
                 },
                 prerequisites = { "advanced-electronics-2", "ore-extractor" },
                 unit = {
@@ -1227,13 +1187,12 @@ data:extend(
                         { "automation-science-pack", 2 },
                         { "logistic-science-pack", 2 },
                         { "production-science-pack", 2 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "probes-2",
@@ -1242,52 +1201,52 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "iron-probe2",
+                        recipe = "iron-probe2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "gold-probe2",
+                        recipe = "gold-probe2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "copper-probe2",
+                        recipe = "copper-probe2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "lead-probe2",
+                        recipe = "lead-probe2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "uranium-probe2",
+                        recipe = "uranium-probe2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "stone-probe2",
+                        recipe = "stone-probe2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "diamond-probe",
+                        recipe = "diamond-probe"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "dense-iron-processing",
+                        recipe = "dense-iron-processing"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "dense-gold-processing",
+                        recipe = "dense-gold-processing"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "dense-copper-processing",
+                        recipe = "dense-copper-processing"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "dense-lead-processing",
+                        recipe = "dense-lead-processing"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "dense-stone-processing",
-                    },
+                        recipe = "dense-stone-processing"
+                    }
                 },
                 prerequisites = { "probes", "computers" },
                 unit = {
@@ -1296,13 +1255,12 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "production-science-pack", 2 },
+                        { "production-science-pack", 2 }
                     },
                     time = 50
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "laser-miners1",
@@ -1311,16 +1269,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "laser-miner",
+                        recipe = "laser-miner"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "terra-electric-furnace",
+                        recipe = "terra-electric-furnace"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "leaded-glass",
-                    },
+                        recipe = "leaded-glass"
+                    }
                 },
                 prerequisites = { "steel-processing", "electric-engine", "laser-cores", "computers" },
                 unit = {
@@ -1329,7 +1287,7 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1343,8 +1301,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "neural-miner",
-                    },
+                        recipe = "neural-miner"
+                    }
                 },
                 prerequisites = { "laser-miners1", "bio-sample" },
                 unit = {
@@ -1353,7 +1311,7 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "neural-science-pack", 1 },
+                        { "neural-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1367,8 +1325,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "laser-miner2",
-                    },
+                        recipe = "laser-miner2"
+                    }
                 },
                 prerequisites = { "laser-miners1" },
                 unit = {
@@ -1378,7 +1336,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1392,8 +1350,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "neural-miner-2",
-                    },
+                        recipe = "neural-miner-2"
+                    }
                 },
                 prerequisites = { "laser-miners2", "neuro-miners1" },
                 unit = {
@@ -1403,7 +1361,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1417,8 +1375,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "laser-miner3",
-                    },
+                        recipe = "laser-miner3"
+                    }
                 },
                 prerequisites = { "laser-miners2" },
                 unit = {
@@ -1428,7 +1386,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1442,8 +1400,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "neural-miner-3",
-                    },
+                        recipe = "neural-miner-3"
+                    }
                 },
                 prerequisites = { "laser-miners3", "neuro-miners2" },
                 unit = {
@@ -1453,7 +1411,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1467,8 +1425,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "laser-miner4",
-                    },
+                        recipe = "laser-miner4"
+                    }
                 },
                 prerequisites = { "laser-miners3" },
                 unit = {
@@ -1479,7 +1437,7 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1493,12 +1451,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "neural-miner-4",
+                        recipe = "neural-miner-4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "bio-computer",
-                    },
+                        recipe = "bio-computer"
+                    }
                 },
                 prerequisites = { "laser-miners4", "neuro-miners3" },
                 unit = {
@@ -1509,7 +1467,7 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1523,16 +1481,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "think-tank",
+                        recipe = "think-tank"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-charge-mk5",
+                        recipe = "air-filter-charge-mk5"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "air-filter-charge-x5",
-                    },
+                        recipe = "air-filter-charge-x5"
+                    }
                 },
                 prerequisites = { "energy-liquid-3-D", "neuro-miners4", "4d-logistics", "s-reg-3" },
                 unit = {
@@ -1543,7 +1501,7 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "neural-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 55
                 },
@@ -1557,8 +1515,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "think-tank-mk2",
-                    },
+                        recipe = "think-tank-mk2"
+                    }
                 },
                 prerequisites = { "think-tank" },
                 unit = {
@@ -1569,7 +1527,7 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "neural-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 55
                 },
@@ -1583,8 +1541,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "think-tank-mk3",
-                    },
+                        recipe = "think-tank-mk3"
+                    }
                 },
                 prerequisites = { "think-tank-mk2" },
                 unit = {
@@ -1595,7 +1553,7 @@ data:extend(
                         { "space-science-pack", 1 },
                         { "neural-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 55
                 },
@@ -1609,8 +1567,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "brain-grower",
-                    },
+                        recipe = "brain-grower"
+                    }
                 },
                 prerequisites = { "think-tank-mk3" },
                 unit = {
@@ -1620,7 +1578,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "space-science-pack", 1 },
                         { "neural-science-pack", 2 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 75
                 },
@@ -1634,8 +1592,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "laser-quarry",
-                    },
+                        recipe = "laser-quarry"
+                    }
                 },
                 prerequisites = { "laser-miners3" },
                 unit = {
@@ -1645,7 +1603,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1659,8 +1617,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "laser-quarry2",
-                    },
+                        recipe = "laser-quarry2"
+                    }
                 },
                 prerequisites = { "laser-miners4", "laser-quarry" },
                 unit = {
@@ -1670,7 +1628,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 25
                 },
@@ -1684,8 +1642,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "asteroid-quarry",
-                    },
+                        recipe = "asteroid-quarry"
+                    }
                 },
                 prerequisites = { "laser-quarry-2", "photovoltaics-mk2", "robotics-tier2", "rocket-silo" },
                 unit = {
@@ -1696,7 +1654,7 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 35
                 },
@@ -1710,10 +1668,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "planet-quarry",
-                    },
+                        recipe = "planet-quarry"
+                    }
                 },
-                prerequisites = { "laser-quarry-3", "energy-liquid-3", "item-teleportation", "computers", "high-tier-solar-panels", },
+                prerequisites = {
+                    "laser-quarry-3",
+                    "energy-liquid-3",
+                    "item-teleportation",
+                    "computers",
+                    "high-tier-solar-panels"
+                },
                 unit = {
                     count = 2250,
                     ingredients = {
@@ -1722,7 +1686,7 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 35
                 },
@@ -1736,68 +1700,68 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "dark-matter-drones",
+                        recipe = "dark-matter-drones"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "antithetic-drones",
+                        recipe = "antithetic-drones"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "norbornadiene-drones",
+                        recipe = "norbornadiene-drones"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-matter-drones",
+                        recipe = "star-matter-drones"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-stone",
+                        recipe = "star-stone"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-uranium",
+                        recipe = "star-uranium"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-lead",
+                        recipe = "star-lead"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-gold",
+                        recipe = "star-gold"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-iron",
+                        recipe = "star-iron"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-copper",
+                        recipe = "star-copper"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-coal",
+                        recipe = "star-coal"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-lithium",
+                        recipe = "star-lithium"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "dark-matter-capsule-empty",
+                        recipe = "dark-matter-capsule-empty"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "antithetical-capsule-empty",
+                        recipe = "antithetical-capsule-empty"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "norbornadiene-capsule-empty",
+                        recipe = "norbornadiene-capsule-empty"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "antithetic-container",
-                    },
+                        recipe = "antithetic-container"
+                    }
                 },
                 prerequisites = { "laser-quarry-4", "any-launch" },
                 unit = {
@@ -1808,7 +1772,7 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 35
                 },
@@ -1822,68 +1786,68 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "dark-matter-drones2",
+                        recipe = "dark-matter-drones2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "antithetic-drones2",
+                        recipe = "antithetic-drones2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "norbornadiene-drones2",
+                        recipe = "norbornadiene-drones2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-matter-drones2",
+                        recipe = "star-matter-drones2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-stone2",
+                        recipe = "star-stone2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-uranium2",
+                        recipe = "star-uranium2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-lead2",
+                        recipe = "star-lead2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-gold2",
+                        recipe = "star-gold2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-iron2",
+                        recipe = "star-iron2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-copper2",
+                        recipe = "star-copper2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-coal2",
+                        recipe = "star-coal2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-lithium2",
+                        recipe = "star-lithium2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "dark-matter-capsule-empty2",
+                        recipe = "dark-matter-capsule-empty2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "antithetical-capsule-empty2",
+                        recipe = "antithetical-capsule-empty2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "norbornadiene-capsule-empty2",
+                        recipe = "norbornadiene-capsule-empty2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "antithetic-container",
-                    },
+                        recipe = "antithetic-container"
+                    }
                 },
                 prerequisites = { "rocket-payloads" },
                 unit = {
@@ -1894,7 +1858,7 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 35
                 },
@@ -1908,14 +1872,14 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "fish-farm",
-                    },
+                        recipe = "fish-farm"
+                    }
                 },
                 prerequisites = {},
                 unit = {
                     count = 25,
                     ingredients = {
-                        { "automation-science-pack", 1 },
+                        { "automation-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1929,14 +1893,14 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "biodome",
-                    },
+                        recipe = "biodome"
+                    }
                 },
                 prerequisites = { "steel-processing" },
                 unit = {
                     count = 300,
                     ingredients = {
-                        { "automation-science-pack", 1 },
+                        { "automation-science-pack", 1 }
                     },
                     time = 45
                 },
@@ -1950,15 +1914,15 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "geothermal-generator",
-                    },
+                        recipe = "geothermal-generator"
+                    }
                 },
                 prerequisites = { "solar-energy" },
                 unit = {
                     count = 100,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 30
                 },
@@ -1972,15 +1936,15 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "geothermal-generator-mk2",
-                    },
+                        recipe = "geothermal-generator-mk2"
+                    }
                 },
                 prerequisites = { "geothermality" },
                 unit = {
                     count = 200,
                     ingredients = {
                         { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "logistic-science-pack", 1 }
                     },
                     time = 35
                 },
@@ -1994,8 +1958,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "geothermal-generator-mk3",
-                    },
+                        recipe = "geothermal-generator-mk3"
+                    }
                 },
                 prerequisites = { "geothermality-2", "ore-extractor" },
                 unit = {
@@ -2003,7 +1967,7 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
+                        { "chemical-science-pack", 1 }
                     },
                     time = 45
                 },
@@ -2017,8 +1981,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "rtg",
-                    },
+                        recipe = "rtg"
+                    }
                 },
                 prerequisites = { "geothermality-3", "nuclear-power" },
                 unit = {
@@ -2027,7 +1991,7 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 50
                 },
@@ -2041,8 +2005,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "rtg-mk2",
-                    },
+                        recipe = "rtg-mk2"
+                    }
                 },
                 prerequisites = { "rtg" },
                 unit = {
@@ -2051,7 +2015,7 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 50
                 },
@@ -2065,8 +2029,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "rtg-mk3",
-                    },
+                        recipe = "rtg-mk3"
+                    }
                 },
                 prerequisites = { "rtg-2" },
                 unit = {
@@ -2075,7 +2039,7 @@ data:extend(
                         { "automation-science-pack", 2 },
                         { "logistic-science-pack", 2 },
                         { "chemical-science-pack", 2 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 50
                 },
@@ -2089,40 +2053,40 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk2",
+                        recipe = "solar-panel-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "micro-cells",
+                        recipe = "micro-cells"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "advanced-photovoltaic-cells",
+                        recipe = "advanced-photovoltaic-cells"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "silicon",
+                        recipe = "silicon"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "seed-crystal",
+                        recipe = "seed-crystal"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-wafer",
+                        recipe = "solar-wafer"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "fuse-box",
+                        recipe = "fuse-box"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "module-component",
+                        recipe = "module-component"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "micro-processor",
-                    },
+                        recipe = "micro-processor"
+                    }
                 },
                 prerequisites = { "solar-energy", "ore-extractor" },
                 unit = {
@@ -2144,24 +2108,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "advanced-laser-defense-equipment",
+                        recipe = "advanced-laser-defense-equipment"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "advanced-laser-defense-equipment-mk2",
+                        recipe = "advanced-laser-defense-equipment-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "advanced-laser-defense-equipment-mk3",
+                        recipe = "advanced-laser-defense-equipment-mk3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "shoulder-tank-cannon",
+                        recipe = "shoulder-tank-cannon"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "shoulder-railgun",
-                    },
+                        recipe = "shoulder-railgun"
+                    }
                 },
                 prerequisites = { "military-5", "nuclear-weapons" },
                 unit = {
@@ -2170,7 +2134,7 @@ data:extend(
                         { "automation-science-pack", 2 },
                         { "logistic-science-pack", 2 },
                         { "chemical-science-pack", 2 },
-                        { "military-science-pack", 2 },
+                        { "military-science-pack", 2 }
                     },
                     time = 60
                 },
@@ -2184,28 +2148,28 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "rocket-launcher-mk2",
+                        recipe = "rocket-launcher-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "explosive-rocket-mk2",
+                        recipe = "explosive-rocket-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "assault-rifle",
+                        recipe = "assault-rifle"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "bullet-mk2",
+                        recipe = "bullet-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "sniper-rifle",
+                        recipe = "sniper-rifle"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "sniper-round",
-                    },
+                        recipe = "sniper-round"
+                    }
                 },
                 prerequisites = { "military-4", "computers" },
                 unit = {
@@ -2230,40 +2194,40 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "assault-rifle-mk2",
+                        recipe = "assault-rifle-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "bullet-mk3",
+                        recipe = "bullet-mk3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "bullet-mk4",
+                        recipe = "bullet-mk4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "sniper-round-mk2",
+                        recipe = "sniper-round-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "sniper-rifle-mk2",
+                        recipe = "sniper-rifle-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "nuke-grenade",
+                        recipe = "nuke-grenade"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "railgun-mk2",
+                        recipe = "railgun-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "railgun-mk2-round",
+                        recipe = "railgun-mk2-round"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "railgun-mk2-round2",
-                    },
+                        recipe = "railgun-mk2-round2"
+                    }
                 },
                 prerequisites = { "military-5", "nuclear-weapons", "ds-oil" },
                 unit = {
@@ -2288,12 +2252,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "rocket-launcher-mk3",
+                        recipe = "rocket-launcher-mk3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "explosive-rocket-mk3",
-                    },
+                        recipe = "explosive-rocket-mk3"
+                    }
                 },
                 prerequisites = { "military-5" },
                 unit = {
@@ -2314,11 +2278,10 @@ data:extend(
                 icon = "__Darkstar_utilities_fixed__/graphics/research/cells-g1.png",
                 icon_size = 128,
                 effects = {
-
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk2-G",
-                    },
+                        recipe = "solar-panel-mk2-G"
+                    }
                 },
                 prerequisites = { "photovoltaics", "geothermality" },
                 unit = {
@@ -2338,19 +2301,18 @@ data:extend(
                 icon = "__Darkstar_utilities_fixed__/graphics/research/cells-g2.png",
                 icon_size = 128,
                 effects = {
-
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk3-G",
+                        recipe = "solar-panel-mk3-G"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk4-G",
+                        recipe = "solar-panel-mk4-G"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk5-G",
-                    },
+                        recipe = "solar-panel-mk5-G"
+                    }
                 },
                 prerequisites = { "high-tier-solar-panels", "geothermal-technology", "ore-extractor" },
                 unit = {
@@ -2373,20 +2335,20 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk2-G2",
+                        recipe = "solar-panel-mk2-G2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk3-G2",
+                        recipe = "solar-panel-mk3-G2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk4-G2",
+                        recipe = "solar-panel-mk4-G2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk5-G2",
-                    },
+                        recipe = "solar-panel-mk5-G2"
+                    }
                 },
                 prerequisites = { "advanced-geothermal-technology" },
                 unit = {
@@ -2409,24 +2371,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk2-G3",
+                        recipe = "solar-panel-mk2-G3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk3-G3",
+                        recipe = "solar-panel-mk3-G3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk4-G3",
+                        recipe = "solar-panel-mk4-G3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk5-G3",
+                        recipe = "solar-panel-mk5-G3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "leaded-glass",
-                    },
+                        recipe = "leaded-glass"
+                    }
                 },
                 prerequisites = { "gold-plated-panels" },
                 unit = {
@@ -2449,20 +2411,20 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk2-GL",
+                        recipe = "solar-panel-mk2-GL"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk3-GL",
+                        recipe = "solar-panel-mk3-GL"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk4-GL",
+                        recipe = "solar-panel-mk4-GL"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk5-GL",
-                    },
+                        recipe = "solar-panel-mk5-GL"
+                    }
                 },
                 prerequisites = { "glass-plated-panels" },
                 unit = {
@@ -2485,16 +2447,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "roboport-mk4",
+                        recipe = "roboport-mk4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-robot-mk3",
+                        recipe = "logistic-robot-mk3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "construction-robot-mk3",
-                    },
+                        recipe = "construction-robot-mk3"
+                    }
                 },
                 prerequisites = { "construction-robotics", "logistic-system", "4d-logistics", "robotics-tier2", "bio-sample" },
                 unit = {
@@ -2502,7 +2464,7 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
+                        { "chemical-science-pack", 1 }
                     },
                     time = 200
                 },
@@ -2516,22 +2478,21 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "advanced-photovoltaic-cells2",
+                        recipe = "advanced-photovoltaic-cells2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "micro-cells2",
-                    },
+                        recipe = "micro-cells2"
+                    }
                 },
-                prerequisites = { "energy-liquid-3", "photovoltaics-mk2", "ds-oil", },
+                prerequisites = { "energy-liquid-3", "photovoltaics-mk2", "ds-oil" },
                 unit = {
                     count = 300,
                     ingredients = {
                         { "automation-science-pack", 2 },
                         { "logistic-science-pack", 2 },
                         { "chemical-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 75
                 },
@@ -2545,24 +2506,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-chest-active-provider-4d",
+                        recipe = "logistic-chest-active-provider-4d"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-chest-passive-provider-4d",
+                        recipe = "logistic-chest-passive-provider-4d"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-chest-storage-4d",
+                        recipe = "logistic-chest-storage-4d"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-chest-requester-4d",
+                        recipe = "logistic-chest-requester-4d"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-chest-buffer-4d",
-                    },
+                        recipe = "logistic-chest-buffer-4d"
+                    }
                 },
                 prerequisites = { "dark-matter-reactor-mk2", "construction-robotics", "logistic-system" },
                 unit = {
@@ -2587,8 +2548,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "advanced-exoskeleton-equipment",
-                    },
+                        recipe = "advanced-exoskeleton-equipment"
+                    }
                 },
                 prerequisites = { "exoskeleton-equipment", "computers" },
                 unit = {
@@ -2611,52 +2572,52 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "advanced-chemical-plant",
+                        recipe = "advanced-chemical-plant"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "oil-refinery-mk2",
+                        recipe = "oil-refinery-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "pumpjack-mk2",
+                        recipe = "pumpjack-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "storage-tank-mk2",
+                        recipe = "storage-tank-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "hydrogen-D",
+                        recipe = "hydrogen-D"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "argon",
+                        recipe = "argon"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "xenon",
+                        recipe = "xenon"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "dark-matter",
+                        recipe = "dark-matter"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "aizhan-matter",
+                        recipe = "aizhan-matter"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "antithetical-matter",
+                        recipe = "antithetical-matter"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "quantum-particle",
+                        recipe = "quantum-particle"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "quantum-fuel",
-                    },
+                        recipe = "quantum-fuel"
+                    }
                 },
                 prerequisites = { "planck-manipulation", "air-cleaning-mk2" },
                 unit = {
@@ -2679,40 +2640,40 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "empty-regulator",
+                        recipe = "empty-regulator"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "short-long-ps",
+                        recipe = "short-long-ps"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "long-short-ps",
+                        recipe = "long-short-ps"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "ripped-ps",
+                        recipe = "ripped-ps"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "looped-ps",
+                        recipe = "looped-ps"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "field-stabilizer",
+                        recipe = "field-stabilizer"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "ohm-lock",
+                        recipe = "ohm-lock"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "almer-transponder",
+                        recipe = "almer-transponder"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "planck-ripper",
-                    },
+                        recipe = "planck-ripper"
+                    }
                 },
                 prerequisites = { "oil-processing", "ore-extractor", "utility-science-pack", "laser-cores" },
                 unit = {
@@ -2735,44 +2696,44 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "terra-inserter",
+                        recipe = "terra-inserter"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "smart-terra-inserter",
+                        recipe = "smart-terra-inserter"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "terra-transport-belt",
+                        recipe = "terra-transport-belt"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "terra-transport-belt-mk2",
+                        recipe = "terra-transport-belt-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "terra-underground-belt",
+                        recipe = "terra-underground-belt"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "terra-underground-belt2",
+                        recipe = "terra-underground-belt2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "terra-splitter",
+                        recipe = "terra-splitter"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "terra-loader",
+                        recipe = "terra-loader"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "rapid-inserter",
+                        recipe = "rapid-inserter"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "assembling-machine-4",
-                    },
+                        recipe = "assembling-machine-4"
+                    }
                 },
                 prerequisites = { "automation-3", "speed-module-3", "computers" },
                 unit = {
@@ -2794,8 +2755,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "basic-beacon-mk2",
-                    },
+                        recipe = "basic-beacon-mk2"
+                    }
                 },
                 prerequisites = { "effect-transmission", "computers" },
                 unit = {
@@ -2818,24 +2779,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "logistic-robot-mk2",
+                        recipe = "logistic-robot-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "construction-robot-mk2",
+                        recipe = "construction-robot-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "large-personal-roboport-equipment",
+                        recipe = "large-personal-roboport-equipment"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "personal-roboport-equipment-mk2",
+                        recipe = "personal-roboport-equipment-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "roboport-charger",
-                    },
+                        recipe = "roboport-charger"
+                    }
                 },
                 prerequisites = { "logistic-robotics", "worker-robots-speed-5", "worker-robots-storage-3" },
                 unit = {
@@ -2858,17 +2819,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "substation-mk2",
+                        recipe = "substation-mk2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "advanced-accumulator",
+                        recipe = "advanced-accumulator"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "tesla-coil",
-                    },
-
+                        recipe = "tesla-coil"
+                    }
                 },
                 prerequisites = { "electric-energy-distribution-2", "electric-energy-accumulators", "ore-extractor" },
                 unit = {
@@ -2882,6 +2842,7 @@ data:extend(
                 },
                 order = "c-a"
             },
+            --
             --[[
 {
 	type = "technology",
@@ -2911,8 +2872,7 @@ data:extend(
 	},
 	order = "c-a"
 },
-]]--
-            {
+]] {
                 type = "technology",
                 name = "energy-liquid",
                 icon = "__Darkstar_utilities_fixed__/graphics/research/energy-liquid-1-research.png",
@@ -2920,24 +2880,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "energy-liquid",
+                        recipe = "energy-liquid"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "quadricyclane",
+                        recipe = "quadricyclane"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "norbornadiene",
+                        recipe = "norbornadiene"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "acetylene",
+                        recipe = "acetylene"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "petroleum-naphtha",
-                    },
+                        recipe = "petroleum-naphtha"
+                    }
                 },
                 prerequisites = { "electric-energy-distribution-3", "ds-oil" },
                 unit = {
@@ -2947,7 +2907,6 @@ data:extend(
                         { "logistic-science-pack", 2 },
                         { "chemical-science-pack", 2 },
                         { "utility-science-pack", 1 }
-
                     },
                     time = 45
                 },
@@ -2961,9 +2920,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "energy-liquid-2",
-                    },
-
+                        recipe = "energy-liquid-2"
+                    }
                 },
                 prerequisites = { "energy-liquid" },
                 unit = {
@@ -2973,7 +2931,6 @@ data:extend(
                         { "logistic-science-pack", 2 },
                         { "chemical-science-pack", 2 },
                         { "utility-science-pack", 1 }
-
                     },
                     time = 75
                 },
@@ -2987,9 +2944,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "energy-liquid-3",
-                    },
-
+                        recipe = "energy-liquid-3"
+                    }
                 },
                 prerequisites = { "energy-liquid-2" },
                 unit = {
@@ -2999,7 +2955,6 @@ data:extend(
                         { "logistic-science-pack", 2 },
                         { "chemical-science-pack", 2 },
                         { "utility-science-pack", 2 }
-
                     },
                     time = 100
                 },
@@ -3013,8 +2968,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "energy-liquid-U",
-                    },
+                        recipe = "energy-liquid-U"
+                    }
                 },
                 prerequisites = { "energy-liquid" },
                 unit = {
@@ -3024,7 +2979,6 @@ data:extend(
                         { "logistic-science-pack", 2 },
                         { "chemical-science-pack", 2 },
                         { "utility-science-pack", 1 }
-
                     },
                     time = 75
                 },
@@ -3038,9 +2992,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "energy-liquid-2-U",
-                    },
-
+                        recipe = "energy-liquid-2-U"
+                    }
                 },
                 prerequisites = { "energy-liquid-2" },
                 unit = {
@@ -3050,7 +3003,6 @@ data:extend(
                         { "logistic-science-pack", 2 },
                         { "chemical-science-pack", 2 },
                         { "utility-science-pack", 1 }
-
                     },
                     time = 100
                 },
@@ -3064,9 +3016,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "energy-liquid-3-U",
-                    },
-
+                        recipe = "energy-liquid-3-U"
+                    }
                 },
                 prerequisites = { "energy-liquid-3" },
                 unit = {
@@ -3076,7 +3027,6 @@ data:extend(
                         { "logistic-science-pack", 2 },
                         { "chemical-science-pack", 2 },
                         { "utility-science-pack", 2 }
-
                     },
                     time = 125
                 },
@@ -3090,8 +3040,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "energy-liquid-D",
-                    },
+                        recipe = "energy-liquid-D"
+                    }
                 },
                 prerequisites = { "energy-liquid-U" },
                 unit = {
@@ -3101,7 +3051,6 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 }
-
                     },
                     time = 100
                 },
@@ -3115,9 +3064,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "energy-liquid-2-D",
-                    },
-
+                        recipe = "energy-liquid-2-D"
+                    }
                 },
                 prerequisites = { "energy-liquid-2-U" },
                 unit = {
@@ -3127,7 +3075,6 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 }
-
                     },
                     time = 125
                 },
@@ -3141,9 +3088,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "energy-liquid-3-D",
-                    },
-
+                        recipe = "energy-liquid-3-D"
+                    }
                 },
                 prerequisites = { "energy-liquid-3-U" },
                 unit = {
@@ -3153,7 +3099,6 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 }
-
                     },
                     time = 150
                 },
@@ -3167,9 +3112,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "dark-matter-reactor",
-                    },
-
+                        recipe = "dark-matter-reactor"
+                    }
                 },
                 prerequisites = { "fusion-reactor-equipment", "ds-oil", "planck-manipulation" },
                 unit = {
@@ -3192,8 +3136,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "s-reg",
-                    },
+                        recipe = "s-reg"
+                    }
                 },
                 prerequisites = { "geothermality-3", "dark-matter-reactor", "rtg-3" },
                 unit = {
@@ -3217,8 +3161,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "s-reg-2",
-                    },
+                        recipe = "s-reg-2"
+                    }
                 },
                 prerequisites = { "s-reg-1" },
                 unit = {
@@ -3242,8 +3186,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "s-reg-3",
-                    },
+                        recipe = "s-reg-3"
+                    }
                 },
                 prerequisites = { "s-reg-2" },
                 unit = {
@@ -3267,9 +3211,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "dark-matter-reactor-mk2",
-                    },
-
+                        recipe = "dark-matter-reactor-mk2"
+                    }
                 },
                 prerequisites = { "dark-matter-reactor", "computers", "speed-module-tier6", "productivity-module-tier6" },
                 unit = {
@@ -3293,9 +3236,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "roboport-mk2",
-                    },
-
+                        recipe = "roboport-mk2"
+                    }
                 },
                 prerequisites = { "logistic-robotics" },
                 unit = {
@@ -3303,8 +3245,7 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
-
+                        { "chemical-science-pack", 1 }
                     },
                     time = 50
                 },
@@ -3318,9 +3259,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "roboport-mk3",
-                    },
-
+                        recipe = "roboport-mk3"
+                    }
                 },
                 prerequisites = { "roboport-mk2" },
                 unit = {
@@ -3330,7 +3270,6 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 }
-
                     },
                     time = 75
                 },
@@ -3344,17 +3283,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "power-armor-mk3",
+                        recipe = "power-armor-mk3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "energy-shield-mk3-equipment",
+                        recipe = "energy-shield-mk3-equipment"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "energy-shield-mk4-equipment",
-                    },
-
+                        recipe = "energy-shield-mk4-equipment"
+                    }
                 },
                 prerequisites = { "power-armor-mk2", "speed-module-tier2", "productivity-module-tier2" },
                 unit = {
@@ -3364,8 +3302,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "military-science-pack", 1 },
-
+                        { "military-science-pack", 1 }
                     },
                     time = 120
                 },
@@ -3379,7 +3316,7 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk3",
+                        recipe = "solar-panel-mk3"
                     }
                 },
                 prerequisites = { "photovoltaics" },
@@ -3402,24 +3339,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-4",
+                        recipe = "speed-module-4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-5",
+                        recipe = "speed-module-5"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-6",
+                        recipe = "speed-module-6"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "module-component",
+                        recipe = "module-component"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "micro-processor",
-                    },
+                        recipe = "micro-processor"
+                    }
                 },
                 prerequisites = { "speed-module-3" },
                 unit = {
@@ -3429,8 +3366,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 30
                 },
@@ -3444,16 +3380,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-7",
+                        recipe = "speed-module-7"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-8",
+                        recipe = "speed-module-8"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-9",
-                    },
+                        recipe = "speed-module-9"
+                    }
                 },
                 prerequisites = { "speed-module-tier2" },
                 unit = {
@@ -3463,8 +3399,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 50
                 },
@@ -3478,16 +3413,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-10",
+                        recipe = "speed-module-10"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-11",
+                        recipe = "speed-module-11"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-12",
-                    },
+                        recipe = "speed-module-12"
+                    }
                 },
                 prerequisites = { "speed-module-tier3" },
                 unit = {
@@ -3497,8 +3432,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 70
                 },
@@ -3512,16 +3446,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-13",
+                        recipe = "speed-module-13"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-14",
+                        recipe = "speed-module-14"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-15",
-                    },
+                        recipe = "speed-module-15"
+                    }
                 },
                 prerequisites = { "speed-module-tier4" },
                 unit = {
@@ -3531,8 +3465,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 90
                 },
@@ -3546,16 +3479,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-16",
+                        recipe = "speed-module-16"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-17",
+                        recipe = "speed-module-17"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-18",
-                    },
+                        recipe = "speed-module-18"
+                    }
                 },
                 prerequisites = { "speed-module-tier5" },
                 unit = {
@@ -3565,8 +3498,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 110
                 },
@@ -3580,16 +3512,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-19",
+                        recipe = "speed-module-19"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-20",
+                        recipe = "speed-module-20"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-21",
-                    },
+                        recipe = "speed-module-21"
+                    }
                 },
                 prerequisites = { "speed-module-tier6" },
                 unit = {
@@ -3599,8 +3531,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 130
                 },
@@ -3614,16 +3545,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-22",
+                        recipe = "speed-module-22"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-23",
+                        recipe = "speed-module-23"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-24",
-                    },
+                        recipe = "speed-module-24"
+                    }
                 },
                 prerequisites = { "speed-module-tier7" },
                 unit = {
@@ -3633,8 +3564,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 150
                 },
@@ -3648,8 +3578,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "speed-module-25",
-                    },
+                        recipe = "speed-module-25"
+                    }
                 },
                 prerequisites = { "speed-module-tier8" },
                 unit = {
@@ -3659,8 +3589,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 170
                 },
@@ -3674,17 +3603,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "ultra-beacon",
+                        recipe = "ultra-beacon"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "world-array",
+                        recipe = "world-array"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "power-boost-beacon",
-                    },
-
+                        recipe = "power-boost-beacon"
+                    }
                 },
                 prerequisites = { "steel-processing", "optics", "effect-transmission-2" },
                 unit = {
@@ -3707,24 +3635,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-4",
+                        recipe = "productivity-module-4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-5",
+                        recipe = "productivity-module-5"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-6",
+                        recipe = "productivity-module-6"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "module-component",
+                        recipe = "module-component"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "micro-processor",
-                    },
+                        recipe = "micro-processor"
+                    }
                 },
                 prerequisites = { "productivity-module-3" },
                 unit = {
@@ -3734,8 +3662,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 30
                 },
@@ -3749,16 +3676,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-7",
+                        recipe = "productivity-module-7"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-8",
+                        recipe = "productivity-module-8"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-9",
-                    },
+                        recipe = "productivity-module-9"
+                    }
                 },
                 prerequisites = { "productivity-module-tier2" },
                 unit = {
@@ -3768,8 +3695,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 50
                 },
@@ -3783,16 +3709,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-10",
+                        recipe = "productivity-module-10"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-11",
+                        recipe = "productivity-module-11"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-12",
-                    },
+                        recipe = "productivity-module-12"
+                    }
                 },
                 prerequisites = { "productivity-module-tier3" },
                 unit = {
@@ -3802,8 +3728,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 70
                 },
@@ -3817,16 +3742,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-13",
+                        recipe = "productivity-module-13"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-14",
+                        recipe = "productivity-module-14"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-15",
-                    },
+                        recipe = "productivity-module-15"
+                    }
                 },
                 prerequisites = { "productivity-module-tier4" },
                 unit = {
@@ -3836,8 +3761,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 90
                 },
@@ -3851,16 +3775,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-16",
+                        recipe = "productivity-module-16"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-17",
+                        recipe = "productivity-module-17"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-18",
-                    },
+                        recipe = "productivity-module-18"
+                    }
                 },
                 prerequisites = { "productivity-module-tier5" },
                 unit = {
@@ -3870,8 +3794,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 110
                 },
@@ -3885,16 +3808,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-19",
+                        recipe = "productivity-module-19"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-20",
+                        recipe = "productivity-module-20"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-21",
-                    },
+                        recipe = "productivity-module-21"
+                    }
                 },
                 prerequisites = { "productivity-module-tier6" },
                 unit = {
@@ -3904,8 +3827,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 130
                 },
@@ -3919,16 +3841,16 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-22",
+                        recipe = "productivity-module-22"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-23",
+                        recipe = "productivity-module-23"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-24",
-                    },
+                        recipe = "productivity-module-24"
+                    }
                 },
                 prerequisites = { "productivity-module-tier7" },
                 unit = {
@@ -3938,8 +3860,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 150
                 },
@@ -3953,8 +3874,8 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "productivity-module-25",
-                    },
+                        recipe = "productivity-module-25"
+                    }
                 },
                 prerequisites = { "productivity-module-tier8" },
                 unit = {
@@ -3964,8 +3885,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "production-science-pack", 1 },
-
+                        { "production-science-pack", 1 }
                     },
                     time = 170
                 },
@@ -3979,28 +3899,28 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "effectivity-module-4",
+                        recipe = "effectivity-module-4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "effectivity-module-5",
+                        recipe = "effectivity-module-5"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "effectivity-module-6",
+                        recipe = "effectivity-module-6"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "module-component",
+                        recipe = "module-component"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "micro-processor",
+                        recipe = "micro-processor"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "efficiency-beacon",
-                    },
+                        recipe = "efficiency-beacon"
+                    }
                 },
                 prerequisites = { "effectivity-module-3" },
                 unit = {
@@ -4008,8 +3928,7 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
-
+                        { "chemical-science-pack", 1 }
                     },
                     time = 190
                 },
@@ -4023,13 +3942,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk4",
+                        recipe = "solar-panel-mk4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk5",
-
-                    },
+                        recipe = "solar-panel-mk5"
+                    }
                 },
                 prerequisites = { "photovoltaics-mk2" },
                 unit = {
@@ -4052,46 +3970,46 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk6",
+                        recipe = "solar-panel-mk6"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk7",
+                        recipe = "solar-panel-mk7"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk6-G",
+                        recipe = "solar-panel-mk6-G"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk7-G",
+                        recipe = "solar-panel-mk7-G"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk6-G2",
+                        recipe = "solar-panel-mk6-G2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk7-G2",
+                        recipe = "solar-panel-mk7-G2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk6-G3",
+                        recipe = "solar-panel-mk6-G3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk7-G3",
+                        recipe = "solar-panel-mk7-G3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk6-GL",
+                        recipe = "solar-panel-mk6-GL"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "solar-panel-mk7-GL",
-                    },
+                        recipe = "solar-panel-mk7-GL"
+                    }
                 },
-                prerequisites = { "liquid-panels", "dark-matter-reactor-mk2", },
+                prerequisites = { "liquid-panels", "dark-matter-reactor-mk2" },
                 unit = {
                     count = 5000,
                     ingredients = {
@@ -4113,20 +4031,20 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "antithetic-coolant",
+                        recipe = "antithetic-coolant"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "star-miner-drone",
+                        recipe = "star-miner-drone"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "drone-swarm",
+                        recipe = "drone-swarm"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "dyson",
-                    },
+                        recipe = "dyson"
+                    }
                 },
                 prerequisites = { "rocket-payloads2", "speed-module-tier9", "productivity-module-tier9" },
                 unit = {
@@ -4151,12 +4069,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "multiverse-swarm",
+                        recipe = "multiverse-swarm"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "multiverse-tear",
-                    },
+                        recipe = "multiverse-tear"
+                    }
                 },
                 prerequisites = { "interstellar-dominion" },
                 unit = {
@@ -4182,12 +4100,12 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "interstellar-swarm",
+                        recipe = "interstellar-swarm"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "interstellar-dominion",
-                    },
+                        recipe = "interstellar-dominion"
+                    }
                 },
                 prerequisites = { "dyson-spheres", "think-tank-mk3" },
                 unit = {
@@ -4223,7 +4141,7 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "production-science-pack", 1 },
+                        { "production-science-pack", 1 }
                     },
                     time = 40
                 },
@@ -4248,7 +4166,7 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "utility-science-pack", 1 }
                     },
                     time = 60
                 },
@@ -4272,7 +4190,11 @@ data:extend(
                 },
                 unit = {
                     count = 600,
-                    ingredients = { { "automation-science-pack", 1 }, { "logistic-science-pack", 1 }, { "chemical-science-pack", 1 } },
+                    ingredients = {
+                        { "automation-science-pack", 1 },
+                        { "logistic-science-pack", 1 },
+                        { "chemical-science-pack", 1 }
+                    },
                     time = 50
                 },
                 order = "g-e-b"
@@ -4286,24 +4208,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "research-module-1",
+                        recipe = "research-module-1"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "base-package-1",
+                        recipe = "base-package-1"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "server-1",
+                        recipe = "server-1"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "card-1",
+                        recipe = "card-1"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "space-science-1",
-                    },
+                        recipe = "space-science-1"
+                    }
                 },
                 prerequisites = { "space-science-pack", "ds-oil" },
                 unit = {
@@ -4319,7 +4241,6 @@ data:extend(
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "space-stationm",
@@ -4328,44 +4249,44 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "research-module-m",
+                        recipe = "research-module-m"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "base-package-m",
+                        recipe = "base-package-m"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "server-m",
+                        recipe = "server-m"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "card-m",
+                        recipe = "card-m"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "space-science-m",
+                        recipe = "space-science-m"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "fuel-can",
+                        recipe = "fuel-can"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "large-fuel-can",
+                        recipe = "large-fuel-can"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "xenon-tank",
+                        recipe = "xenon-tank"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "xenon-thruster-tank",
+                        recipe = "xenon-thruster-tank"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "xenon-thruster",
-                    },
+                        recipe = "xenon-thruster"
+                    }
                 },
                 prerequisites = { "space-station1" },
                 unit = {
@@ -4376,13 +4297,12 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "space-station2",
@@ -4391,24 +4311,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "research-module-2",
+                        recipe = "research-module-2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "base-package-2",
+                        recipe = "base-package-2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "server-2",
+                        recipe = "server-2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "card-2",
+                        recipe = "card-2"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "space-science-2",
-                    },
+                        recipe = "space-science-2"
+                    }
                 },
                 prerequisites = { "space-stationm" },
                 unit = {
@@ -4419,13 +4339,12 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "space-station3",
@@ -4434,24 +4353,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "research-module-3",
+                        recipe = "research-module-3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "base-package-3",
+                        recipe = "base-package-3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "server-3",
+                        recipe = "server-3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "card-3",
+                        recipe = "card-3"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "space-science-3",
-                    },
+                        recipe = "space-science-3"
+                    }
                 },
                 prerequisites = { "space-stationm" },
                 unit = {
@@ -4462,13 +4381,12 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "space-station4",
@@ -4477,24 +4395,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "research-module-4",
+                        recipe = "research-module-4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "base-package-4",
+                        recipe = "base-package-4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "server-4",
+                        recipe = "server-4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "card-4",
+                        recipe = "card-4"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "space-science-4",
-                    },
+                        recipe = "space-science-4"
+                    }
                 },
                 prerequisites = { "space-stationm" },
                 unit = {
@@ -4505,13 +4423,12 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "space-station5",
@@ -4520,24 +4437,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "research-module-5",
+                        recipe = "research-module-5"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "base-package-5",
+                        recipe = "base-package-5"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "server-5",
+                        recipe = "server-5"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "card-5",
+                        recipe = "card-5"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "space-science-5",
-                    },
+                        recipe = "space-science-5"
+                    }
                 },
                 prerequisites = { "space-stationm" },
                 unit = {
@@ -4548,13 +4465,12 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "space-station6",
@@ -4563,24 +4479,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "research-module-6",
+                        recipe = "research-module-6"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "base-package-6",
+                        recipe = "base-package-6"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "server-6",
+                        recipe = "server-6"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "card-6",
+                        recipe = "card-6"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "space-science-6",
-                    },
+                        recipe = "space-science-6"
+                    }
                 },
                 prerequisites = { "space-stationm" },
                 unit = {
@@ -4591,13 +4507,12 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "space-station7",
@@ -4606,24 +4521,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "research-module-7",
+                        recipe = "research-module-7"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "base-package-7",
+                        recipe = "base-package-7"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "server-7",
+                        recipe = "server-7"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "card-7",
+                        recipe = "card-7"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "space-science-7",
-                    },
+                        recipe = "space-science-7"
+                    }
                 },
                 prerequisites = { "space-stationm" },
                 unit = {
@@ -4634,13 +4549,12 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "space-station8",
@@ -4649,24 +4563,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "research-module-8",
+                        recipe = "research-module-8"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "base-package-8",
+                        recipe = "base-package-8"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "server-8",
+                        recipe = "server-8"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "card-8",
+                        recipe = "card-8"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "space-science-8",
-                    },
+                        recipe = "space-science-8"
+                    }
                 },
                 prerequisites = { "space-stationm" },
                 unit = {
@@ -4677,13 +4591,12 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
             },
-
             {
                 type = "technology",
                 name = "space-station9",
@@ -4692,24 +4605,24 @@ data:extend(
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "research-module-9",
+                        recipe = "research-module-9"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "base-package-9",
+                        recipe = "base-package-9"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "server-9",
+                        recipe = "server-9"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "card-9",
+                        recipe = "card-9"
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "space-science-9",
-                    },
+                        recipe = "space-science-9"
+                    }
                 },
                 prerequisites = { "space-stationm" },
                 unit = {
@@ -4720,11 +4633,11 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
                 order = "c-a"
-            },
+            }
         }
 )

@@ -1,5 +1,4 @@
----laser quarries
-require("util")
+---laser quarries require("util")
 
 local ent  -- placeholder for building each entity
 
@@ -29,7 +28,7 @@ ent.minable.result = "laser-quarry2"
 ent.corpse = "big-remnants"
 ent.collision_box = { { -24.2, -20.2 }, { 23.2, 20 } }
 ent.selection_box = { { -24.2, -20.2 }, { 23.2, 20 } }
-ent.collision_mask = { "item-layer", "object-layer", "water-tile", }
+ent.collision_mask = { "item-layer", "object-layer", "water-tile" }
 ent.icon = "__Darkstar_utilities_fixed__/graphics/icons/laser-drill-icon4.png"
 ent.icon_size = 32
 ent.picture = {
@@ -84,7 +83,6 @@ data:extend(
         }
 )
 
----laser quarries
-require("util")
+---laser quarries require("util")
 
 local ent  -- placeholder for building each entity
