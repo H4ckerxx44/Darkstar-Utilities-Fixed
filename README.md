@@ -3,11 +3,11 @@
 Propel yourself all the way from mining stone with your hands to ripping holes in reality. Darkstar Aims to extend the playtime of the game to well over twice the standard. With extra features like
 Quarries and Ore Probes for mining in lands with no ores, or launching rockets to mine deep space material. With roughly 664 currently added features!
 
-Original mod page: [Darkstar Utilities](https://mods.factorio.com/mod/Darkstar_utilities) \
+Original mod page: [Darkstar Utilities](https://mods.factorio.com/mod/Darkstar_utilities) <br/>
 Original Github page: Not present.
 
-New mod page: [Darkstar Utilities Fixes](TO BE ADDED)
-New Github page: [Darkstar Utilities Fixes](https://github.com/H4ckerxx44/Darkstar-Utilities-Fixed)
+New mod page: [Darkstar Utilities Fixed](https://mods.factorio.com/mod/Darkstar_utilities_fixed) <br/>
+New Github page: [Darkstar Utilities Fixed](https://github.com/H4ckerxx44/Darkstar-Utilities-Fixed)
 
 This repository was made by me because
 
