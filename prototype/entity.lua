@@ -324,7 +324,7 @@ data:extend(
                     {
                         -- modular armors are not in the demo
                         armors = data.is_demo and {} or
-                                { "modular-armor", "power-armor", "power-armor-mk2", "power-armor-mk3" },
+                                { "modular-armor", "power-armor", "power-armor-mk2", "terra-tech-power-armor" },
                         idle = {
                             layers = {
                                 character_animations.level1.idle,

@@ -3889,7 +3889,7 @@ data:extend(
             },
             {
                 type = "recipe",
-                name = "power-armor-mk3",
+                name = "terra-tech-power-armor",
                 energy_required = 30,
                 enabled = "false",
                 ingredients = {
@@ -3899,18 +3899,18 @@ data:extend(
                     { "speed-module-6", 2 },
                     { "productivity-module-6", 2 }
                 },
-                result = "power-armor-mk3"
+                result = "terra-tech-power-armor"
             },
             {
                 type = "recipe",
-                name = "power-armor-mk4",
+                name = "terra-tech-power-armor-mk2",
                 energy_required = 30,
                 enabled = "false",
                 ingredients = {
-                    { "power-armor-mk3", 1 },
+                    { "terra-tech-power-armor", 1 },
                     { "chitin", 500 }
                 },
-                result = "power-armor-mk4"
+                result = "terra-tech-power-armor-mk2"
             },
             {
                 type = "recipe",

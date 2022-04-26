@@ -3277,13 +3277,13 @@ data:extend(
             },
             {
                 type = "technology",
-                name = "Power-armor-mk3",
-                icon = "__Darkstar_utilities_fixed__/graphics/research/power-armor-mk3.png",
+                name = "terra-tech-power-armor-tech",
+                icon = "__Darkstar_utilities_fixed__/graphics/research/terra-tech-power-armor.png",
                 icon_size = 128,
                 effects = {
                     {
                         type = "unlock-recipe",
-                        recipe = "power-armor-mk3"
+                        recipe = "terra-tech-power-armor"
                     },
                     {
                         type = "unlock-recipe",
