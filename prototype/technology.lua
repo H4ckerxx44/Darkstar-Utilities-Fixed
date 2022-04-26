@@ -3310,6 +3310,31 @@ data:extend(
             },
             {
                 type = "technology",
+                name = "terra-tech-power-armor-mk2-tech",
+                icon = "__Darkstar_utilities_fixed__/graphics/research/terra-tech-power-armor.png",
+                icon_size = 128,
+                effects = {
+                    {
+                        type = "unlock-recipe",
+                        recipe = "terra-tech-power-armor-mk2"
+                    },
+                },
+                prerequisites = { "terra-tech-power-armor-tech" },
+                unit = {
+                    count = 400,
+                    ingredients = {
+                        { "automation-science-pack", 1 },
+                        { "logistic-science-pack", 1 },
+                        { "chemical-science-pack", 1 },
+                        { "utility-science-pack", 1 },
+                        { "military-science-pack", 1 }
+                    },
+                    time = 120
+                },
+                order = "c-a"
+            },
+            {
+                type = "technology",
                 name = "photovoltaics-mk2",
                 icon = "__Darkstar_utilities_fixed__/graphics/research/cells-mk2.png",
                 icon_size = 128,
