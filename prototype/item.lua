@@ -3771,16 +3771,6 @@ stack_size = 500
             },
             {
                 type = "item",
-                name = "terra-coil",
-                icon = "__Darkstar_utilities_fixed__/graphics/icons/tesla-coil-icon.png",
-                icon_size = 32,
-                subgroup = "Technical",
-                order = "b[energy]-e[substation]",
-                place_result = "terra-coil",
-                stack_size = 500
-            },
-            {
-                type = "item",
                 name = "link",
                 icon = "__Darkstar_utilities_fixed__/graphics/icons/link.png",
                 icon_size = 32,
