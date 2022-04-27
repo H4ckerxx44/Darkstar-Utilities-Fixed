@@ -302,10 +302,6 @@ data:extend(
                     },
                     {
                         type = "unlock-recipe",
-                        recipe = "deep-uranium-processing"
-                    },
-                    {
-                        type = "unlock-recipe",
                         recipe = "stone-probe"
                     },
                     {
@@ -1242,6 +1238,10 @@ data:extend(
                     {
                         type = "unlock-recipe",
                         recipe = "dense-lead-processing"
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "deep-uranium-processing"
                     },
                     {
                         type = "unlock-recipe",
