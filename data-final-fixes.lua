@@ -402,68 +402,68 @@ end
 
 --ores won't spawn, add recipes to ore extractor
 -- and change extractor recipe
--- if mods["rso-mod"] then
--- 	data.raw["recipe"]["ore-extractor"].ingredients = {
--- 				{ "steel-plate", 20 },
--- 				--{ "lithium-steel-plate", 20 },
--- 				{ "stone-path-black", 100 },
--- 				{ "iron-plate", 50 },
--- 			}
--- 	data:extend(
--- 		{
--- 			{
--- 				type = "recipe",
--- 				name = "anode-mud-gold-processing",
--- 				energy_required = 5,
--- 				category = "extraction",
--- 				enabled = false,
--- 				hidden = false,
--- 				ingredients = {
--- 					{ "anode-mud", 10 },
--- 				},
--- 				result = "gold-ore",
--- 				result_count = "8",
--- 			},
--- 			{
--- 				type = "recipe",
--- 				name = "anode-mud-lead-processing",
--- 				energy_required = 5,
--- 				category = "extraction",
--- 				enabled = false,
--- 				hidden = false,
--- 				ingredients = {
--- 					{ "anode-mud", 10 },
--- 				},
--- 				result = "lead-ore",
--- 				result_count = "8",
--- 			},
--- 			{
--- 				type = "recipe",
--- 				name = "anode-mud-lithium-processing",
--- 				energy_required = 5,
--- 				category = "extraction",
--- 				enabled = false,
--- 				hidden = false,
--- 				ingredients = {
--- 					{ "anode-mud", 10 },
--- 				},
--- 				result = "lithium-ore",
--- 				result_count = "8",
--- 			},
--- 		}
--- 	)
---
--- 	--add tech unlocks
--- 	table.insert(data.raw["technology"]["ore-extractor"].effects, {
---                         type = "unlock-recipe",
---                         recipe = "anode-mud-gold-processing",
---                     })
--- 	table.insert(data.raw["technology"]["ore-extractor"].effects, {
---                         type = "unlock-recipe",
---                         recipe = "anode-mud-lead-processing",
---                     })
--- 	table.insert(data.raw["technology"]["ore-extractor"].effects, {
---                         type = "unlock-recipe",
---                         recipe = "anode-mud-lithium-processing",
---                     })
--- end
+if mods["rso-mod"] then
+	data.raw["recipe"]["ore-extractor"].ingredients = {
+				{ "steel-plate", 20 },
+				--{ "lithium-steel-plate", 20 },
+				{ "stone-path-black", 100 },
+				{ "iron-plate", 50 },
+			}
+	data:extend(
+		{
+			{
+				type = "recipe",
+				name = "anode-mud-gold-processing",
+				energy_required = 5,
+				category = "extraction",
+				enabled = false,
+				hidden = false,
+				ingredients = {
+					{ "anode-mud", 10 },
+				},
+				result = "gold-ore",
+				result_count = "8",
+			},
+			{
+				type = "recipe",
+				name = "anode-mud-lead-processing",
+				energy_required = 5,
+				category = "extraction",
+				enabled = false,
+				hidden = false,
+				ingredients = {
+					{ "anode-mud", 10 },
+				},
+				result = "lead-ore",
+				result_count = "8",
+			},
+			{
+				type = "recipe",
+				name = "anode-mud-lithium-processing",
+				energy_required = 5,
+				category = "extraction",
+				enabled = false,
+				hidden = false,
+				ingredients = {
+					{ "anode-mud", 10 },
+				},
+				result = "lithium-ore",
+				result_count = "8",
+			},
+		}
+	)
+
+	--add tech unlocks
+	table.insert(data.raw["technology"]["ore-extractor"].effects, {
+                        type = "unlock-recipe",
+                        recipe = "anode-mud-gold-processing",
+                    })
+	table.insert(data.raw["technology"]["ore-extractor"].effects, {
+                        type = "unlock-recipe",
+                        recipe = "anode-mud-lead-processing",
+                    })
+	table.insert(data.raw["technology"]["ore-extractor"].effects, {
+                        type = "unlock-recipe",
+                        recipe = "anode-mud-lithium-processing",
+                    })
+end
