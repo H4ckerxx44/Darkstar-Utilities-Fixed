@@ -903,30 +903,30 @@ data:extend(
                 icon = "__Darkstar_utilities_fixed__/graphics/research/biter-research.png",
                 icon_size = 116,
                 effects = {
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-small-biter",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-small-spitter",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-small-worm-turret",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-codeless-biter",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-codeless-spitter",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-codeless-worm-turret",
-                    -- },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-small-biter",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-small-spitter",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-small-worm-turret",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-codeless-biter",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-codeless-spitter",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-codeless-worm-turret",
+                    },
                 },
                 prerequisites = { "military-4", "bio-sample" },
                 unit = {
@@ -948,18 +948,18 @@ data:extend(
                 icon = "__Darkstar_utilities_fixed__/graphics/research/biter-research.png",
                 icon_size = 116,
                 effects = {
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-medium-biter",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-medium-spitter",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-medium-worm-turret",
-                    -- },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-medium-biter",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-medium-spitter",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-medium-worm-turret",
+                    },
                 },
                 prerequisites = { "alien-weapons-1" },
                 unit = {
@@ -981,26 +981,26 @@ data:extend(
                 icon = "__Darkstar_utilities_fixed__/graphics/research/biter-research.png",
                 icon_size = 116,
                 effects = {
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-big-biter",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-big-spitter",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-big-worm-turret",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-biter-spawner",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-spitter-spawner",
-                    -- },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-big-biter",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-big-spitter",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-big-worm-turret",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-biter-spawner",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-spitter-spawner",
+                    },
                 },
                 prerequisites = { "alien-weapons-2" },
                 unit = {
@@ -1022,18 +1022,18 @@ data:extend(
                 icon = "__Darkstar_utilities_fixed__/graphics/research/biter-research.png",
                 icon_size = 116,
                 effects = {
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-behemoth-biter",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-behemoth-spitter",
-                    -- },
-                    -- {
-                    --     type = "unlock-recipe",
-                    --     recipe = "ds-behemoth-worm-turret",
-                    -- },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-behemoth-biter",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-behemoth-spitter",
+                    },
+                    {
+                        type = "unlock-recipe",
+                        recipe = "ds-behemoth-worm-turret",
+                    },
                 },
                 prerequisites = { "alien-weapons-3" },
                 unit = {
