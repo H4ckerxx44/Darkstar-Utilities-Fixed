@@ -13878,156 +13878,857 @@ call_for_help_radius = 40
                     }
                 }
             },
-            {
-                type = "unit-spawner",
-                name = "biter-spawner",
-                icon = "__base__/graphics/icons/biter-spawner.png",
-                icon_size = 64,
-                icon_mipmaps = 4,
-                flags = { "placeable-player", "placeable-enemy", "not-repairable" },
-                max_health = 350,
-                order = "b-b-g",
-                subgroup = "enemies",
-                resistances = {
-                    {
-                        type = "physical",
-                        decrease = 2,
-                        percent = 15
-                    },
-                    {
-                        type = "explosion",
-                        decrease = 5,
-                        percent = 15
-                    },
-                    {
-                        type = "fire",
-                        decrease = 3,
-                        percent = 60
-                    }
-                },
-                working_sound = {
-                    sound = {
-                        {
-                            filename = "__base__/sound/creatures/spawner.ogg",
-                            volume = 1.0
-                        }
-                    },
-                    apparent_volume = 2
-                },
-                dying_sound = {
-                    {
-                        filename = "__base__/sound/creatures/spawner-death-1.ogg",
-                        volume = 1.0
-                    },
-                    {
-                        filename = "__base__/sound/creatures/spawner-death-2.ogg",
-                        volume = 1.0
-                    }
-                },
-                healing_per_tick = 0.02,
-                collision_box = { { -3.2, -2.2 }, { 2.2, 2.2 } },
-                map_generator_bounding_box = { { -4.2, -3.2 }, { 3.2, 3.2 } },
-                selection_box = { { -3.5, -2.5 }, { 2.5, 2.5 } },
-                -- in ticks per 1 pu
-                pollution_absorption_absolute = 20,
-                pollution_absorption_proportional = 0.01,
-                corpse = "biter-spawner-corpse",
-                dying_explosion = "blood-explosion-huge",
-                max_count_of_owned_units = 7,
-                max_friends_around_to_spawn = 5,
-                loot = {
-                    {
-                        count_max = 60,
-                        count_min = 30,
-                        item = "chitin",
-                        probability = 0.55
-                    }
-                },
-                animations = {
-                    spawner_idle_animation(0, biter_spawner_tint),
-                    spawner_idle_animation(1, biter_spawner_tint),
-                    spawner_idle_animation(2, biter_spawner_tint),
-                    spawner_idle_animation(3, biter_spawner_tint)
-                },
-                integration = {
-                    sheet = spawner_integration()
-                },
-                result_units = (function()
-                    local res = {}
-                    res[1] = { "small-biter", { { 0.0, 0.3 }, { 0.6, 0.0 } } }
-                    if not data.is_demo then
-                        -- from evolution_factor 0.3 the weight for medium-biter is linearly rising from 0 to 0.3
-                        -- this means for example that when the evolution_factor is 0.45 the probability of spawning
-                        -- a small biter is 66% while probability for medium biter is 33%.
-                        res[2] = { "medium-biter", { { 0.2, 0.0 }, { 0.6, 0.3 }, { 0.7, 0.1 } } }
-                        -- for evolution factor of 1 the spawning probabilities are: small-biter 0%, medium-biter 1/8, big-biter 4/8, behemoth biter 3/8
-                        res[3] = { "big-biter", { { 0.5, 0.0 }, { 1.0, 0.4 } } }
-                        res[4] = { "behemoth-biter", { { 0.9, 0.0 }, { 1.0, 0.3 } } }
-                    end
-                    return res
-                end)(),
-                -- With zero evolution the spawn rate is 6 seconds, with max evolution it is 2.5 seconds
-                spawning_cooldown = { 360, 150 },
-                spawning_radius = 10,
-                spawning_spacing = 3,
-                max_spawn_shift = 0,
-                max_richness_for_spawn_shift = 100,
-                autoplace = enemy_autoplace.enemy_spawner_autoplace(0),
-                call_for_help_radius = 50
-            },
-            {
-                type = "unit",
-                name = "behemoth-biter-2",
-                order = "b-a-d",
-                icon = "__base__/graphics/icons/behemoth-biter.png",
-                icon_size = 64,
-                icon_mipmaps = 4,
-                flags = { "placeable-player", "placeable-enemy", "not-repairable" },
-                max_health = 3000,
-                subgroup = "enemies",
-                resistances = {
-                    {
-                        type = "physical",
-                        decrease = 12,
-                        percent = 10
-                    },
-                    {
-                        type = "explosion",
-                        decrease = 12,
-                        percent = 10
-                    }
-                },
-                spawning_time_modifier = 12,
-                healing_per_tick = 0.1,
-                collision_box = { { -0.4, -0.4 }, { 0.4, 0.4 } },
-                selection_box = { { -0.7, -1.5 }, { 0.7, 0.3 } },
-                sticker_box = { { -0.6, -0.8 }, { 0.6, 0 } },
-                distraction_cooldown = 300,
-                min_pursue_time = 10 * 60,
-                max_pursue_distance = 50,
-                attack_parameters = {
-                    type = "projectile",
-                    range = 1.5,
-                    cooldown = 50,
-                    cooldown_deviation = 0.15,
-                    ammo_type = make_unit_melee_ammo_type(90),
-                    sound = sounds.biter_roars_behemoth(0.65),
-                    animation = biterattackanimation(behemoth_biter_scale, behemoth_biter_tint1, behemoth_biter_tint2)
-                },
-                vision_distance = 30,
-                movement_speed = 0.3,
-                distance_per_frame = 0.32,
-                -- in pu
-                pollution_to_join_attack = 400,
-                corpse = "behemoth-biter-corpse",
-                dying_explosion = "behemoth-biter-die",
-                working_sound = sounds.biter_calls_behemoth(0.97),
-                dying_sound = sounds.biter_dying_big(0.52),
-                run_animation = biterrunanimation(behemoth_biter_scale, behemoth_biter_tint1, behemoth_biter_tint2),
-                running_sound_animation_positions = { 2 },
-                walking_sound = sounds.biter_walk_big(0.78),
-                ai_settings = biter_ai_settings,
-                water_reflection = biter_water_reflection(behemoth_biter_scale)
-            }
+            -- {
+            --     type = "unit-spawner",
+            --     name = "biter-spawner",
+            --     icon = "__base__/graphics/icons/biter-spawner.png",
+            --     icon_size = 64,
+            --     icon_mipmaps = 4,
+            --     flags = { "placeable-player", "placeable-enemy", "not-repairable" },
+            --     max_health = 350,
+            --     order = "b-b-g",
+            --     subgroup = "enemies",
+            --     resistances = {
+            --         {
+            --             type = "physical",
+            --             decrease = 2,
+            --             percent = 15
+            --         },
+            --         {
+            --             type = "explosion",
+            --             decrease = 5,
+            --             percent = 15
+            --         },
+            --         {
+            --             type = "fire",
+            --             decrease = 3,
+            --             percent = 60
+            --         }
+            --     },
+            --     working_sound = {
+            --         sound = {
+            --             {
+            --                 filename = "__base__/sound/creatures/spawner.ogg",
+            --                 volume = 1.0
+            --             }
+            --         },
+            --         apparent_volume = 2
+            --     },
+            --     dying_sound = {
+            --         {
+            --             filename = "__base__/sound/creatures/spawner-death-1.ogg",
+            --             volume = 1.0
+            --         },
+            --         {
+            --             filename = "__base__/sound/creatures/spawner-death-2.ogg",
+            --             volume = 1.0
+            --         }
+            --     },
+            --     healing_per_tick = 0.02,
+            --     collision_box = { { -3.2, -2.2 }, { 2.2, 2.2 } },
+            --     map_generator_bounding_box = { { -4.2, -3.2 }, { 3.2, 3.2 } },
+            --     selection_box = { { -3.5, -2.5 }, { 2.5, 2.5 } },
+            --     -- in ticks per 1 pu
+            --     pollution_absorption_absolute = 20,
+            --     pollution_absorption_proportional = 0.01,
+            --     corpse = "biter-spawner-corpse",
+            --     dying_explosion = "blood-explosion-huge",
+            --     max_count_of_owned_units = 7,
+            --     max_friends_around_to_spawn = 5,
+            --     loot = {
+            --         {
+            --             count_max = 60,
+            --             count_min = 30,
+            --             item = "chitin",
+            --             probability = 0.55
+            --         }
+            --     },
+            --     animations = {
+            --         spawner_idle_animation(0, biter_spawner_tint),
+            --         spawner_idle_animation(1, biter_spawner_tint),
+            --         spawner_idle_animation(2, biter_spawner_tint),
+            --         spawner_idle_animation(3, biter_spawner_tint)
+            --     },
+            --     integration = {
+            --         sheet = spawner_integration()
+            --     },
+            --     result_units = (function()
+            --         local res = {}
+            --         res[1] = { "small-biter", { { 0.0, 0.3 }, { 0.6, 0.0 } } }
+            --         if not data.is_demo then
+            --             -- from evolution_factor 0.3 the weight for medium-biter is linearly rising from 0 to 0.3
+            --             -- this means for example that when the evolution_factor is 0.45 the probability of spawning
+            --             -- a small biter is 66% while probability for medium biter is 33%.
+            --             res[2] = { "medium-biter", { { 0.2, 0.0 }, { 0.6, 0.3 }, { 0.7, 0.1 } } }
+            --             -- for evolution factor of 1 the spawning probabilities are: small-biter 0%, medium-biter 1/8, big-biter 4/8, behemoth biter 3/8
+            --             res[3] = { "big-biter", { { 0.5, 0.0 }, { 1.0, 0.4 } } }
+            --             res[4] = { "behemoth-biter", { { 0.9, 0.0 }, { 1.0, 0.3 } } }
+            --         end
+            --         return res
+            --     end)(),
+            --     -- With zero evolution the spawn rate is 6 seconds, with max evolution it is 2.5 seconds
+            --     spawning_cooldown = { 360, 150 },
+            --     spawning_radius = 10,
+            --     spawning_spacing = 3,
+            --     max_spawn_shift = 0,
+            --     max_richness_for_spawn_shift = 100,
+            --     autoplace = enemy_autoplace.enemy_spawner_autoplace(0),
+            --     call_for_help_radius = 50
+            -- },
+            -- {
+            --     type = "unit",
+            --     name = "behemoth-biter-2",
+            --     order = "b-a-d",
+            --     icon = "__base__/graphics/icons/behemoth-biter.png",
+            --     icon_size = 64,
+            --     icon_mipmaps = 4,
+            --     flags = { "placeable-player", "placeable-enemy", "not-repairable" },
+            --     max_health = 3000,
+            --     subgroup = "enemies",
+            --     resistances = {
+            --         {
+            --             type = "physical",
+            --             decrease = 12,
+            --             percent = 10
+            --         },
+            --         {
+            --             type = "explosion",
+            --             decrease = 12,
+            --             percent = 10
+            --         }
+            --     },
+            --     spawning_time_modifier = 12,
+            --     healing_per_tick = 0.1,
+            --     collision_box = { { -0.4, -0.4 }, { 0.4, 0.4 } },
+            --     selection_box = { { -0.7, -1.5 }, { 0.7, 0.3 } },
+            --     sticker_box = { { -0.6, -0.8 }, { 0.6, 0 } },
+            --     distraction_cooldown = 300,
+            --     min_pursue_time = 10 * 60,
+            --     max_pursue_distance = 50,
+            --     attack_parameters = {
+            --         type = "projectile",
+            --         range = 1.5,
+            --         cooldown = 50,
+            --         cooldown_deviation = 0.15,
+            --         ammo_type = make_unit_melee_ammo_type(90),
+            --         sound = sounds.biter_roars_behemoth(0.65),
+            --         animation = biterattackanimation(behemoth_biter_scale, behemoth_biter_tint1, behemoth_biter_tint2)
+            --     },
+            --     vision_distance = 30,
+            --     movement_speed = 0.3,
+            --     distance_per_frame = 0.32,
+            --     -- in pu
+            --     pollution_to_join_attack = 400,
+            --     corpse = "behemoth-biter-corpse",
+            --     dying_explosion = "behemoth-biter-die",
+            --     working_sound = sounds.biter_calls_behemoth(0.97),
+            --     dying_sound = sounds.biter_dying_big(0.52),
+            --     run_animation = biterrunanimation(behemoth_biter_scale, behemoth_biter_tint1, behemoth_biter_tint2),
+            --     running_sound_animation_positions = { 2 },
+            --     walking_sound = sounds.biter_walk_big(0.78),
+            --     ai_settings = biter_ai_settings,
+            --     water_reflection = biter_water_reflection(behemoth_biter_scale)
+            -- }
+
+            --biters and spitters
+
+        		{
+        			type = "unit",
+        			name = "ds-small-biter",
+        			icon = "__base__/graphics/icons/small-biter.png",
+        			icon_size = 64, icon_mipmaps = 4,
+        			flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "not-repairable", "breaths-air"},
+        			max_health = 15,
+        			order = "b-a-a",
+        			subgroup="enemies",
+        			resistances = {},
+        			healing_per_tick = 0.01,
+        			collision_box = {{-0.2, -0.2}, {0.2, 0.2}},
+        			selection_box = {{-0.4, -0.7}, {0.4, 0.4}},
+        			--damaged_trigger_effect = hit_effects.biter(),
+        			attack_parameters =
+        			{
+        			  type = "projectile",
+        			  range = 0.5,
+        			  cooldown = 35,
+        			  cooldown_deviation = 0.15,
+        			  ammo_type = make_unit_melee_ammo_type(7),
+        			  sound = sounds.biter_roars(0.35),
+        			  animation = biterattackanimation(small_biter_scale, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			  range_mode = "bounding-box-to-bounding-box"
+        			},
+        			vision_distance = 30,
+        			movement_speed = 0.2,
+        			distance_per_frame = 0.125,
+        			pollution_to_join_attack = 4,
+        			distraction_cooldown = 120,
+        			min_pursue_time = 10 * 60,
+        			max_pursue_distance = 50,
+        			corpse = "small-biter-corpse",
+        			dying_explosion = "small-biter-die",
+        			dying_sound =  sounds.biter_dying(0.5),
+        			working_sound =  sounds.biter_calls(0.75),
+        			run_animation = biterrunanimation(small_biter_scale, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			running_sound_animation_positions = {2,},
+        			walking_sound = sounds.biter_walk(0.3),
+        			ai_settings = biter_ai_settings,
+        			water_reflection = biter_water_reflection(small_biter_scale)
+        		},
+        		{
+        			type = "unit",
+        			name = "ds-medium-biter",
+        			icon = "__base__/graphics/icons/medium-biter.png",
+        			icon_size = 64, icon_mipmaps = 4,
+        			flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
+        			max_health = 75,
+        			order="b-a-b",
+        			subgroup="enemies",
+        			resistances =
+        			{
+        			  {
+        				type = "physical",
+        				decrease = 4,
+        				percent = 10
+        			  },
+        			  {
+        				type = "explosion",
+        				percent = 10
+        			  }
+        			},
+        			healing_per_tick = 0.01,
+        			collision_box = {{-0.3, -0.3}, {0.3, 0.3}},
+        			selection_box = {{-0.7, -1.5}, {0.7, 0.3}},
+        			--damaged_trigger_effect = hit_effects.biter(),
+        			sticker_box = {{-0.3, -0.5}, {0.3, 0.1}},
+        			distraction_cooldown = 120,
+        			min_pursue_time = 10 * 60,
+        			max_pursue_distance = 50,
+        			attack_parameters =
+        			{
+        			  type = "projectile",
+        			  ammo_type = make_unit_melee_ammo_type(15),
+        			  range = 1,
+        			  cooldown = 35,
+        			  cooldown_deviation = 0.15,
+        			  sound = sounds.biter_roars_mid(0.73),
+        			  animation = biterattackanimation(medium_biter_scale, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			  range_mode = "bounding-box-to-bounding-box"
+        			},
+        			vision_distance = 30,
+        			movement_speed = 0.24,
+        			distance_per_frame = 0.188,
+        			-- in pu
+        			pollution_to_join_attack = 20,
+        			corpse = "medium-biter-corpse",
+        			dying_explosion = "medium-biter-die",
+        			working_sound = sounds.biter_calls(0.87),
+        			dying_sound = sounds.biter_dying(0.6),
+        			run_animation = biterrunanimation(medium_biter_scale, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			running_sound_animation_positions = {2,},
+        			walking_sound = sounds.biter_walk(0.4),
+        			ai_settings = biter_ai_settings,
+        			water_reflection = biter_water_reflection(medium_biter_scale)
+        		},
+        		{
+        			type = "unit",
+        			name = "ds-big-biter",
+        			order="b-a-c",
+        			icon = "__base__/graphics/icons/big-biter.png",
+        			icon_size = 64, icon_mipmaps = 4,
+        			flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
+        			max_health = 375,
+        			subgroup="enemies",
+        			resistances =
+        			{
+        			  {
+        				type = "physical",
+        				decrease = 8,
+        				percent = 10
+        			  },
+        			  {
+        				type = "explosion",
+        				percent = 10
+        			  }
+        			},
+        			spawning_time_modifier = 3,
+        			healing_per_tick = 0.02,
+        			collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
+        			selection_box = {{-0.7, -1.5}, {0.7, 0.3}},
+        			--damaged_trigger_effect = hit_effects.biter(),
+        			sticker_box = {{-0.6, -0.8}, {0.6, 0}},
+        			distraction_cooldown = 120,
+        			min_pursue_time = 10 * 60,
+        			max_pursue_distance = 50,
+        			attack_parameters =
+        			{
+        			  type = "projectile",
+        			  range = 1.5,
+        			  cooldown = 35,
+        			  cooldown_deviation = 0.15,
+        			  ammo_type = make_unit_melee_ammo_type(30),
+        			  sound =  sounds.biter_roars_big(0.37),
+        			  animation = biterattackanimation(big_biter_scale, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			  range_mode = "bounding-box-to-bounding-box"
+        			},
+        			vision_distance = 30,
+        			movement_speed = 0.23,
+        			distance_per_frame = 0.30,
+        			-- in pu
+        			pollution_to_join_attack = 80,
+        			corpse = "big-biter-corpse",
+        			dying_explosion = "big-biter-die",
+        			working_sound = sounds.biter_calls_big(0.67),
+        			dying_sound = sounds.biter_dying_big(0.45),
+        			run_animation = biterrunanimation(big_biter_scale, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			running_sound_animation_positions = {2,},
+        			walking_sound = sounds.biter_walk_big(0.7),
+        			ai_settings = biter_ai_settings,
+        			water_reflection = biter_water_reflection(big_biter_scale)
+        		},
+        		{
+        			type = "unit",
+        			name = "ds-behemoth-biter",
+        			order="b-a-d",
+        			icon = "__base__/graphics/icons/behemoth-biter.png",
+        			icon_size = 64, icon_mipmaps = 4,
+        			flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
+        			max_health = 3000,
+        			subgroup="enemies",
+        			resistances =
+        			{
+        			  {
+        				type = "physical",
+        				decrease = 12,
+        				percent = 10
+        			  },
+        			  {
+        				type = "explosion",
+        				decrease = 12,
+        				percent = 10
+        			  }
+        			},
+        			spawning_time_modifier = 12,
+        			healing_per_tick = 0.1,
+        			collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
+        			selection_box = {{-0.7, -1.5}, {0.7, 0.3}},
+        			--damaged_trigger_effect = hit_effects.biter(),
+        			sticker_box = {{-0.6, -0.8}, {0.6, 0}},
+        			distraction_cooldown = 120,
+        			min_pursue_time = 10 * 60,
+        			max_pursue_distance = 50,
+        			attack_parameters =
+        			{
+        			  type = "projectile",
+        			  range = 1.5,
+        			  cooldown = 50,
+        			  cooldown_deviation = 0.15,
+        			  ammo_type = make_unit_melee_ammo_type(90),
+        			  sound =  sounds.biter_roars_behemoth(0.65),
+        			  animation = biterattackanimation(behemoth_biter_scale, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			  range_mode = "bounding-box-to-bounding-box"
+        			},
+        			vision_distance = 30,
+        			movement_speed = 0.3,
+        			distance_per_frame = 0.32,
+        			-- in pu
+        			pollution_to_join_attack = 400,
+        			corpse = "behemoth-biter-corpse",
+        			dying_explosion = "behemoth-biter-die",
+        			working_sound = sounds.biter_calls_behemoth(0.97),
+        			dying_sound = sounds.biter_dying_big(0.52),
+        			run_animation = biterrunanimation(behemoth_biter_scale, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			running_sound_animation_positions = {2,},
+        			walking_sound = sounds.biter_walk_big(0.78),
+        			ai_settings = biter_ai_settings,
+        			water_reflection = biter_water_reflection(behemoth_biter_scale)
+        		},
+
+
+        		{
+        			type = "unit-spawner",
+        			name = "ds-biter-spawner",
+        			icon = "__base__/graphics/icons/biter-spawner.png",
+        			icon_size = 64, icon_mipmaps = 4,
+        			flags = { "placeable-player", "placeable-enemy", "not-repairable" },
+        			minable = {mining_time = 1, result = "ds-biter-spawner"},
+        			max_health = 3000,
+        			order = "b-b-g",
+        			subgroup = "enemies",
+        			resistances = {
+        				{
+        					type = "physical",
+        					decrease = 2,
+        					percent = 15
+        				},
+        				{
+        					type = "explosion",
+        					decrease = 5,
+        					percent = 15
+        				},
+        				{
+        					type = "fire",
+        					decrease = 3,
+        					percent = 60
+        				}
+        			},
+        			working_sound = {
+        				sound = {
+        					{
+        						filename = "__base__/sound/creatures/spawner.ogg",
+        						volume = 1.0
+        					}
+        				},
+        				apparent_volume = 2
+        			},
+        			dying_sound = {
+        				{
+        					filename = "__base__/sound/creatures/spawner-death-1.ogg",
+        					volume = 1.0
+        				},
+        				{
+        					filename = "__base__/sound/creatures/spawner-death-2.ogg",
+        					volume = 1.0
+        				}
+        			},
+        			healing_per_tick = 0.02,
+        			collision_box = { { -3.2, -2.2 }, { 2.2, 2.2 } },
+        			--map_generator_bounding_box = { { -4.2, -3.2 }, { 3.2, 3.2 } },
+        			selection_box = { { -3.5, -2.5 }, { 2.5, 2.5 } },
+        			-- in ticks per 1 pu
+        			pollution_absorption_absolute = 20,
+        			pollution_absorption_proportional = 0.01,
+        			corpse = "biter-spawner-corpse",
+        			dying_explosion = "blood-explosion-huge",
+        			max_count_of_owned_units = 10,
+        			max_friends_around_to_spawn = 10,
+        			loot = {
+        				{
+        					count_max = 60,
+        					count_min = 30,
+        					item = "chitin",
+        					probability = 0.55
+        				}
+        			},
+        			animations = {
+        				spawner_idle_animation(0, {r=0, g=0, b=1}),
+        				spawner_idle_animation(1, {r=0, g=0, b=1}),
+        				spawner_idle_animation(2, {r=0, g=0, b=1}),
+        				spawner_idle_animation(3, {r=0, g=0, b=1})
+        			},
+        			integration = {
+        				sheet = spawner_integration()
+        			},
+        			result_units = (function()
+        					local res = {}
+        					res[1] = {"ds-small-biter", {{0.0, 0.3}, {0.6, 0.0}}}
+        					if not data.is_demo then
+        					   -- from evolution_factor 0.3 the weight for medium-biter is linearly rising from 0 to 0.3
+        					   -- this means for example that when the evolution_factor is 0.45 the probability of spawning
+        					   -- a small biter is 66% while probability for medium biter is 33%.
+        					   res[2] = {"ds-medium-biter", {{0.2, 0.0}, {0.6, 0.3}, {0.7, 0.1}}}
+        					   -- for evolution factor of 1 the spawning probabilities are: small-biter 0%, medium-biter 1/8, big-biter 4/8, behemoth biter 3/8
+        					   res[3] = {"ds-big-biter", {{0.5, 0.0}, {1.0, 0.4}}}
+        					   res[4] = {"ds-behemoth-biter", {{0.9, 0.0}, {1.0, 0.3}}}
+        					end
+        					return res
+        					end)(),
+
+        			-- With zero evolution the spawn rate is 6 seconds, with max evolution it is 2.5 seconds
+        			--0 evo: spawn every 4 seconds
+        			--100 evo: spawn every 2 seconds
+        			spawning_cooldown = { 240, 120 },
+        			spawning_radius = 10,
+        			spawning_spacing = 3,
+        			max_spawn_shift = 0,
+        			max_richness_for_spawn_shift = 100,
+        			--autoplace = enemy_autoplace.enemy_spawner_autoplace(0),
+        			call_for_help_radius = 50
+        		},
+
+        		--spitters and the spawner
+
+        		{
+        			type = "unit",
+        			name = "ds-small-spitter",
+        			icon = "__base__/graphics/icons/small-spitter.png",
+        			icon_size = 64, icon_mipmaps = 4,
+        			flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
+        			max_health = 10,
+        			order="b-b-a",
+        			subgroup="enemies",
+        			resistances = {},
+        			healing_per_tick = 0.01,
+        			collision_box = {{-0.3, -0.3}, {0.3, 0.3}},
+        			selection_box = {{-0.4, -0.4}, {0.4, 0.4}},
+        			--damaged_trigger_effect = hit_effects.biter(),
+        			sticker_box = {{-0.3, -0.5}, {0.3, 0.1}},
+        			distraction_cooldown = 120,
+        			min_pursue_time = 10 * 60,
+        			max_pursue_distance = 50,
+
+        			alternative_attacking_frame_sequence = spitter_alternative_attacking_animation_sequence,
+        			attack_parameters = spitter_attack_parameters(
+        			{
+        			  acid_stream_name = "acid-stream-spitter-small",
+        			  range = range_spitter_small,
+        			  min_attack_distance = 10,
+        			  cooldown = 100,
+        			  cooldown_deviation = 0.15,
+        			  damage_modifier = damage_modifier_spitter_small,
+        			  scale = scale_spitter_small,
+        			  tint1 = {r=0, g=0, b=1},
+        			  tint2 = {r=0, g=0, b=1},
+        			  roarvolume = 0.4,
+        			  range_mode = "bounding-box-to-bounding-box"
+        			}),
+        			vision_distance = 30,
+        			movement_speed = 0.185,
+
+        			distance_per_frame = 0.04,
+        			-- in pu
+        			pollution_to_join_attack = 4,
+        			corpse = "small-spitter-corpse",
+        			dying_explosion = "small-spitter-die",
+        			working_sound = sounds.spitter_calls(0.44),
+        			dying_sound = sounds.spitter_dying(0.45),
+        			run_animation = spitterrunanimation(scale_spitter_small, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			running_sound_animation_positions = {2,},
+        			walking_sound = sounds.spitter_walk(0.3),
+        			ai_settings = biter_ai_settings,
+        			water_reflection = spitter_water_reflection(scale_spitter_small)
+        		},
+        		{
+        			type = "unit",
+        			name = "ds-medium-spitter",
+        			icon = "__base__/graphics/icons/medium-spitter.png",
+        			icon_size = 64, icon_mipmaps = 4,
+        			flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
+        			max_health = 50,
+        			order="b-b-b",
+        			subgroup="enemies",
+        			resistances =
+        			{
+        			  {
+        				type = "explosion",
+        				percent = 10
+        			  }
+        			},
+        			healing_per_tick = 0.01,
+        			collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
+        			selection_box = {{-0.5, -0.7}, {0.5, 0.7}},
+        			--damaged_trigger_effect = hit_effects.biter(),
+        			sticker_box = {{-0.3, -0.5}, {0.3, 0.1}},
+        			distraction_cooldown = 120,
+        			min_pursue_time = 10 * 60,
+        			max_pursue_distance = 50,
+        			alternative_attacking_frame_sequence = spitter_alternative_attacking_animation_sequence,
+        			attack_parameters = spitter_mid_attack_parameters(
+        			{
+        			  acid_stream_name = "acid-stream-spitter-medium",
+        			  range = range_spitter_medium,
+        			  min_attack_distance = 10,
+        			  cooldown = 100,
+        			  cooldown_deviation = 0.15,
+        			  damage_modifier = damage_modifier_spitter_medium,
+        			  scale = scale_spitter_medium,
+        			  tint1 = {r=0, g=0, b=1},
+        			  tint2 = {r=0, g=0, b=1},
+        			  roarvolume = 0.5,
+        			  range_mode = "bounding-box-to-bounding-box"
+        			}),
+        			vision_distance = 30,
+        			movement_speed = 0.165,
+        			distance_per_frame = 0.055,
+        			-- in pu
+        			pollution_to_join_attack = 12,
+        			corpse = "medium-spitter-corpse",
+        			dying_explosion = "medium-spitter-die",
+        			working_sound = sounds.spitter_calls_med(0.53),
+        			dying_sound = sounds.spitter_dying_mid(0.65),
+        			run_animation = spitterrunanimation(scale_spitter_medium, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			running_sound_animation_positions = {2,},
+        			walking_sound = sounds.spitter_walk(0.6),
+        			ai_settings = biter_ai_settings,
+        			water_reflection = spitter_water_reflection(scale_spitter_medium)
+        		},
+        		{
+        			type = "unit",
+        			name = "ds-big-spitter",
+        			icon = "__base__/graphics/icons/big-spitter.png",
+        			icon_size = 64, icon_mipmaps = 4,
+        			flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
+        			max_health = 200,
+        			order="b-b-c",
+        			subgroup="enemies",
+        			resistances =
+        			{
+        			  {
+        				type = "explosion",
+        				percent = 15
+        			  }
+        			},
+        			spawning_time_modifier = 3,
+        			healing_per_tick = 0.01,
+        			collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
+        			selection_box = {{-0.7, -1.0}, {0.7, 1.0}},
+        			--damaged_trigger_effect = hit_effects.biter(),
+        			sticker_box = {{-0.3, -0.5}, {0.3, 0.1}},
+        			distraction_cooldown = 120,
+        			min_pursue_time = 10 * 60,
+        			max_pursue_distance = 50,
+        			alternative_attacking_frame_sequence = spitter_alternative_attacking_animation_sequence,
+        			attack_parameters = spitter_big_attack_parameters(
+        			{
+        			  acid_stream_name = "acid-stream-spitter-big",
+        			  range = range_spitter_big,
+        			  min_attack_distance = 10,
+        			  cooldown = 100,
+        			  cooldown_deviation = 0.15,
+        			  damage_modifier = damage_modifier_spitter_big,
+        			  scale = scale_spitter_big,
+        			  tint1 = {r=0, g=0, b=1},
+        			  tint2 = {r=0, g=0, b=1},
+        			  roarvolume = 0.6,
+        			  range_mode = "bounding-box-to-bounding-box"
+        			}),
+        			vision_distance = 30,
+        			movement_speed = 0.15,
+        			distance_per_frame = 0.07,
+        			-- in pu
+        			pollution_to_join_attack = 30,
+        			corpse = "big-spitter-corpse",
+        			dying_explosion = "big-spitter-die",
+        			working_sound = sounds.spitter_calls_big(0.46),
+        			dying_sound = sounds.spitter_dying_big(0.71),
+        			run_animation = spitterrunanimation(scale_spitter_big, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			running_sound_animation_positions = {2,},
+        			walking_sound = sounds.spitter_walk_big(0.5),
+        			ai_settings = biter_ai_settings,
+        			water_reflection = spitter_water_reflection(scale_spitter_big)
+        		},
+        		{
+        			type = "unit",
+        			name = "ds-behemoth-spitter",
+        			icon = "__base__/graphics/icons/behemoth-spitter.png",
+        			icon_size = 64, icon_mipmaps = 4,
+        			flags = {"placeable-player", "placeable-enemy", "placeable-off-grid", "breaths-air", "not-repairable"},
+        			max_health = 1500,
+        			order="b-b-d",
+        			subgroup="enemies",
+        			resistances =
+        			{
+        			  {
+        				type = "explosion",
+        				percent = 30
+        			  }
+        			},
+        			spawning_time_modifier = 12,
+        			healing_per_tick = 0.1,
+        			collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
+        			selection_box = {{-0.7, -1.0}, {0.7, 1.0}},
+        			--damaged_trigger_effect = hit_effects.biter(),
+        			sticker_box = {{-0.3, -0.5}, {0.3, 0.1}},
+        			distraction_cooldown = 120,
+        			min_pursue_time = 10 * 60,
+        			max_pursue_distance = 50,
+        			alternative_attacking_frame_sequence = spitter_alternative_attacking_animation_sequence,
+        			attack_parameters = spitter_behemoth_attack_parameters(
+        			{
+        			  acid_stream_name = "acid-stream-spitter-behemoth",
+        			  range = range_spitter_behemoth,
+        			  min_attack_distance = 10,
+        			  cooldown = 100,
+        			  cooldown_deviation = 0.15,
+        			  damage_modifier = damage_modifier_spitter_behemoth,
+        			  scale = scale_spitter_behemoth,
+        			  tint1 = {r=0, g=0, b=1},
+        			  tint2 = {r=0, g=0, b=1},
+        			  roarvolume = 0.8,
+        			  range_mode = "bounding-box-to-bounding-box"
+        			}),
+        			vision_distance = 30,
+        			movement_speed = 0.15,
+        			distance_per_frame = 0.084,
+        			pollution_to_join_attack = 200,
+        			corpse = "behemoth-spitter-corpse",
+        			dying_explosion = "behemoth-spitter-die",
+        			working_sound = sounds.spitter_calls_big(0.6),
+        			dying_sound = sounds.spitter_dying_behemoth(0.70),
+        			run_animation = spitterrunanimation(scale_spitter_behemoth, {r=0, g=0, b=1}, {r=0, g=0, b=1}),
+        			running_sound_animation_positions = {2,},
+        			walking_sound = sounds.spitter_walk_big(0.6),
+        			ai_settings = biter_ai_settings,
+        			water_reflection = spitter_water_reflection(scale_spitter_behemoth)
+        		},
+        		{
+        			type = "unit-spawner",
+        			name = "ds-spitter-spawner",
+        			icon = "__base__/graphics/icons/spitter-spawner.png",
+        			icon_size = 64, icon_mipmaps = 4,
+        			flags = {"placeable-player", "placeable-enemy", "not-repairable"},
+        			minable = {mining_time = 1, result = "ds-spitter-spawner"},
+        			max_health = 3500,
+        			order="b-d-b",
+        			subgroup="enemies",
+        			working_sound =
+        			{
+        			  sound =
+        			  {
+        				{
+        				  filename = "__base__/sound/creatures/spawner-spitter.ogg",
+        				  volume = 0.6
+        				}
+        			  }
+        			},
+        			dying_sound =
+        			{
+        			  {
+        				filename = "__base__/sound/creatures/spawner-death-1.ogg",
+        				volume = 1.0
+        			  },
+        			  {
+        				filename = "__base__/sound/creatures/spawner-death-2.ogg",
+        				volume = 1.0
+        			  }
+        			},
+        			resistances =
+        			{
+        			  {
+        				type = "physical",
+        				decrease = 2,
+        				percent = 15
+        			  },
+        			  {
+        				type = "explosion",
+        				decrease = 5,
+        				percent = 15
+        			  },
+        			  {
+        				type = "fire",
+        				decrease = 3,
+        				percent = 60
+        			  }
+        			},
+        			healing_per_tick = 0.02,
+        			collision_box = {{-3.2, -2.2}, {2.2, 2.2}},
+        			--map_generator_bounding_box = {{-4.2, -3.2}, {3.2, 3.2}},
+        			selection_box = {{-3.5, -2.5}, {2.5, 2.5}},
+        			--damaged_trigger_effect = hit_effects.biter(),
+        			pollution_absorption_absolute = 20,
+        			pollution_absorption_proportional = 0.01,
+        			corpse = "spitter-spawner-corpse",
+        			dying_explosion = "spitter-spawner-die",
+        			max_count_of_owned_units = 10,
+        			max_friends_around_to_spawn = 10,
+        			animations =
+        			{
+        			  spawner_idle_animation(0, {r=0, g=0, b=1}),
+        			  spawner_idle_animation(1, {r=0, g=0, b=1}),
+        			  spawner_idle_animation(2, {r=0, g=0, b=1}),
+        			  spawner_idle_animation(3, {r=0, g=0, b=1})
+        			},
+        			integration = spawner_integration(),
+        			result_units = (function()
+        							 local res = {}
+        							 res[1] = {"ds-small-biter", {{0.0, 0.3}, {0.35, 0}}}
+        							 res[2] = {"ds-small-spitter", {{0.25, 0.0}, {0.5, 0.3}, {0.7, 0.0}}}
+        							 res[3] = {"ds-medium-spitter", {{0.4, 0.0}, {0.7, 0.3}, {0.9, 0.1}}}
+        							 res[4] = {"ds-big-spitter", {{0.5, 0.0}, {1.0, 0.4}}}
+        							 res[5] = {"ds-behemoth-spitter", {{0.9, 0.0}, {1.0, 0.3}}}
+        							 return res
+        						   end)(),
+        			-- With zero evolution the spawn rate is 6 seconds, with max evolution it is 2.5 seconds
+        			--0 evo: 4 seconds
+        			--100 evo: 2 seconds
+        			spawning_cooldown = {240, 120},
+        			spawning_radius = 10,
+        			spawning_spacing = 3,
+        			max_spawn_shift = 0,
+        			max_richness_for_spawn_shift = 100,
+        			-- distance_factor used to be 1, but Twinsen says:
+        			-- "The number or spitter spwners should be roughly equal to the number of biter spawners(regardless of difficulty)."
+        			-- (2018-12-07)
+        			--autoplace = enemy_autoplace.enemy_spawner_autoplace(0),
+        			call_for_help_radius = 50,
+        			--spawn_decorations_on_expansion = true,
+        		}
         }
 )
+
+local deepCopy = util.table.deepcopy
+
+local worms = {}
+
+--behemoth
+local worm = deepCopy(data.raw["turret"]["behemoth-worm-turret"])
+worm.name = "ds-" .. worm.name
+
+worm.folded_animation = worm_folded_animation(scale_worm_behemoth, {r=0, g=0, b=1})
+worm.preparing_animation = worm_preparing_animation(scale_worm_behemoth, {r=0, g=0, b=1}, "forward")
+worm.prepared_animation = worm_prepared_animation(scale_worm_behemoth, {r=0, g=0, b=1})
+worm.prepared_alternative_animation = worm_prepared_alternative_animation(scale_worm_behemoth, {r=0, g=0, b=1})
+worm.starting_attack_animation = worm_start_attack_animation(scale_worm_behemoth, {r=0, g=0, b=1})
+worm.ending_attack_animation = worm_end_attack_animation(scale_worm_behemoth, {r=0, g=0, b=1})
+worm.folding_animation =  worm_preparing_animation(scale_worm_behemoth, {r=0, g=0, b=1}, "backward")
+
+worm.build_base_evolution_requirement = nil
+worm.autoplace = nil
+worm.minable = {mining_time = 1, result = worm.name}
+
+table.insert(worms, worm)
+
+--big
+worm = deepCopy(data.raw["turret"]["big-worm-turret"])
+worm.name = "ds-" .. worm.name
+
+worm.folded_animation = worm_folded_animation(scale_worm_big, {r=0, g=0, b=1})
+worm.preparing_animation = worm_preparing_animation(scale_worm_big, {r=0, g=0, b=1}, "forward")
+worm.prepared_animation = worm_prepared_animation(scale_worm_big, {r=0, g=0, b=1})
+worm.prepared_alternative_animation = worm_prepared_alternative_animation(scale_worm_big, {r=0, g=0, b=1})
+worm.starting_attack_animation = worm_start_attack_animation(scale_worm_big, {r=0, g=0, b=1})
+worm.ending_attack_animation = worm_end_attack_animation(scale_worm_big, {r=0, g=0, b=1})
+worm.folding_animation =  worm_preparing_animation(scale_worm_big, {r=0, g=0, b=1}, "backward")
+
+worm.build_base_evolution_requirement = nil
+worm.autoplace = nil
+worm.minable = {mining_time = 1, result = worm.name}
+
+table.insert(worms, worm)
+
+--medium
+worm = deepCopy(data.raw["turret"]["medium-worm-turret"])
+worm.name = "ds-" .. worm.name
+
+worm.folded_animation = worm_folded_animation(scale_worm_medium, {r=0, g=0, b=1})
+worm.preparing_animation = worm_preparing_animation(scale_worm_medium, {r=0, g=0, b=1}, "forward")
+worm.prepared_animation = worm_prepared_animation(scale_worm_medium, {r=0, g=0, b=1})
+worm.prepared_alternative_animation = worm_prepared_alternative_animation(scale_worm_medium, {r=0, g=0, b=1})
+worm.starting_attack_animation = worm_start_attack_animation(scale_worm_medium, {r=0, g=0, b=1})
+worm.ending_attack_animation = worm_end_attack_animation(scale_worm_medium, {r=0, g=0, b=1})
+worm.folding_animation =  worm_preparing_animation(scale_worm_medium, {r=0, g=0, b=1}, "backward")
+
+worm.build_base_evolution_requirement = nil
+worm.autoplace = nil
+worm.minable = {mining_time = 1, result = worm.name}
+
+table.insert(worms, worm)
+
+--small
+worm = deepCopy(data.raw["turret"]["small-worm-turret"])
+worm.name = "ds-" .. worm.name
+
+worm.folded_animation = worm_folded_animation(scale_worm_small, {r=0, g=0, b=1})
+worm.preparing_animation = worm_preparing_animation(scale_worm_small, {r=0, g=0, b=1}, "forward")
+worm.prepared_animation = worm_prepared_animation(scale_worm_small, {r=0, g=0, b=1})
+worm.prepared_alternative_animation = worm_prepared_alternative_animation(scale_worm_small, {r=0, g=0, b=1})
+worm.starting_attack_animation = worm_start_attack_animation(scale_worm_small, {r=0, g=0, b=1})
+worm.ending_attack_animation = worm_end_attack_animation(scale_worm_small, {r=0, g=0, b=1})
+worm.folding_animation =  worm_preparing_animation(scale_worm_small, {r=0, g=0, b=1}, "backward")
+
+worm.build_base_evolution_requirement = nil
+worm.autoplace = nil
+worm.minable = {mining_time = 1, result = worm.name}
+
+table.insert(worms, worm)
+
+data:extend(worms)

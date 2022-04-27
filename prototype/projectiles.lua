@@ -44,52 +44,52 @@ data:extend(
                 },
                 speed = 0.15
             },
-            {
-                type = "projectile",
-                name = "destroyer-capsule-2",
-                acceleration = 0.205,
-                action = {
-                    type = "direct",
-                    action_delivery = {
-                        type = "instant",
-                        target_effects = {
-                            type = "create-entity",
-                            show_in_tooltip = true,
-                            entity_name = "behemoth-biter-2",
-                            offsets = { { -0.7, -0.7 } }
-                        }
-                    }
-                },
-                light = { intensity = 0.5, size = 4 },
-                enable_drawing_with_mask = true,
-                animation = {
-                    layers = {
-                        {
-                            filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule.png",
-                            frame_count = 1,
-                            width = 42,
-                            height = 34,
-                            priority = "high"
-                        },
-                        {
-                            filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule-mask.png",
-                            frame_count = 1,
-                            width = 42,
-                            height = 34,
-                            priority = "high",
-                            apply_runtime_tint = true
-                        }
-                    }
-                },
-                shadow = {
-                    filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule-shadow.png",
-                    frame_count = 1,
-                    width = 48,
-                    height = 32,
-                    priority = "high"
-                },
-                smoke = capsule_smoke
-            },
+            -- {
+            --     type = "projectile",
+            --     name = "destroyer-capsule-2",
+            --     acceleration = 0.205,
+            --     action = {
+            --         type = "direct",
+            --         action_delivery = {
+            --             type = "instant",
+            --             target_effects = {
+            --                 type = "create-entity",
+            --                 show_in_tooltip = true,
+            --                 entity_name = "behemoth-biter-2",
+            --                 offsets = { { -0.7, -0.7 } }
+            --             }
+            --         }
+            --     },
+            --     light = { intensity = 0.5, size = 4 },
+            --     enable_drawing_with_mask = true,
+            --     animation = {
+            --         layers = {
+            --             {
+            --                 filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule.png",
+            --                 frame_count = 1,
+            --                 width = 42,
+            --                 height = 34,
+            --                 priority = "high"
+            --             },
+            --             {
+            --                 filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule-mask.png",
+            --                 frame_count = 1,
+            --                 width = 42,
+            --                 height = 34,
+            --                 priority = "high",
+            --                 apply_runtime_tint = true
+            --             }
+            --         }
+            --     },
+            --     shadow = {
+            --         filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule-shadow.png",
+            --         frame_count = 1,
+            --         width = 48,
+            --         height = 32,
+            --         priority = "high"
+            --     },
+            --     smoke = capsule_smoke
+            -- },
             {
                 type = "projectile",
                 name = "laser-2",

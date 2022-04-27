@@ -12,37 +12,212 @@ data:extend(
                 durability_description_key = "description.science-pack-remaining-amount-key",
                 durability_description_value = "description.science-pack-remaining-amount-value"
             },
+            -- {
+            --     type = "capsule",
+            --     name = "destroyer-capsule-2",
+            --     icon = "__Darkstar_utilities_fixed__/graphics/icons/biter.png",
+            --     icon_size = 32,
+            --     capsule_action = {
+            --         type = "throw",
+            --         attack_parameters = {
+            --             type = "projectile",
+            --             ammo_category = "capsule",
+            --             cooldown = 30,
+            --             projectile_creation_distance = 0.6,
+            --             range = 25,
+            --             ammo_type = {
+            --                 category = "capsule",
+            --                 target_type = "position",
+            --                 action = {
+            --                     type = "direct",
+            --                     action_delivery = {
+            --                         type = "projectile",
+            --                         projectile = "destroyer-capsule-2",
+            --                         starting_speed = 0.3
+            --                     }
+            --                 }
+            --             }
+            --         }
+            --     },
+            --     subgroup = "bio",
+            --     order = "b[destroyer-capsule]",
+            --     stack_size = 100
+            -- },
+
             {
-                type = "capsule",
-                name = "destroyer-capsule-2",
-                icon = "__Darkstar_utilities_fixed__/graphics/icons/biter.png",
-                icon_size = 32,
-                capsule_action = {
-                    type = "throw",
-                    attack_parameters = {
-                        type = "projectile",
-                        ammo_category = "capsule",
-                        cooldown = 30,
-                        projectile_creation_distance = 0.6,
-                        range = 25,
-                        ammo_type = {
-                            category = "capsule",
-                            target_type = "position",
-                            action = {
-                                type = "direct",
-                                action_delivery = {
-                                    type = "projectile",
-                                    projectile = "destroyer-capsule-2",
-                                    starting_speed = 0.3
-                                }
-                            }
-                        }
-                    }
-                },
-                subgroup = "bio",
-                order = "b[destroyer-capsule]",
-                stack_size = 100
-            },
+        			type = "item",
+        			name = "ds-small-biter",
+        			icon = "__base__/graphics/icons/small-biter.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-small-biter",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-medium-biter",
+        			icon = "__base__/graphics/icons/medium-biter.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-medium-biter",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-big-biter",
+        			icon = "__base__/graphics/icons/big-biter.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-big-biter",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-behemoth-biter",
+        			icon = "__base__/graphics/icons/behemoth-biter.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-behemoth-biter",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-biter-spawner",
+        			icon = "__base__/graphics/icons/biter-spawner.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-biter-spawner",
+        			stack_size = 500
+        		},
+            {
+        			type = "item",
+        			name = "ds-codeless-biter",
+        			icon = "__base__/graphics/icons/small-biter.png",
+        			icon_size = 64,
+
+        			subgroup = "bio",
+        			order = "a[solar-panel]-a[solar-panel]",
+        			stack_size = 500
+        		},
+
+        		--spitter
+
+        		{
+        			type = "item",
+        			name = "ds-small-spitter",
+        			icon = "__base__/graphics/icons/small-spitter.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-small-spitter",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-medium-spitter",
+        			icon = "__base__/graphics/icons/medium-spitter.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-medium-spitter",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-big-spitter",
+        			icon = "__base__/graphics/icons/big-spitter.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-big-spitter",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-behemoth-spitter",
+        			icon = "__base__/graphics/icons/behemoth-spitter.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-behemoth-spitter",
+        			stack_size = 500
+        		},
+            {
+        			type = "item",
+        			name = "ds-spitter-spawner",
+        			icon = "__base__/graphics/icons/spitter-spawner.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-spitter-spawner",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-codeless-spitter",
+        			icon = "__base__/graphics/icons/small-spitter.png",
+        			icon_size = 64,
+        			subgroup = "bio",
+        			order = "a[solar-panel]-a[solar-panel]",
+        			stack_size = 500
+        		},
+
+        		{
+        			type = "item",
+        			name = "ds-small-worm-turret",
+        			icon = "__base__/graphics/icons/small-worm.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-small-worm-turret",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-medium-worm-turret",
+        			icon = "__base__/graphics/icons/medium-worm.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-medium-worm-turret",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-big-worm-turret",
+        			icon = "__base__/graphics/icons/big-worm.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-big-worm-turret",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-behemoth-worm-turret",
+        			icon = "__base__/graphics/icons/behemoth-worm.png",
+        			icon_size = 64,
+        			subgroup = "enemies",
+        			order = "b[destroyer-capsule]",
+        			place_result = "ds-behemoth-worm-turret",
+        			stack_size = 500
+        		},
+        		{
+        			type = "item",
+        			name = "ds-codeless-worm-turret",
+        			icon = "__base__/graphics/icons/small-worm.png",
+        			icon_size = 64,
+        			subgroup = "bio",
+        			order = "a[solar-panel]-a[solar-panel]",
+        			stack_size = 500
+        		},
+
+
             {
                 type = "item",
                 name = "radar-2",
@@ -1624,7 +1799,7 @@ stack_size = 500
             },
             {
                 type = "item",
-                name = "silicon",
+                name = "ds-silicon",
                 icon = "__Darkstar_utilities_fixed__/graphics/icons/silicon.png",
                 icon_size = 32,
                 subgroup = "intermediate-product",
@@ -4552,55 +4727,55 @@ stack_size = 500
                 order = "a[solar-panel]-a[solar-panel]",
                 stack_size = 500
             },
-            {
-                type = "projectile",
-                name = "destroyer-capsule2",
-                acceleration = 0.005,
-                action = {
-                    type = "direct",
-                    action_delivery = {
-                        type = "instant",
-                        target_effects = {
-                            type = "create-entity",
-                            show_in_tooltip = true,
-                            entity_name = "behemoth-biter-2",
-                            offsets = { { -0.7, -0.7 } }
-                        }
-                    }
-                },
-                light = { intensity = 0.5, size = 4 },
-                enable_drawing_with_mask = true,
-                animation = {
-                    layers = {
-                        {
-                            filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule.png",
-                            frame_count = 1,
-                            width = 42,
-                            height = 34,
-                            priority = "high"
-                        },
-                        {
-                            filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule-mask.png",
-                            frame_count = 1,
-                            width = 42,
-                            height = 34,
-                            priority = "high",
-                            apply_runtime_tint = true
-                        }
-                    }
-                },
-                shadow = {
-                    filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule-shadow.png",
-                    frame_count = 1,
-                    width = 48,
-                    height = 32,
-                    priority = "high"
-                },
-                smoke = capsule_smoke
-            },
+            -- {
+            --     type = "projectile",
+            --     name = "destroyer-capsule2",
+            --     acceleration = 0.005,
+            --     action = {
+            --         type = "direct",
+            --         action_delivery = {
+            --             type = "instant",
+            --             target_effects = {
+            --                 type = "create-entity",
+            --                 show_in_tooltip = true,
+            --                 entity_name = "behemoth-biter-2",
+            --                 offsets = { { -0.7, -0.7 } }
+            --             }
+            --         }
+            --     },
+            --     light = { intensity = 0.5, size = 4 },
+            --     enable_drawing_with_mask = true,
+            --     animation = {
+            --         layers = {
+            --             {
+            --                 filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule.png",
+            --                 frame_count = 1,
+            --                 width = 42,
+            --                 height = 34,
+            --                 priority = "high"
+            --             },
+            --             {
+            --                 filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule-mask.png",
+            --                 frame_count = 1,
+            --                 width = 42,
+            --                 height = 34,
+            --                 priority = "high",
+            --                 apply_runtime_tint = true
+            --             }
+            --         }
+            --     },
+            --     shadow = {
+            --         filename = "__base__/graphics/entity/combat-robot-capsule/destroyer-capsule-shadow.png",
+            --         frame_count = 1,
+            --         width = 48,
+            --         height = 32,
+            --         priority = "high"
+            --     },
+            --     smoke = capsule_smoke
+            -- },
             {
                 type = "item",
-                name = "sand",
+                name = "ds-sand",
                 icon = "__Darkstar_utilities_fixed__/graphics/icons/sand.png",
                 icon_size = 32,
                 subgroup = "intermediate-product",
@@ -4654,7 +4829,7 @@ stack_size = 500
             },
             {
                 type = "item",
-                name = "glass",
+                name = "ds-glass",
                 icon = "__Darkstar_utilities_fixed__/graphics/icons/glass.png",
                 icon_size = 32,
                 subgroup = "intermediate-product",

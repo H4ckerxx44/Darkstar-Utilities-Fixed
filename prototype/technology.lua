@@ -896,20 +896,37 @@ data:extend(
                 },
                 order = "c-a"
             },
+            --alien weaponry
             {
                 type = "technology",
-                name = "alien-weapons",
+                name = "alien-weapons-1",
                 icon = "__Darkstar_utilities_fixed__/graphics/research/biter-research.png",
                 icon_size = 116,
                 effects = {
-                    {
-                        type = "unlock-recipe",
-                        recipe = "destroyer-capsule-2"
-                    },
-                    {
-                        type = "unlock-recipe",
-                        recipe = "hacked-biter"
-                    }
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-small-biter",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-small-spitter",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-small-worm-turret",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-codeless-biter",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-codeless-spitter",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-codeless-worm-turret",
+                    -- },
                 },
                 prerequisites = { "military-4", "bio-sample" },
                 unit = {
@@ -918,7 +935,115 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "military-science-pack", 1 }
+                        { "military-science-pack", 1 },
+                        { "neural-science-pack", 1 },
+                    },
+                    time = 30
+                },
+                order = "c-a"
+            },
+            {
+                type = "technology",
+                name = "alien-weapons-2",
+                icon = "__Darkstar_utilities_fixed__/graphics/research/biter-research.png",
+                icon_size = 116,
+                effects = {
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-medium-biter",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-medium-spitter",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-medium-worm-turret",
+                    -- },
+                },
+                prerequisites = { "alien-weapons-1" },
+                unit = {
+                    count = 800,
+                    ingredients = {
+                        { "automation-science-pack", 1 },
+                        { "logistic-science-pack", 1 },
+                        { "chemical-science-pack", 1 },
+                        { "military-science-pack", 1 },
+                        { "neural-science-pack", 1 },
+                    },
+                    time = 30
+                },
+                order = "c-a"
+            },
+            {
+                type = "technology",
+                name = "alien-weapons-3",
+                icon = "__Darkstar_utilities_fixed__/graphics/research/biter-research.png",
+                icon_size = 116,
+                effects = {
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-big-biter",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-big-spitter",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-big-worm-turret",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-biter-spawner",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-spitter-spawner",
+                    -- },
+                },
+                prerequisites = { "alien-weapons-2" },
+                unit = {
+                    count = 1000,
+                    ingredients = {
+                        { "automation-science-pack", 1 },
+                        { "logistic-science-pack", 1 },
+                        { "chemical-science-pack", 1 },
+                        { "military-science-pack", 1 },
+                        { "neural-science-pack", 1 },
+                    },
+                    time = 30
+                },
+                order = "c-a"
+            },
+            {
+                type = "technology",
+                name = "alien-weapons-4",
+                icon = "__Darkstar_utilities_fixed__/graphics/research/biter-research.png",
+                icon_size = 116,
+                effects = {
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-behemoth-biter",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-behemoth-spitter",
+                    -- },
+                    -- {
+                    --     type = "unlock-recipe",
+                    --     recipe = "ds-behemoth-worm-turret",
+                    -- },
+                },
+                prerequisites = { "alien-weapons-3" },
+                unit = {
+                    count = 1500,
+                    ingredients = {
+                        { "automation-science-pack", 1 },
+                        { "logistic-science-pack", 1 },
+                        { "chemical-science-pack", 1 },
+                        { "military-science-pack", 1 },
+                        { "neural-science-pack", 1 },
                     },
                     time = 30
                 },
@@ -1361,7 +1486,8 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 }
+                        { "utility-science-pack", 1 },
+                        { "neural-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1411,7 +1537,8 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 }
+                        { "utility-science-pack", 1 },
+                        { "neural-science-pack", 1 }
                     },
                     time = 15
                 },
@@ -1467,6 +1594,7 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
+                        { "neural-science-pack", 1 },
                         { "space-science-pack", 1 }
                     },
                     time = 15
@@ -2464,7 +2592,8 @@ data:extend(
                     ingredients = {
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 }
+                        { "chemical-science-pack", 1 },
+                        { "neural-science-pack", 1 }
                     },
                     time = 200
                 },
@@ -4260,7 +4389,8 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 }
+                        { "utility-science-pack", 1 },
+                        { "space-science-pack", 1 }
                     },
                     time = 15
                 },
