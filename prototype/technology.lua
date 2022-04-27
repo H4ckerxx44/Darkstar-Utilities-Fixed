@@ -2842,37 +2842,7 @@ data:extend(
                 },
                 order = "c-a"
             },
-            --
-            --[[
-{
-	type = "technology",
-	name = "electric-energy-distribution-4",
-	icon = "__Darkstar_utilities_fixed__/graphics/research/substation-mk2.png",
-	icon_size = 133,
-	effects =
-	{
-		{
-			type = "unlock-recipe",
-			recipe = "terra-coil",
-		},
-
-	},
-	prerequisites = {"electric-energy-distribution-3", "computers"},
-	unit =
-	{
-		count = 400,
-		ingredients =
-		{
-			{"automation-science-pack", 1},
-			{"logistic-science-pack", 1},
-			{"chemical-science-pack", 1},
-			{"utility-science-pack", 1}
-			},
-			time = 15
-	},
-	order = "c-a"
-},
-]] {
+            {
                 type = "technology",
                 name = "energy-liquid",
                 icon = "__Darkstar_utilities_fixed__/graphics/research/energy-liquid-1-research.png",
