@@ -408,7 +408,7 @@ data:extend(
                 ingredients = {
                     { "stone", 5 }
                 },
-                result = "sand",
+                result = "ds-sand",
                 result_count = "25"
             },
             {
@@ -651,7 +651,7 @@ data:extend(
                 enabled = false,
                 ingredients = {
                     { "raw-fish", 20 },
-                    { "glass", 25 },
+                    { "ds-glass", 25 },
                     { "iron-plate", 10 }
                 },
                 result = "fish-farm"
@@ -663,7 +663,7 @@ data:extend(
                 enabled = false,
                 ingredients = {
                     { "radar", 30 },
-                    { "glass", 25 },
+                    { "ds-glass", 25 },
                     { "steel-plate", 25 },
                     { "diamond", 5 },
                     { "electric-engine-unit", 5 }
@@ -677,7 +677,7 @@ data:extend(
                 enabled = false,
                 ingredients = {
                     { "radar", 30 },
-                    { "glass", 25 },
+                    { "ds-glass", 25 },
                     { "steel-plate", 25 },
                     { "diamond", 5 },
                     { "electric-engine-unit", 5 }
@@ -691,7 +691,7 @@ data:extend(
                 enabled = false,
                 ingredients = {
                     { "radar", 30 },
-                    { "glass", 25 },
+                    { "ds-glass", 25 },
                     { "steel-plate", 25 },
                     { "diamond", 5 },
                     { "electric-engine-unit", 5 }
@@ -705,7 +705,7 @@ data:extend(
                 enabled = false,
                 ingredients = {
                     { "radar", 30 },
-                    { "glass", 25 },
+                    { "ds-glass", 25 },
                     { "steel-plate", 25 },
                     { "diamond", 5 },
                     { "electric-engine-unit", 5 }
@@ -719,7 +719,7 @@ data:extend(
                 enabled = false,
                 ingredients = {
                     { "radar", 30 },
-                    { "glass", 25 },
+                    { "ds-glass", 25 },
                     { "steel-plate", 25 },
                     { "diamond", 5 },
                     { "electric-engine-unit", 5 }
@@ -733,7 +733,7 @@ data:extend(
                 enabled = false,
                 ingredients = {
                     { "radar", 30 },
-                    { "glass", 25 },
+                    { "ds-glass", 25 },
                     { "steel-plate", 25 },
                     { "diamond", 5 },
                     { "electric-engine-unit", 5 }
@@ -747,7 +747,7 @@ data:extend(
                 enabled = false,
                 ingredients = {
                     { "radar", 30 },
-                    { "glass", 25 },
+                    { "ds-glass", 25 },
                     { "steel-plate", 25 },
                     { "diamond", 5 },
                     { "electric-engine-unit", 5 }
@@ -859,7 +859,7 @@ data:extend(
                 enabled = false,
                 ingredients = {
                     { "bio-computer", 10 },
-                    { "glass", 50 }
+                    { "ds-glass", 50 }
                 },
                 result = "brain-grower"
             },
@@ -870,7 +870,7 @@ data:extend(
                 enabled = false,
                 ingredients = {
                     { "wood", 5000 },
-                    { "glass", 1200 },
+                    { "ds-glass", 1200 },
                     { "steel-plate", 500 },
                     { "white-lamp", 100 }
                 },
@@ -1237,7 +1237,7 @@ data:extend(
                 name = "diode",
                 enabled = "false",
                 ingredients = {
-                    { "glass", 1 },
+                    { "ds-glass", 1 },
                     { "lead-plate", 1 }
                 },
                 result = "diode",
@@ -1549,7 +1549,7 @@ data:extend(
                 ingredients = {
                     { "iron-plate", 100 },
                     { "copper-cable", 100 },
-                    { "glass", 50 }
+                    { "ds-glass", 50 }
                 },
                 result = "large-lamp"
             },
@@ -1566,12 +1566,12 @@ data:extend(
             },
             {
                 type = "recipe",
-                name = "sand",
+                name = "ds-sand",
                 enabled = "true",
                 ingredients = {
                     { "stone", 5 }
                 },
-                result = "sand",
+                result = "ds-sand",
                 result_count = 10
             },
             {
@@ -1658,7 +1658,7 @@ data:extend(
                 name = "sand2",
                 enabled = "true",
                 ingredients = {
-                    { "sand", 2 }
+                    { "ds-sand", 2 }
                 },
                 result = "sand2"
             },
@@ -2193,7 +2193,7 @@ data:extend(
                 enabled = "false",
                 ingredients = {
                     { "filter-tray", 1 },
-                    { "sand", 1 }
+                    { "ds-sand", 1 }
                 },
                 result = "filter-tray-2",
                 result_count = 5
@@ -3285,21 +3285,21 @@ data:extend(
             },
             {
                 type = "recipe",
-                name = "glass",
+                name = "ds-glass",
                 category = "smelting",
                 enabled = true,
                 energy_required = 15.5,
-                ingredients = { { "sand", 5 } },
-                result = "glass"
+                ingredients = { { "ds-sand", 5 } },
+                result = "ds-glass"
             },
             {
                 type = "recipe",
-                name = "silicon",
+                name = "ds-silicon",
                 category = "smelting",
                 enabled = true,
                 energy_required = 25.5,
                 ingredients = { { "sand2", 2 } },
-                result = "silicon"
+                result = "ds-silicon"
             },
             {
                 type = "recipe",
@@ -3413,7 +3413,7 @@ data:extend(
                 name = "leaded-glass",
                 enabled = "false",
                 ingredients = {
-                    { "glass", 5 },
+                    { "ds-glass", 5 },
                     { "lead-plate", 1 }
                 },
                 result = "leaded-glass",
@@ -4716,7 +4716,7 @@ data:extend(
                 enabled = "false",
                 ingredients = {
                     { "solar-wafer", 2 },
-                    { "glass", 2 },
+                    { "ds-glass", 2 },
                     { "selenium-plate", 5 }
                 },
                 result = "micro-cells",
@@ -4730,7 +4730,7 @@ data:extend(
                 enabled = "false",
                 ingredients = {
                     { type = "fluid", name = "dark-matter", amount = 30 },
-                    { "glass", 2 },
+                    { "ds-glass", 2 },
                     { "solar-wafer", 1 }
                 },
                 result = "micro-cells",
@@ -4742,7 +4742,7 @@ data:extend(
                 energy_required = 5,
                 enabled = "false",
                 ingredients = {
-                    { "silicon", 1 },
+                    { "ds-silicon", 1 },
                     { "seed-crystal", 1 },
                     { "silver-plate", 4 }
                 },
@@ -4925,7 +4925,7 @@ data:extend(
                 ingredients = {
                     { "iron-plate", 5 },
                     { "copper-cable", 5 },
-                    { "glass", 1 }
+                    { "ds-glass", 1 }
                 },
                 result = "red-lamp",
                 result_count = 4
@@ -4937,7 +4937,7 @@ data:extend(
                 ingredients = {
                     { "iron-plate", 5 },
                     { "copper-cable", 5 },
-                    { "glass", 1 }
+                    { "ds-glass", 1 }
                 },
                 result = "blue-lamp",
                 result_count = 4
@@ -4949,7 +4949,7 @@ data:extend(
                 ingredients = {
                     { "iron-plate", 5 },
                     { "copper-cable", 5 },
-                    { "glass", 1 }
+                    { "ds-glass", 1 }
                 },
                 result = "yellow-lamp",
                 result_count = 4
@@ -4961,7 +4961,7 @@ data:extend(
                 ingredients = {
                     { "iron-plate", 5 },
                     { "copper-cable", 5 },
-                    { "glass", 1 }
+                    { "ds-glass", 1 }
                 },
                 result = "green-lamp",
                 result_count = 4
@@ -4973,7 +4973,7 @@ data:extend(
                 ingredients = {
                     { "iron-plate", 5 },
                     { "copper-cable", 5 },
-                    { "glass", 1 }
+                    { "ds-glass", 1 }
                 },
                 result = "purple-lamp",
                 result_count = 4
@@ -4985,7 +4985,7 @@ data:extend(
                 ingredients = {
                     { "iron-plate", 5 },
                     { "copper-cable", 5 },
-                    { "glass", 1 }
+                    { "ds-glass", 1 }
                 },
                 result = "white-lamp",
                 result_count = 4

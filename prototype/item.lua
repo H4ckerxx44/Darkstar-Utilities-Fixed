@@ -1624,7 +1624,7 @@ stack_size = 500
             },
             {
                 type = "item",
-                name = "silicon",
+                name = "ds-silicon",
                 icon = "__Darkstar_utilities_fixed__/graphics/icons/silicon.png",
                 icon_size = 32,
                 subgroup = "intermediate-product",
@@ -4600,7 +4600,7 @@ stack_size = 500
             },
             {
                 type = "item",
-                name = "sand",
+                name = "ds-sand",
                 icon = "__Darkstar_utilities_fixed__/graphics/icons/sand.png",
                 icon_size = 32,
                 subgroup = "intermediate-product",
@@ -4654,7 +4654,7 @@ stack_size = 500
             },
             {
                 type = "item",
-                name = "glass",
+                name = "ds-glass",
                 icon = "__Darkstar_utilities_fixed__/graphics/icons/glass.png",
                 icon_size = 32,
                 subgroup = "intermediate-product",
