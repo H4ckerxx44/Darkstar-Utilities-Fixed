@@ -2725,7 +2725,7 @@ stack_size = 500
             },
             {
                 type = "gun",
-                name = "shotgun-pellet-mk2",
+                name = "shotgun-mk2",
                 icon = "__Darkstar_utilities_fixed__/graphics/ammo/railgun1.png",
                 icon_size = 32,
                 icon_mipmaps = 1,
