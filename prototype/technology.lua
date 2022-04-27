@@ -2104,7 +2104,7 @@ data:extend(
                 type = "technology",
                 name = "automated-defense",
                 icon = "__base__/graphics/technology/gun-turret.png",
-                icon_size = 128,
+                icon_size = 256,
                 effects = {
                     {
                         type = "unlock-recipe",
@@ -2144,7 +2144,7 @@ data:extend(
                 type = "technology",
                 name = "military-5",
                 icon = "__base__/graphics/technology/military.png",
-                icon_size = 128,
+                icon_size = 256,
                 effects = {
                     {
                         type = "unlock-recipe",
@@ -2190,7 +2190,7 @@ data:extend(
                 type = "technology",
                 name = "weapon-upgrades",
                 icon = "__base__/graphics/technology/military.png",
-                icon_size = 128,
+                icon_size = 256,
                 effects = {
                     {
                         type = "unlock-recipe",
@@ -2248,7 +2248,7 @@ data:extend(
                 type = "technology",
                 name = "nuclear-weapons",
                 icon = "__base__/graphics/technology/military.png",
-                icon_size = 128,
+                icon_size = 256,
                 effects = {
                     {
                         type = "unlock-recipe",
