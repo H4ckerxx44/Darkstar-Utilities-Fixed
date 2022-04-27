@@ -1,10 +1,13 @@
 ---------------------------------------
 ##0.19.11 Versioning Mess
 ##Fixed:##
-Fixed an incompatibility with Custom Power Armor Fix
+Fixed an incompatibility with Custom Power Armor Fix by renaming the power armors | error is to be expected and does not cause any harm
+Fixed inconsistencies with mk/Mk/MK naming style
 
 ##Added:##
+Add compatibility with Bobs technology lab mk2
 Technology to craft Terra Tech Power Armor MK2
+5Dim-new-automation added compatibility
 ---------------------------------------
 ##0.19.10 Versioning Mess
 Big code reformat
