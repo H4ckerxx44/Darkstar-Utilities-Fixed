@@ -141,3 +141,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+/da-changelog-tools_0.0.14
