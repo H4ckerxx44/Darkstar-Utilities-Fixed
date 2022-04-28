@@ -18,32 +18,32 @@ end
 if mods["Krastorio2"] then
   local recipe_list =
   {
-  	"fish-farm",
-  	"biodome",
-  	"brain-grower",
-  	"white-lamp",
-  	"blue-lamp",
-  	"green-lamp",
-  	"purple-lamp",
-  	"red-lamp",
-  	"yellow-lamp",
-  	"large-lamp",
+		"fish-farm",
+		"biodome",
+		"brain-grower",
+		"white-lamp",
+		"blue-lamp",
+		"green-lamp",
+		"purple-lamp",
+		"red-lamp",
+		"yellow-lamp",
+		"large-lamp",
 
-  	"iron-probe",
-  	"copper-probe",
-  	"uranium-probe",
-  	"lead-probe",
-  	"gold-probe",
-  	"stone-probe",
-    "coal-probe",
+		"iron-probe",
+		"copper-probe",
+		"uranium-probe",
+		"lead-probe",
+		"gold-probe",
+		"stone-probe",
+		"coal-probe",
 
-  	"diode",
-  	"leaded-glass",
-  	"micro-cells",
-  	"micro-cells2",
+		"diode",
+		"leaded-glass",
+		"micro-cells",
+		"micro-cells2",
 
-  	"solar-wafer",
-  	"filter-tray-2"
+		"solar-wafer",
+		"filter-tray-2"
   }
 
   --make use vehicles can use quantum fuel
