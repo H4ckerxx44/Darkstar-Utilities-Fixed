@@ -7,9 +7,19 @@ Date: ??.04.2022
   Fixes:
     - Move deep uranium processing recipe to correct technology
     - Reworked Changelog
+    - leaded glass being unlocked 3 times in the tech tree. Removed from laser-miners1 & glass-plated-panels. should now be unlocked only by vacuum-chamber
 
   Changes:
     - Dependency is now base >=1.1
+    - Changed Technology requirements: 
+      Energy-liquid. Removed utility packs, Increased multiplier, Decreased count
+      Planck. Decreased count of packs, Increased multiplier. removed Utillity packs. 
+      ds-oil (Darkstar Oil): Removed utility packs, Increased multiplier, Decreased count.
+      bio-sample: chnaged Utility packs to Production packs, Increased multiplier, Decreased count.
+      Neuro miners 2-4: Added Neural science pack Removed Utility packs, Increased & Decreased count,
+      Alien weapons: Added Neural science pack.
+      Rocket-payloads: Added Neural packs.
+      Rocket-payloads2: Added Neural packs, Increased multiplier, Decreased Count.
 
   Removed:
     - Removal of Terra Coil and associated technology since it has been kinda been removed in 0.16.5

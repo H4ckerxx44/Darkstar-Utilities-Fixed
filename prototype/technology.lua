@@ -263,12 +263,12 @@ data:extend(
                 },
                 prerequisites = { "ds-oil", "biodome", "fish-farm", "energy-liquid", "utility-science-pack" },
                 unit = {
-                    count = 600,
+                    count = 500,
                     ingredients = {
-                        { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
-                        { "utility-science-pack", 1 }
+                        { "automation-science-pack", 4 },
+                        { "logistic-science-pack", 3 },
+                        { "chemical-science-pack", 2 },
+                        { "prduction-science-pack", 1 }
                     },
                     time = 35
                 },
@@ -914,7 +914,8 @@ data:extend(
                         { "automation-science-pack", 1 },
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
-                        { "military-science-pack", 1 }
+                        { "military-science-pack", 1 },
+                        { "neural-science-pack", 1 }
                     },
                     time = 30
                 },
@@ -1274,10 +1275,6 @@ data:extend(
                     {
                         type = "unlock-recipe",
                         recipe = "terra-electric-furnace"
-                    },
-                    {
-                        type = "unlock-recipe",
-                        recipe = "leaded-glass"
                     }
                 },
                 prerequisites = { "steel-processing", "electric-engine", "laser-cores", "computers" },
@@ -1357,11 +1354,11 @@ data:extend(
                 unit = {
                     count = 500,
                     ingredients = {
-                        { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "automation-science-pack", 2 },
+                        { "logistic-science-pack", 2 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 }
+                        { "neural-science-pack", 2 }
                     },
                     time = 15
                 },
@@ -1411,7 +1408,8 @@ data:extend(
                         { "logistic-science-pack", 1 },
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 }
+                        { "utility-science-pack", 1 },
+                        { "neural-science-pack", 2 }
                     },
                     time = 15
                 },
@@ -1460,13 +1458,14 @@ data:extend(
                 },
                 prerequisites = { "laser-miners4", "neuro-miners3" },
                 unit = {
-                    count = 650,
+                    count = 1000,
                     ingredients = {
-                        { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
-                        { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 },
+                        { "automation-science-pack", 3 },
+                        { "logistic-science-pack", 3 },
+                        { "chemical-science-pack", 3 },
+                        { "production-science-pack", 3 },
+                        { "utility-science-pack", 3 },
+                        { "neural-science-pack", 2 },
                         { "space-science-pack", 1 }
                     },
                     time = 15
@@ -1772,6 +1771,7 @@ data:extend(
                         { "chemical-science-pack", 1 },
                         { "production-science-pack", 1 },
                         { "utility-science-pack", 1 },
+                        { "neural-science-pack", 1 },
                         { "space-science-pack", 1 }
                     },
                     time = 35
@@ -1851,14 +1851,15 @@ data:extend(
                 },
                 prerequisites = { "rocket-payloads" },
                 unit = {
-                    count = 6000,
+                    count = 2500,
                     ingredients = {
-                        { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
-                        { "production-science-pack", 1 },
-                        { "utility-science-pack", 1 },
-                        { "space-science-pack", 1 }
+                        { "automation-science-pack", 2 },
+                        { "logistic-science-pack", 2 },
+                        { "chemical-science-pack", 2 },
+                        { "production-science-pack", 2 },
+                        { "utility-science-pack", 2 },
+                        { "neural-science-pack", 2 },
+                        { "space-science-pack", 4 }
                     },
                     time = 35
                 },
@@ -2384,10 +2385,6 @@ data:extend(
                     {
                         type = "unlock-recipe",
                         recipe = "solar-panel-mk5-G3"
-                    },
-                    {
-                        type = "unlock-recipe",
-                        recipe = "leaded-glass"
                     }
                 },
                 prerequisites = { "gold-plated-panels" },
@@ -2621,12 +2618,11 @@ data:extend(
                 },
                 prerequisites = { "planck-manipulation", "air-cleaning-mk2" },
                 unit = {
-                    count = 300,
+                    count = 200,
                     ingredients = {
-                        { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
+                        { "automation-science-pack", 3 },
+                        { "logistic-science-pack", 2 },
                         { "chemical-science-pack", 1 },
-                        { "utility-science-pack", 1 }
                     },
                     time = 45
                 },
@@ -2677,12 +2673,11 @@ data:extend(
                 },
                 prerequisites = { "oil-processing", "ore-extractor", "utility-science-pack", "laser-cores" },
                 unit = {
-                    count = 600,
+                    count = 200,
                     ingredients = {
-                        { "automation-science-pack", 1 },
-                        { "logistic-science-pack", 1 },
-                        { "chemical-science-pack", 1 },
-                        { "utility-science-pack", 1 }
+                        { "automation-science-pack", 3 },
+                        { "logistic-science-pack", 2 },
+                        { "chemical-science-pack", 1 }
                     },
                     time = 45
                 },
@@ -2871,12 +2866,11 @@ data:extend(
                 },
                 prerequisites = { "electric-energy-distribution-3", "ds-oil" },
                 unit = {
-                    count = 800,
+                    count = 500,
                     ingredients = {
-                        { "automation-science-pack", 2 },
-                        { "logistic-science-pack", 2 },
-                        { "chemical-science-pack", 2 },
-                        { "utility-science-pack", 1 }
+                        { "automation-science-pack", 4 },
+                        { "logistic-science-pack", 3 },
+                        { "chemical-science-pack", 2 }
                     },
                     time = 45
                 },
