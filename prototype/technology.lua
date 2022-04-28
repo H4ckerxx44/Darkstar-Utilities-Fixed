@@ -268,7 +268,7 @@ data:extend(
                         { "automation-science-pack", 4 },
                         { "logistic-science-pack", 3 },
                         { "chemical-science-pack", 2 },
-                        { "prduction-science-pack", 1 }
+                        { "production-science-pack", 1 }
                     },
                     time = 35
                 },
