@@ -7,6 +7,8 @@ Date: ??.04.2022
   Fixes:
     - Move deep uranium processing recipe to correct technology
     - Reworked Changelog
+    - A couple icon sizes were fixed so they are no longer cut off
+    - Various naming fixes were fixed
 
   Changes:
     - Dependency is now base >=1.1
