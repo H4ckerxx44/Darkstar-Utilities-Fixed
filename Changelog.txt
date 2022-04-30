@@ -18,7 +18,7 @@ Date: ??.04.2022
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.11
-Date: 27.04.2022
+Date: 30.04.2022
   Additions:
     - Add compatibility with Bobs technology lab mk2
     - Technology to craft Terra Tech Power Armor MK2
