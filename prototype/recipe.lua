@@ -3840,20 +3840,6 @@ data:extend(
             },
             {
                 type = "recipe",
-                name = "terra-coil",
-                energy_required = 20,
-                enabled = "false",
-                ingredients = {
-                    { "world-array", 1 },
-                    { "steel-plate", 150 },
-                    { "computer", 20 },
-                    { "gold-plate", 500 },
-                    { "radar", 50 }
-                },
-                result = "terra-coil"
-            },
-            {
-                type = "recipe",
                 name = "solar-panel-mk3",
                 energy_required = 20,
                 enabled = "false",

@@ -11,6 +11,9 @@ Date: ??.04.2022
   Changes:
     - Dependency is now base >=1.1
 
+  Removed:
+    - Removal of Terra Coil and associated technology since it has been kinda been removed in 0.16.5
+
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.11
 Date: 27.04.2022

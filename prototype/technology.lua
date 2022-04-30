@@ -2104,7 +2104,7 @@ data:extend(
                 type = "technology",
                 name = "automated-defense",
                 icon = "__base__/graphics/technology/gun-turret.png",
-                icon_size = 128,
+                icon_size = 256,
                 effects = {
                     {
                         type = "unlock-recipe",
@@ -2144,7 +2144,7 @@ data:extend(
                 type = "technology",
                 name = "military-5",
                 icon = "__base__/graphics/technology/military.png",
-                icon_size = 128,
+                icon_size = 256,
                 effects = {
                     {
                         type = "unlock-recipe",
@@ -2190,7 +2190,7 @@ data:extend(
                 type = "technology",
                 name = "weapon-upgrades",
                 icon = "__base__/graphics/technology/military.png",
-                icon_size = 128,
+                icon_size = 256,
                 effects = {
                     {
                         type = "unlock-recipe",
@@ -2248,7 +2248,7 @@ data:extend(
                 type = "technology",
                 name = "nuclear-weapons",
                 icon = "__base__/graphics/technology/military.png",
-                icon_size = 128,
+                icon_size = 256,
                 effects = {
                     {
                         type = "unlock-recipe",
@@ -2842,37 +2842,7 @@ data:extend(
                 },
                 order = "c-a"
             },
-            --
-            --[[
-{
-	type = "technology",
-	name = "electric-energy-distribution-4",
-	icon = "__Darkstar_utilities_fixed__/graphics/research/substation-mk2.png",
-	icon_size = 133,
-	effects =
-	{
-		{
-			type = "unlock-recipe",
-			recipe = "terra-coil",
-		},
-
-	},
-	prerequisites = {"electric-energy-distribution-3", "computers"},
-	unit =
-	{
-		count = 400,
-		ingredients =
-		{
-			{"automation-science-pack", 1},
-			{"logistic-science-pack", 1},
-			{"chemical-science-pack", 1},
-			{"utility-science-pack", 1}
-			},
-			time = 15
-	},
-	order = "c-a"
-},
-]] {
+            {
                 type = "technology",
                 name = "energy-liquid",
                 icon = "__Darkstar_utilities_fixed__/graphics/research/energy-liquid-1-research.png",

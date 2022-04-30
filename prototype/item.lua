@@ -2725,7 +2725,7 @@ stack_size = 500
             },
             {
                 type = "gun",
-                name = "shotgun-pellet-mk2",
+                name = "shotgun-mk2",
                 icon = "__Darkstar_utilities_fixed__/graphics/ammo/railgun1.png",
                 icon_size = 32,
                 icon_mipmaps = 1,
@@ -2949,7 +2949,7 @@ stack_size = 500
                 type = "ammo",
                 name = "explosive-rocket-mk3",
                 icon = "__base__/graphics/icons/explosive-rocket.png",
-                icon_size = 32,
+                icon_size = 64,
                 ammo_type = {
                     category = "rocket-mk3",
                     action = {
@@ -3767,16 +3767,6 @@ stack_size = 500
                 subgroup = "Technical",
                 order = "a[energy]-e[substation]",
                 place_result = "tesla-coil",
-                stack_size = 500
-            },
-            {
-                type = "item",
-                name = "terra-coil",
-                icon = "__Darkstar_utilities_fixed__/graphics/icons/tesla-coil-icon.png",
-                icon_size = 32,
-                subgroup = "Technical",
-                order = "b[energy]-e[substation]",
-                place_result = "terra-coil",
                 stack_size = 500
             },
             {
