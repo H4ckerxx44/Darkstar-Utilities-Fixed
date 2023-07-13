@@ -5,7 +5,7 @@
 Amount of items currently added = 324
 Amount of entities currently added = 161
 Amount of technology currently added = 119
-Total Sum = 604
+Total Sum = 604.
 
 This mod was designed along with the Big Bags mod. Item recipes and Ammo amounts where balanced around the higher stack sizes given by Big Bags. Although this mod will work without Big Bags I do not suggest it, for many aspects will not work as intended.
 
@@ -22,8 +22,8 @@ Quarries and Ore Probes for mining in lands with no ores, or launching rockets t
 Original mod page: [Darkstar Utilities](https://mods.factorio.com/mod/Darkstar_utilities) <br/>
 Original Github page: Not present.
 
-New mod page: [Darkstar Utilities Fixed](https://github.com/SGZ-Creations/Darkstar-Utilities-Fixed) <br/>
-New Github page: [Darkstar Utilities Fixed](https://github.com/SGZ-Creations/Darkstar-Utilities-Fixed)
+New mod page: [Darkstar Utilities Fixed](https://mods.factorio.com/mod/Darkstar_utilities_fixed) <br/>
+New Github page: [Darkstar Utilities Fixed](https://github.com/H4ckerxx44/Darkstar-Utilities-Fixed)
 
 This repository was made by me because
 
