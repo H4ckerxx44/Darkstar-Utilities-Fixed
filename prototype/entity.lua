@@ -6711,8 +6711,8 @@ call_for_help_radius = 40
             {
                 type = "resource",
                 name = "gold-ore",
-                icon = "__base__/graphics/icons/iron-ore.png",
-                icon_size = 64,
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/gold-ore.png",
+                icon_size = 32,
                 icon_mipmaps = 4,
                 flags = { "placeable-neutral" },
                 order = "a-b-b",
@@ -6799,9 +6799,9 @@ call_for_help_radius = 40
             },
             {
                 type = "resource",
-                name = "lithium-ore",
-                icon = "__base__/graphics/icons/iron-ore.png",
-                icon_size = 64,
+                name = "dark-lithium-ore",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/dark-lithium-ore.png",
+                icon_size = 32,
                 icon_mipmaps = 4,
                 flags = { "placeable-neutral" },
                 order = "a-b-b",
@@ -6809,12 +6809,12 @@ call_for_help_radius = 40
                     hardness = 0.9,
                     mining_particle = "iron-ore-particle",
                     mining_time = 2,
-                    result = "lithium-ore"
+                    result = "dark-lithium-ore"
                 },
                 collision_box = { { -0.1, -0.1 }, { 0.1, 0.1 } },
                 selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
                 autoplace = {
-                    control = "lithium-ore",
+                    control = "dark-lithium-ore",
                     sharpness = 15 / 16,
                     richness_multiplier = 1500,
                     richness_multiplier_distance_bonus = 20,
@@ -6834,7 +6834,7 @@ call_for_help_radius = 40
                         },
                         {
                             influence = 0.13,
-                            noise_layer = "lithium-ore",
+                            noise_layer = "dark-lithium-ore",
                             noise_octaves_difference = -1.9,
                             noise_persistence = 0.1,
                             starting_area_weight_optimal = 0,
@@ -6843,7 +6843,7 @@ call_for_help_radius = 40
                         },
                         {
                             influence = 0.1,
-                            noise_layer = "lithium-ore",
+                            noise_layer = "dark-lithium-ore",
                             noise_octaves_difference = -2.3,
                             noise_persistence = 0.2,
                             starting_area_weight_optimal = 1,
@@ -6876,7 +6876,7 @@ call_for_help_radius = 40
                 stage_counts = { 1000, 600, 400, 200, 100, 50, 20, 1 },
                 stages = {
                     sheet = {
-                        filename = "__Darkstar_utilities_fixed__/graphics/entity/lithium-ore.png",
+                        filename = "__Darkstar_utilities_fixed__/graphics/entity/dark-lithium-ore.png",
                         priority = "extra-high",
                         width = 64,
                         height = 64,
@@ -6889,8 +6889,8 @@ call_for_help_radius = 40
             {
                 type = "resource",
                 name = "lead-ore",
-                icon = "__base__/graphics/icons/iron-ore.png",
-                icon_size = 64,
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/lead.png",
+                icon_size = 32,
                 icon_mipmaps = 4,
                 flags = { "placeable-neutral" },
                 order = "a-b-b",

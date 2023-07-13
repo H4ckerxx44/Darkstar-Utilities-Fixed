@@ -54,7 +54,7 @@ data:extend(
             },
             {
                 type = "noise-layer",
-                name = "lithium-ore"
+                name = "dark-lithium-ore"
             },
             {
                 type = "noise-layer",

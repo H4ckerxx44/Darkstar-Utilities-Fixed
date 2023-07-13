@@ -9,7 +9,7 @@ data:extend(
             },
             {
                 type = "autoplace-control",
-                name = "lithium-ore",
+                name = "dark-lithium-ore",
                 richness = true,
                 order = "d-a",
                 category = "resource"

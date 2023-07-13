@@ -32,7 +32,7 @@ potential_ores = {
     -- Darkstar
     "gold-ore",
     "lead-ore",
-    "lithium-ore"
+    "dark-lithium-ore"
 }
 
 result_ore2 = "swarm-relay"

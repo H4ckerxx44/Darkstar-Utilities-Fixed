@@ -22,12 +22,12 @@ Quarries and Ore Probes for mining in lands with no ores, or launching rockets t
 Original mod page: [Darkstar Utilities](https://mods.factorio.com/mod/Darkstar_utilities) <br/>
 Original Github page: Not present.
 
-New mod page: [Darkstar Utilities Fixed](https://mods.factorio.com/mod/Darkstar_utilities_fixed) <br/>
-New Github page: [Darkstar Utilities Fixed](https://github.com/H4ckerxx44/Darkstar-Utilities-Fixed)
+New mod page: [Darkstar Utilities Fixed](https://github.com/SGZ-Creations/Darkstar-Utilities-Fixed) <br/>
+New Github page: [Darkstar Utilities Fixed](https://github.com/SGZ-Creations/Darkstar-Utilities-Fixed)
 
 This repository was made by me because
 
 1. The original mod author [Nekomancer](https://mods.factorio.com/user/Nekomancer) had no repository
-2. I fixed some typos and will - probably - continue to do so, don't expect new major features from me. This is the first time of me touching lua.
+2. I fixed some issues here and there won't be updating this as my own.
 
 Feel free to fork this!

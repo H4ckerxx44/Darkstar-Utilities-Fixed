@@ -564,7 +564,7 @@ data:extend(
                 ingredients = {
                     { "stone", 25 }
                 },
-                result = "lithium-ore",
+                result = "dark-lithium-ore",
                 result_count = "1"
             },
             {
@@ -2026,7 +2026,7 @@ data:extend(
                 ingredients = {
                     { "star-matter", 1 }
                 },
-                result = "lithium-ore",
+                result = "dark-lithium-ore",
                 result_count = "150"
             },
             {
@@ -2122,7 +2122,7 @@ data:extend(
                 ingredients = {
                     { "star-matter2", 1 }
                 },
-                result = "lithium-ore",
+                result = "dark-lithium-ore",
                 result_count = "1000"
             },
             {
@@ -3226,7 +3226,7 @@ data:extend(
                 category = "smelting",
                 enabled = true,
                 energy_required = 7.5,
-                ingredients = { { "lithium-ore", 20 } },
+                ingredients = { { "dark-lithium-ore", 20 } },
                 result = "lithium-plate"
             },
             {

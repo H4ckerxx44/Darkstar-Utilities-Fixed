@@ -1,17 +1,14 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.13
-Date: ??.05.2022
+Date: 13.07.2023
   Additions:
-    -
-
+    - Added icons to the resorce generation screen.
+    - Added 2 recipes in case of mods loaded as in-case of 248k Being loaded the ores don't spawn anymore.
   Fixes:
-    -
-
+    - Icon Texture for Lithium, Gold & lead ore used base iron.
+    - Migration on version 0.19.13-1 fixed in 0.19.13-2 
   Changes:
-    - The wire of a tesla coil can now reach 128 blocks to built them cleanly "next" to each other
-
-  Removed:
-    -
+    - Re-namend "lithium-ore" --> "dark-lithium-ore". Make sure to count or have some knowlage on how much ore u have spanw it in.
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.12
 Date: ??.04.2022

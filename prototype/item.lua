@@ -4190,8 +4190,8 @@ stack_size = 500
             },
             {
                 type = "item",
-                name = "lithium-ore",
-                icon = "__Darkstar_utilities_fixed__/graphics/icons/lithium-ore.png",
+                name = "dark-lithium-ore",
+                icon = "__Darkstar_utilities_fixed__/graphics/icons/dark-lithium-ore.png",
                 icon_size = 32,
                 subgroup = "raw-resource",
                 order = "e[gold-ore]",
