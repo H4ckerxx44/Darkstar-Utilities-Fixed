@@ -1,32 +1,32 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.13
 Date: 13.07.2023
-  Additions:
-    - Added icons to the resorce generation screen.
-    - Added 2 recipes in case of mods loaded as in-case of 248k Being loaded the ores don't spawn anymore.
-  Fixes:
-    - Icon Texture for Lithium, Gold & lead ore used base iron.
-    - Migration on version 0.19.13-1 fixed in 0.19.13-2 
   Changes:
     - Re-namend "lithium-ore" --> "dark-lithium-ore". Make sure to count or have some knowlage on how much ore u have spanw it in.
+  Additions:
+    - Added icons to the resorce generation screen.
+    - Added 2 recipes in case of mods loaded as in-case of 248k Being loaded the Lithium ore don't spawn anymore.
+  Fixes:
+    - Icon Texture for Lithium, Gold & lead ore used base iron.
+    - Migration on version 0.19.13-1 fixed in 0.19.13-2.
+  Known-issues:
+    - The Changelog it broken in game.
+  Uploaded-by:
+    - SGZ-Creations.
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.12
-Date: ??.04.2022
+Date: 30.04.2022
   Additions:
-    - Add homepage and contact to Chaneglog
-
+    - Add homepage and contact to Chaneglog.
   Fixes:
-    - Move deep uranium processing recipe to correct technology
-    - Reworked Changelog
+    - Move deep uranium processing recipe to correct technology.
+    - Reworked Changelog.
     - A couple icon sizes were fixed so they are no longer cut off
-    - Various naming fixes were fixed
-
+    - Various naming fixes were fixed.
   Changes:
-    - Dependency is now base >=1.1
-
+    - Dependency is now base >=1.1.
   Removed:
-    - Removal of Terra Coil and associated technology since it has been kinda been removed in 0.16.5
-
+    - Removal of Terra Coil and associated technology since it has been kinda been removed in 0.16.5.
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.11
 Date: 30.04.2022
@@ -34,72 +34,59 @@ Date: 30.04.2022
     - Add compatibility with Bobs technology lab mk2
     - Technology to craft Terra Tech Power Armor MK2
     - 5Dim-new-automation added compatibility
-
   Fixes:
     - Fixed an incompatibility with Custom Power Armor Fix by renaming the power armors | error is to be expected and does not cause any harm
     - Fixed inconsistencies with mk/Mk/MK naming style
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.10
 Date: 24.04.2022
   Additions:
     - Add Coal mining probe
-
   Fixes:
     - Code reformat
     - Solve versioning
     - Typo in Readme file
-
   Changes:
     - Internal buffer of mining probes is now 500 instead of 500
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.8
 Date: 30.01.2022
   Fixes:
     - Fixed various typos
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.7
 Date: 30.01.2022
   Fixes:
     - Properly package the mod for release
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.6
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
     - An issue that prevented the game from showing the mod in the mod menu has hopefully been fixed in this update.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.5
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixed:
     - Attempted to fix an issue, I failed
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.4
-Date: ??.??.????
+Date: xx.xx.xxxx
   Changes:
     - Items not fully implemented have a warning in the description.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.3
-Date: ??.??.????
+Date: xx.xx.xxxx
   Important:
     - The game will give a warning about a removed recipe, this is intended and should not be confused for an issue.
     - From here on, all items added by Darkstar Utilities which are Productivity Module compatible will be denoted with a |P| in the description
-
   Additions:
     - Star Core Matter and HS Star Core Matter can be formed into Lithium Ore
     - Uranium Processing Recipe
     - Efficiency Beacon
-
   Fixes:
     - Copper Mining Probe MK2 now gives Dense Ore
     - Laser Drills now deposit mined ore on the side of the belt the Drill is placed on, rather than the opposing side
     - Objects now have correct amounts of health
-
   Changes:
     - Star Core Matter and HS Star Core Matter have both been largely buffed
     - Both Uranium probes now give Dense Uranium Ore
@@ -118,17 +105,14 @@ Date: ??.??.????
     - Any-Cast Beacon now gives 50% up from 25% effectivity
     - Any-Cast Beacon supply range increased to 8 from 5
     - Buffed Efficiency Modules by 0.2
-
   Extra Information:
     - Star Matter yields were changed in a hope to balance them more against Probs and Quarries
     - Uranium Probes have been changed for a multitude of reasons. Them now giving "Dense ore" alligns it with the other level 2 Probes. Additionally it allowed me to require sulfuric acid for the processing of Dense Uranium to make the process more similar to vanilla.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.2
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - RTG, RTG-MK2 and RTG-MK3
-
   Fixes:
     - Roboports should now use the correct amount of energy
     - Biodome is no longer highly confusing/annoying
@@ -136,7 +120,6 @@ Date: ??.??.????
     - Hitbox of Furnace Warehouse got fixed
     - Hitbox of Ore Extractor got fixed
     - Hitbox of ANCT Generators got fixed
-
   Changes:
     - Geothermal Generator MK3 no longer requires energy liquid to unlock or craft
     - S-REG Units have all been massively buffed
@@ -146,24 +129,20 @@ Date: ??.??.????
     - Laser Forges look slightly different to help differentiate them from default game furnaces
     - Massive Graphical upgrade to Eden Biodome
     - Restructured the technology tree a little so that generator objects require the third level of previous types to unlock, now having a more even and logical "Ladder" of progression
-
   Extra Information:
     - If I missed an object with this issue, please notify me on either Twitter, Discord, or the Mod Page
     - I changed the Geothermal Generator MK3's recipe to make room for an intermittent level Generator between Geothermal and S-REG
     - I absolutely plan on updating the Laser Forge textures later, but before then and now I've decided to lazily update the visuals
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.1
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Filter Tray
     - Sand Filter Tray
-
   Fixes:
     - Filters no longer infinitely produce Empty Filters when used
     - Vacuum Chamber can now utilize Speed and Efficiency Modules
     - Actually Fixed S-REG Technology names
-
   Changes:
     - Specialty Alloy recipe costs massively reduced
     - Reduced Smelting time for Selenium, Tellurium, Antimony, Silver and Platinum by 75%
@@ -173,24 +152,20 @@ Date: ??.??.????
     - Any-Cast Beacon energy cost reduced again from 10MW to 5MW
     - Vacuum Chamber Module slots reduced to 2 from 4
     - Removed Iron Plate from Energy Liquid recipes
-
   Extra Information:
     - The reason I decided to change filter recipes (again) is due to the limits of belts. Now, each component in the production chain for Filters only takes up 2 items instead of 3. This in theory should allow you to double production rate. This change also lowered the aggressive requirements to be a decent bit more tame. This does mean Filter Arrays will need updating to work again.
     - The new Filter Items are the first to have 64x Textures, in the future I plan on updating more of the mod's textures to be higher resolution.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.19.0
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Added Alternate sand recipe using the Extraction Machine
     - Added Slower Module. Designed for use in Filtration Machines
     - Added alternate Diamond recipe using the Extraction Machine. Faster but requires a large amount of stone
-
   Fixes:
     - Filters no longer infinitely produce Empty Filters when used
     - Vacuum Chamber can now utilize Speed and Efficiency Modules
     - Actually Fixed S-REG Technology names
-
   Changes:
     - All Filter Charge recipes now only cost 1 Empty Filter
     - Any-Cast Beacon power usage reduced to 10MW from 25MW
@@ -206,25 +181,21 @@ Date: ??.??.????
     - Mini-Lamp brightness and radius increased
     - Decreased Warhouse Steel Plate requirement to 60 from 120
     - Long Underground Belt recipes reduced from 8 ro 6
-
   Extra Information:
     - The reason I decided to change filter recipes (again) is due to the limits of belts. Now, each component in the production chain for Filters only takes up 2 items instead of 3. This in theory should allow you to double production rate. This change also lowered the aggressive requirements to be a decent bit more tame. This does mean Filter Arrays will need updating to work again.
     - The new Filter Items are the first to have 64x Textures, in the future I plan on updating more of the mod's textures to be higher resolution.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.9
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Technology and recipes for filtering dirt for metallic resources
-
   Fixes:
     - S-REG Technology names were incorrectly labeled
     - ANCT Generators now require all three S-REG technologies to unlock
     - Vacuum Chamber Research now gives the "Leaded Glass" recipe
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.8
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
     - Planck Ripper component parts can now be crafted in hand
     - Vacuum Chamber component parts can now be crafted in hand
@@ -232,10 +203,9 @@ Date: ??.??.????
     - Tweaked a name to allow more compatibility with Bob's mods
     - Fixed some hitboxing issues with the Extraction Machine
     - Fixed an issue wherein old files somehow got re-added increasing the file size greatly
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.7
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Flywheel
     - Dark Matter S-REG Unit (To fit between Geothermal and ANCT generators)
@@ -304,43 +274,35 @@ Date: ??.??.????
     - Planck Manipulation Technology
     - Vacuum Chamber Technology
     - Ore Extractor Technology
-
   Changes:
     - Around 80% to 90% of current recipes
     - Tons of small Balancing
     - A decent amount of models and textures
     - Entire progression tree
     - And the mod should be nearly fully colorblind friendly
-
   Extra Information:
     - Some important notes before I do my best at labeling everything. This update in it's current state is not a final product by any means, it's intended to let people play the mod in 1.0 even though, strictly speaking, it isn't finished. Things 'should' work as intended lest I missed something, but textures and such might be a bit wonky. I plan on eventually replacing the rest of the textures that need to be, for example the 4 ships have horrible model work and need to be changed.
     - With that out of the way, this is a complete overhaul of the entire mod's progression and function from the start to the end of the game. A system for space station construction is in the works, but currently serves little purpose and needs more features added to become viable, let alone entertaining.  I've lowered the amount of weapons in the game, this is not a permanent change but rather a way to transition into more interesting weapons once I fully implement required features for them. One last thing, Space Station additions will be mentioned in a space of their own for simplicity.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.6
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
     - Laser Drills once again mine faster with each tier
-
   Changes:
     - Laser Drills speed and module ratios increased
     - ANCT Drill Mining Ranges increased greatly
     - Dyson Sphere energy production increased from 2TW to 15TW
     - Laser Drills and ANCT Drills can now be used with Fast Replace
     - Rebalanced energy production amounts for ANCT Generators
-
   Extra Information:
     - Update Logs will likely use this format going forward
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.5
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Sand Augmented Filters mk1-mk4
-
   Fixes:
     - Game no longer crashes due to a belt texture issue on lower settings
-
   Changes:
     - Filters now require less Coal to make (You'd think by now I would've figured them out)
     - Made Filters and their Machines have a different technology tree, this way you can get better filters before the better machines
@@ -348,23 +310,20 @@ Date: ??.??.????
     - Filter and Filter Machine icons are a little cleaner now
     - Massive increase to power requirements for beacons (sorry, but it had to be done)
     - Changed Filter Machine naming for easier identification
-
   Known Issues:
     - Jack Hammer got set way too high, basically makes you a god.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.4
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
     - Terra Tech Chemical Plant is now useful
     - Neural Science Pack now allows for Productivity modules
     - Missing icons for entities added
     - Custom Power Armor now shows on character when worn
     - Impossible Technology loop with Biological Sciences
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.3
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Fish Farm and related Technology
     - Eden Biodome and related Technology
@@ -387,11 +346,9 @@ Date: ??.??.????
     - Interstellar Colony Swarm
     - Multiverse Rift Gate Swarm
     - More Achievements
-
   Fixes:
     - Solar Flare Light is no longer massive
     - Terra Tech Armor Technology name (might reset it's research)
-
   Changes:
     - Size and Texture of Dyson sphere changed
     - Dyson Sphere energy production reduced to make way for further technologies
@@ -403,30 +360,25 @@ Date: ??.??.????
     - Dyson Sphere material requirements tripled
     - Technologies now require different Science Packs as to make their difficulty more logical
     - Result for used filters no longer clutter the crafting menu
-
   Extra Information:
     - Filters have changed again. Energy requirements have been dropped greatly and all filters now last 4x as long as before. Additionally, their Pollution intake has been doubled. Fish Farms and Eden Biodomes will also clean air over time assuming their output inventory is not full.
     - I forgot a couple of icons, not quite a large enough issue to warrant a patch, so I'll leave it until the next polish or fixing update.
-
   Overhauls:
     - Dyson Sphere system, they still generate power however they now represent Trophies
     - Items in Tech Tree take longer to research now
     - All ANCT and related technology has been moved around in the tech tree as to not require military
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.2
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Cognition Container
     - ANCT Air Filter Charge
-
   Fixes:
     - Jackhammer
     - Roboport Textures
     - Conveyor Textures
     - Logistic Chest Textures
     - Geothermality 3 requires Geothermality 2 as a prerequisite
-
   Changes:
     - Air Filtering Machines crafting recipe dropped to be easier early on
     - Air Filtering Machines can no longer use Efficiency Modules (they made them work worse)
@@ -434,77 +386,61 @@ Date: ??.??.????
     - Air Filter Charge Recipes
     - Mini Lights are now better
     - Multiple small things for quality of life, no gameplay changes for these unlisted modifications
-
   Extra Information:
     - Updated Chemical plant Textures
     - Updated Item Folder Icons
     - Updated Refined some of the excessive textures to lower file size
     - Overhauled Pollution values for all machines
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.1
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Theoretical compatibility with Bob's. Not 100% certain
-
   Fixes:
     - Rocket Launch Crash
     - Armor Crash
     - Multiple small things
-
   Extra Information:
     - I just got out of a really long hiatus, as such my knowledge may have degraded and therefor I cannot confirm the efficacy of the changes I've made past my few hours of testing. This patch was made to make the mod playable in 0.17, not to make it perfect. Textures will be wonky until I have the time to fix them.
-
   Removed:
     - Crafting Module
-
   Known Bugs:
     - Textures are still in a a bit of disorder
     - Making the Jack Hammer will crash the save
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.0
-Date: ??.??.????
+Date: xx.xx.xxxx
   General:
     - Updated to 0.17
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.9
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Energy Liquid now allows for circuits
-
   Fixes:
     - Fixed Energy Liquid icons
     - Geothermal Generator Energy Rates Fixed
     - Terra Splitter now gives correct item when removed
-
   Changes:
     - Drone Rocket inventory size reduced to 1 from 2
-
   Extra Information:
     - I have not had much time the last month because of some things going on, sorry about that.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.8
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Data Migration, AKA old save support
-
   Changes:
     - Beacon Recipes
     - Slightly tweaked glass texture
-
   Notes:
     - I have never messed with migration in the past, my testings shows no issues however there still may be problems I am unaware of.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.7
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Terra Tech Assembling Machine
     - Terra Forming Engine
-
   Changes:
     - Rework of emission levels (Breaking the laws of thermodynamics will still be punished)
     - Doubled Air Filter effect
@@ -512,13 +448,11 @@ Date: ??.??.????
     - Doubled Air Filter usage times
     - Filter Recipes
     - Productivity modules produce far less pollution
-
   Known Issues:
     - I might have forgotten to name the new technology, oops.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.6
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Dark Matter Collector Drones
     - HS Dark Matter Collector Drones
@@ -550,41 +484,34 @@ Date: ??.??.????
     - HS Star Stone Recipe
     - Cooked Fish
     - Secondary Lab Grown Biomass recipe
-
   Fixes:
     - Pumpjack mk2 now gives mk2 back when mined
     - Bitters no longer give biomass (I do not know when or how it got re-enabled)
-
   Changes:
     - Dyson Sphere Rocket now launched with greater speed
     - Hacked Biters can now be picked up
     - Lab Grown Biomass now requires raw wood instead of wood
     - Multiple Dyson Sphere building process ratios readjusted
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.5
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Underground Terra Tech Transport Belt
     - Underground Terra Tech Transport Belt MK2
     - Long Underground Terra Tech Transport Belt
     - Long Underground Terra Tech Transport Belt MK2
-
   Changes:
     - Quantum Interlace Particulate recipe now greatly reduced
     - Antithetical Matter craft amounts raised
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.4
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Quantum Blood
     - ANCT Generator MK3
-
   Fixes:
     - Roboports work as intended finally
     - ANCT Generators are no longer craftable without the research
-
   Changes:
     - Rift names
     - Robot and Teleport hub name
@@ -598,22 +525,19 @@ Date: ??.??.????
     - Descriptions of multiple items
     - Neuro Perceptual Mining Units renamed to more lore friendly and easier to say names
     - Refined crafting menu order
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.3
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
     - Quarries once again function
-
   Changes:
     - Massive quarry speed reductions for all but planet quarries
     - Quarries now function as Logistic Passive Providers
     - Roboport charge energy increased. Logistic should run better now
     - Furnace Warehouse now crafts about 2.6x faster
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.2
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Ability to lab grow alien biomass
     - Lab Grown Biomass
@@ -628,29 +552,23 @@ Date: ??.??.????
     - Drone Swarm
     - Drone Signal receiver
     - Darkstar Dyson Sphere
-
   Fixes:
     - Asteroid Rocket Silo now gives correct items when mined
     - Added a technology to remove satellite missing warning from rockets.
     - Brain and Bio-computer are now longer craft-able from start.
     - Actually loads now.
-
   Changes:
     - Geothermal Generators now work 24/7
-
   Known Issue:
     - Quarries seem to not give ore anymore. (working on a fix)
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.1
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - More achievements
     - More item descriptions.
-
   Fixes:
     - Multiple small performance improvements
-
   Changes:
     - Multiple balance changes
     - Overhaul of all Brick textures
@@ -658,16 +576,13 @@ Date: ??.??.????
     - Laser drill and Neural Miner energy requirements increased
     - Solar panel recipe changes
     - Beacon power requirements
-
   Warnings:
     - Many items power requirements have changed. Old factories may run worse if they have insufficient power production.
-
   Removed:
     - Motes
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.0
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - 5 technologies
     - 10 Items
@@ -683,25 +598,20 @@ Date: ??.??.????
     - Advanced Pollution Scrubber
     - Furnace Warehouse
     - Achievments
-
   Fixes:
     - Tesla Coils should now be more useful.
     - Multiple small issues.
-
   Changes:
     - Geothermal Generators now generate half the previous power.
     - Recipes for all Quarries have been tripled.
     - Biomass is now dropped from enemy bases as opposed to the actual enemies.
-
   Known Issues:
     - Motes no longer work, They will be removed in 0.17.1
-
   Removed:
     - Dyson Sphere (Might get re-added in the future)
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.9
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - D31 Dark Pulse
     - S12 Deep Hold
@@ -715,14 +625,12 @@ Date: ??.??.????
     - Nautilus Healing Wave
     - Vehicle Roboport
     - Generator Room
-
   Fixes:
     - Concrete and other base game tiles can once again be placed near water
     - Battery MK3 and MK4 now have logical storage amounts
     - Reworked Quarries to be slightly less powerful
     - Terra Inserters now work good again
     - Terra Loader is now craftable
-
   Changes:
     - Dark Matter Energy liquid name to Antithetical Matter Energy Liquid
     - Dark Matter Energy silo name to Antithetical Matter Energy Silo
@@ -749,16 +657,14 @@ Date: ??.??.????
     - Antithetical Matter Energy Liquid can now be used as vehicle equipment
     - Antithetical Matter Energy Silo can now be used as vehicle equipment
     - Antithetical Matter Energy Liquid Ground Tank can now be used as vehicle equipment
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.8
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
     - Game now loads
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.7
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Neuro-Perceptual Mining Unit
     - Neuro-Perceptual Mining Unit mk2
@@ -766,25 +672,21 @@ Date: ??.??.????
     - Neuro-Perceptual Mining Unit mk4
     - Brain
     - Four new Technologies
-
   Changes:
     - Codeless Hacked Biter recipe
     - Switched "Solar Flare Lamp" code to the code made by BringerOfRain
     - Reordered laser drill locations in crafting interface
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.6
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
     - Productivity modules 4 through 25 can now only produce intermediate products.
-
   Changes:
     - Multiple Weapons work different now. namely Railgun Ammo types.
     - Productivity modules 4 through 25 Now increase power consumption and pollution much more.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.5
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Massive polishing of many items. pretty much everything should work better now.
     - Antithetical Matter
@@ -798,10 +700,8 @@ Date: ??.??.????
     - Antithetical Matter Energy Silo
     - Antithetical Matter Energy Liquid Ground Tank
     - Second Micro Cell Recipe unlocked with Cheaper Photovoltaics
-
   Fixes:
     - All Beacon Radii
-
   Changes:
     - Tesla Coil Texture
     - Overhaul of item order in crafting interface
@@ -809,24 +709,20 @@ Date: ??.??.????
     - Microverse Generator recipe
     - Power Boost Beacon Slot count lowered to 1
     - Power Boost Beacon can now accept Productivity Modules
-
   Removed:
     - Terra Coil
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.4
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
     - Underground liquid storage texture fixed
     - Recipes for Liquid Energy was structured incorrectly
     - Liquid energy ground tanks can finally be crafted
-
   Changes:
     - liquid energy recipes
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.3
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Asteroid Quarry
     - Asteroid Quarry Package
@@ -844,10 +740,8 @@ Date: ??.??.????
     - Compressed Energy Liquid
     - Compressed Energy Silo
     - Compressed Energy Liquid Ground Tank
-
   Fixes:
     - The asteroid quarry and Exo Planet Quarry say they are not in the rocket when the rocket it launched. these features still function the same regardless
-
   Changes:
     - 4D Storage can now be opened without Major Frame Dropping
     - Bio Hacking is now more complex
@@ -855,40 +749,33 @@ Date: ??.??.????
     - Quarry Mining Method (should not feel different in game)
     - World Array and Terra Coil ranges changed to games new maximum
     - World Array now accepts all module types
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.2
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
     - Ore generation should finally be fixed
-
   Changes:
     - Changed the Mod page Logo to represent the return of Darkstar Utilities.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.1
-Date: ??.??.????
+Date: xx.xx.xxxx
   Extra Information:
     - Attempted Bug Fix: Ore Generation changed (broken)
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.16.0
-Date: ??.??.????
+Date: xx.xx.xxxx
   Changes:
     - Minor Changes for adaption to latest Factorio Version
-
   Extra Information:
     - Horrible Ore Generation bug. it is advised to skip this version completely.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.15.9
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
     - Fuse boxes are now craftable.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.15.8
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Warehouse
     - Logistic Requester Warehouse
@@ -896,43 +783,36 @@ Date: ??.??.????
     - Logistic Active Provider Warehouse
     - Logistic Passive Provider Warehouse
     - Bio Hacking or friendly biters
-
   Fixes:
     - General Small Performance and stability improvements
     - Geothermal Generator No longer gives solar panels when mined
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.15.7
-Date: ??.??.????
+Date: xx.xx.xxxx
   Removed:
     - Swimming
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.15.6
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
     - Fixed all lag issues with placement of labs and other such items.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.15.5
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Dark Matter (fluid)
     - Quarry
     - Terra Quarry
     - Character Speed Module (for manual crafting and mining speed)
-
   Changes:
     - Dark Matter Reactor  Recipe
     - Jack Hammer Recipe
     - Ordered Intermediate Product Items
-
   Removed:
     - Laser Quarry
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.15.4
-Date: ??.??.????
+Date: xx.xx.xxxx
   Additions:
     - Filtered Sand
     - Fuse Box
@@ -955,17 +835,14 @@ Date: ??.??.????
     - Cyclopentadiene
     - Petroleum Naphtha For Cyclopentadiene
     - Quadricyclane to Norbornadiene Agitation
-
   Fixes:
     - Mod can now work without Unzipping
-
   Changes:
     - Solar Panel MK2 through MK7 recipes.
     - Liquid energy recipes
     - Computer recipe
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.15.3
-Date: ??.??.????
+Date: xx.xx.xxxx
   Fixes:
-    - Fixed incompatibility with angels mods
+    - Fixed incompatibility with angels mods.
