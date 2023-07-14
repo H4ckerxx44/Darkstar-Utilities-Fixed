@@ -2,7 +2,7 @@
 Version: 0.19.13
 Date: 13.07.2023
   Changes:
-    - Re-namend "lithium-ore" --> "dark-lithium-ore". Make sure to count or have some knowlage on how much ore u have spanw it in.
+    - Re-namend "lithium-ore" --> "dark-lithium-ore".
   Additions:
     - Added icons to the resorce generation screen.
     - Added 2 recipes in case of mods loaded as in-case of 248k Being loaded the Lithium ore don't spawn anymore.
