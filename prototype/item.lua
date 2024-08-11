@@ -4906,7 +4906,7 @@ stack_size = 500
         icon = "__Darkstar_utilities_fixed__/graphics/icons/darkstar.png",
         icon_size = 256,
         inventory_order = "p",
-        order = "p"
+        order = "za"
     },
     {
         type = "item-subgroup",
@@ -5088,7 +5088,7 @@ stack_size = 500
         icon = "__Darkstar_utilities_fixed__/graphics/icons/darkstar2.png",
         icon_size = 256,
         inventory_order = "q",
-        order = "q"
+        order = "zc"
     },
     {
         type = "item-subgroup",
@@ -5156,7 +5156,7 @@ stack_size = 500
         icon = "__Darkstar_utilities_fixed__/graphics/icons/darkstar3.png",
         icon_size = 256,
         inventory_order = "r",
-        order = "r"
+        order = "zd"
     },
     {
         type = "item-subgroup",
@@ -5206,6 +5206,14 @@ stack_size = 500
         icon = "__Darkstar_utilities_fixed__/graphics/icons/darkstar3.png",
         icon_size = 256,
         inventory_order = "r",
-        order = "r"
+        order = "zb"
     },
+    --[[
+    {
+        type = "item-subgroup",
+        name = "intermediates",
+        group = "Darkstar4",
+        order = "a"
+    },
+    ]]
 })
